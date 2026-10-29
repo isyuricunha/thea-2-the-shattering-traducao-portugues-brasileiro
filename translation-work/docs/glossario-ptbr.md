@@ -54,3 +54,15 @@ Estas formas foram adotadas no primeiro lote; descrições de cada atributo mant
 - Wraith: espectro; ghost: fantasma.
 - Feral de Dzievanna: forma selvagem derivada de druidas élficos.
 - Mantidos os nomes folclóricos Zerca, Volh, Gusla, Leshy, Striga, Zmey, Vodnik e Rusalka.
+
+## Armas (tipos)
+
+- Hatchet: Machadinha; Battle Axe: Machado de batalha; Sword: Espada; Greatsword: Espada grande; Club: Clube; Mallet: Marreta.
+- Em nomes de itens, caixa de frase: `Machadinha de sangue`, `Espada grande ígnea`.
+
+## Materiais recorrentes em nomes de itens
+
+- Fixos com `de`/`das`/`dos`: Gold e Golden: de ouro; Silver: de prata; Steel: de aço; Iron: de ferro; Mithril: de mithril; Bone: de osso; Blood Bone: de sangue; Shadow Bone: das sombras; Monster Bone: de monstro; Dragon Bone: de dragão; Sandstone: de arenito; Clay: de argila; Quartz: de quartzo; Granite: de granito; Obsidian: de obsidiana; Amber: de âmbar; Malachite: de malaquita; Topaz: de topázio; Ruby: de rubi; Diamond: de diamante; Wood e Wooden: de madeira; Dryad Wood: de dríade; Secret Alloy: de liga; Moonstone: de pedra da lua; Pristine Matter: de matéria pura; Stonewood: de madeira pétrea; Gods' Branch: dos deuses; Golem Leather: de golem; Wyrm Silk: de seda.
+- Adjetivos, concordando com o gênero do tipo de arma: Enchanted Bone: encantado/encantada; Rune Bone: rúnico/rúnica; Forgotten Essence: esquecido/esquecida; Armoured Stone: encouraçado/encouraçada; Pure Stone: puro/pura; Metal Composite: composto/composta; Alchemy Skin: alquímico/alquímica; Igneous Spike: ígneo/ígnea; Dark Wood: sombrio/sombria; Elven Wood: élfico/élfica; Sacred Wood: sagrado/sagrada; Crystal Wood: cristalino/cristalina; Life Root (Living): vivo/viva; Earth Core (Molten): fundido/fundida; Grandgem (Grand): grandioso/grandiosa.
+- Invariáveis: Spike Leather (Spiky): com espinhos; Void Sparkler (Sparkling): cintilante; Morph Material (Morphed): mutável; Ancient Wood (Ancient): ancestral.
+- Fonte dessas formas: itens de espada já traduzidos no primeiro lote do banco de descrições. Quando o nome exibido é um adjetivo solto, o material vem da chave do registro (ex.: Pristine Sword = Espada de matéria pura).
