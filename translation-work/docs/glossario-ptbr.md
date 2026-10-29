@@ -55,6 +55,27 @@ Estas formas foram adotadas no primeiro lote; descrições de cada atributo mant
 - Feral de Dzievanna: forma selvagem derivada de druidas élficos.
 - Mantidos os nomes folclóricos Zerca, Volh, Gusla, Leshy, Striga, Zmey, Vodnik e Rusalka.
 
+## Sistema
+
+- Slots (vagas de trabalho e pesquisa): "espaços", como nas strings do próprio jogo ("Extra Research Slots" = Espaços de Pesquisa adicionais).
+- Essence: Essência (Essência cinzenta, Essência de couro, Essência de metal, Essência de madeira).
+- Níveis de proficiência de tecnologia: Advanced = Avançado; Expert = Especialista.
+- "splash damage" nas descrições: dano em área.
+
+## Construções, veículos e receitas
+
+- Construções: Idol: Ídolo; Warehouse: Armazém; Forge: Forja; Armoury: Arsenal; School: Escola; Dwelling: Moradia; Herbalist's Hut: Cabana do Herbalista; Wishing Well: Poço dos Desejos; Lumber Mill: Serraria; Children's Playground: Parquinho infantil; Guard Tower: Torre de Guarda; Witch Hut: Cabana da Bruxa; Crop Field: Campo de Cultivo; Mine: Mina; Trading Post: Entreposto Comercial. Material `of X` vira `de X`.
+- Embarcações: Raft: Jangada; Sailboat: Veleiro; Ship: Navio. Nomes de embarcações piratas tratados como nome próprio: Drifter: Errante; Wayfarer: Viajante.
+- Receitas da cozinha polonesa mantidas sem tradução: Pulpety, Golabki, Rolada, Galart, Bigos, Leczo, Grochowka, Pierogi, Bimber.
+- "Goblins' Donoughteet Book": Livro das Rosqui-Dentes (trocadilho doughnut/teeth recriado).
+- Slavya e Slavyan: nome do mundo e do povo, sem tradução.
+
+## Pets e mundo
+
+- Wraith: Espectro; Ghost: Fantasma (segue o glossário de combate).
+- Pets com nome próprio de demônio e gente mantidos: Skshack, Cmuch, Zmey; Cocatrice é a forma consagrada em jogos.
+- Cmuch, Skshack e outros nomes de criatura não mudam de cena para cena.
+
 ## Armas (tipos)
 
 - Hatchet: Machadinha; Battle Axe: Machado de batalha; Sword: Espada; Greatsword: Espada grande; Club: Clube; Mallet: Marreta; Spear: Lança; Polearm: Arma de haste; Bow: Arco; Crossbow: Besta; Javelins: Dardos; Artefact: Artefato; Relic: Relíquia; Robes: Mantos; Medium Armour: Armadura média; Heavy Armour: Armadura pesada; Shield: Escudo; Wand: Varinha; Scroll: Pergaminho.
