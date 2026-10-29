@@ -1,0 +1,1707 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="MiscEncounters 3" lastEventIndex="24" allowToUse="true" uniqueModuleID="-411177473">
+  <Adventure name="Haunted wife" uniqueID="12" allowOnce="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="2" nodeIdMax="40" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-349" positionY="934" width="347" height="661" image="Event093">
+      <outputs ownerID="1" targetID="2" fromX="-24" fromY="330" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="388" positionY="967" width="350" height="885"><logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicFilter name="shaman" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-SHAMAN" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic><outputs name="Perguntar a eles o que há." ownerID="2" targetID="3" fromX="713" fromY="475" /><outputs name="Usar esta distração para atacá-los!" ownerID="2" targetID="18" fromX="713" fromY="395" /><outputs name="Não é negócio de vocês, simplesmente partir." ownerID="2" targetID="32" fromX="713" fromY="315" />Vocês chegam a um lugarejo pequeno. Dentro dele, acham um grupo de gente de cara preocupada reunida ao redor de uma mulher chorando.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="833" positionY="314" width="350" height="725"><outputs name="Perguntar a ela por que os outros não ajudam. Com certeza um homem só não é tão perigoso assim?" ownerID="3" targetID="4" fromX="1158" fromY="-177" />A mulher se vira a você, hesitante; depois olha aos outros por coragem; e eles fazem que sim: então ela fala:
+
+'É aquele monturo inútil de marido meu. Ele não me deixa em paz!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="4" positionX="1259" positionY="488" width="350" height="885"><outputs name="[Zerca ou sabedoria]Dizer a ela que conhecem um jeito de se ver da aparição, porque ela está presa a ela pelo apego marital com certeza. Dizer a ela que veste sete vestidos." ownerID="4" targetID="5" fromX="1584" fromY="-3" /><outputs name="[Xamã]Dizer a ela que espíritos são a perícia de você; e que vão falar com este marido dela." ownerID="4" targetID="8" fromX="1584" fromY="-83" /><outputs name="Dizer que estão contentes de matar o fantasma, se ela quiser, por um preço, claro." ownerID="4" targetID="10" fromX="1584" fromY="-163" />'O desgraçado precisava se segurar na grama quando cagava, então não, não é disto. Ele é um morto, vê. Ele partiu faz duas semanas. Mas ele continua vindo à minha senda, subindo na minha cama como se nada tivesse acontecido!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="1705" positionY="489" width="350" height="805"><logic>
+        <FilterBlock>
+          <LogicFilter name="wise">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="12" tag="TAG-WISDOM" />
+          </LogicFilter>
+          <LogicFilter name="ppl">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicFilter name="zerca">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-ZERCA" />
+          </LogicFilter>
+          <LogicProcessing name="wiseorzerca" list1="wise" list2="zerca">
+            <scriptCallWithTag scriptName="FLP_AorB" />
+          </LogicProcessing>
+          <LogicResultAction list="wiseorzerca">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="40" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic><outputs name="Fazer que sim, confirmando." ownerID="5" targetID="6" group="G1" fromX="2030" fromY="-2" /><outputs name="Fazer que sim, confirmando." ownerID="5" targetID="29" group="G1" fromX="2030" fromY="-82" />'Então, você diz que eu devia vestir sete dos meus melhores vestidos; e depois dormir como sempre? 
+
+Parece coisa esquisita; e vou precisar pedir vestidos emprestados. Tem certeza disto?'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="1919" positionY="1341" width="350" height="725"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="60" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic><outputs name="Esperar para ouvir o resto." ownerID="6" targetID="7" fromX="2244" fromY="849" />A mulher relata no dia seguinte:
+
+'Esperto que você é! Fiz como pediu, vesti os meus sete vestidos; e o desgraçado veio; e ele fica ali de pé, babando para mim. Sete vestidos? diz ele com o bocado estúpido dele escancarado. Sete, digo eu.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="7" positionX="2471" positionY="1456" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-STRONG_ONE_SWORD_1H" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Dizer a ela que ficaram contentes de ajudar." ownerID="7" targetID="35" fromX="2796" fromY="964" />'Ele franze a testa para mim, Ah, eu nunca vi mulher nenhuma vestindo sete vestidos antes!
+
+Ah, eu nunca vi marido morto entrar na cama conjugal antes! digo eu. E a coisa maldita, sem saída, vai e desaparece!'
+
+Ela dá a você a relíquia de família dela como recompensa.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="8" positionX="1793" positionY="-407" width="350" height="966"><logic>
+        <FilterBlock>
+          <LogicResultAction list="shaman">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic><outputs name="Dizer que, nesse caso, desejam a ela muitas noites mais com o amado dela." ownerID="8" targetID="9" fromX="2118" fromY="-898" /><outputs name="Dar de ombros e dizer que, ou ela aceita a ajuda de você, paga por ela e encerra o assunto; ou vocês partem contentes." ownerID="8" targetID="9" fromX="2118" fromY="-978" /><outputs name="Nesse caso, matar aqueles desgraçados ingratos!" ownerID="8" targetID="18" fromX="2118" fromY="-1058" /><outputs name="Perguntar por que ela está tão contra espíritos. Ele ainda é o marido dela, não?" ownerID="8" targetID="22" fromX="2118" fromY="-1138" />A mulher parece insegura.
+
+'Vocês, gente que se mete com fantasma, me preocupam tanto quanto o meu marido traste.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="9" positionX="2249" positionY="-298" width="350" height="725"><outputs name="Concordar e entrar na casa dela para falar com o espírito." ownerID="9" targetID="24" fromX="2574" fromY="-789" />'Sem precisar se afligir tudo assim, senhores. Não pretendia ofender. Fogo com fogo, é o que digo. 
+
+Vão falar com aquele marido meu. A noite vem chegando; e ele também vem.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="10" positionX="1114" positionY="-752" width="350" height="805"><outputs name="Montar tocaia na casa e atacar o fantasma quando ele aparecer." ownerID="10" targetID="11" fromX="1439" fromY="-1243" /><outputs name="Não é negócio de vocês, simplesmente partir." ownerID="10" targetID="32" fromX="1439" fromY="-1323" />'Matar um espírito, éh? Digo, bom. O meu marido acabou e pronto. Esta coisa não é parente meu nenhum. Mas fiquem atentos, estas coisas podem trazer maldosos colegas quando atacadas. É por isto que a gente ainda não fez por conta própria.'
+
+O resto dos aldeões faz que sim em concordância.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="11" positionX="1608" positionY="-1472" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-GHOST_2P_3M_4S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="11" targetID="12" fromX="2049" fromY="-1967" />
+      <outputs name="Lose" ownerID="11" targetID="16" fromX="2049" fromY="-2047" />
+      <outputs name="Surrender" ownerID="11" targetID="16" fromX="2049" fromY="-2127" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="2253" positionY="-1589" width="350" height="885"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;40" tag="ITEM_CARGO-BASIC_COOKED_FEW_FOOD" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="8;15" tag="ITEM_CARGO-NUTTINCTURE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="3" tag="TAG-LOYALTY_SLAVYAN" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Pedir uma recompensa melhor." ownerID="12" targetID="13" group="G1" fromX="2578" fromY="-2080" /><outputs name="Pedir uma recompensa melhor." ownerID="12" targetID="15" group="G1" fromX="2578" fromY="-2160" /><outputs name="Agradecer a ela e seguir." ownerID="12" targetID="14" fromX="2578" fromY="-2240" />Vocês massacram o fantasma de marido desgarrido; e a esposa joga-se nos braços de você:
+
+'Obrigada! Não tenho muito, mas aqui está um pouco de comida que fiz, quente e saborosa. Justo o que precisam depois de lutar.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="2723" positionY="-1289" width="350" height="725"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="50" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicProcessing name="ill" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelementsIfPossible" parameter="3" />
+          </LogicProcessing>
+          <LogicModifiers list="ill">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="3" tag="SKILL_PACK-ILLNESS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;7" tag="ITEM_CARGO-FEW_GOLD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Bruxa maldita." ownerID="13" targetID="14" fromX="3048" fromY="-1780" />'Seus espertinhos desgraçados! Ajuda, eles dizem, mas é só o nosso sustento que eles querem...
+
+Aqui, tomem um pouco de ouro; e engasguem com ele.'
+
+Vocês recebem umas moedas de ouro; mas, nos dias seguintes, a garganta de você fica dolorida e inchada, como se fossem engasgar.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="14" positionX="1893" positionY="-2919" width="350" height="530" allPlayersXP="3" allPlayersRP="2" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="2760" positionY="-2275" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;4" tag="ITEM_CARGO-FEW_GOLD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Bom, pegar o ouro e partir." ownerID="15" targetID="14" fromX="3085" fromY="-2766" />'Seus espertinhos desgraçados! Ajuda, eles dizem, mas é só o nosso sustento que eles querem...
+
+Aqui, tomem um pouco de ouro; e engasguem com ele.'
+</nodes>
+    <nodes xsi:type="NodeAdventure" ID="16" positionX="3333" positionY="-2212" width="350" height="725"><outputs name="Melhor partir rápido, então." ownerID="16" targetID="17" fromX="3658" fromY="-2703" />O fantasma de marido é feroz e expulsa você da casa dele!
+
+Os aldeões também te xingam, porque você só enfureceu o espírito.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="1614" positionY="-3045" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeChallenge" ID="18" positionX="-1011" positionY="-34" width="500" height="807" challengeType="TypePhysical" versusGroup="GROUP-HUMS_2P_2M_1S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="18" targetID="19" group="G1" fromX="-569" fromY="-529" />
+      <outputs name="Lose" ownerID="18" targetID="21" fromX="-569" fromY="-609" />
+      <outputs name="Surrender" ownerID="18" targetID="21" fromX="-569" fromY="-689" />
+      <outputs name="Win" ownerID="18" targetID="20" group="G1" fromX="-569" fromY="-770" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="19" positionX="238" positionY="-979" width="350" height="885"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="3" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="10;20" tag="ITEM_CARGO-NUTTINCTURE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="10;15" tag="ITEM_CARGO-FEW_WOOD" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-ADV_ONE_PET_GOAT" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-5" tag="TAG-LOYALTY_SLAVYAN" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Matá-las também. Sem precisar de inimigos depois." ownerID="19" targetID="40" fromX="563" fromY="-1470" /><outputs name="Acogi-las. São jovens; e vão esquecer." ownerID="19" targetID="37" fromX="563" fromY="-1550" /><outputs name="Deixá-las num bosque por perto para os demônios da floresta tomarem. Umas podem dar sorte e virar algo bom; e outras, bom, ao menos vocês dão a elas uma chance." ownerID="19" targetID="38" fromX="563" fromY="-1630" />Vocês massacram todos os colonos sem misericórdia nenhuma!
+
+O lugarejo deles era pobre e mal sustentável; mas vocês acham umas provisões que podem levar. Vocês também acham umas crianças jovens escondidas numa das casas.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="20" positionX="-510" positionY="-1948" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="10;20" tag="ITEM_CARGO-NUTTINCTURE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="10;15" tag="ITEM_CARGO-FEW_WOOD" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-ADV_ONE_PET_GOAT" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-5" tag="TAG-LOYALTY_SLAVYAN" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="20" targetID="14" fromX="-184" fromY="-2439" />Vocês massacram todos os colonos sem misericórdia nenhuma!
+
+O lugarejo deles era pobre e mal sustentável; mas vocês acham umas provisões que podem levar.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="21" positionX="83" positionY="-1975" width="350" height="725"><outputs name="Continuar correndo." ownerID="21" targetID="17" fromX="408" fromY="-2466" />O vulgo furioso te surra feio; mas não persegue enquanto você foge.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="22" positionX="3174" positionY="-1020" width="350" height="805"><outputs name="Tentar convincer ela de que espíritos podem ser bons também; e que ela devia dar uma chance ao marido dela." ownerID="22" targetID="23" fromX="3499" fromY="-1511" /><outputs name="Concordar que nunca é coisa clara; e oferecer resolver este problema para ela falando com o fantasma." ownerID="22" targetID="24" fromX="3499" fromY="-1591" />'É antinatural, é o que é! E, é, claro, moramos num lugar onde tem povo demônio atrás de cada esquina; mas como é que eu vou saber o que é mal e o que não é? Melhor só ficar longe de tudo isto.'</nodes>
+    <nodes xsi:type="NodeChallenge" ID="23" positionX="3775" positionY="-1338" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-HUMS_2P_2M_1S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="23" targetID="34" fromX="4216" fromY="-1833" />
+      <outputs name="Lose" ownerID="23" targetID="33" fromX="4216" fromY="-1913" />
+      <outputs name="Surrender" ownerID="23" targetID="33" fromX="4216" fromY="-1993" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="2734" positionY="-180" width="350" height="725"><outputs name="Perguntar a ele por que continua voltando aqui." ownerID="24" targetID="25" fromX="3059" fromY="-671" />O fantasma de marido é um homem magro, cansado, de meia-idade, com a cabeça estufada, que parece frágil e doentio. 
+
+Ele te encara em branco, esperando a esposa dele vir para a cama.
+</nodes>
+    <nodes xsi:type="NodeAdventure" ID="25" positionX="3234" positionY="-21" width="350" height="885"><outputs name="Este fantasma vai ser duro de convincer; mas tentar de qualquer jeito." ownerID="25" targetID="27" fromX="3559" fromY="-512" /><outputs name="Coitadinho, simplesmente deixá-lo em paz." ownerID="25" targetID="26" fromX="3559" fromY="-592" /><outputs name="Parece improvável que parta em silêncio, então matá-lo." ownerID="25" targetID="11" fromX="3559" fromY="-672" />'Minha patroa mandou que eu sempre voltasse para a cama dela; senão ela pendura o meu precioso na cerca. 
+
+Viu a cara malvada dela? Ela faz, faz mesmo, até na minha morte. Eu não vou perder a minha preciosidade!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="26" positionX="3789" positionY="-535" width="350" height="725"><outputs name="Sair da história." ownerID="26" targetID="30" fromX="4114" fromY="-1026" />Vocês deixam o fantasma em paz; e, embora a esposa não fique contente, ela não diz nada.
+</nodes>
+    <nodes xsi:type="NodeChallenge" ID="27" positionX="3846" positionY="213" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-GHOST_2P_3M_4S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="27" targetID="28" fromX="4287" fromY="-282" />
+      <outputs name="Lose" ownerID="27" targetID="16" fromX="4287" fromY="-362" />
+      <outputs name="Surrender" ownerID="27" targetID="16" fromX="4287" fromY="-442" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="4457" positionY="663" width="350" height="725"><outputs name="Dizer a ela que está livre do fantasma." ownerID="28" targetID="31" fromX="4783" fromY="172" />'Ah, então o meu, as minhas coisas não, digo, ela não pode, ah! Ótimo! Enfim, estou livre, obrigado!'
+
+O fantasma desaparece; e a esposa entra para ver o trabalho de você feito.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="29" positionX="2954.13428" positionY="807.756348" width="350" height="805"><outputs name="Dizer aos aldeões que não havia outro jeito. O fantasma estava preso demais à esposa dele, então levou ela com ele." ownerID="29" targetID="36" fromX="3279" fromY="316" /><outputs name="Tentar pedir desculpas pelo erro de você. Erros acontecem, e sussurrar fantasma não é arte precisa." ownerID="29" targetID="36" fromX="3279" fromY="236" />A esposa solta um grito à noite. Vocês correm ao quarto e veem o fantasma rasgando ela em pedaços com garras espectrais. 
+
+Quando ela se vai, o espírito se dissolve.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="30" positionX="4238" positionY="-659" width="350" height="530" allPlayersXP="3" allPlayersRP="2" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="31" positionX="5021" positionY="641" width="350" height="885"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="10;20" tag="ITEM_CARGO-BASIC_FEW_HERBS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="10;20" tag="ITEM_CARGO-BASIC_COOKED_FEW_FOOD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Pedir uma recompensa melhor." ownerID="31" targetID="13" group="G1" fromX="5346" fromY="150" /><outputs name="Pedir uma recompensa melhor." ownerID="31" targetID="15" group="G1" fromX="5346" fromY="69" /><outputs name="Agradecer a ela e seguir." ownerID="31" targetID="14" fromX="5346" fromY="-10" />'Obrigada! Não tenho muito, mas aqui está um pouco de comida que fiz, quente e saborosa. Justo o que precisam depois de lutar.'</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="32" positionX="1" positionY="-389" width="350" height="530" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="33" positionX="4141" positionY="-2213" width="350" height="805"><outputs name="Simplesmente deixá-la em paz, então. Não é negócio de você." ownerID="33" targetID="17" fromX="4466" fromY="-2704" /><outputs name="Oferecer falar com o fantasma em vez disso." ownerID="33" targetID="24" fromX="4466" fromY="-2784" />'Você para de esguichar essa porcaria da boca! Eu não vou dividir a minha cama com fantasma nenhum!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="34" positionX="4569" positionY="-1422" width="350" height="885"><outputs name="Pedir uma recompensa melhor." ownerID="34" targetID="13" group="G1" fromX="4894" fromY="-1913" /><outputs name="Pedir uma recompensa melhor." ownerID="34" targetID="15" group="G1" fromX="4894" fromY="-1993" /><outputs name="Agradecer a ela e seguir." ownerID="34" targetID="14" fromX="4894" fromY="-2073" />'Bom, ele era um desgraçado; e beberrão; mas era meu. Imagino que vou dar outra chance a ele. Obrigada por ajudar. Aqui, tomem um jantar quente que fiz, não tenho muito mais.'''</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="35" positionX="3045" positionY="1382" width="350" height="530" allPlayersXP="3" allPlayersRP="2" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="36" positionX="3564" positionY="991" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicFilter name="ppl">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="30" tag="ITEM_CARGO-BASIC_FEW_FOOD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Tomar a comida e partir." ownerID="36" targetID="35" fromX="3889" fromY="499" />Os aldeões ficam atônitos; mas sabem melhor que questionar as palavras de um sábio, em especial agora que o problema acabou. 
+
+Eles oferecem a você comida em agradecimento; e você sente que pedir mais pode ser passar do ponto.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="37" positionX="663" positionY="-1353" width="350" height="530" allPlayersXP="3" allPlayersRP="2" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1;2" tag="SUBRACE-Q_HUM_CHILD" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-QUEST1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="38" positionX="1144" positionY="-1725" width="350" height="530" allPlayersXP="3" allPlayersRP="2" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-QUEST2" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="40" positionX="1256" positionY="-2379" width="350" height="530" allPlayersXP="3" allPlayersRP="2" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-2" tag="TAG-LOYALTY_SLAVYAN" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+  </Adventure>
+  <Adventure name="HW Children" uniqueID="13" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="34" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-172" positionY="51" width="347" height="741" image="Event191">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="special">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="SUBRACE-Q_HUM_CHILD" />
+          </LogicFilter>
+          <LogicResultAction resultGroup="G1">
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-QUEST2" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="40" />
+          </LogicResultAction>
+          <LogicResultAction list="special" resultGroup="G1">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" group="G1" fromX="152" fromY="-552" />
+      <outputs ownerID="1" targetID="3" group="G1" fromX="152" fromY="-632" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="258" positionY="745" width="350" height="966"><logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicFilter name="child">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicFilter name="chosen" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHOSEN" />
+          </LogicFilter>
+          <LogicFilter name="special" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="SUBRACE-Q_HUM_CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="adult" makePublic="true" list1="ppl" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" parameter="" />
+          </LogicProcessing>
+          <LogicProcessing name="hurt" makePublic="true" list1="adult">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicProcessing name="childnocho" list1="child" list2="chosen">
+            <scriptCallWithTag scriptName="FLP_AminusB" parameter="" />
+          </LogicProcessing>
+          <LogicProcessing name="1child" makePublic="true" list1="childnocho">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicResultAction list="special">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" tag="TAG-QUEST1" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagToPlayer" parameter="0" tag="TAG-QUEST1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Tentar acalmar este garoto. Explicar que precisavam matar aqueles aldeões porque estavam enfraquecidos por demônios." ownerID="2" targetID="4" fromX="583" fromY="253" /><outputs name="Intimidá-lo. Dizer que ele pode dar sorte e matar uma pessoa; mas vai morrer com certeza na próxima!" ownerID="2" targetID="16" fromX="583" fromY="173" /><outputs name="Atacar a criança antes que ela possa ferir!" ownerID="2" targetID="20" group="G1" fromX="583" fromY="93" /><outputs name="Atacar a criança antes que ela possa ferir!" ownerID="2" targetID="21" group="G1" fromX="583" fromY="13" />Vocês são despertados por um grito; e descobrem que uma criança está de pé sobre um dos membros da equipe de você, segurando uma faca ensanguentada e prestes a desferir o golpe mortal!
+
+É uma das crianças que 'resgataram' de um povoado depois de matar todo o povo dele.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="456" positionY="-658" width="350" height="885"><logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagToAllPlayers" parameter="0" tag="TAG-QUEST2" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Defender-se." ownerID="3" targetID="10" fromX="781" fromY="-1149" /><outputs name="Tentar fugir." ownerID="3" targetID="25" fromX="781" fromY="-1229" /><outputs name="Tentar convincer a criança a se acalmar. Dizer que cometeram um erro; e que gostariam que ele ficasse com você, a salvo e amado!" ownerID="3" targetID="28" fromX="781" fromY="-1309" />Uma criatura deformada, de cara de criança, espreita sobre você enquanto dorme. 
+
+Ela crocita:
+
+'Você: você fez isto comigo: seu monstro! Mataram a minha mamãe e o meu papai; e me deixaram para aqueles demônios; e agora estou assim!'
+
+Ela salta sobre você!</nodes>
+    <nodes xsi:type="NodeChallenge" ID="4" positionX="938" positionY="1653" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_2M_0S" challengeScale="101" challengedList="nppl">
+      <logic>
+        <FilterBlock>
+          <LogicProcessing name="nppl" list1="ppl" list2="1child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="4" targetID="5" fromX="1379" fromY="1157" />
+      <outputs name="Lose" ownerID="4" targetID="19" fromX="1379" fromY="1077" />
+      <outputs name="Surrender" ownerID="4" targetID="19" fromX="1379" fromY="997" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="1575" positionY="1740" width="350" height="805"><outputs name="Dizer que não vão feri-lo, contanto que ele se porte a partir de agora." ownerID="5" targetID="22" fromX="1900" fromY="1248" /><outputs name="Matar a criança. É um inimigo esperando golpear de novo." ownerID="5" targetID="7" fromX="1900" fromY="1168" />'Eu... eu sinto muito. Não era minha intenção. Por favor, não me firam como firam o meu papai... por favor...'</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="192" positionY="2302" width="350" height="530" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="7" positionX="2776" positionY="1629" width="350" height="530" allPlayersXP="3" allPlayersRP="2" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="special">
+            <scriptCallWithTag scriptName="FMO_TakeCharacters" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="8" positionX="1808" positionY="749" width="350" height="805"><outputs name="Agarrar a criança à força e prendê-la; mas deixá-la viver na esperança de que ela se acalme com o tempo." ownerID="8" targetID="22" fromX="2133" fromY="257" /><outputs name="Matar a criança. É um inimigo esperando golpear de novo." ownerID="8" targetID="7" fromX="2133" fromY="177" />'Vocês MATARAM o meu papai, seu monstro!'
+
+A criança apunhala sem mira; e, embora tenha força pouca, muito sangue é derramado.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="9" positionX="722" positionY="254" width="350" height="805"><outputs name="Agarrar a criança à força e prendê-la; mas deixá-la viver na esperança de que ela se acalme com o tempo." ownerID="9" targetID="22" fromX="1047" fromY="-237" /><outputs name="Matar a criança. É um inimigo esperando golpear de novo." ownerID="9" targetID="7" fromX="1047" fromY="-317" />'Vocês MATARAM o meu papai, seu monstro!'
+
+A criança apunhala sem mira; e, embora tenha força pouca, muito sangue é derramado.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="10" positionX="940" positionY="-790" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-BOG_BIES_2P_1M_1S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="10" targetID="11" fromX="1381" fromY="-1285" />
+      <outputs name="Lose" ownerID="10" targetID="13" fromX="1381" fromY="-1365" />
+      <outputs name="Surrender" ownerID="10" targetID="34" fromX="1381" fromY="-1445" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="11" positionX="1553" positionY="-571" width="350" height="725"><outputs name="Sair da história." ownerID="11" targetID="15" fromX="1878" fromY="-1062" />Vocês massacram a criança demônio antes que ela consiga proferir uma maldição inteira sobre você.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="1607" positionY="-1320" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicProcessing name="2" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="2" />
+          </LogicProcessing>
+          <LogicModifiers list="2">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-CURSE_P" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="13" targetID="14" fromX="1932" fromY="-1811" />'Eu devia deixar você para os bieses devorarem a carne sua, tal como me deixaram. 
+
+Em vez disso, amaldiçoо você e todo o parentesco seu!'
+
+A criatura desaparece; mas uma maldição paira sobre as almas de você. </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="14" positionX="2574.31641" positionY="-1403.76636" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="15" positionX="2036.13037" positionY="-629.746338" width="350" height="530" allPlayersXP="3" allPlayersRP="2" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeChallenge" ID="16" positionX="72" positionY="1592" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_2M_0S" challengeScale="101" challengedList="nnp">
+      <logic>
+        <FilterBlock>
+          <LogicProcessing name="nnp" list1="ppl" list2="1child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="16" targetID="5" fromX="513" fromY="1096" />
+      <outputs name="Lose" ownerID="16" targetID="18" fromX="513" fromY="1016" />
+      <outputs name="Surrender" ownerID="16" targetID="18" fromX="513" fromY="936" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="17" positionX="2933" positionY="501" width="350" height="805"><logic>
+        <ModifierBlock>
+          <LogicProcessing name="hurt" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+        </ModifierBlock>
+      </logic><outputs name="Agarrar a criança à força e prendê-la; mas deixá-la viver na esperança de que ela se acalme com o tempo." ownerID="17" targetID="22" fromX="3258" fromY="9" /><outputs name="Matar a criança. É um inimigo esperando golpear de novo." ownerID="17" targetID="7" fromX="3258" fromY="-70" />'Você MATOU o meu papai, seu monstro!'
+
+A criança apunhala sem mira, impelida por ainda mais ferocidade pelas tentativas de intimidação de você.</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="18" positionX="2389" positionY="521" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="70" maxDamage="100" useCountInPercent="true" targetGroup="hurt">
+      <outputs ownerID="18" targetID="17" fromX="2818" fromY="132" />
+    </nodes>
+    <nodes xsi:type="NodeDealDamage" ID="19" positionX="2192" positionY="-15" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="50" maxDamage="70" useCountInPercent="true" targetGroup="hurt">
+      <outputs ownerID="19" targetID="8" fromX="2621" fromY="-403" />
+    </nodes>
+    <nodes xsi:type="NodeDealDamage" ID="20" positionX="1363" positionY="-97" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="70" maxDamage="90" useCountInPercent="true" targetGroup="hurt">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="50" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="20" targetID="9" fromX="1792" fromY="-485" />
+    </nodes>
+    <nodes xsi:type="NodeDealDamage" ID="21" positionX="1236" positionY="429" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="50" maxDamage="70" useCountInPercent="true" targetGroup="hurt">
+      <outputs ownerID="21" targetID="8" fromX="1665" fromY="40" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="22" positionX="-1061" positionY="2148" width="350" height="805"><outputs name="Tentar ficar atento a ele no futuro." ownerID="22" targetID="23" group="G1" fromX="-735" fromY="1656" /><outputs name="Tentar ficar atento a ele no futuro." ownerID="22" targetID="24" group="G1" fromX="-735" fromY="1576" />Vocês deixam a criança ofendida viver, mesmo depois de ela ter te atacado com ferocidade e proclamado vingança sobre o parentesco de você.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="23" positionX="-422" positionY="2578" width="350" height="725"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="55" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-STRONG_ONE_PET_GOAT" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;40" tag="ITEM_CARGO-FEW_FUR_LEATHER" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-ADV_FEW_RANDOM_ITEMS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="5;10" tag="ITEM_CARGO-FEW_GOLD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Ótimo. " ownerID="23" targetID="6" fromX="-96" fromY="2086" />O compromisso de você em cuidar do jovem o fez perdoar o passado de você; e ele se tornou de verdade um dos de você. 
+
+Um dia, ele traz a você um baú de tesouro, proclamando que era o segredo da família dele; mas agora você é a família dele, então deve ficar com ele.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="-475" positionY="1481" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicFilter name="stuff">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+          <LogicProcessing name="unstuff" list1="stuff">
+            <scriptCallWithTag scriptName="FLP_FilterAnyUnEquippedItems" />
+          </LogicProcessing>
+          <LogicProcessing name="60" list1="unstuff">
+            <scriptCallWithTag scriptName="FLP_GetRandomXPercentElements" parameter="40" />
+          </LogicProcessing>
+          <LogicModifiers list="special">
+            <scriptCallWithTag scriptName="FMO_TakeCharacters" parameter="" />
+          </LogicModifiers>
+          <LogicModifiers list="60">
+            <scriptCallWithTag scriptName="FMO_TakeItems" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Droga." ownerID="24" targetID="6" fromX="-149" fromY="989" />Apesar dos esforços de você em vigiar, um dia você descobre que foi assaltado; e a criança sumiu!</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="25" positionX="-99" positionY="-966" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="50" maxDamage="70" useCountInPercent="true" targetGroup="ppl">
+      <outputs ownerID="25" targetID="27" fromX="330" fromY="-1354" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="26" positionX="-1066" positionY="-1006" width="350" height="530" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="27" positionX="-605" positionY="-875" width="350" height="725"><outputs name="Sair da história." ownerID="27" targetID="26" fromX="-279" fromY="-1366" />Vocês fogem; mas a criatura cospa lama ardente em você, deixando você marcado.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="28" positionX="-104" positionY="-1610" width="500" height="807" challengeType="TypeMental" versusGroup="GROUP-BOG_BIES_2P_1M_1S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="28" targetID="29" group="G1" fromX="337" fromY="-2105" />
+      <outputs name="Lose" ownerID="28" targetID="32" fromX="337" fromY="-2185" />
+      <outputs name="Surrender" ownerID="28" targetID="32" fromX="337" fromY="-2265" />
+      <outputs name="Win" ownerID="28" targetID="31" group="G1" fromX="337" fromY="-2346" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="29" positionX="488" positionY="-1625" width="350" height="725"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="30" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-BOG_BIES" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Dar boas-vindas." ownerID="29" targetID="30" fromX="813" fromY="-2116" />A criatura para e te encara, com os olhos dela tristes e solitários. Ela faz que sim, mais para si mesma que para você; e então se junta a você.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="30" positionX="915" positionY="-1619" width="350" height="530" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="31" positionX="917" positionY="-2097" width="350" height="725"><outputs name="Sair da história." ownerID="31" targetID="30" fromX="1242" fromY="-2588" />A criatura para e te encara, com os olhos dela tristes e solitários. Ela faz que sim, mais para si mesma que para você. Ela não ataca; mas também não se junta a você. Ela só rosna:
+
+'Vocês massacraram todos; e agora falam de amor? Eu sou um ser melhor que isto. Deixo você ao destino de você, monstro.'
+
+Ela anda embora para dentro das sombras.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="32" positionX="209" positionY="-2529" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicProcessing name="2" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="2" />
+          </LogicProcessing>
+          <LogicModifiers list="2">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-CURSE_P" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="32" targetID="33" fromX="534" fromY="-3020" />A criatura para e te encara, com os olhos dela tristes e solitários. Ela faz que sim, mais para si mesma que para você. Ela não ataca; mas também não se junta a você. Ela só rosna:
+
+'Vocês massacraram todos; e agora falam de amor? Eu sou um ser melhor que isto. Deixo você ao destino de você, monstro.'
+
+Ela anda embora para dentro das sombras; e você sente uma maldição pesada sobre você.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="33" positionX="643" positionY="-2936" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="34" positionX="3027" positionY="-1146" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicProcessing name="2" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="2" />
+          </LogicProcessing>
+          <LogicModifiers list="2">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-CURSE_P" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="34" targetID="14" fromX="3352" fromY="-1637" />'Rendição! Rendição, como eu fiz, quando criança. Eu devia deixar você para os bieses devorarem a carne sua, tal como me deixaram. 
+
+Em vez disso, amaldiçoо você e todo o parentesco seu!'
+
+A criatura desaparece; mas uma maldição paira sobre as almas de você. </nodes>
+  </Adventure>
+  <Adventure name="Goblin Killer" uniqueID="14" allowOnce="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="8" nodeIdMax="33" eventTag="TAG-LOG15" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-384" positionY="718" width="347" height="661" image="Event060">
+      <outputs ownerID="1" targetID="2" fromX="-59" fromY="114" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="140" positionY="293" width="350" height="805"><logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicFilter name="hum" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" tag="RACE-HUMAN" />
+          </LogicFilter>
+          <LogicFilter name="elf" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-ELF" />
+          </LogicFilter>
+          <LogicFilter name="wis" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="12" tag="TAG-PERCEPTION" />
+          </LogicFilter>
+          <LogicFilter name="int" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="12" tag="TAG-INTELLIGENCE" />
+          </LogicFilter>
+          <LogicFilter name="luck" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="12" tag="TAG-LUCK" />
+          </LogicFilter>
+          <LogicFilter name="gob" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" tag="RACE-GOBLIN" />
+          </LogicFilter>
+          <LogicProcessing name="humanlike" makePublic="true" list1="hum" list2="elf">
+            <scriptCallWithTag scriptName="FLP_AorB" />
+          </LogicProcessing>
+        </FilterBlock>
+      </logic><outputs name="Mandá-los parar e dizer o que querem." ownerID="2" targetID="4" fromX="465" fromY="-198" /><outputs name="Atacar!" ownerID="2" targetID="3" fromX="465" fromY="-278" />Um grupo de goblins corre na direção de você. Eles parecem assustados; e parece que são em geral anciãos ou jovens. 
+
+Ainda assim, uns poucos estão armados.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="3" positionX="-1583" positionY="124" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-Q_GOBS_6P_3M_2S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="3" targetID="28" fromX="-1141" fromY="-371" />
+      <outputs name="Lose" ownerID="3" targetID="30" fromX="-1141" fromY="-451" />
+      <outputs name="Surrender" ownerID="3" targetID="30" fromX="-1141" fromY="-531" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="4" positionX="789" positionY="0" width="350" height="885"><outputs name="Perguntar do que ele está falando." ownerID="4" targetID="6" fromX="1114" fromY="-491" /><outputs name="Dar de ombros e deixá-los passar." ownerID="4" targetID="8" fromX="1114" fromY="-571" /><outputs name="Pedir a versão curta do que está acontecendo. [Pular História]" ownerID="4" targetID="27" fromX="1114" fromY="-651" />Eles obedecem; mas continuam olhando para trás deles, nervosos. Um deles fala:
+
+'Você: você não vai nos matar, né? A gente só quer ir, a gente acha um lugar novo, prometemos, só nos deixem ir!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="1340" positionY="1116" width="350" height="725"><logic>
+        <FilterBlock>
+          <LogicResultAction list="humanlike">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic><outputs name="Quem?" ownerID="5" targetID="7" fromX="1665" fromY="624" />'Ah, sim, desculpa. Você só parece um pouco com ele. Acho que é um elfo, mas pode ser um humano magro...'</nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="6" positionX="692" positionY="720" width="460" height="509">
+      <outputs ownerID="6" targetID="5" group="G1" fromX="1122" fromY="361" />
+      <outputs ownerID="6" targetID="11" group="G1" fromX="1122" fromY="281" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="7" positionX="1861" positionY="1797" width="350" height="885"><outputs name="Eles sabem por que este matador de goblins os atacou?" ownerID="7" targetID="9" fromX="2186" fromY="1305" /><outputs name="Dizer que isto parece não ser negócio de você; mas, se pagarem, vocês podem resolver o matador." ownerID="7" targetID="12" fromX="2186" fromY="1225" /><outputs name="Dizer a eles que parece perigoso, então é melhor continuarem correndo; e partir." ownerID="7" targetID="8" fromX="2186" fromY="1145" />'Homem matador de goblins! Não estou de brincadeira, não é mero nome. Aquele sujeito, ou senhora, vem; e mata; e mata; e mata. 
+
+Massacraram a aldeia nossa inteira; e depois foram atrás dos pequenos, soltando que eles só vão crescer para virar como qualquer um de nós.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="8" positionX="1945" positionY="-417" width="350" height="885"><outputs name="Concordar em ajudá-los a deter esta ameaça. Talvez o matador de goblins escute à razão, se não, então a lâmina." ownerID="8" targetID="20" fromX="2270" fromY="-908" /><outputs name="Dizer que isto parece não ser negócio de você; mas, se pagarem, vocês podem resolver o matador." ownerID="8" targetID="12" fromX="2270" fromY="-988" /><outputs name="Não, sair da história." ownerID="8" targetID="32" fromX="2270" fromY="-1068" />'Ah, sim, obrigado. Mas talvez vocês ajudem a gente? Talvez matem este psicopata? Pensem nas crianças nossas!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="9" positionX="2591" positionY="1805" width="350" height="885"><outputs name="Orcs são conhecidos por estuprar depois de um ataque?" ownerID="9" targetID="10" fromX="2916" fromY="1313" /><outputs name="Então este matador de goblins está caçando eles agora?" ownerID="9" targetID="13" fromX="2916" fromY="1233" /><outputs name="Dizer que isto parece não ser negócio de você; mas, se pagarem, vocês podem resolver o matador." ownerID="9" targetID="12" fromX="2916" fromY="1153" />'Bom, é realmente esquisito, eles continuam dizendo que a gente é bicho, que destruímos a fazenda deles e estupramos todas as mulheres. Digo, claro, a gente gosta de um carinho de gente grande, mas a gente não saqueia nem estupra! Devem nos tomar por orcs ou algo assim.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="10" positionX="3172" positionY="1107" width="350" height="805"><outputs name="Então este matador de goblins está caçando eles agora?" ownerID="10" targetID="13" fromX="3497" fromY="615" /><outputs name="Dizer que isto parece não ser negócio de você; mas, se pagarem, vocês podem resolver o matador." ownerID="10" targetID="12" fromX="3497" fromY="535" />'Humanos, orcs, claro. Anões e elfos, talvez menos; e escuta, não estou dizendo que nunca acontece com a nossa trupinha. Temos maçãs podres, igual você. Mas a gente não faz o tempo todo, juro!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="11" positionX="2510" positionY="3" width="350" height="725"><outputs name="Quem?" ownerID="11" targetID="7" fromX="2835" fromY="-488" />'Ah, sim, desculpa. Você nem se parece com ele de todo. Acho que é um elfo, mas pode ser um humano magro?.?.?.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="3525" positionY="-164" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="8;15" tag="ITEM_CARGO-FEW_ADV_METAL" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Fazer que sim e partir para achar este matador de goblins." ownerID="12" targetID="18" fromX="3850" fromY="-655" />'Você, você vai? Agradecemos com certeza! Sim, a gente paga, paga o que dá. 
+
+Um pouco agora; um pouco quando trouxer a cabeça deles a nós. Ah, cuidado, eles vêm com outros às vezes.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="3666" positionY="1241" width="350" height="885"><outputs name="[Percepção, inteligência, goblin ou sorte]Tentar determinar se ele está dizendo a verdade." ownerID="13" targetID="14" fromX="3991" fromY="749" /><outputs name="Concordar em ajudá-los a deter esta ameaça. Talvez o matador de goblins escute à razão, se não, então a lâmina." ownerID="13" targetID="20" fromX="3991" fromY="669" /><outputs name="Dizer que isto parece não ser negócio de você; mas, se pagarem, vocês podem resolver o matador." ownerID="13" targetID="12" fromX="3991" fromY="589" />'Sim, sim; e ele vem com amigos com frequência, eles muito maus. Não sei quem feriu a família dele; mas não foi o parentesco meu, juro!'</nodes>
+    <nodes xsi:type="NodeChallenge" ID="14" positionX="4069" positionY="1657" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_5M_0S" challengeScale="101" challengedList="ppl">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction list="wis" resultGroup="G1">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="int" resultGroup="G1">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="luck" resultGroup="G1">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="gob" resultGroup="G1">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="14" targetID="15" fromX="4510" fromY="1161" />
+      <outputs name="Lose" ownerID="14" targetID="24" fromX="4510" fromY="1081" />
+      <outputs name="Surrender" ownerID="14" targetID="24" fromX="4510" fromY="1001" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="4678" positionY="1531" width="350" height="805"><logic>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="2" tag="TAG-INTELLIGENCE" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Confrontá-lo e dizer que ele tem uma chance de dizer a verdade de você!" ownerID="15" targetID="16" fromX="5003" fromY="1039" /><outputs name="Atacar a escória mentirosa!" ownerID="15" targetID="3" fromX="5003" fromY="959" />Vocês veem o goblin suando e desviando o contato visual de você. Outros parecem igualmente desconfortáveis. Ele está mentindo, com certeza.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="16" positionX="5107" positionY="1621" width="350" height="1046"><outputs name="Dizer a eles que vão tentar falar com este matador de goblins; mas que não podem prometer nada, já que eles são culpados em parte." ownerID="16" targetID="21" fromX="5432" fromY="1129" /><outputs name="Concordar que a aldeia inteira não devia pagar pelos atos de alguns, em especial as crianças. Dizer que vão falar com este matador de goblins." ownerID="16" targetID="21" fromX="5432" fromY="1049" /><outputs name="Dizer que o que quer que venha na direção deles é bem merecido. Partir." ownerID="16" targetID="22" fromX="5432" fromY="969" /><outputs name="Dizer a eles que vão levar as crianças deles para a segurança; mas o resto devia ficar de pé e pagar o preço pelos crimes deles." ownerID="16" targetID="17" fromX="5432" fromY="889" /><outputs name="Eles são culpados. Atacar!" ownerID="16" targetID="3" fromX="5432" fromY="809" />'Ah, tá... então foram os nossos meninos que fizeram. A gente acha. Digo, a nossa aldeia estava mal, as colheitas morreram, os espíritos não ajudaram. 
+
+Aqueles meninos, dizem que vão buscar coisas para a gente. E buscaram. Não perguntamos de onde. Mas sabíamos. Talvez não tudo; mas como mais eles iam conseguir tanto? O estupro, porém, isso a gente realmente não sabia. Aqueles meninos, estão mortos agora, mortos direito. Não fomos, não matamos. As crianças nossas, elas são boas, por favor...'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="17" positionX="5563" positionY="1069" width="350" height="805"><outputs name="Deixá-las correr." ownerID="17" targetID="22" fromX="5888" fromY="577" /><outputs name="Atacar!" ownerID="17" targetID="3" fromX="5888" fromY="497" />'Levar as crianças nossas? Jamais! Vamos lutar; e podemos morrer, mas vamos fazê-lo juntos. Se veem a gente como culpados, então ao menos nos deixem em paz. Vamos tentar correr.'</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="18" positionX="5214" positionY="-654" width="480" height="503" radius="3" groupID="GROUP-Q_SLAYER_8P_7M_6S" destroyOwner="false" linkedEventUniqueID="16">
+      <outputs ownerID="18" targetID="19" fromX="5662" fromY="-1086" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="19" positionX="4669" positionY="-747" width="350" height="530" allPlayersXP="2" allPlayersRP="1" logBookName="QUEST_MISC3_GOBKILL" logBookDescription="QUEST_MISC3_GOBKILL2_DES" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="20" positionX="4351" positionY="335" width="350" height="725"><outputs name="Fazer que sim e partir para achar este matador de goblins." ownerID="20" targetID="18" fromX="4676" fromY="-156" />"'Você, você vai? Agradecemos com certeza! Ah, cuidado, eles vêm com outros às vezes.'"</nodes>
+    <nodes xsi:type="NodeAdventure" ID="21" positionX="5686" positionY="1833" width="350" height="725"><outputs name="Fazer que sim e partir para achar este matador de goblins." ownerID="21" targetID="18" fromX="6011" fromY="1341" />"'Você, você vai? Agradecemos com certeza! Ah, cuidado, eles vêm com outros às vezes.'"</nodes>
+    <nodes xsi:type="NodeAdventure" ID="22" positionX="6074" positionY="919" width="350" height="725"><outputs name="Sair da história." ownerID="22" targetID="23" fromX="6399" fromY="427" />Os goblins partem o mais rápido que conseguem. Uns olham para você com gratidão por poupar as vidas deles; uns com medo; e outros com raiva e dor. Uma das crianças acena tchau e arremessa uma flor como presente.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="23" positionX="6525" positionY="884" width="350" height="530" allPlayersXP="6" allPlayersRP="3" logBookName="QUEST_MISC3_GOBKILL" logBookDescription="QUEST_MISC3_GOBKILL3_DES" linkedEventUniqueID="0" endOfQuest="true">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-5" tag="TAG-LOYALTY_SPIRIT_TALKERS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="5" tag="TAG-LOYALTY_SLAVYAN" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="5081" positionY="510" width="350" height="725"><outputs name="Perguntar de novo a eles pela verdade." ownerID="24" targetID="25" fromX="5406" fromY="18" />Os goblins parecem nervosos. Talvez não estejam contando tudo a você.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="25" positionX="2754" positionY="-1053" width="350" height="885"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-QUEST49" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Dizer que tudo parece com cheiro de peixe; e que deviam resolver eles mesmos. Partir." ownerID="25" targetID="8" fromX="3079" fromY="-1544" /><outputs name="Concordar em ajudá-los a deter esta ameaça. Talvez o matador de goblins escute à razão, se não, então a lâmina." ownerID="25" targetID="20" fromX="3079" fromY="-1624" /><outputs name="Dizer que isto parece não ser negócio de você; mas, se pagarem, vocês podem resolver o matador." ownerID="25" targetID="12" fromX="3079" fromY="-1704" />'Ah, sim. Bom, a gente conhecia mesmo os goblins que talvez tenham feito maldade àquele matador. Talvez seja por isto que ele nos caça. Mas ele é um monstro, a gente não fez nada a ele!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="27" positionX="1337" positionY="-656" width="350" height="966"><outputs name="Concordar em ajudá-los a deter esta ameaça. Talvez o matador de goblins escute à razão, se não, então a lâmina." ownerID="27" targetID="20" fromX="1662" fromY="-1147" /><outputs name="Dizer que isto parece não ser negócio de você; mas, se pagarem, vocês podem resolver o matador." ownerID="27" targetID="12" fromX="1662" fromY="-1227" /><outputs name="Não, sair da história." ownerID="27" targetID="32" fromX="1662" fromY="-1307" /><outputs name="[Percepção, inteligência, goblin ou sorte]Tentar determinar se ele está dizendo a verdade." ownerID="27" targetID="14" fromX="1662" fromY="-1387" />'Um matador de goblins destruiu a nossa aldeia; e está nos caçando. Mas talvez vocês ajudem a gente? Talvez matem este psicopata? Pensem nas crianças nossas!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="-854" positionY="-160" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_WAND" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;30" tag="ITEM_CARGO-GOBLINWINE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="5;15" tag="ITEM_CARGO-FEW_ADV_GEMSTONE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-QUEST65" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-8" tag="TAG-LOYALTY_SPIRIT_TALKERS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="28" targetID="33" fromX="-528" fromY="-651" />Vocês matam os goblins e recolhem o espólio.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="29" positionX="439" positionY="-989" width="350" height="530" allPlayersXP="6" allPlayersRP="3" logBookName="QUEST_MISC3_GOBKILL" logBookDescription="QUEST_MISC3_GOBKILL5_DES" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="30" positionX="-1487" positionY="-1057" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicFilter name="stuff">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+          <LogicProcessing name="unstuff" list1="stuff">
+            <scriptCallWithTag scriptName="FLP_FilterAnyUnEquippedItems" />
+          </LogicProcessing>
+          <LogicProcessing name="30" list1="unstuff">
+            <scriptCallWithTag scriptName="FLP_GetRandomXPercentElements" parameter="30" />
+          </LogicProcessing>
+          <LogicModifiers list="30">
+            <scriptCallWithTag scriptName="FMO_TakeItems" parameter="goblintake" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="30" targetID="32" fromX="-1161" fromY="-1548" />'Oi, você igual àquele psicopata. Você morrer, a gente correr.'
+
+Os goblins disparam e te deixam no chão.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="31" positionX="1227" positionY="-1926" width="350" height="530" allPlayersXP="2" allPlayersRP="1" logBookName="QUEST_MISC3_GOBKILL" logBookDescription="QUEST_MISC3_GOBKILL4_DES" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeSpawnOnMap" ID="32" positionX="598" positionY="-1783" width="480" height="503" radius="4" groupID="GROUP-Q_SLAYER_8P_7M_6S" destroyOwner="false" linkedEventUniqueID="15">
+      <outputs ownerID="32" targetID="31" fromX="1046" fromY="-2215" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="33" positionX="-322" positionY="-715" width="480" height="503" radius="4" groupID="GROUP-Q_SLAYER_8P_7M_6S" destroyOwner="false" linkedEventUniqueID="15">
+      <outputs ownerID="33" targetID="29" fromX="126" fromY="-1147" />
+    </nodes>
+  </Adventure>
+  <Adventure name="Goblin Killer Spwn" uniqueID="15" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="41" eventTag="TAG-LOG15" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-449" positionY="272" width="347" height="741" image="Event231">
+      <outputs ownerID="1" targetID="3" group="G1" fromX="-124" fromY="-331" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="-124" fromY="-411" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="473" positionY="-516" width="350" height="885"><logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicFilter name="gob" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-GOBLIN" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic><outputs name="Perguntar a eles o que querem." ownerID="2" targetID="18" fromX="798" fromY="-1007" /><outputs name="Atacar!" ownerID="2" targetID="4" fromX="798" fromY="-1087" /><outputs name="Sair da senda deles e partir." ownerID="2" targetID="17" fromX="798" fromY="-1167" />Vocês se deparam com um grupo armado de lutadores. Há um humano vestindo elmo, um orc alto de capuz com varinha de osso, uma zerca, um elfo e um anão.
+O humano tem cabeças de goblin no cinto dele, então este deve ser o matador de goblins enlouquecido de que falaram a você. 
+
+Eles te medem de cima a baixo; mas não falam. </nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="133" positionY="614" width="350" height="885"><logic>
+        <FilterBlock>
+          <LogicFilter name="gob" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-GOBLIN" />
+          </LogicFilter>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicResultAction list="gob">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic><outputs name="Lutar!" ownerID="3" targetID="4" fromX="458" fromY="122" /><outputs name="Ficar entre eles e o seu amigo goblin; e mandar que se acalmem, não há precisar de violência aqui. " ownerID="3" targetID="7" fromX="458" fromY="42" /><outputs name="Correr." ownerID="3" targetID="17" fromX="458" fromY="-37" />Vocês se deparam com um grupo armado de lutadores. Há um humano vestindo elmo, um orc alto de capuz com varinha de osso, uma zerca, um elfo e um anão.
+O humano tem cabeças de goblin no cinto dele, então este deve ser o matador de goblins enlouquecido de que falaram a você. 
+
+Eles olham para você e cospem: 'Escória goblin: vindo até nós? Bom.'
+
+Eles se aprontam para um ataque.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="4" positionX="746" positionY="1008" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-Q_SLAYER_8P_7M_6S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="4" targetID="5" fromX="1187" fromY="512" />
+      <outputs name="Lose" ownerID="4" targetID="6" fromX="1187" fromY="432" />
+      <outputs name="Surrender" ownerID="4" targetID="6" fromX="1187" fromY="352" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="1341" positionY="1549" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="8" tag="TAG-LOYALTY_SPIRIT_TALKERS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;40" tag="ITEM_CARGO-BASIC_FEW_HERBS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;40" tag="ITEM_CARGO-GOBLINWINE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_TOOL" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_PET_GOAT" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20%;0;1" tag="ITEM_CARGO-RARE_ONE_SWORD_1H" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-STRONG_ONE_PET_CHICKEN" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="5" targetID="19" fromX="1666" fromY="1057" />Vocês matam o famoso matador de goblins; e, por um tempo, recebem cartas de agradecimento de vários sobreviventes goblins. Alguns até mandam presentes.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="2013" positionY="1195" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers list="gob">
+            <scriptCallWithTag scriptName="FMO_TakeCharacters" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Correr." ownerID="6" targetID="21" fromX="2338" fromY="703" />Vocês são derrotados; e quaisquer peles-verdes no grupo de você não conseguem sair vivos.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="7" positionX="1325" positionY="316" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-Q_SLAYER_8P_7M_6S" challengeScale="101" challengedList="ppl">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="int">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="14" tag="TAG-INTELLIGENCE" />
+          </LogicFilter>
+          <LogicProcessing name="nogob" list1="ppl" list2="gob">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicResultAction list="nogob">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="int">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="7" targetID="9" fromX="1766" fromY="-179" />
+      <outputs name="Lose" ownerID="7" targetID="16" fromX="1766" fromY="-259" />
+      <outputs name="Surrender" ownerID="7" targetID="16" fromX="1766" fromY="-339" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="-544" positionY="-710" width="350" height="530" allPlayersXP="1" logBookName="QUEST_MISC3_GOBKILLSPWNONE" logBookDescription="QUEST_MISC3_GOBKILLSPWNONE_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventure" ID="9" positionX="1979" positionY="379" width="350" height="885"><logic>
+        <ModifierBlock>
+          <LogicModifiers list="ppl">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="3" tag="SKILL_PACK-BLESS_M" />
+          </LogicModifiers>
+          <LogicModifiers list="gob">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="2" tag="TAG-INTELLIGENCE" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Negar que viram algo. " ownerID="9" targetID="10" fromX="2304" fromY="-112" /><outputs name="Dizer que viram de fato; mas que não queriam se envolver, então deixaram eles correr." ownerID="9" targetID="29" fromX="2304" fromY="-192" /><outputs name="Dizer que viram de fato; e que os mataram." ownerID="9" targetID="23" fromX="2304" fromY="-272" />'Fale rápido, amante de goblin. Viu um bando da escória verde correndo nesta direção?'</nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="10" positionX="2483" positionY="314" width="460" height="509">
+      <outputs ownerID="10" targetID="11" group="G1" fromX="2913" fromY="-44" />
+      <outputs ownerID="10" targetID="32" group="G1" fromX="2913" fromY="-124" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="11" positionX="3357" positionY="778" width="350" height="885"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="40" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic><outputs name="[Rato]!!!" ownerID="11" targetID="12" fromX="3682" fromY="286" /><outputs name="Fazer que sim e partir." ownerID="11" targetID="13" fromX="3682" fromY="206" /><outputs name="Perguntar por que odeiam tanto os goblins. Vocês nunca souberam deles como mais ou menos violentos que humanos." ownerID="11" targetID="15" fromX="3682" fromY="126" />'Tá, vamos deixá-lo em paz. Mas você está cometendo um erro com o goblin. As peles-verdes vão sempre enganar você. Nada melhor que praga.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="3830" positionY="1412" width="350" height="805"><logic>
+        <FilterBlock>
+          <LogicFilter name="rat">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="SUBRACE-RAT" />
+          </LogicFilter>
+          <LogicResultAction list="rat">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic><outputs name="Fazer que sim e partir." ownerID="12" targetID="13" fromX="4155" fromY="920" /><outputs name="Perguntar por que odeiam tanto os goblins. Vocês nunca souberam deles como mais ou menos violentos que humanos." ownerID="12" targetID="15" fromX="4155" fromY="840" />O guerreiro não responde: só olha para longe, buscando rastros de goblin. O sacerdote fala em vez disso:
+
+'Bah: você claramente tem juízo muito pouco quando se trata de amigos. Não importa. Preciso apanhar os que escaparam. Fora da nossa senda.'</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="13" positionX="4527" positionY="903" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="13" targetID="14" fromX="4975" fromY="470" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="14" positionX="5190" positionY="773" width="350" height="530" allPlayersXP="6" allPlayersRP="3" logBookName="QUEST_MISC3_GOBKILLSPWNONE" logBookDescription="QUEST_MISC3_GOBKILLSPWNONE3_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="3785" positionY="152" width="350" height="885"><outputs name="Dizer que isto não é preocupação de você; e partir. " ownerID="15" targetID="13" fromX="4110" fromY="-339" /><outputs name="[Caçador]Oferecer dizer a eles para onde os goblins foram." ownerID="15" targetID="37" fromX="4110" fromY="-419" /><outputs name="Dizer a eles que entendem a mágoa; mas massacrar todo goblin que encontram parece extremo." ownerID="15" targetID="39" fromX="4110" fromY="-499" />O homem no elmo não responde; mas o companheiro élfico dele fala:
+
+'Quando era mera criança: o nosso amigo testemunhou o lar dele queimado e saqueado; e uma irmã estuprada. Os goblins eram os culpados. Desde então, eles viraram inimigo. Confiamos no nosso amigo; então damos ajuda. Talvez haja verdade nas palavras deles. Os goblins fingem ser fracos e gentis; mas eles sempre tramam, esquematizam, se metem com espíritos maus; e buscam espalhar escuridão.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="16" positionX="1365" positionY="-478" width="350" height="805"><outputs name="Atacar!" ownerID="16" targetID="4" fromX="1690" fromY="-969" /><outputs name="Fugir, aceitando que provavelmente vão levar flecha da arqueira élfica enquanto fogem." ownerID="16" targetID="33" fromX="1690" fromY="-1049" />O bando não escuta. Um deles brada:
+
+'Goblins precisam morrer!'
+
+Eles começam a se mover: tentando cercar você.</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="17" positionX="-123" positionY="-756" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="17" targetID="8" fromX="325" fromY="-1188" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="18" positionX="965" positionY="-581" width="350" height="885"><outputs name="Negar que viram algo. " ownerID="18" targetID="10" fromX="1290" fromY="-1072" /><outputs name="Dizer que viram de fato; mas que não queriam se envolver, então deixaram eles correr." ownerID="18" targetID="31" fromX="1290" fromY="-1152" /><outputs name="Dizer que viram de fato; e que os mataram." ownerID="18" targetID="23" fromX="1290" fromY="-1232" />'Fale rápido. Viu um bando da escória verde correndo nesta direção?'</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="19" positionX="1994" positionY="1751" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="19" targetID="20" fromX="2442" fromY="1318" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="20" positionX="2577" positionY="1778" width="350" height="530" allPlayersXP="7" allPlayersRP="3" logBookName="QUEST_MISC3_GOBKILLSPWNONE" logBookDescription="QUEST_MISC3_GOBKILLSPWNONE2_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeSpawnOnMap" ID="21" positionX="2421" positionY="1175" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="21" targetID="22" fromX="2869" fromY="742" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="22" positionX="2942" positionY="1235" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_MISC3_GOBKILLSPWNONE" logBookDescription="QUEST_MISC3_GOBKILLSPWNONE4_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventure" ID="23" positionX="2510" positionY="-416" width="350" height="885"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-QUEST65" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic><outputs name="Dar de ombros e dizer que não é negócio de você; mas os goblins estão mortos. Alguma recompensa?" ownerID="23" targetID="24" fromX="2835" fromY="-907" /><outputs name="Fazer que sim e dizer que, nesse caso, fizeram uma boa ação, certo?" ownerID="23" targetID="28" fromX="2835" fromY="-987" /><outputs name="Dizer a eles que entendem a mágoa; mas massacrar todo goblin que encontram parece extremo. Pensando bem, vocês fizeram também, então quem são você para julgar?" ownerID="23" targetID="27" fromX="2835" fromY="-1067" />'Ah. Desapontador para mim; mas morto é morto. Bom.'
+
+Um dos outros continua:
+
+'Os malditinhos estupraram e mataram a querida irmã dele. Rastreando eles há anos. Espertinhos velhacos. Nenhum merece viver. Aquela tribo, eles cultuam alguma divindade sombria, querem a escuridão de volta, para que os humanos percam de novo.'
+
+O guerreiro no elmo cospe; e os outros fazem que sim, solenes.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="3005" positionY="-401" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_SWORD_1H" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="50%;0;1" tag="ITEM_CARGO-ANCIENT_ONE_SHIELD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Fazer que sim e partir." ownerID="24" targetID="25" fromX="3330" fromY="-892" />O guerreiro faz que sim e entrega a você a arma dele:
+
+'Aqui.'
+
+O sacerdote solta um suspiro e fala: 'Você não vai arrancar mais palavra nenhuma daquele. Agradecemos a você. O feito seu foi bom. Vão bem; e permaneçam atentos às peles-verdes.'</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="25" positionX="3510" positionY="-1174" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="25" targetID="26" fromX="3958" fromY="-1606" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="26" positionX="4056" positionY="-1272" width="350" height="530" allPlayersXP="6" allPlayersRP="3" logBookName="QUEST_MISC3_GOBKILLSPWNONE" logBookDescription="QUEST_MISC3_GOBKILLSPWNONE3_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventure" ID="27" positionX="2946" positionY="-1211" width="350" height="805"><outputs name="Fazer que sim e partir." ownerID="27" targetID="25" fromX="3271" fromY="-1702" /><outputs name="Dar de ombros e dizer que não é negócio de você; mas os goblins estão mortos. Alguma recompensa?" ownerID="27" targetID="24" fromX="3271" fromY="-1782" />O guerreiro fala:
+
+'Sim: as crianças crescem: odeiam: viram goblins adultos: e buscam vingança. Se eu matar, preciso matar todos.'
+
+O sacerdote parece desconfortável; mas permanece em silêncio.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="2508" positionY="-1314" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_PET_BEAR" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Fazer que sim e partir." ownerID="28" targetID="25" fromX="2833" fromY="-1805" />O guerreiro faz que sim e entrega a você a arma dele:
+
+'Sim.' Ele então entrega a você uma jaula com um bicho dentro. 'Por matar mais peles-verdes.'
+
+O sacerdote solta um suspiro e fala: 'Você não vai arrancar mais palavra nenhuma daquele. Agradecemos a você. O feito seu foi bom. Vão bem; e permaneçam atentos às peles-verdes.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="29" positionX="4304" positionY="-194" width="350" height="805"><outputs name="Afastar-se deles." ownerID="29" targetID="38" fromX="4629" fromY="-685" /><outputs name="Perguntar por que odeiam tanto os goblins. Vocês nunca souberam deles como mais ou menos violentos que humanos." ownerID="29" targetID="15" fromX="4629" fromY="-765" />O guerreiro faz que sim e fala:
+
+'Isto foi estúpido. Eles vão correr, crescer. Mais matança.'
+
+Um silêncio desconfortável desce sobre o grupo; e um dos companheiros fala:
+
+'Melhor partir agora: amante de goblin.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="31" positionX="1378" positionY="-1347" width="350" height="885"><outputs name="Afirmar que não era preocupação de você; e que também não ajudaram os goblins, meramente os deixaram ir." ownerID="31" targetID="36" fromX="1703" fromY="-1838" /><outputs name="[Caçador]Oferecer dizer a eles para onde os goblins foram." ownerID="31" targetID="37" fromX="1703" fromY="-1918" /><outputs name="Perguntar por que odeiam tanto os goblins. Vocês nunca souberam deles como mais ou menos violentos que humanos." ownerID="31" targetID="15" fromX="1703" fromY="-1998" />O guerreiro faz que sim e fala:
+
+'Isto foi estúpido. Eles vão correr, crescer. Mais matança.'
+
+Um silêncio desconfortável desce sobre o grupo; e um dos companheiros fala:
+
+'Melhor partir agora: amante de goblin.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="32" positionX="4753" positionY="-226" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="3" tag="SKILL_PACK-CURSE_M" />
+          </LogicModifiers>
+          <LogicModifiers list="gob">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="3" tag="SKILL_PACK-CURSE_S" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="32" targetID="13" fromX="5078" fromY="-717" />'Vocês mentem. Anda com eles, e mente por eles. Tolice.'
+
+Um silêncio desconfortável desce sobre o grupo, e um dos companheiros fala:
+
+'Melhor partir agora: amante de goblin.'
+
+Eles partem; e você percebe mais tarde que um dos magos deles te amaldiçoou.</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="33" positionX="1891" positionY="-950" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="30" maxDamage="60" useCountInPercent="true" targetGroup="ppl">
+      <outputs ownerID="33" targetID="34" fromX="2320" fromY="-1338" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="34" positionX="1895" positionY="-1448" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="34" targetID="35" fromX="2343" fromY="-1880" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="35" positionX="1714" positionY="-2350" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_MISC3_GOBKILLSPWNONE" logBookDescription="QUEST_MISC3_GOBKILLSPWNONE_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventure" ID="36" positionX="2314" positionY="-2155" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="3" tag="SKILL_PACK-BLESS_M" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="36" targetID="13" fromX="2639" fromY="-2646" />O guerreiro te olha por um tempo, depois faz que sim de novo:
+
+'Sim. Tolice, mas talvez melhor. Eles podiam ter te ferido. Partimos agora. Não confie neles.'
+</nodes>
+    <nodes xsi:type="NodeAdventure" ID="37" positionX="675" positionY="-1746" width="350" height="725"><logic>
+        <FilterBlock>
+          <LogicFilter name="hunt">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-HUNTER" />
+          </LogicFilter>
+          <LogicResultAction list="hunt">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="5;15" tag="ITEM_CARGO-FEW_MITHRILL" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-8" tag="TAG-LOYALTY_SPIRIT_TALKERS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Desejar sorte a eles e partir." ownerID="37" targetID="25" fromX="1000" fromY="-2237" />'Sim, bom. Aqui.'
+
+O guerreiro entrega a você o pagamento pela informação; e o bando parte em formação de caça.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="38" positionX="5396" positionY="-184" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="3" tag="SKILL_PACK-CURSE_M" />
+          </LogicModifiers>
+          <LogicModifiers list="gob">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="3" tag="SKILL_PACK-CURSE_S" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="38" targetID="13" fromX="5721" fromY="-675" />Eles observam você se mover; depois partem também; e você percebe mais tarde que um dos magos deles te amaldiçoou.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="39" positionX="4821" positionY="-1002" width="350" height="966"><outputs name="[Caçador]Oferecer dizer a eles para onde os goblins foram." ownerID="39" targetID="37" fromX="5146" fromY="-1493" /><outputs name="[Agitação]Concordar com o ponto de vista dele. Um inimigo deixado vivo é inimigo para sempre nas sombras. Desejar boa caça a eles." ownerID="39" targetID="40" fromX="5146" fromY="-1573" /><outputs name="[Harmonia]Dizer a eles que a senda odiosa deles só vai levar a mais morte. Se aqueles goblins estão mesmo coligados à escuridão, precisam ser detidos. Mas matar pequenos em ação preventiva jamais vai ser bom." ownerID="39" targetID="41" fromX="5146" fromY="-1653" /><outputs name="Dizer que isto não é preocupação de você; e partir. " ownerID="39" targetID="38" fromX="5146" fromY="-1733" />O guerreiro fala:
+
+'As crianças crescem: odeiam: viram goblins adultos: e buscam vingança. Se eu matar, preciso matar todos.'
+
+O sacerdote parece desconfortável; mas permanece em silêncio. Os outros fazem que sim.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="40" positionX="5294" positionY="-979" width="350" height="725"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_TURMOIL" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="2" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="4" tag="SKILL_PACK-BLESS_P" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="40" targetID="13" fromX="5619" fromY="-1470" />Eles não respondem; mas você vê um dos magos prestes a lançar um feitiço na sua direção, antes de parar e guardar a varinha dele. 
+
+O bando parte.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="41" positionX="5704" positionY="-1297" width="350" height="725"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_HARMONY" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers list="ppl">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="4" tag="SKILL_PACK-BLESS_M" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="41" targetID="13" fromX="6029" fromY="-1788" />O sacerdote desaba em lágrimas, murmurando 'Eu avisei' e 'condenação'. 
+
+O guerreiro parece muito desconfortável, e se vira a você:
+
+'Agora você fez. Você fala assim: mas quando eles trouxerem a escuridão: os deuses de você vão nos pedir para fazer algo. 
+
+Mas eu vou poupar as crianças verdes: por ora. Feliz?'
+
+A pergunta era claramente mais para o sacerdote que para você. A zerca faz que sim; e o bando se afasta.</nodes>
+  </Adventure>
+  <Adventure name="Goblin Killer Spwn2" uniqueID="16" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="54" eventTag="TAG-LOG15" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event231">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="462" positionY="36" width="350" height="966"><logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicFilter name="gob" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-GOBLIN" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic><outputs name="Perguntar se são eles que perseguem um grupo de goblins." ownerID="2" targetID="18" fromX="787" fromY="-455" /><outputs name="Atacar!" ownerID="2" targetID="4" fromX="787" fromY="-535" /><outputs name="Sair da senda deles e partir." ownerID="2" targetID="17" fromX="787" fromY="-615" /><outputs name="[Goblin]Escória assassina. Atacá-los!" ownerID="2" targetID="42" fromX="787" fromY="-695" />Vocês se deparam com um grupo armado de lutadores. Há um humano vestindo elmo, um orc alto de capuz com varinha de osso, uma zerca, um elfo e um anão.
+O humano tem cabeças de goblin no cinto dele, então este deve ser o matador de goblins enlouquecido de que falaram a você. 
+
+Eles te medem de cima a baixo; mas não falam. </nodes>
+    <nodes xsi:type="NodeChallenge" ID="4" positionX="513" positionY="1695" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-Q_SLAYER_8P_7M_6S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="4" targetID="5" fromX="954" fromY="1199" />
+      <outputs name="Lose" ownerID="4" targetID="6" fromX="954" fromY="1119" />
+      <outputs name="Surrender" ownerID="4" targetID="6" fromX="954" fromY="1039" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="1303" positionY="1701" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="8" tag="TAG-LOYALTY_SPIRIT_TALKERS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;40" tag="ITEM_CARGO-BASIC_FEW_HERBS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;40" tag="ITEM_CARGO-GOBLINWINE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_TOOL" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_PET_GOAT" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20%;0;1" tag="ITEM_CARGO-RARE_ONE_SWORD_1H" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-STRONG_ONE_PET_CHICKEN" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="5" targetID="19" fromX="1628" fromY="1209" />Vocês matam o famoso matador de goblins; e, por um tempo, recebem cartas de agradecimento de vários sobreviventes goblins. Alguns até mandam presentes.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="1970" positionY="1254" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers list="gob">
+            <scriptCallWithTag scriptName="FMO_TakeCharacters" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Correr." ownerID="6" targetID="21" fromX="2295" fromY="762" />Vocês são derrotados; e quaisquer peles-verdes no grupo de você não conseguem sair vivos.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="7" positionX="2006" positionY="436" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-Q_SLAYER_8P_7M_6S" challengeScale="101" challengedList="ppl">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="int">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="12" tag="TAG-INTELLIGENCE" />
+          </LogicFilter>
+          <LogicProcessing name="nogob" list1="ppl" list2="gob">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicResultAction list="nogob">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="int">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="7" targetID="23" fromX="2447" fromY="-59" />
+      <outputs name="Lose" ownerID="7" targetID="16" fromX="2447" fromY="-139" />
+      <outputs name="Surrender" ownerID="7" targetID="16" fromX="2447" fromY="-219" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="-781" positionY="-573" width="350" height="530" allPlayersXP="1" logBookName="QUEST_MISC3_GOBKILLSPWNONE" logBookDescription="QUEST_MISC3_GOBKILLSPWNONE_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="1797" positionY="-1466" width="350" height="1126"><outputs name="Dizer que sabem o que os goblins fizeram à família deles; mas com certeza a aldeia inteira não precisa pagar por isto, ao menos não com a morte?" ownerID="15" targetID="44" fromX="2122" fromY="-1957" /><outputs name="Os goblins não contaram isto a você. Oferecer revelar para onde eles foram." ownerID="15" targetID="45" fromX="2122" fromY="-2037" /><outputs name="Tentar convincer eles a deixar isto passar. Com certeza crianças podem ser poupadas?" ownerID="15" targetID="43" fromX="2122" fromY="-2117" /><outputs name="Atacar!" ownerID="15" targetID="4" fromX="2122" fromY="-2197" /><outputs name="[Harmonia]Dizer a eles que a senda odiosa deles só vai levar a mais morte. Se aqueles goblins estão mesmo coligados à escuridão, precisam ser detidos. Mas matar pequenos em ação preventiva jamais vai ser bom." ownerID="15" targetID="41" fromX="2122" fromY="-2277" /><outputs name="[Agitação]Concordar com o ponto de vista dele. Um inimigo deixado vivo é inimigo para sempre nas sombras. Desejar boa caça a eles; e apontar para onde os goblins foram." ownerID="15" targetID="40" fromX="2122" fromY="-2358" />O homem no elmo não responde; mas o companheiro élfico dele fala:
+
+'Quando era mera criança: o nosso amigo testemunhou o lar dele queimado e saqueado; e uma irmã estuprada. Os goblins eram os culpados. Desde então, eles viraram inimigo. Confiamos no nosso amigo; então damos ajuda. Talvez haja verdade nas palavras deles. Os goblins fingem ser fracos e gentis; mas eles sempre tramam, esquematizam, se metem com espíritos maus; e buscam espalhar escuridão.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="16" positionX="2024" positionY="-373" width="350" height="805"><outputs name="Atacar!" ownerID="16" targetID="4" fromX="2349" fromY="-864" /><outputs name="Fugir, aceitando que provavelmente vão levar flecha da arqueira élfica enquanto fogem." ownerID="16" targetID="33" fromX="2349" fromY="-944" />O bando não escuta. Um deles brada:
+
+'Goblins precisam morrer!'
+
+Eles começam a se mover: tentando cercar você.</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="17" positionX="-251" positionY="-794" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="17" targetID="8" fromX="197" fromY="-1226" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="18" positionX="920" positionY="-81" width="350" height="885"><outputs name="[Inteligência]Dizer a eles que vocês mataram os goblins." ownerID="18" targetID="7" fromX="1245" fromY="-572" /><outputs name="Perguntar a eles por que perseguem meras crianças e anciãos. Com certeza destruir a aldeia deles era o bastante." ownerID="18" targetID="31" fromX="1245" fromY="-652" /><outputs name="Tentar convincer eles a deixar isto passar. Com certeza crianças podem ser poupadas?" ownerID="18" targetID="43" fromX="1245" fromY="-732" />'Sim. Vocês viram eles? Onde?'</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="19" positionX="1981" positionY="1859" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="19" targetID="20" fromX="2429" fromY="1426" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="20" positionX="2591" positionY="1881" width="350" height="530" allPlayersXP="7" allPlayersRP="3" logBookName="QUEST_MISC3_GOBKILLSPWNONE" logBookDescription="QUEST_MISC3_GOBKILLSPWNONE2_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeSpawnOnMap" ID="21" positionX="2421" positionY="1175" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="21" targetID="22" fromX="2869" fromY="742" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="22" positionX="2942" positionY="1235" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_MISC3_GOBKILLSPWNONE" logBookDescription="QUEST_MISC3_GOBKILLSPWNONE4_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventure" ID="23" positionX="2591" positionY="432" width="350" height="725"><outputs name="Dar de ombros e dizer que não é negócio de você; mas os goblins estão mortos. Alguma recompensa?" ownerID="23" targetID="46" fromX="2916" fromY="-59" />'Ah. Desapontador para mim; mas morto é morto. Bom.'
+
+Um dos outros continua:
+
+'Os malditinhos estupraram e mataram a querida irmã dele. Rastreando eles há anos. Espertinhos velhacos. Nenhum merece viver. Aquela tribo, eles cultuam alguma divindade sombria, querem a escuridão de volta, para que os humanos percam de novo.'
+
+O guerreiro no elmo cospe; e os outros fazem que sim, solenes.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="3569" positionY="205" width="350" height="725"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="50" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_SWORD_1H" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-ANCIENT_ONE_SHIELD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Fazer que sim e partir." ownerID="24" targetID="54" fromX="3894" fromY="-286" />O guerreiro faz que sim e entrega a você a arma dele:
+
+'Aqui.'
+
+O sacerdote solta um suspiro e fala: 'Você não vai arrancar mais palavra nenhuma daquele. Agradecemos a você. O feito seu foi bom. Vão bem; e permaneçam atentos às peles-verdes.'</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="25" positionX="4322" positionY="-372" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="25" targetID="26" fromX="4770" fromY="-804" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="26" positionX="4867" positionY="-312" width="350" height="530" allPlayersXP="6" allPlayersRP="3" logBookName="QUEST_MISC3_GOBKILLSPWNONE" logBookDescription="QUEST_MISC3_GOBKILLSPWNONE5_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="3164" positionY="-382" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_PET_BEAR" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Fazer que sim e partir." ownerID="28" targetID="54" fromX="3489" fromY="-873" />O guerreiro faz que sim e grunhe:
+
+'Sim.' Ele então entrega a você uma jaula com um bicho dentro. 'Por matar mais peles-verdes.'
+
+O sacerdote solta um suspiro e fala:
+
+ 'Você não vai arrancar mais palavra nenhuma daquele. Agradecemos a você. O feito seu foi bom. Vão bem; e permaneçam atentos às peles-verdes.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="31" positionX="1519" positionY="-351" width="350" height="966"><outputs name="Perguntar por que odeiam tanto os goblins. Vocês nunca souberam deles como mais ou menos violentos que humanos." ownerID="31" targetID="15" fromX="1844" fromY="-842" /><outputs name="Dizer que sabem o que os goblins fizeram à família deles; mas com certeza a aldeia inteira não precisa pagar por isto, ao menos não com a morte?" ownerID="31" targetID="44" fromX="1844" fromY="-922" /><outputs name="Tentar convincer eles a deixar isto passar. Com certeza crianças podem ser poupadas?" ownerID="31" targetID="43" fromX="1844" fromY="-1002" /><outputs name="Atacar!" ownerID="31" targetID="4" fromX="1844" fromY="-1082" />O guerreiro fala:
+
+'As crianças crescem: odeiam: viram goblins adultos: e buscam vingança. Se eu matar, preciso matar todos.'
+
+O sacerdote parece desconfortável; mas permanece em silêncio. Os outros fazem que sim.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="32" positionX="3548" positionY="1302" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="3" tag="SKILL_PACK-BLESS_M" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Dizer que é a coisa certa a fazer. O ciclo de violência devia acabar. Desejar sorte a eles e partir." ownerID="32" targetID="54" fromX="3873" fromY="810" />'Sim. Desta vez, vou deixá-los em paz. Mas, se crescerem para matar e trouxerem a escuridão, você carrega a culpa também.'
+
+Eles partem.</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="33" positionX="2561" positionY="-1221" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="30" maxDamage="60" useCountInPercent="true" targetGroup="ppl">
+      <outputs ownerID="33" targetID="34" fromX="2990" fromY="-1609" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="34" positionX="2573" positionY="-647" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="34" targetID="35" fromX="3021" fromY="-1079" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="35" positionX="3360" positionY="-1248" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_MISC3_GOBKILLSPWNONE" logBookDescription="QUEST_MISC3_GOBKILLSPWNONE6_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventure" ID="37" positionX="1954" positionY="-2682" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="5;15" tag="ITEM_CARGO-FEW_MITHRILL" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-15" tag="TAG-LOYALTY_SPIRIT_TALKERS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_ELF_ARMOUR" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Desejar sorte a eles e partir." ownerID="37" targetID="50" fromX="2279" fromY="-3173" />'Sim, bom. Aqui.'
+
+O guerreiro entrega a você o pagamento pela informação; e o bando parte em formação de caça.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="40" positionX="2651" positionY="-2878" width="350" height="725"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_TURMOIL" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="60" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="2" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="4" tag="SKILL_PACK-BLESS_P" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="5;15" tag="ITEM_CARGO-FEW_MITHRILL" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-15" tag="TAG-LOYALTY_SPIRIT_TALKERS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_ELF_ARMOUR" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="40" targetID="52" fromX="2976" fromY="-3369" />'Sim, você entende. Aqui.'
+
+O guerreiro entrega a você o pagamento pela informação; e o bando parte em formação de caça.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="41" positionX="2442" positionY="-1992" width="350" height="725"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_HARMONY" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="20" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers list="ppl">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="4" tag="SKILL_PACK-BLESS_M" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Dizer que é a única coisa certa a fazer pela harmonia." ownerID="41" targetID="54" fromX="2767" fromY="-2483" />O sacerdote desaba em lágrimas, murmurando 'Eu avisei' e 'condenação'.
+
+O guerreiro parece muito desconfortável, e se vira a você:
+
+'Agora você fez. Você fala assim: mas quando eles trouxerem a escuridão: os deuses de você vão nos pedir para fazer algo. 
+
+Mas eu vou poupar as crianças verdes: por ora. Feliz?'
+
+A pergunta era claramente mais para o sacerdote que para você. A zerca faz que sim; e o bando se afasta.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="42" positionX="-219" positionY="1426" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-Q_SLAYER_8P_7M_6S" challengeScale="101" challengedList="ppl">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction list="gob">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="42" targetID="5" fromX="222" fromY="930" />
+      <outputs name="Lose" ownerID="42" targetID="6" fromX="222" fromY="850" />
+      <outputs name="Surrender" ownerID="42" targetID="6" fromX="222" fromY="770" />
+    </nodes>
+    <nodes xsi:type="NodeChallenge" ID="43" positionX="1330" positionY="528" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-Q_SLAYER_8P_7M_6S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="43" targetID="32" fromX="1771" fromY="32" />
+      <outputs name="Lose" ownerID="43" targetID="16" fromX="1771" fromY="-47" />
+      <outputs name="Surrender" ownerID="43" targetID="16" fromX="1771" fromY="-127" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="44" positionX="925" positionY="-1334" width="350" height="885"><logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-QUEST49" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic><outputs name="Tentar convincer eles a deixar isto passar. Com certeza crianças podem ser poupadas?" ownerID="44" targetID="43" fromX="1250" fromY="-1825" /><outputs name="Sim, contar a eles para onde os goblins foram." ownerID="44" targetID="45" fromX="1250" fromY="-1905" /><outputs name="Atacar!" ownerID="44" targetID="4" fromX="1250" fromY="-1985" />'Então eram eles, bom. Eu não estava certo. Agora, você viu para onde eles foram? Eles vão pagar.'</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="45" positionX="1251" positionY="-2606" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="40" maxDamage="80" useCountInPercent="true" targetGroup="gob">
+      <outputs ownerID="45" targetID="37" fromX="1680" fromY="-2994" />
+    </nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="46" positionX="3007" positionY="151" width="460" height="509">
+      <outputs ownerID="46" targetID="24" group="G1" fromX="3437" fromY="-207" />
+      <outputs ownerID="46" targetID="28" group="G1" fromX="3437" fromY="-287" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="50" positionX="933" positionY="-3241" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="50" targetID="51" fromX="1381" fromY="-3673" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="51" positionX="1523" positionY="-3444" width="350" height="530" allPlayersXP="6" allPlayersRP="3" logBookName="QUEST_MISC3_GOBKILLSPWNONE" logBookDescription="QUEST_MISC3_GOBKILLSPWNONE7_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeDealDamage" ID="52" positionX="710" positionY="-2622" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="40" maxDamage="80" useCountInPercent="true" targetGroup="gob">
+      <outputs ownerID="52" targetID="50" fromX="1139" fromY="-3010" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="54" positionX="3848" positionY="-574" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="8" tag="TAG-LOYALTY_SPIRIT_TALKERS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;40" tag="ITEM_CARGO-BASIC_FEW_HERBS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;40" tag="ITEM_CARGO-GOBLINWINE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_TOOL" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_PET_GOAT" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20%;0;1" tag="ITEM_CARGO-ANCIENT_ONE_WAND" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-STRONG_ONE_PET_TURTLE" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Sair da história." ownerID="54" targetID="25" fromX="4173" fromY="-1065" />Os goblins te acham depois; e agradecem por você ter dado a eles tempo para fugir. Eles acharam uns parentes; e, juntos, deixam a você uma recompensa.</nodes>
+  </Adventure>
+  <Adventure name="VOLCANIC" uniqueID="18" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="true" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event031">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_IsOnTerrain" tag="BIOME-VOLCANIC" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="645" positionY="-78" width="350" height="725"><outputs name="Explorar." ownerID="2" targetID="3" fromX="970" fromY="-569" />Vocês chegam às terras vulcânicas, assim nomeadas pelos muitos vulcões ativos e poços de lava. 
+
+Das planícies cobertas de cinza e das terras secas queimadas até os picos altos das montanhas vulcânicas, o ar sempre quente e sufocante e a ameaça constante de erupção mantem a vida selvagem e quaisquer colonos malucos em pé de alerta.
+
+Cuidado: estas terras são conhecidas por serem mais desafiadoras que a terra-natal de você.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="1180" positionY="-180" width="350" height="725"><outputs name="Partir." ownerID="3" targetID="4" fromX="1505" fromY="-671" />Esta terra dura e impiedosa é o lar dos clãs alfa, que apreciam o desafio diário do ambiente. 
+
+Também podem achar trolls de lava e até o dragão ocasional espreitando entre as rochas fundidas.
+
+Esta terra é rica em obsidiana e outras rochas; e o gel de besouro é a especialidade local.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1680" positionY="-268" width="350" height="530" allPlayersXP="1" allPlayersRP="2" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="5" tag="ITEM_CARGO-ONE_OBSIDIAN" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="10" tag="ITEM_CARGO-BEETLE_JELLY" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+  </Adventure>
+  <Adventure name="DARKNESS" uniqueID="19" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="true" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event032">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_IsOnTerrain" tag="BIOME-DARKNESS" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="460" positionY="21" width="350" height="725"><outputs name="Explorar." ownerID="2" targetID="3" fromX="785" fromY="-470" />Vocês chegam às terras de escuridão. Aqui os últimos restos da névoa preta letal permanecem sempre pairantes; e o sol está constantemente atenuado, criando uma sensação de crepúsculo perpétuo.
+
+Cuidado com os terrores da noite e as criaturas do escuro espreitando em cada esquina.
+
+Cuidado: estas terras são conhecidas por serem mais desafiadoras que a terra-natal de você.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="905" positionY="-60" width="350" height="725"><outputs name="Partir." ownerID="3" targetID="4" fromX="1230" fromY="-551" />Apesar dos perigos, a terra da escuridão é o lar dos faladores de espírito, tribos goblin que se sentem à vontade no escuro; e aproveitam o véu afinado entre este mundo e o mundo cinzento dos espíritos.
+
+As sombras-filhas, facção mais esquiva e perigosa dos que foram mudados pela escuridão há muito, espreitam nas sombras.
+
+A ilha é conhecida por ossos de dragão e cogumelos.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1379" positionY="-160" width="350" height="530" allPlayersXP="1" allPlayersRP="2" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="5" tag="ITEM_CARGO-FEW_DRAGON_BONE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="10" tag="ITEM_CARGO-MUSHROOMS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+  </Adventure>
+  <Adventure name="ICY" uniqueID="20" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="true" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event034">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_IsOnTerrain" tag="BIOME-ICY" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="656" positionY="-157" width="350" height="725"><outputs name="Explorar." ownerID="2" targetID="3" fromX="981" fromY="-648" />Vocês chegam às terras de gelo, os pastos congelados para sempre, regidos pelo misterioso dziad mroz. 
+
+Quando o frio engoliu esta ilha, as cidades caíram em ruína instantânea; e o povo fugiu, incapaz de viver num ambiente tão hostil.
+
+Cuidado: estas terras são conhecidas por serem mais desafiadoras que a terra-natal de você.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="1338" positionY="-219" width="350" height="725" image="Event239"><outputs name="Partir." ownerID="3" targetID="4" fromX="1663" fromY="-710" />Vocês não vão achar muitas criaturas vivas aqui; mas os demônios do gelo são conhecidos por armar covis de tempos em tempos. 
+
+O dziad mroz é uma criatura que é muitos, mas um. Também podem achar os terríveis trolls de gelo, as esquisitas sniezynka ou os icicles travessos vagando pelas planícies de gelo ou se escondendo entre os picos de montanha. 
+
+Podem achar diamantes e nozes aqui.
+</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1950" positionY="-535" width="350" height="530" allPlayersXP="1" allPlayersRP="2" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="5" tag="ITEM_CARGO-ONE_DIAMOND" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="10" tag="ITEM_CARGO-NUTS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+  </Adventure>
+  <Adventure name="ANCFOREST" uniqueID="21" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="true" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event035">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_IsOnTerrain" tag="BIOME-ANCIENT_FOREST" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="533" positionY="-88" width="350" height="725"><outputs name="Explorar." ownerID="2" targetID="3" fromX="858" fromY="-579" />Vocês chegam à lendária ilha da floresta ancestral. Diz-se que esta terra emergiu da ocultação quando a terra se estilhaçou, tal como as cidades dos anões. 
+
+Muito da mata aqui foi destruído; mas o que restou não é menos de tirar o fôlego.
+
+Cuidado: estas terras são conhecidas por serem mais desafiadoras que a terra-natal de você.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="1024" positionY="-296" width="350" height="725"><outputs name="Partir." ownerID="3" targetID="4" fromX="1349" fromY="-787" />Estas terras são o lar das raças anciãs. Tanto o povo-da-mata quanto os demônios da floresta ficam de pé como guardiões das matas de folhas sempre verdes, esperando um dia refazer o que se perdeu.
+
+As criaturas da floresta são ferozmente territoriais, então convém ficar de guarda. 
+
+Madeira ancestral e especiarias exóticas podem ser achadas aqui.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1590" positionY="-500" width="350" height="530" allPlayersXP="2" allPlayersRP="2" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="5" tag="ITEM_CARGO-PACK_ANCIENT_WOOD" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="10" tag="ITEM_CARGO-SPICES" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+  </Adventure>
+  <Adventure name="METALLIC" uniqueID="22" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="true" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event033">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_IsOnTerrain" tag="BIOME-METALLIC" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="533" positionY="-88" width="350" height="725"><outputs name="Explorar." ownerID="2" targetID="3" fromX="858" fromY="-579" />Vocês chegam às terras metálicas, uma região impiedosa de pedra e metal. Quando a Fragmentação desenterrou as cidades anãs ancestrais, a terra ao redor delas mudou. Até as árvores viraram cascas ocas de ferro; e a grama fossilizou em pedra. 
+
+Cuidado: estas terras são conhecidas por serem mais desafiadoras que a terra-natal de você.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="1024" positionY="-296" width="350" height="725"><outputs name="Partir." ownerID="3" targetID="4" fromX="1349" fromY="-787" />Esta terra ameaçadora é o lar dos aterrados, forçados para fora dos reinos subterrâneos deles. Os aterrados são povo orgulhoso, protetores da privacidade deles. 
+
+A terra de metal e pedra também é o lar dos trolls de rocha e dos dragões, então não é para fracos de coração. 
+
+Podem recolher mithril e ovos aqui.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1590" positionY="-500" width="350" height="530" allPlayersXP="2" allPlayersRP="2" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="5" tag="ITEM_CARGO-ONE_MITHRILL" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="10" tag="ITEM_CARGO-EGGS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+  </Adventure>
+  <Adventure name="Chosen death" uniqueID="23" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="17" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-349" positionY="24" width="347" height="661" image="Event018">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="deadchosen">
+            <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHOSEN" />
+          </LogicFilter>
+          <LogicResultAction list="deadchosen">
+            <scriptCallWithTag scriptName="FRA_ListSizeLessEqualThan" parameter="0" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="-24" fromY="-579" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="127" positionY="58" width="350" height="1286"><logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic><outputs name="Pagar com duas vidas para devolver a uma." ownerID="2" targetID="3" fromX="452" fromY="-433" /><outputs name="Pagar com quatro vidas para devolver a uma." ownerID="2" targetID="6" fromX="452" fromY="-513" /><outputs name="Pagar com seis vidas para devolver a uma." ownerID="2" targetID="8" fromX="452" fromY="-593" /><outputs name="Pagar com oito vidas para devolver a uma." ownerID="2" targetID="9" fromX="452" fromY="-673" /><outputs name="Pagar com dez vidas para devolver a uma." ownerID="2" targetID="10" fromX="452" fromY="-753" /><outputs name="Pagar com quinze vidas para devolver a uma." ownerID="2" targetID="16" fromX="452" fromY="-834" /><outputs name="Pagar com vinte vidas para devolver a uma." ownerID="2" targetID="17" fromX="452" fromY="-914" /><outputs name="Vocês não podem ou não vão pagar. É hora de acabar esta jornada." ownerID="2" targetID="11" fromX="452" fromY="-994" />Vocês permitiram que o escolhido morresse! Sem o vínculo divino, você não terá mais poder ou influência nenhuma sobre o mundo; e assim o reinado de você acaba.
+
+Vocês têm mais uma chance de continuar no jogo. Invocar o espírito da própria árvore cósmica; e pedir que a alma do escolhido lhe seja devolvida. 
+
+Lembre-se, o preço é alto; e sobe cada vez que você abusa do poder divino assim. </nodes>
+    <nodes xsi:type="NodeTrade" ID="3" positionX="788" positionY="88" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="ppl" startingBalance="-2">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="0" tag="TAG-QUEST63" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="3" targetID="4" fromX="1218" fromY="-240" />
+      <outputs name="Cancel" ownerID="3" targetID="2" fromX="1218" fromY="-320" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="4" positionX="1387" positionY="-35" width="350" height="725"><logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-QUEST63" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic><outputs name="Aguardar o escolhido." ownerID="4" targetID="5" fromX="1712" fromY="-526" />Vocês pagaram os direitos sangrentos de você; e o espírito do escolhido é devolvido. Agora reze para que volte na carne certa?.?.?.</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="5" positionX="1913" positionY="134" width="460" height="699" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_ReturnCharacters" parameter="died" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="5" targetID="15" group="G1" fromX="2342" fromY="-254" />
+      <outputs ownerID="5" targetID="14" group="G1" fromX="2342" fromY="-334" />
+      <outputs ownerID="5" targetID="13" group="G1" fromX="2342" fromY="-414" />
+      <outputs ownerID="5" targetID="12" group="G1" fromX="2342" fromY="-494" />
+    </nodes>
+    <nodes xsi:type="NodeTrade" ID="6" positionX="711" positionY="-390" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="ppl" startingBalance="-4">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTagExactly" parameter="1" tag="TAG-QUEST63" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="6" targetID="4" fromX="1141" fromY="-718" />
+      <outputs name="Cancel" ownerID="6" targetID="2" fromX="1141" fromY="-798" />
+    </nodes>
+    <nodes xsi:type="NodeTrade" ID="8" positionX="1332" positionY="-789" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="ppl" startingBalance="-6">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTagExactly" parameter="2" tag="TAG-QUEST63" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="8" targetID="4" fromX="1762" fromY="-1117" />
+      <outputs name="Cancel" ownerID="8" targetID="2" fromX="1762" fromY="-1197" />
+    </nodes>
+    <nodes xsi:type="NodeTrade" ID="9" positionX="1935" positionY="-760" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="ppl" startingBalance="-8">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTagExactly" parameter="3" tag="TAG-QUEST63" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="9" targetID="4" fromX="2365" fromY="-1088" />
+      <outputs name="Cancel" ownerID="9" targetID="2" fromX="2365" fromY="-1168" />
+    </nodes>
+    <nodes xsi:type="NodeTrade" ID="10" positionX="630" positionY="-1195" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="ppl" startingBalance="-10">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTagExactly" parameter="4" tag="TAG-QUEST63" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="10" targetID="4" fromX="1060" fromY="-1523" />
+      <outputs name="Cancel" ownerID="10" targetID="2" fromX="1060" fromY="-1603" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="11" positionX="-275" positionY="-1191" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-END" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="12" positionX="2738" positionY="-403" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicFilter name="chosen">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHOSEN" />
+          </LogicFilter>
+          <LogicModifiers list="chosen">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="-5" tag="TAG-MAX_HEALTH_MENTAL" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="13" positionX="3628" positionY="-142" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="2" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicFilter name="chosen">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHOSEN" />
+          </LogicFilter>
+          <LogicModifiers list="chosen">
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-UNLI_HUM_SKELETON" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="14" positionX="3165" positionY="124" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="2" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicFilter name="chosen">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHOSEN" />
+          </LogicFilter>
+          <LogicModifiers list="chosen">
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-RAT" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="15" positionX="2712" positionY="174" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="2" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicFilter name="chosen">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHOSEN" />
+          </LogicFilter>
+          <LogicModifiers list="chosen">
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-GOB_CHILD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeTrade" ID="16" positionX="1221" positionY="-1308" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="ppl" startingBalance="-15">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTagExactly" parameter="5" tag="TAG-QUEST63" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="16" targetID="4" fromX="1651" fromY="-1636" />
+      <outputs name="Cancel" ownerID="16" targetID="2" fromX="1651" fromY="-1716" />
+    </nodes>
+    <nodes xsi:type="NodeTrade" ID="17" positionX="1888" positionY="-1352" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="ppl" startingBalance="-20">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTagExactly" parameter="6" tag="TAG-QUEST63" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="17" targetID="4" fromX="2318" fromY="-1680" />
+      <outputs name="Cancel" ownerID="17" targetID="2" fromX="2318" fromY="-1760" />
+    </nodes>
+  </Adventure>
+</MODULE>

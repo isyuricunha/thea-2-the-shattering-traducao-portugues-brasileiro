@@ -99,3 +99,14 @@ Estas formas foram adotadas no primeiro lote; descrições de cada atributo mant
 - Invariáveis: Spike Leather (Spiky): com espinhos; Void Sparkler (Sparkling): cintilante; Morph Material (Morphed): mutável; Ancient Wood (Ancient): ancestral; Enchanted Leather exibido como Dazzling: deslumbrante.
 - Nomes de categoria de material já fixados nos recursos RES: Couro, Couro de combate, Couro com pelagem, Couro encantado, Couro escamado, Couro mítico, Pele alquímica, Seda de serpe, Fagulha do vazio, Material mutável, Couro com espinhos, Espinho ígneo, Couro de golem, Liga secreta, Matéria pura, Madeira pétrea, Raiz da vida, Núcleo da terra, Grande gema, Ramo divino.
 - Fonte dessas formas: itens de espada já traduzidos no primeiro lote do banco de descrições. Quando o nome exibido é um adjetivo solto, o material vem da chave do registro (ex.: Pristine Sword = Espada de matéria pura).
+
+## Capítulo final, terra-mãe e jogo de Kurv
+
+- light-beast: Fera de Luz ("fera de luz" no corpo do texto); Light-Zmey: Zmey de Luz; lightbringers genérico: os portadores de luz (o glossário de combate mantém Portadores da Luz em rótulos; os lotes 51-52 usaram "as portadoras de luz" para hospedeiras específicas do enredo).
+- earth-heart: coração-da-terra; earth's chest: peito da terra; life-caves: cavernas-de-vida; red cave: Caverna Vermelha.
+- druid-tree: árvore-druida; druid-blood: sangue-druida; the Alchemist: o Alquimista; necromancer: o necromante.
+- Jogo da fada do dente: Kurv fica sem tradução (nome do jogo e palavrão do enredo); "kurvs e outros palavrões permitidos" mantém kurv no plural.
+- Tooth Fairy: Fada do Dente; Pineconette já fixada como pinhinha (cânone do lote 1).
+- Nomes de gente e demônios mantidos: Theodore, Nai-ysir, Belze'dhur, Leopold, Ail'yleth, Zbigniev, Zloslawa, Kastytis, Jurasmat, Gargamus, dziad mroz, manoviec, tresher; baba yaga em minúsculas como no original.
+- Mroki em minúsculas ("os mroki"), inclusive no plural.
+- Pontuação de diálogo (29/10/2026, após reparo de corpus): a vírgula do inglês vira vírgula; dois-pontos apenas onde o inglês tem dois-pontos, em aposto breve ou rótulo ("Cuidado:", "A pergunta é:"). Nunca trocar vírgula de diálogo por dois-pontos ou ponto e vírgula.

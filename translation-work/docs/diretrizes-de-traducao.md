@@ -15,3 +15,5 @@ substitui revisão do português nem teste das frases dinâmicas dentro do jogo.
 - Descrições de arma: manter o tom prático e direto do original; "splash damage" vira "dano em área" nas descrições e segue o glossário nos rótulos de combate.
 - Voz do narrador: segunda pessoa dirigida ao grupo do jogador, sem formalizar. Diálogos citados dentro da narração mantêm o registro do falante.
 - Contradições herdadas do original (ex.: nome "Decrease..." com descrição que diz "Increase...") são traduzidas como estão, sem corrigir a lógica do jogo.
+- Pontuação espelhada (29/10/2026): vírgula do inglês vira vírgula em português; dois-pontos somente onde o inglês tem dois-pontos, em aposto breve ou rótulo ("Cuidado:", "A pergunta é:"). Diálogo citado nunca troca vírgula por dois-pontos ou ponto e vírgula.
+- Reuso por texto idêntico (29/10/2026): reaproveitar tradução só é seguro quando o inglês é exatamente igual. Variantes com pronomes ou nomes diferentes (he/she, him/her, "you know" / "your companion there knows") são frases distintas e exigem tradução própria.

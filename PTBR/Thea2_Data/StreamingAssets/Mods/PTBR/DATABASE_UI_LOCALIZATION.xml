@@ -1,0 +1,949 @@
+<DATABASE_UI_LOCALIZATION-NO_HSH>
+	<LOC_LIBRARY-UI> 
+		<Entry Key="QUOTE_MARKS_EXAMPLE" Val="&quot;Exemplo&quot;"/>
+		<Entry Key="UI_GREET_PLAYER" Val="Saudações, {SCRIPT:UIS_GetCurentPlayerName}!"/>
+		<Entry Key="UI_YOU_ARE_ABOUT_TO_DELETE_PROFILE" Val="Você está prestes a excluir o perfil de jogador: {SCRIPT:UIS_GetProfileToDelete}!"/>
+		<Entry Key="UI_SELECT_TARGETS" Val="Selecione os alvos da habilidade {SCRIPT:UIS_TargetSelectionCount}"/>
+		<Entry Key="UI_SELECT_TARGETS_INVALID" Val="Selecione os alvos da habilidade {SCRIPT:UIS_TargetSelectionCount} \nAlvos inválidos, a habilidade não será executada!"/>
+		<Entry Key="UI_EXPORTED_MODULE" Val="Módulo &#x27;{SCRIPT:UIS_GlobalVar,ModuleSaveID}&#x27; exportado para:\n{SCRIPT:UIS_GlobalVar,ModuleSaveDir}"/>
+		<Entry Key="UI_IMPORT_ERROR" Val="Erro de Importação: {SCRIPT:UIS_GlobalVar,ErrorID} do módulo:\n{SCRIPT:UIS_GlobalVar,ErrorAtModule}, Evento: {SCRIPT:UIS_GlobalVar,ErrorAtEvent}, Nó: {SCRIPT:UIS_GlobalVar,ErrorAtNode}"/>
+		<Entry Key="UI_NONE" Val="Nenhum"/>
+		<Entry Key="UI_ADVENTURE_START_NODE" Val="Nó de Início de Aventura"/>
+		<Entry Key="UI_ADVENTURE_END_NODE" Val="Nó de Fim de Aventura"/>
+		<Entry Key="UI_ADVENTURE_CHALLENGE_NODE" Val="Nó de Desafio"/>
+		<Entry Key="UI_ADVENTURE_NODE" Val="Nó de Aventura"/>
+		<Entry Key="UI_ADVENTURE_DEAL_DAMAGE_NODE" Val="Nó de Causar Dano"/>
+		<Entry Key="UI_ADVENTURE_SPAWN_NODE" Val="Nó de Surgimento"/>
+		<Entry Key="UI_ADVENTURE_TRADE_NODE" Val="Nó de Negociação"/>
+		<Entry Key="UI_MAKE_PUBLIC" Val="Tornar Público"/>
+		<Entry Key="UI_ENEMY_TURN" Val="Turno do Inimigo"/>
+		<Entry Key="UI_FRIENDLY_TURN" Val="Turno Aliado"/>
+		<Entry Key="UI_AT_DELAY" Val="Atraso"/>
+		<Entry Key="UI_BATTLE_RESOLVE" Val="Resolvendo a Batalha (1 / 2)"/>
+        <Entry Key="UI_BATTLE_RESOLVE_2" Val="Resolvendo a Batalha (2 / 2)"/>
+		<Entry Key="UI_NOT_A_FREE_SLOT" Val="Este espaço não está livre!"/>
+		<Entry Key="UI_ANOTHER_PLAYER_TARGETTING" Val="Aguarde, outro jogador está fazendo uma seleção..."/>
+		<Entry Key="UI_WARNING" Val="Aviso"/>
+		<Entry Key="UI_SAVE_OR_DISCARD" Val="Salvar ou Descartar Alterações?"/>
+		<Entry Key="UI_CONFIRM_AND_EXIT" Val="Salvar e Sair"/>
+		<Entry Key="UI_DISCARD_AND_EXIT" Val="Descartar e Sair"/>
+		<Entry Key="UI_DONT_LEAVE" Val="Ficar e Editar"/>
+		<Entry Key="UI_OK" Val="OK"/>
+		<Entry Key="UI_ERROR" Val="Erro"/>
+		<Entry Key="UI_EXPORT_ERROR" Val="Ocorreu um erro; os dados não foram exportados."/>
+		<Entry Key="UI_IMPORTED_MODULE" Val="Módulo importado com sucesso."/>
+		<Entry Key="UI_SET_SERVER_NAME" Val="Definir nome do servidor"/>
+		<Entry Key="UI_CONFIRM" Val="Confirmar"/>
+		<Entry Key="UI_CANCEL" Val="Cancelar"/>
+		<Entry Key="UI_NAME_CANNOT_BE_EMPTY" Val="O nome não pode ficar vazio."/>
+		<Entry Key="UI_GOD_POINTS" Val="Pontos de Deus: "/>
+		<Entry Key="UI_SINGLE_PLAYER" Val="Um Jogador"/>
+		<Entry Key="UI_MULTIPLAYER" Val="Multijogador"/>
+		<Entry Key="UI_EVENTS_EDITOR" Val="Editor de Eventos"/>
+		<Entry Key="UI_SETTINGS" Val="Configurações"/>
+		<Entry Key="UI_QUIT" Val="Sair"/>
+		<Entry Key="UI_CONTINUE" Val="Continuar"/>
+		<Entry Key="UI_NEW_GAME" Val="Novo Jogo"/>
+		<Entry Key="UI_LOAD_GAME" Val="Carregar Jogo"/>
+		<Entry Key="UI_BACK" Val="Voltar"/>
+		<Entry Key="UI_HOST_NEW_GAME" Val="Anfitrião - Novo Jogo"/>
+		<Entry Key="UI_HOST_LOAD" Val="Anfitrião - Carregar"/>
+		<Entry Key="UI_JOIN" Val="Entrar"/>
+		<Entry Key="UI_PICK_A_PROFILE" Val="Escolha um Perfil"/>
+		<Entry Key="UI_NEW_PROFILE" Val="Novo Perfil"/>
+		<Entry Key="UI_RENAME_PROFILE" Val="Renomear Perfil"/>
+		<Entry Key="UI_DELETE_PROFILE" Val="Excluir Perfil"/>
+		<Entry Key="UI_SELECT" Val="Selecionar"/>
+		<Entry Key="UI_DOMAINS" Val="Domínios"/>
+		<Entry Key="UI_GOD_CARD_SLOTS" Val="Espaços de Carta Divina"/>
+		<Entry Key="UI_SPELL" Val="Feitiço"/>
+		<Entry Key="UI_NEXT" Val="Próximo"/>
+		<Entry Key="UI_SELECT_YOUR_GOD" Val="Escolha o Seu Deus"/>
+		<Entry Key="UI_RESOLVING_CURRENT_STACK" Val="Resolvendo a pilha atual..."/>
+		<Entry Key="UI_END_TURN" Val="Terminar Turno"/>
+		<Entry Key="UI_SELECT_MODULE_TO_CLONE_TO" Val="Selecione um Módulo para Clonar:"/>
+		<Entry Key="UI_EVENTS" Val="Eventos"/>
+		<Entry Key="UI_OF" Val="de"/>
+		<Entry Key="UI_BACK_TO_MODULES" Val="Voltar aos Módulos"/>
+		<Entry Key="UI_EDIT_EVENT" Val="Editar Evento"/>
+		<Entry Key="UI_MAKE_A_SELECTION" Val="Faça uma seleção…"/>
+		<Entry Key="UI_BACK_TO_EVENTS" Val="Voltar aos Eventos"/>
+		<Entry Key="UI_ADD_A_NODE" Val="Adicionar um Nó"/>
+		<Entry Key="UI_ADVENTURE" Val="Aventura"/>
+		<Entry Key="UI_CHALLENGE" Val="Desafio"/>
+		<Entry Key="UI_SPAWN_ON_MAP" Val="Surgir no Mapa"/>
+		<Entry Key="UI_PRODUCE_DROP" Val="Produzir Recurso"/>
+		<Entry Key="UI_ADVENTURE_PRODUCE_DROP_NODE" Val="Produzir Recurso"/>
+		<Entry Key="UI_TRADE" Val="Negociar"/>
+		<Entry Key="UI_DEAL_DAMAGE" Val="Causar Dano"/>
+		<Entry Key="UI_ADVENTURE_END" Val="Fim da Aventura"/>
+		<Entry Key="UI_SEARCH" Val="Procurar…"/>
+		<Entry Key="UI_SELECT_AN_IMAGE" Val="Selecione uma Imagem"/>
+		<Entry Key="UI_IMAGE_SIZE" Val="Tamanho da Imagem:"/>
+		<Entry Key="UI_IMAGE_SIZE_NOTES" Val="Nota: o tamanho ideal da imagem é &lt;b&gt;700x1000px&lt;/b&gt;. Outros tamanhos com proporção parecida também podem ser usados. Usar uma imagem com proporção diferente vai distorcê-la.\nPara adicionar novas imagens a esta lista, coloque-as na pasta &lt;b&gt;StreamingAssets\EventGraphics&lt;/b&gt;, na pasta do seu jogo. &lt;b&gt;Use somente formatos .png ou .jpg!&lt;/b&gt;"/>
+		<Entry Key="UI_LOGIC_EDITOR" Val="Editor de Lógica"/>
+		<Entry Key="UI_FILTERS" Val="Filtros"/>
+		<Entry Key="UI_PROCESSING" Val="Processando"/>
+		<Entry Key="UI_RESULTS" Val="Resultados"/>
+		<Entry Key="UI_EXIT_LOGIC" Val="Sair da Lógica"/>
+		<Entry Key="UI_SELECT_A_MODULE" Val="Editor de Eventos - Selecione um Módulo"/>
+		<Entry Key="UI_MODULES" Val="Módulos"/>
+		<Entry Key="UI_EXIT_AND_SAVE" Val="Sair e Salvar"/>
+		<Entry Key="UI_EDIT_MODULE" Val="Editar Módulo"/>
+		<Entry Key="UI_ENTER_QUEST_NAME" Val="Nome da Missão (String de Localização)"/>
+		<Entry Key="UI_ENTER_QUEST_DESCRIPTION" Val="Descrição da Missão (String de Localização)"/>
+		<Entry Key="UI_SHOW_IN_LOGBOOK" Val="Mostrar no Diário de Bordo"/>
+		<Entry Key="UI_PICK_A_TAG" Val="Escolha uma Tag"/>
+		<Entry Key="UI_TURN" Val="Turno:"/>
+		<Entry Key="UI_TURN2" Val="Turno "/>
+		<Entry Key="UI_INVENTORY" Val="Inventário"/>
+		<Entry Key="UI_FILTER" Val="Filtrar…"/>
+		<Entry Key="UI_SORT" Val="Ordenar…"/>
+		<Entry Key="UI_SUPPLIES" Val="Suprimentos"/>
+		<Entry Key="UI_TRANSFER" Val="Transferir"/>
+		<Entry Key="UI_TRANSFER_FOOD" Val="Transferir Comida"/>
+		<Entry Key="UI_VARIETIES_FOR" Val="variedades para"/>
+		<Entry Key="UI_DAYS" Val="turnos"/>
+		<Entry Key="UI_PERCENT_OF_ALL_AVAILABLE_FOOD" Val="% de toda a comida disponível"/>
+		<Entry Key="UI_RAW_FOOD" Val="Comida crua"/>
+		<Entry Key="UI_COOKED_FOOD" Val="Comida cozinhada"/>
+		<Entry Key="UI_JOIN_A_MULTIPLAYER_GAME" Val="Entrar num Jogo Multijogador"/>
+		<Entry Key="UI_REPORT_A_BUG" Val="Reportar um Bug"/>
+		<Entry Key="UI_REPORT_A_BUG1" Val="Use este formulário para reportar um problema com o jogo. Uma captura de tela do jogo e o arquivo de log serão anexados a este relatório junto com o seu comentário e enviados ao nosso rastreador de bugs. Não coletamos nenhuma informação pessoal."/>
+		<Entry Key="UI_REPORT_A_BUG2" Val="Descreva o seu problema com o máximo de detalhes possível no campo abaixo. Se possível, inclua os passos para reproduzir; isso melhora muito a chance de corrigirmos o problema."/>
+		<Entry Key="UI_REPORT_A_BUG3" Val="Obrigada por tirar um tempo para escrever este relatório!"/>
+		<Entry Key="UI_REPORT_A_BUG4" Val="- Com amor, equipe MuHa Games"/>
+		<Entry Key="UI_TITLE" Val="Título"/>
+		<Entry Key="UI_BUG_DESC_HERE" Val="A descrição do bug vai aqui."/>
+		<Entry Key="UI_SEND" Val="Enviar"/>
+		<Entry Key="UI_IGNORE" Val="Ignorar"/>
+		<Entry Key="UI_CONNECTION_OPTIONS" Val="Opções de Conexão"/>
+		<Entry Key="UI_CONNECTION_TYPE" Val="Tipo de Conexão:"/>
+		<Entry Key="UI_CONNECTION_PORT" Val="Porta de Conexão:"/>
+		<Entry Key="UI_SELECT_CONNECTION_TYPE" Val="Selecione o Tipo de Conexão…"/>
+		<Entry Key="UI_IP_AND_PORT" Val="Endereço IP e Porta:"/>
+		<Entry Key="UI_PORT_EXAMPLE" Val="ex.: 9999"/>
+		<Entry Key="UI_IP_AND_PORT_EXAMPLE" Val="ex.: 192.168.0.1:9999"/>
+		<Entry Key="UI_SERVER_NAME" Val="Nome do Servidor:"/>
+		<Entry Key="UI_ENTER_NAME" Val="Digite o Nome…"/>
+		<Entry Key="UI_ENTER_NEW_NAME" Val="Digite o Nome…"/>
+		<Entry Key="UI_ENTER_NEW_NAME_INFO" Val="Digite um nome no campo abaixo."/>
+		<Entry Key="UI_PASSWORD" Val="Senha (opcional):"/>
+		<Entry Key="UI_ENTER_PASSWORD" Val="Digite a Senha..."/>
+		<Entry Key="UI_REGION_PREFERENCE" Val="Preferência de Região:\n(nenhuma para automático)"/>
+		<Entry Key="UI_SELECT_REGION" Val="Selecione a Região..."/>
+		<Entry Key="UI_CONNECTION_STATUS" Val="Estado da Conexão:"/>
+		<Entry Key="UI_LOADING" Val="Carregando..."/>
+		<Entry Key="UI_DZIEVANNA" Val="Dzievanna"/>
+		<Entry Key="UI_DZIEVANNA_DES" Val="Eu caminho na sombra vigilante da antiga mãe-terra, que jaz em silêncio. Escuto os sussurros dela e canto as canções dela. Senhora das florestas, espírito da natureza, dama da terra, esses são os nomes que os mortais me dão. Mas não se deixe enganar pela beleza do meu domínio, pelo desejo de sustentar a vida e de valorizar o equilíbrio acima de tudo.\n\nA natureza não é sua mãe serena. Cruze o meu caminho desafiando as leis eternas e vai conhecer a fúria das florestas. Porque eu sou também a caçadora. Silenciosa e vigilante, fiel à minha causa e inabalável na minha decisão. Profane o meu domínio por sua conta e risco, e prove o sussurro da floresta no seu ombro antes que a morte venha buscar você!\n\nCaminhe comigo entre as árvores, se tiver coragem."/>
+		<Entry Key="UI_HORZ" Val="Horz"/>
+		<Entry Key="UI_HORZ_DES" Val="Das sombras da noite e dos terrores da escuridão, sempre espreitando nos cantos, eu me ergo! Renascido nas tramas da magia da lua, sou o mestre da noite e o guardião da lua. Monstros e feras, demônios e fiends, todos vagam pelo meu domínio. Cabe a mim mantê-los sob controle, para dominar, subjugar e destruir quem desobedecer!\n\nSou um espreitador de sombras, um uivador da noite. Corro com os lobos e danço com as estrelas. Governo o escuro para garantir que a luz não conquiste tudo. É uma tarefa sem amor, solitária e cruel, mas é um caminho que vou trilhar enquanto a lua pender nos céus.\n\nNão tema a escuridão; domine-a!"/>
+		<Entry Key="UI_LADA" Val="Lada"/>
+		<Entry Key="UI_LADA_DES" Val="Eu nasci na hora mais sombria da nossa terra, da semente de esperança guardada nos corações do nosso povo. A longa noite buscou extinguir toda a luz e todo o amor dos nossos corações, mas não conseguiu. Na ausência do pai que um dia nos guiou e da mãe que foi a nossa guardiã, agora me coloco à cabeça do nosso panteão, para que a esperança permaneça nos tempos da agitação sempre persistente.\n\nNão me confunda com uma flor frágil, que busca apenas o solo fértil para espalhar as sementes. Beleza e esperança ainda podem transformar as pétalas em flor em estilhaços de aço e trovão quando a hora chegar. O caminho da paz raramente é pacífico.\n\nMas se o seu coração bate forte e a sua vontade é de ferro, junte-se a mim na estrada para a harmonia."/>
+		<Entry Key="UI_MAROVIT" Val="Marovit"/>
+		<Entry Key="UI_MAROVIT_DES" Val="A sabedoria e o conhecimento correm em correntes instáveis pelo nosso mundo, e eu sou o estudante deles. Não busco dominância, nem afirmo segurar as rédeas desses rios, não. A mente e a alma permanecerão para sempre mistérios, e nós, sejamos mortais ou eternos, só podemos fitar a superfície dos grandes oceanos do entendimento.\n\nAndarilho espiritual, sábio, guardião das chaves do conhecimento e do misticismo, esses são os nomes infantilmente ligados aos meus domínios. Sou apenas um humilde servo das vontades do oceano, um marinheiro solitário buscando iluminar os outros. Os mortais esquecem que não são os senhores das nossas terras; esquecem ou rejeitam, mas estou aqui para lembrar a todos do poder dos outros mundos.\n\nBusque a sabedoria, não tema o desconhecido, empunhe as tramas da magia como a sua espada."/>
+		<Entry Key="UI_NYIA" Val="Nyia"/>
+		<Entry Key="UI_NYIA_DES" Val="Esquecida, abandonada, diminuída, sozinha... Por séculos, eu fui apenas uma lembrança... Ora, nem isso. Mas a dama do inverno não existe mais, a mestra dos submundos se foi. E finalmente retomo o meu lugar. Senhora da morte, portadora da tristeza, guardiã do consolo e do fim.\n\nSó eu posso atravessar as terras dos mortos, as navyas; só eu posso levar as almas dos fiéis aos lares delas e à paz. Mas não é um serviço bem recebido. Eu não lamento os mortos, não choro os moribundos; é tudo como deve ser, como foi feito para ser. E, às vezes, quando as leis são quebradas, a morte será servida pela minha mão. Eu sofri na escuridão. Agora trago o sofrimento e o fim dele, infinitamente.\n\nQuer se juntar a mim? Por quê, criatura tola?"/>
+		<Entry Key="UI_STRIBOG" Val="Stribog"/>
+		<Entry Key="UI_STRIBOG_DES" Val="O mundo se fragmentou, a terra se moveu e os oceanos inundaram os nossos lares. Já não podemos ficar num lugar só; temos que nos mover, conquistar, explorar! Dos ventos do norte eu trago a vontade gelada de lutar. Dos ventos do oeste eu vou abençoar as suas viagens com rapidez. Das correntes do leste eu sussurrarei sabedoria, e do abraço morno da brisa do sul darei conforto à jornada que segue.\n\nEu já fui um espírito dos ventos, livre, selvagem e indomável, mas ouvi o chamado da árvore cósmica quando a terra desmoronou sob ela. Fui chamado pelos meus irmãos e irmãs, fui chamado pelo meu povo, que ergueu as mãos aos céus e pediu bons ventos. Agora sou o deus da jornada, um apontador de caminhos, um doador de caminhos e guia.\n\nVenha comigo pelos ventos e conheça a verdadeira liberdade."/>
+		<Entry Key="UI_SVAROG" Val="Svarog"/>
+		<Entry Key="UI_SVAROG_DES" Val="Das chamas do céu e das cinzas da escuridão passada, eu me ergo ao meu dever! Deus do sol e mestre dos fogos celestiais, essa é a honra que levo. Mas como já visti a indumentária de guerreiro, agora conheço o poder verdadeiro da luz e do fogo, o simples lar que ilumina as casas e os corações do meu rebanho.\n\nNão é o poder dos deuses que vai salvar as nossas terras, mas o poder que podemos conceder aos nossos fiéis. Das chamas escaldantes do meu domínio nascem as ferramentas e as armas dos verdadeiros heróis, mortais e imortais, jurados a sustentar a minha vontade de ferro.\n\nProteja quem precisa, nunca recue, nunca ceda e nunca mais permita que a escuridão governe a luz!"/>
+		<Entry Key="UI_TRIGLAV" Val="Triglav"/>
+		<Entry Key="UI_TRIGLAV_DES" Val="Argh! Da lava escaldante que escorre das cinzas da nossa terra, eu fui forjado! Veias de ira pulsam pelo meu corpo com raiva e propósito. Meus corações de pedra batem em uníssono, minhas mentes se fundem numa só visão, meus punhos avançam três vezes. Não sei quem me ergueu da escuridão. Não sei por que os nossos corações derretem de raiva, mas estou pronto para me levantar e lutar contra qualquer um que ouse se opor a nós!\n\nUma nova força se ergue para devorar Thea mais uma vez, e eu vou estar no caminho dela. Foi por isso que me ergui do fogo. Caminhe comigo para a guerra, queime os nossos inimigos até o chão, derreta quem busca nos ferir, esmague quem quer que esteja no caminho da justiça e da ira divinas.\n\nE você? Você vai se curvar diante de mim e obedecer!"/>
+		<Entry Key="UI_ZORYA" Val="Zorya"/>
+		<Entry Key="UI_ZORYA_DES" Val="O meu pai reivindica o direito de ser mestre da luz e do sol, mas somos nós que cavalgamos os céus noturnos na infinitude deles! A estrela da manhã nasce distante e esmaecida, é sutil e sempre vigilante dos inimigos dela. A estrela do meio-dia pende baixa e pesada, pronta para lançar-se ao combate e devorar os inimigos. A estrela da noite ilumina os céus e se prepara para a guerra! Zorya, Zorza, as Auroras, todos os nomes que nos deram os bravos o bastante para nos seguir!\n\nEu sou a lâmina brilhante da noite e a manopla reluzente do dia. Seguro na palma da mão a fera que devoraria o nosso mundo, e rio na cara do inimigo. Seja audaz, seja brutal e veloz.\n\nOs inimigos do equilíbrio crescem em força mais uma vez; vou rasgá-los e devorar as entranhas deles! Junte-se a mim!"/>
+		<Entry Key="UI_MOKOSH" Val="Mokosh"/>
+		<Entry Key="UI_MOKOSH_DES" Val="Mãe Natureza, Mãe da Terra, Irmã das Árvores, nomes que me deram em tempos passados. A vida em si é a minha intimidade, e é a vida que guardo com o meu escudo e a minha lança. O toque de uma mãe pode ser reconfortante, mas a ira de uma mãe não cede!\n\nUm dia eu era uma, mestra de tudo; então me tornei três, para que o fogo limpasse esta minha terra doente. Agora volto, porque os mares me chamam, sussurrando de inimigos antigos que buscam vingança.\n\nVenha ao meu abraço, respeite a vida, mas não tema a morte nos meus braços!"/>
+		<Entry Key="UI_LOAD_A_SAVED_GAME" Val="Carregar um Jogo Salvo"/>
+		<Entry Key="UI_SAVED_GAMES" Val="Jogos Salvos"/>
+		<Entry Key="UI_GAME_SETTINGS" Val="Configurações do Jogo"/>
+		<Entry Key="UI_GAME_VERSION" Val="Versão do Jogo:"/>
+		<Entry Key="UI_LOAD" Val="Carregar"/>
+		<Entry Key="UI_MULTIPLAYER_LOBBY" Val="Sala Multijogador"/>
+		<Entry Key="UI_PLAYERS" Val="Jogadores"/>
+		<Entry Key="UI_ENTER_MESSAGE" Val="Digite a Mensagem…"/>
+		<Entry Key="UI_LEAVE" Val="Sair"/>
+		<Entry Key="UI_START" Val="Começar"/>
+		<Entry Key="UI_SAVE" Val="Salvar"/>
+		<Entry Key="UI_ENTER_SAVE_NAME" Val="Digite o Nome do Save…"/>
+		<Entry Key="UI_SAVE_GAME" Val="Salvar Jogo"/>
+		<Entry Key="UI_WORLD_SETTINGS" Val="Configurações do Mundo"/>
+		<Entry Key="UI_DIFFICULTY_SETTINGS" Val="Configurações de Dificuldade"/>
+		<Entry Key="UI_NEXT" Val="Próximo"/>
+		<Entry Key="UI_BONUSES" Val="Bônus"/>
+		<Entry Key="UI_BUILDINGS" Val="Construções"/>
+		<Entry Key="UI_TASKS" Val="Tarefas"/>
+		<Entry Key="UI_CLOSE" Val="Fechar"/>
+		<Entry Key="UI_MANAGE_EQUIPMENT" Val="Gerenciar Equipamento"/>
+		<Entry Key="UI_ATTRIBUTES" Val="Atributos"/>
+		<Entry Key="UI_SKILLS" Val="Habilidades"/>
+		<Entry Key="UI_SUBSKILLS" Val="Sub-habilidades"/>
+		<Entry Key="UI_INNATE" Val="Inatas"/>
+		<Entry Key="UI_FROM_EQUIPMENT" Val="Do Equipamento"/>
+		<Entry Key="UI_PASSIVE_EFFECTS" Val="Efeitos"/>
+		<Entry Key="UI_NOTES" Val="Notas"/>
+		<Entry Key="UI_RESOURCES_RECOVERED" Val="Recursos recuperados:"/>
+		<Entry Key="UI_ITEM_RECYCLED" Val="Item reciclado!"/>
+		<Entry Key="UI_WAITING_FOR_SERVER" Val="Aguardando o servidor..."/>
+		<Entry Key="UI_NONE" Val="Nenhum"/>
+		<Entry Key="UI_SCRIPT" Val="Script"/>
+		<Entry Key="UI_PARAMETER1" Val="Parâmetro 1"/>
+		<Entry Key="UI_PARAMETER2" Val="Parâmetro 2"/>
+		<Entry Key="UI_ENTER_A_NUMBER" Val="Digite um número..."/>
+		<Entry Key="UI_AZ_SORT" Val="Ordenar de A a Z"/>
+		<Entry Key="UI_GATHERING_CHARACTER_SORT" Val="Ordenar por Coleta"/>
+		<Entry Key="UI_COUNT_SORT" Val="Ordenar por Quantidade"/>
+		<Entry Key="UI_TYPE_SORT" Val="Ordenar por Tipo"/>
+		<Entry Key="UI_NO_FILTER" Val="Sem Filtro"/>
+		<Entry Key="UI_WEAPONS_FILTER" Val="Armas"/>
+		<Entry Key="UI_ARMOURS_FILTER" Val="Armaduras"/>
+		<Entry Key="UI_SORT_BY" Val="Ordenar por"/>
+		<Entry Key="UI_FILTER_BY" Val="Filtrar por"/>
+		<Entry Key="UI_DIFFICULTY_HINT" Val="Dica de Dificuldade"/>
+		<Entry Key="UI_DIALOGUE_GROUP" Val="Grupo de Diálogo"/>
+		<Entry Key="UI_ASSIGN_TRAITS" Val="Atribuir Traços"/>
+		<Entry Key="UI_BENEFITS_COST_LESS" Val="Os benefícios dos domínios do seu deus custam menos."/>
+		<Entry Key="UI_START_GAME" Val="Começar Jogo"/>
+		<Entry Key="UI_POWER_POINTS_LEFT" Val="Pontos de Poder Restantes: {SCRIPT:UIS_GlobalVar,GodPowerPointsLeft}"/>
+		<Entry Key="UI_HOST_A_MULTIPLAYER_GAME" Val="Anfitrião de um Jogo Multijogador"/>
+		<Entry Key="UI_ENTER_LOGIC_EDITOR" Val="Abrir o Editor de Lógica"/>
+		<Entry Key="UI_ADD_NEW_OUTPUT" Val="Adicionar Nova Saída"/>
+		<Entry Key="UI_ANSWER_TEXT" Val="Texto da Resposta..."/>
+		<Entry Key="UI_SET_IMAGE" Val="Definir Imagem"/>
+		<Entry Key="UI_XP_FOR_CURRENT_PLAYER" Val="XP para o jogador atual:"/>
+		<Entry Key="UI_RP_FOR_CURRENT_PLAYER" Val="RP para o jogador atual:"/>
+		<Entry Key="UI_XP_FOR_ALL_PLAYERS" Val="XP para todos os jogadores:"/>
+		<Entry Key="UI_RP_FOR_ALL_PLAYERS" Val="RP para todos os jogadores:"/>
+		<Entry Key="UI_NAVIGATE_TO_ADVENTURE" Val="Ir para a Aventura:"/>
+		<Entry Key="UI_CHALLENGE_TYPE" Val="Tipo de Desafio:"/>
+		<Entry Key="UI_AUTOSCALE_BY_ENEMY" Val="Escala automática pelo Inimigo:"/>
+		<Entry Key="UI_VS_EVENT_OWNER" Val="Contra o Dono do Evento:"/>
+		<Entry Key="UI_VS_GROUP" Val="Contra o Grupo:"/>
+		<Entry Key="UI_CHALLENGE_SCALE" Val="Escala do Desafio:"/>
+		<Entry Key="UI_CHALLENGE_LIST" Val="Lista de Desafios:"/>
+		<Entry Key="UI_FROM_EVENT_OWNER" Val="Do Dono do Evento:"/>
+		<Entry Key="UI_FROM_GROUP" Val="Do Grupo:"/>
+		<Entry Key="UI_DMG_SOURCE_COUNT" Val="Quantidade de Fontes de Dano:"/>
+		<Entry Key="UI_CHALLENGED_LIST" Val="Lista de Desafiados:"/>
+		<Entry Key="UI_CARGO_PERCENTAGE" Val="Porcentagem de Queda de Carga:"/>
+		<Entry Key="UI_DROP_CARGO_PERCENTAGE" Val="Porcentagem de Queda de Corpo:"/>
+		<Entry Key="UI_TARGET_GROUP" Val="Grupo Alvo:"/>
+		<Entry Key="UI_SPAWN_SOURCE_GROUP" Val="Grupo de Origem do Surgimento:"/>
+		<Entry Key="UI_SPAWN_SOURCE_SETTLEMENT" Val="Povoado de Origem do Surgimento:"/>
+		<Entry Key="UI_DESTROY_EVENT_OWNER" Val="Destruir o Dono do Evento:"/>
+		<Entry Key="UI_MIN_RADIUS" Val="Raio Mínimo:"/>
+		<Entry Key="UI_BIOME" Val="Bioma:"/>
+		<Entry Key="UI_LINKED_EVENT" Val="Evento Vinculado:"/>
+		<Entry Key="UI_EVENT_TYPE" Val="Tipo de evento:"/>
+		<Entry Key="UI_INTERRUPT" Val="Interromper"/>
+		<Entry Key="UI_GENERIC" Val="Genérico"/>
+		<Entry Key="UI_GROUP_GENERIC" Val="Grupo Genérico"/>
+		<Entry Key="UI_EXPEDITION" Val="Expedição"/>
+		<Entry Key="UI_VILLAGE" Val="Aldeia"/>
+		<Entry Key="UI_DIFFICULTY" Val="Dificuldade:"/>
+		<Entry Key="UI_SUBSKILL_INFO" Val="Informações da Sub-habilidade"/>
+		<Entry Key="UI_LEVEL" Val="Nível"/>
+		<Entry Key="UI_LEGEND" Val="Legenda"/>
+		<Entry Key="UI_MOUSE_ZOOM_OUT" Val="Botão do Meio do Mouse, afastar"/>
+		<Entry Key="UI_DONT_SHOW_AGAIN" Val="Não mostrar de novo"/>
+		<Entry Key="UI_UNSPENT_AP" Val="Pontos de Ação Não Gastos"/>
+		<Entry Key="UI_UNSPENT_AP1" Val="Tem certeza de que quer terminar o turno?\nVocê ainda tem Pontos de Ação!"/>
+		<Entry Key="UI_UNSPENT_AP2" Val="Os Pontos de Ação não gastos passam para a próxima Fase de Preparação."/>
+		<Entry Key="UI_ASSIGN" Val="Atribuir"/>
+		<Entry Key="UI_COOKING_AND_COMPOSITES" Val="Cozinha e Compostos"/>
+		<Entry Key="UI_CRAFTING" Val="Criação"/>
+		<Entry Key="UI_EXPLORING" Val="Exploração"/>
+		<Entry Key="UI_AVAILABLE_WORKERS" Val="Trabalhadores Disponíveis"/>
+		<Entry Key="UI_TASKS" Val="Tarefas"/>
+		<Entry Key="UI_FAVOURITES" Val="Favoritos"/>
+		<Entry Key="UI_COOKING_MODE" Val="Modo Cozinha"/>
+		<Entry Key="UI_NEW_TASK" Val="Nova Tarefa"/>
+		<Entry Key="UI_ASSIGN_WORKERS" Val="Designar trabalhadores para começar"/>
+		<Entry Key="UI_CREATE_NEW_ITEM" Val="Criar Novo Item"/>
+		<Entry Key="UI_COMPATIBLE_RESOURCES" Val="Recursos Compatíveis"/>
+		<Entry Key="UI_PRIMARY_MATERIAL" Val="Material Primário"/>
+		<Entry Key="UI_SECONDARY_MATERIAL" Val="Material Secundário"/>
+		<Entry Key="UI_ASSIGN_A_SKILL" Val="Atribuir uma Habilidade"/>
+		<Entry Key="UI_INVITE_OTHER_PLAYERS_TO_EVENT" Val="Convidar outros jogadores para este evento?"/>
+		<Entry Key="UI_INVITE" Val="Convidar"/>
+		<Entry Key="UI_JOINED" Val="Entrou"/>
+		<Entry Key="UI_JOIN_AN_EVENT" Val="Entrar num Evento"/>
+		<Entry Key="UI_WAITING" Val="Aguardando..."/>
+		<Entry Key="UI_REFUSED" Val="Recusado"/>
+		<Entry Key="UI_EVENT_PARTICIPATION" Val="Participação no Evento:"/>
+		<Entry Key="UI_JOINING_IS_FORCED" Val="A participação é forçada"/>
+		<Entry Key="UI_INCLUDE_ALL_PLAYERS" Val="Todos os jogadores"/>
+		<Entry Key="UI_INCLUDE_NEARBY_ALLY_GROUPS" Val="Grupos aliados por perto"/>
+		<Entry Key="UI_INCLUDE_NEARBY_OWN_GROUPS" Val="Grupos próprios por perto"/>
+		<Entry Key="UI_JOINING_RANGE" Val="Alcance de participação"/>
+		<Entry Key="UI_JOINING_TYPE" Val="Tipo de grupo participante"/>
+		<Entry Key="UI_EVENT_ID" Val="ID do Evento:"/>
+		<Entry Key="UI_NODE_SEARCH" Val="Procurar nó..."/>
+		<Entry Key="UI_TRADER_PROFILE" Val="Perfil do Comerciante:"/>
+		<Entry Key="UI_SELLING_LIST" Val="Lista de Venda:"/>
+		<Entry Key="UI_STARTING_BALANCE" Val="Saldo Inicial:"/>
+		<Entry Key="UI_ALL_CHARACTERS" Val="Todos os Personagens"/>
+		<Entry Key="UI_TAGS" Val="Tags"/>
+		<Entry Key="UI_PRIMARY_RESOURCE" Val="Primário"/>
+		<Entry Key="UI_SECONDARY_RESOURCE" Val="Secundário"/>
+		<Entry Key="UI_REFINED" Val="Refinado"/>
+		<Entry Key="UI_UNLOCK_CONFIRMATION" Val="{COLOR:#42C100}Clique no botão CONFIRMAR para desbloquear."/>
+		<Entry Key="UI_UNLOCK_RESOURCE_CONFIRMATION" Val="Desbloquear este recurso permite que as suas pessoas o coletem. O seu Escolhido também recebe 10 unidades deste recurso."/>
+		<Entry Key="UI_UNLOCK_RESOURCE_CONFIRMATION2" Val="Desbloquear este recurso permite que as suas pessoas o façam a partir de recursos de nível inferior. O seu Escolhido também recebe 10 unidades deste recurso."/>
+		<Entry Key="UI_UNLOCK_ITEM_CONFIRMATION1" Val="Desbloquear esta receita permite que as suas pessoas criem o(s) seguinte(s) item(ns):"/>
+		<Entry Key="UI_UNLOCK_ITEM_CONFIRMATION2" Val="Desbloquear esta receita permite que as suas pessoas criem o(s) seguinte(s) item(ns) e fornece um bônus de 5% de essência:"/>
+		<Entry Key="UI_UNLOCK_ITEM_CONFIRMATION3" Val="Desbloquear esta receita refina ainda mais o design do item, adicionando 20% a qualquer essência usada na criação dela."/>
+		<Entry Key="UI_UNLOCK_ITEM_CONFIRMATION4" Val="O desbloqueio te dá as habilidades mostradas abaixo. Elas podem ser atribuídas ao item quando ele for criado."/>
+		<Entry Key="UI_UNLOCK_ITEM_CONFIRMATION5" Val="Também desbloqueia as habilidades mostradas abaixo, que podem ser atribuídas ao item quando ele for criado."/>
+		<Entry Key="UI_ESSENCE_BONUS1" Val="Bônus de Essência: 5%"/>
+		<Entry Key="UI_UNLOCK_BUILDING_CONFIRMATION1" Val="Desbloquear esta estrutura permite que as suas pessoas a construam usando os seguintes tipos de material:"/>
+		<Entry Key="UI_UNLOCK_RITUAL_CONFIRMATION1" Val="Desbloquear este ritual permite que as suas pessoas o realizem usando os seguintes tipos de material:"/>
+		<Entry Key="UI_UNLOCK_FOOD_CONFIRMATION" Val="Desbloquear esta receita de comida permite que as suas pessoas cozinhem pratos usando os seguintes tipos de comida crua:"/>
+		<Entry Key="UI_ADVANCEMENT_RESOURCES" Val="Progressão: Recursos"/>
+		<Entry Key="UI_ADVANCEMENT_EQUIPMENT" Val="Progressão: Equipamento"/>
+		<Entry Key="UI_ADVANCEMENT_FOOD" Val="Progressão: Comida"/>
+		<Entry Key="UI_ADVANCEMENT_BUILDINGS_AND_RITUALS" Val="Progressão: Construções e Rituais"/>
+		<Entry Key="UI_ADVANCEMENT_SKILLS" Val="Progressão: Habilidades"/>
+		<Entry Key="UI_COST" Val="Custo: "/>
+		<Entry Key="UI_UNLOCKED_SKILLS" Val="Habilidades Desbloqueadas"/>
+		<Entry Key="UI_ADVANCEMENT_POINTS" Val="Pontos de Progressão"/>
+		<Entry Key="UI_REROLL_SETS" Val="Rerolar Conjuntos"/>
+		<Entry Key="UI_NOT_ENOUGH_RP" Val="{COLOR:#C80000}Você não tem Pontos de Progressão suficientes para desbloquear isto."/>
+		<Entry Key="UI_ALL_PARENT_RESOURCES_REQUIRED" Val="{COLOR:#C80000}Você precisa desbloquear todas as progressões superiores primeiro."/>
+		<Entry Key="UI_WORKBENCH" Val="Bancada"/>
+		<Entry Key="UI_DESIGN" Val="Design"/>
+		<Entry Key="UI_DESIGN_MODE" Val="Modo Design"/>
+		<Entry Key="UI_DESIGN_MODE_ON" Val="Modo Design Ligado"/>
+		<Entry Key="UI_RESEARCH_AND_RITUALS" Val="Pesquisa e Rituais"/>
+		<Entry Key="UI_RESEARCH" Val="Pesquisa"/>
+		<Entry Key="UI_RITUALS" Val="Rituais"/>
+		<Entry Key="UI_SPEND_POINTS" Val="Gastar Pontos"/>
+		<Entry Key="UI_ALREADY_UNLOCKED" Val="{COLOR:#5B80FF}Você já desbloqueou esta progressão!"/>
+		<Entry Key="UI_NEARBY_RESOURCES" Val="Recursos por Perto"/>
+		<Entry Key="UI_GATHERING" Val="Coleta"/>
+		<Entry Key="UI_BUILD_VER" Val="Build v. "/>
+		<Entry Key="UI_BUILD_VERSION" Val="Build v. "/>
+		<Entry Key="UI_FOOD_MANAGEMENT" Val="Gestão de Comida"/>
+		<Entry Key="UI_FUEL_MANAGEMENT" Val="Gestão de Combustível"/>
+		<Entry Key="UI_FUEL_MANAGEMENT" Val="Gestão de Combustível"/>
+		<Entry Key="UI_FOOD_BONUSES" Val="Bônus de Comida"/>
+		<Entry Key="UI_LOCATIONS" Val="Localizações"/>
+		<Entry Key="UI_ADVENTURE" Val="Aventura"/>
+		<Entry Key="UI_PICK_A_RECIPE" Val="Escolha uma Receita"/>
+		<Entry Key="UI_BASE_VALUE" Val="Valor Base:"/>
+		<Entry Key="UI_BONUSES_LOSES" Val="Bônus/perdas:"/>
+		<Entry Key="UI_MULTIPLIER" Val="Multiplicador:"/>
+		<Entry Key="UI_FINAL_VALUE" Val="Valor Final:"/>
+		<Entry Key="UI_MODIFIERS" Val="Modificadores"/>
+		<Entry Key="UI_CRAFTING_SORT" Val="Ordenar por Criação"/>
+		<Entry Key="UI_GATHERING_SORT" Val="Ordenar por Coleta"/>
+		<Entry Key="UI_RITUALS_SORT" Val="Ordenar por valor de Rituais"/>
+		<Entry Key="UI_LOADING_MODULES" Val="Carregando Módulos..."/>
+		<Entry Key="UI_ESSENCES" Val="Essências"/>
+		<Entry Key="UI_AMOUNT" Val="Quantidade:"/>
+		<Entry Key="UI_MIN_DMG" Val="Dano Mínimo:"/>
+		<Entry Key="UI_MAX_DMG" Val="Dano Máximo:"/>
+		<Entry Key="UI_DAMAGE_AS_PERCENT" Val="Dano como porcentagem"/>
+		<Entry Key="UI_LEFT_CLICK_DISMANTLE" Val="(Clique Esquerdo: Desmontar)"/>
+		<Entry Key="UI_YOUR_GROUP" Val="O Seu Grupo:"/>
+		<Entry Key="UI_ENEMY_GROUP" Val="Grupo Inimigo:"/>
+		<Entry Key="UI_VERSUS" Val="VS."/>
+		<Entry Key="UI_AUTO_RESOLVE" Val="Resolução Automática"/>
+		<Entry Key="UI_BEGIN" Val="Começar!"/>
+		<Entry Key="UI_PHYSICAL_CHALLENGE" Val="Desafio Físico"/>
+		<Entry Key="UI_MENTAL_CHALLENGE" Val="Desafio Mental"/>
+		<Entry Key="UI_SPIRITUAL_CHALLENGE" Val="Desafio Espiritual"/>
+		<Entry Key="UI_PASSIVE_BONUSES" Val="Efeitos Passivos"/>
+		<Entry Key="UI_VS_CONCEPT" Val="VS Conceito"/>
+		<Entry Key="UI_SELECT_RECIPE" Val="Selecione a receita"/>
+		<Entry Key="UI_PICK_ONE" Val="Escolha um atributo para cada personagem."/>
+		<Entry Key="UI_LEVEL_UP" Val="Subir de Nível"/>
+		<Entry Key="UI_NEW" Val="Novo!"/>
+		<Entry Key="UI_PAUSE_MENU" Val="Menu de Pausa"/>
+		<Entry Key="UI_RESUME" Val="Continuar"/>
+		<Entry Key="UI_QUIT_TO_MENU" Val="Sair para o Menu"/>
+		<Entry Key="UI_UNLOCK" Val="Desbloquear"/>
+		<Entry Key="UI_DRAG_AND_DROP_TRAIT" Val="Arraste e solte um Traço aqui para selecioná-lo"/>
+		<Entry Key="UI_ALLOW_NEW_FOOD" Val="Permitir uso de novas comidas"/>
+		<Entry Key="UI_ALLOW_NEW_FUEL" Val="Permitir uso de novos combustíveis"/>
+		<Entry Key="UI_USE_RAW_FOOD" Val="Usar comida crua"/>
+		<Entry Key="UI_USE_COOKED_FOOD" Val="Usar comida cozinhada"/>
+		<Entry Key="UI_FORFEIT_HEADING" Val="Desistir do Desafio"/>
+		<Entry Key="UI_FORFEIT_CHALLENGE" Val="Tem certeza de que quer desistir deste desafio? Pode haver consequência ruim se fizer isso."/>
+		<Entry Key="UI_FACTIONS_AND_LOYALTY" Val="Facções e Lealdade"/>
+		<Entry Key="UI_GODS_CHOSEN" Val="Escolhido do Deus"/>
+		<Entry Key="UI_CHARACTER_CLASS" Val="Classe do Personagem"/>
+		<Entry Key="UI_MORE" Val="Mais"/>
+		<Entry Key="UI_MORE2" Val="mais"/>
+		<Entry Key="UI_TUTORIAL_CAST1" Val="Jogando uma Carta"/>
+		<Entry Key="UI_TUTORIAL_CAST2" Val="Comece jogando cartas da sua {COLOR:yellow}Mão{END_COLOR} para o {COLOR:yellow}Campo de Batalha{END_COLOR}. Faça assim:"/>
+		<Entry Key="UI_TUTORIAL_CAST3" Val="1. Clique numa carta."/>
+		<Entry Key="UI_TUTORIAL_CAST4" Val="2. Selecione uma habilidade."/>
+		<Entry Key="UI_TUTORIAL_CAST5" Val="3. Selecione um espaço para conjurar."/>
+		<Entry Key="UI_TUTORIAL_DESIGN_MODE1" Val="O Modo Design permite experimentar qualquer receita que você tenha pesquisado e salvá-la como favorita para usar depois.\n\nO seu Inventário agora mostra todos os materiais de criação presentes no jogo, até os que você não tem.\n\nFique à vontade para experimentar!"/>
+		<Entry Key="UI_TUTORIAL_DESIGN_MODE2" Val="Você pode adicionar a receita à lista de tarefas de criação apertando Confirmar.\n\nO trabalho só pode começar se você tiver os {COLOR:yellow}materiais necessários{END_COLOR} no inventário."/>
+		<Entry Key="UI_TUTORIAL_MOVE1" Val="Movendo-se"/>
+		<Entry Key="UI_TUTORIAL_MOVE2" Val="Para mover o seu grupo de um hexágono a outro:\n\n1. Clique com o botão esquerdo no grupo para selecioná-lo,\n2. Segure o botão direito sobre outro hexágono.\n\nViajar consome {COLOR:yellow}Pontos de Movimento{END_COLOR} ({ICON:MPIcon}) dependendo do tipo de terreno."/>
+		<Entry Key="UI_TUTORIAL_CAMERA1" Val="Controle da Câmera"/>
+		<Entry Key="UI_TUTORIAL_CAMERA2" Val="Você pode mover a câmera pelo teclado {COLOR:yellow}(WASD ou setas){END_COLOR} ou segurando o {COLOR:yellow}botão do meio do mouse{END_COLOR}."/>
+		<Entry Key="UI_CHECK_EQUIPMENT1" Val="Confira o Equipamento"/>
+		<Entry Key="UI_CHECK_EQUIPMENT2" Val="Antes de se aventurar pelos perigos de Thea, olhe o seu {COLOR:yellow}Equipamento{END_COLOR} e atribua aos seus personagens os itens não usados que eles possam carregar.\n\nClique no grupo para abrir o {COLOR:yellow}menu radial{END_COLOR} e aperte o botão Equipamento."/>
+		<Entry Key="UI_TUTORIAL_END_TURN1" Val="Terminando o Seu Turno"/>
+		<Entry Key="UI_TUTORIAL_END_TURN2" Val="Quando terminar as suas ações, aperte o botão {COLOR:yellow}Terminar Turno{END_COLOR} no canto inferior direito da tela."/>
+		<Entry Key="UI_TUTORIAL_END_TURN3" Val="Muitas coisas acontecem entre os seus turnos:\n\n- grupos controlados pelo computador fazem as ações deles,\n- várias tarefas avançam,\n- alguns eventos de aventura acontecem,\n- personagens feridos recuperam vida, etc."/>
+		<Entry Key="UI_RESOURCES" Val="Recursos"/>
+		<Entry Key="UI_TUTORIAL_CAMP1" Val="Há tipos diferentes de {COLOR:yellow}recursos{END_COLOR} no mundo. Eles podem ser usados como {COLOR:yellow}materiais de criação, comida ou combustível{END_COLOR}, mas antes de as suas pessoas usarem, precisam coletá-los."/>
+		<Entry Key="UI_TUTORIAL_CAMP2" Val="Os recursos aparecem no mapa do mundo como objetos especiais, como plantas, animais, ossos etc."/>
+		<Entry Key="UI_TUTORIAL_CAMP3" Val="Mova o seu grupo para perto de um hexágono com recurso, a no máximo um hexágono de distância.\n\nPara designar os seus trabalhadores à coleta de recursos, o grupo precisa estar em {COLOR:yellow}Modo Acampamento.{END_COLOR}"/>
+		<Entry Key="UI_TUTORIAL_CAMP4" Val="Montando um Acampamento"/>
+		<Entry Key="UI_TUTORIAL_CAMP5" Val="Para montar um acampamento:\n\n1. Clique com o botão esquerdo no grupo. Um menu radial vai aparecer.\n\n2. Clique no botão Acampar.\n\nA tela de Coleta abre automaticamente."/>
+		<Entry Key="UI_TUTORIAL_CAMP5A" Val="Para montar um acampamento:"/>
+		<Entry Key="UI_TUTORIAL_CAMP5B" Val="1. Clique com o botão esquerdo no grupo. Um menu radial vai aparecer."/>
+		<Entry Key="UI_TUTORIAL_CAMP5C" Val="2. Clique no botão Acampar."/>
+		<Entry Key="UI_TUTORIAL_CAMP5D" Val="A tela de Coleta abre automaticamente."/>
+		<Entry Key="UI_TUTORIAL_CAMP6" Val="Acampar também aumenta a taxa de recuperação de vida, desde que o grupo tenha combustível. Uma unidade de combustível ({ICON:FuelIcon}) é usada por turno (mais no Inverno)."/>
+		<Entry Key="UI_TUTORIAL_CARDS1" Val="Você começou um minigame de cartas.\nCada rodada consiste de {COLOR:yellow}8 Fases de Preparação{END_COLOR} e {COLOR:yellow}2 Fases de Luta{END_COLOR}.\n\nPara vencer, elimine todas as cartas do inimigo."/>
+		<Entry Key="UI_TUTORIAL_CARDS2" Val="Durante as {COLOR:yellow}Fases de Preparação{END_COLOR}, os jogadores se alternam para jogar as cartas."/>
+		<Entry Key="UI_TUTORIAL_CARDS2MORE" Val="Pontos de Ação ({ICON:APIcon}) e Atraso ({ICON:DelayIcon}) são explicados um pouco mais tarde.\n\nDurante as {COLOR:yellow}Fases de Preparação{END_COLOR}, os lutadores de cada lado se preparam, mas ainda não atacam o inimigo.\n\nÉ agora que você joga as cartas, escolhe que habilidades usar, conjura feitiços etc.\n\nCada decisão sua durante o turno não pode ser mudada depois que a carta é colocada no campo de batalha."/>
+		<Entry Key="UI_TUTORIAL_CARDS3" Val="{COLOR:green}Turno Aliado{END_COLOR}"/>
+		<Entry Key="UI_TUTORIAL_CARDS3MORE" Val="- Cartas podem ser jogadas várias vezes, mas cada vez que são jogadas, o custo delas aumenta em 1{ICON:APIcon}\n\n- Você pode guardar os Pontos de Ação (PA) e usá-los na próxima Fase de Preparação."/>
+		<Entry Key="UI_TUTORIAL_CARDS4" Val="{COLOR:red}Turno Inimigo{END_COLOR}"/>
+		<Entry Key="UI_TUTORIAL_CARDS5" Val="Regras de {COLOR:yellow}jogar uma carta{END_COLOR}:\n\n- Para jogar uma carta, você precisa pagar o custo de conjuração ({ICON:APIcon})\n\n- Cada carta pode ter uma ou mais ações (habilidades) disponíveis: escolha uma."/>
+		<Entry Key="UI_TUTORIAL_CARDS6" Val="Quando os Pontos de Ação acabarem, clique em {COLOR:yellow}Terminar Turno{END_COLOR}. Você recebe mais PAs ({ICON:APIcon}) depois que o oponente terminar o turno dele."/>
+		<Entry Key="UI_TUTORIAL_CARDS7" Val="Quando todas as Fases de Preparação terminam, começam as {COLOR:yellow}Fases de Luta{END_COLOR}."/>
+		<Entry Key="UI_TUTORIAL_CARDS8" Val="A {COLOR:yellow}fila{END_COLOR} no lado direito da tela mostra a ordem das ações.\n\nAs cartas com o menor atraso {ICON:DelayIcon} ficam no topo e agem primeiro."/>
+		<Entry Key="UI_TUTORIAL_CARDS9" Val="A rapidez com que uma carta age depende do valor de Atraso {ICON:DelayIcon} da habilidade que ela usa e também do atributo Astúcia {ICON:WitsIcon} dela."/>
+		<Entry Key="UI_TUTORIAL_CARDS10" Val="O resultado da {COLOR:yellow}Fase de Luta{END_COLOR} decide se é preciso outra Rodada. O desafio dura enquanto os dois jogadores tiverem cartas para jogar durante as Fases de Preparação."/>
+		<Entry Key="UI_EQUIPMENT" Val="Equipamento"/>
+		<Entry Key="UI_RECIPE" Val="Receita"/>
+		<Entry Key="UI_TUTORIAL_EQUIP1" Val="O {COLOR:yellow}equipamento{END_COLOR} de um personagem influencia muito o desempenho dele durante um desafio e as {COLOR:yellow}habilidades{END_COLOR} que ele pode usar."/>
+		<Entry Key="UI_TUTORIAL_EQUIP2" Val="As habilidades disponíveis para o personagem são aprendidas ou obtidas de itens equipados. A eficácia delas depende dos atributos do personagem.\n\nPor exemplo, se uma habilidade depende da Percepção ({ICON:PerceptionIcon}), um personagem com Percepção maior será mais eficaz com essa habilidade."/>
+		<Entry Key="UI_TUTORIAL_EQUIP3" Val="Você pode {COLOR:yellow}atribuir{END_COLOR} qualquer item não usado às suas pessoas para melhorar as habilidades delas. {COLOR:yellow}Arraste e solte{END_COLOR} um item sobre um personagem para isso."/>
+		<Entry Key="UI_TUTORIAL_EQUIP4" Val="Cuidado para não passar do limite de carga ({ICON:CarryLimitIcon}) de um personagem. Se ele ficar sobrecarregado, vai sofrer penalidades."/>
+		<Entry Key="UI_TUTORIAL_GATHERING" Val="Esta tela mostra as suas pessoas à esquerda e os recursos por perto à direita.\n\nPara designar um personagem a uma tarefa de coleta, arraste e solte ele sobre um recurso selecionado, ou aperte o botão verde +.\n\nPode levar mais de um turno para completar a tarefa, dependendo do valor da habilidade Coleta ({ICON:GatheringIcon}) do personagem."/>
+		<Entry Key="UI_TUTORIAL_RECIPE1" Val="Esta tela deixa você decidir o que quer criar e de que material.\n\n{COLOR:yellow}Passo 1/5{END_COLOR} - Escolha uma receita da lista no topo."/>
+		<Entry Key="UI_TUTORIAL_RECIPE2" Val="{COLOR:yellow}Passo 2/5{END_COLOR} - Arraste e solte materiais do Inventário para os espaços {COLOR:yellow}Primário e Secundário{END_COLOR} da Bancada.\n\nOs materiais fornecem essência, que desbloqueia habilidades.\n\nVocê pode escolher qualquer material que atenda ao requisito da receita. Só é preciso um tipo de material em cada fileira."/>
+		<Entry Key="UI_TUTORIAL_RECIPE3" Val="Compostos são materiais que podem ser de mais de um tipo. Por exemplo, a Madeira Cristalina é do tipo Madeira e Gema."/>
+		<Entry Key="UI_TUTORIAL_RECIPE4" Val="{COLOR:yellow}Passo 3/5{END_COLOR} - Selecione uma habilidade para o item.\n\nAlgumas habilidades exigem um tipo de essência específico. Quanto mais essência os seus materiais fornecem, mais poderosa fica a habilidade."/>
+		<Entry Key="UI_TUTORIAL_RECIPE5" Val="{COLOR:yellow}Passo 4/5{END_COLOR} - Pré-visualize o seu item.\n\nEsta janela mostra os detalhes do seu item. Você pode adicioná-lo à lista de {COLOR:yellow}Favoritos{END_COLOR} para achá-lo facilmente depois. Clique na estrela para isso."/>
+		<Entry Key="UI_TUTORIAL_RECIPE6" Val="{COLOR:yellow}Passo 5/5{END_COLOR} - Aperte Confirmar para adicionar a receita à lista de tarefas de criação. Lembre-se de designar aldeões à tarefa!"/>
+		<Entry Key="UI_IMPORT" Val="Importar Texto de Módulo"/>
+		<Entry Key="UI_EXPORT" Val="Exportar Texto de Módulo"/>
+		<Entry Key="UI_BUNDLE_MODE" Val="Modo Pacote"/>
+		<Entry Key="UI_SINGLE_MODE" Val="Modo Único"/>
+		<Entry Key="UI_WHICH_FORM_OF_EXPORT" Val="{COLOR:#7b746e}Nota: as ferramentas de importação/exportação não servem para copiar módulos para dar a outros jogadores, porque os arquivos de saída não contêm todos os dados dos eventos, apenas texto.{END_COLOR}\n\nSelecione que forma de exportação você quer usar:\n\n{COLOR:yellow}Modo Pacote{END_COLOR}: todos os módulos marcados são exportados como um BundleBlock preparado para localização.\n\n{COLOR:yellow}Modo Único{END_COLOR}: exporta somente o módulo selecionado, mantendo a estrutura do texto."/>
+		<Entry Key="UI_WHICH_FORM_OF_IMPORT" Val="{COLOR:#7b746e}Nota: as ferramentas de importação/exportação não servem para copiar módulos para dar a outros jogadores, porque os arquivos de saída não contêm todos os dados dos eventos, apenas texto.{END_COLOR}\n\nSelecione que forma de importação você quer usar:\n\n{COLOR:yellow}Modo Pacote{END_COLOR}: importa o texto de um arquivo BundleBlock.\n\n{COLOR:yellow}Modo Único{END_COLOR}: importa o texto somente do módulo selecionado."/>
+		<Entry Key="UI_SETTINGS" Val="Configurações"/>
+		<Entry Key="UI_MASTER_VOLUME" Val="Volume Geral"/>
+		<Entry Key="UI_MUSIC_VOLUME" Val="Volume da Música"/>
+		<Entry Key="UI_SFX_VOLUME" Val="Volume dos Efeitos"/>
+		<Entry Key="UI_VOICEOVER_VOLUME" Val="Volume das Narrações"/>
+		<Entry Key="UI_COMBAT_ATTRIBUTES" Val="Atributos de Combate"/>
+		<Entry Key="UI_BONUS_LOSS" Val="Bônus/perda:"/>
+		<Entry Key="UI_YOUR_OFFER" Val="A Sua Oferta"/>
+		<Entry Key="UI_THEIR_OFFER" Val="A Oferta Deles"/>
+		<Entry Key="UI_VALUE" Val="Valor"/>
+		<Entry Key="UI_NONAME" Val="Vazio"/>
+		<Entry Key="UI_TRADE_INVITATION" Val="Convite de Negociação"/>
+		<Entry Key="UI_TRADE_INVITATION1" Val="{COLOR:yellow}{0}{END_COLOR} quer negociar com você. Aceitar o pedido de negociação?"/>
+		<Entry Key="UI_TRADE_INVITATION2" Val="Aguardando o outro jogador aceitar o pedido de negociação..."/>
+		<Entry Key="UI_YES" Val="Sim"/>
+		<Entry Key="UI_NO" Val="Não"/>
+		<Entry Key="UI_FOOD" Val="Comida"/>
+		<Entry Key="UI_MATERIALS" Val="Materiais"/>
+		<Entry Key="UI_TRADE_ALLOWED" Val="Negociação permitida"/>
+		<Entry Key="UI_TRADE_NOT_ALLOWED" Val="Negociação não permitida"/>
+		<Entry Key="UI_CURRENT_BALANCE" Val="Saldo atual"/>
+		<Entry Key="UI_GOD_POINTS_AND_TRAITS" Val="Pontos de Deus e Traços"/>
+		<Entry Key="UI_TUTORIAL_GOD_POINTS1" Val="Esta tela permite personalizar os traços da sua divindade.\n\nCada carta representa um traço.\n\nVocê pode misturar e combinar traços das categorias {COLOR:yellow}Personagens{END_COLOR} e {COLOR:yellow}Bônus{END_COLOR}."/>
+		<Entry Key="UI_TUTORIAL_GOD_POINTS2" Val="Para atribuir um traço, {COLOR:yellow}arraste-o{END_COLOR} da lista de traços {COLOR:yellow}e solte-o{END_COLOR} num espaço correspondente.\n\nO custo total dos traços é limitado e depende da configuração de dificuldade."/>
+		<Entry Key="UI_TUTORIAL_GOD_POINTS3A" Val="Cada deus tem o traço único próprio e é especialista em um conjunto diferente de {COLOR:yellow}Domínios{END_COLOR}."/>
+		<Entry Key="UI_TUTORIAL_GOD_POINTS3B" Val="Você só pode escolher traços que correspondam a esses domínios."/>
+		<Entry Key="UI_TUTORIAL_GOD_POINTS4" Val="Novos traços podem ser desbloqueados com {COLOR:yellow}Pontos de Deus{END_COLOR}, que são concedidos quando você termina o jogo. Uma vez desbloqueado, o traço fica disponível para todo jogo."/>
+		<Entry Key="UI_TUTORIAL_GOD_POINTS5" Val="Traços são opcionais; você é livre para começar o jogo sem eles, se quiser."/>
+		<Entry Key="UI_MY_GROUP" Val="O Meu Grupo"/>
+		<Entry Key="UI_MY_OFFER" Val="A Minha Oferta"/>
+		<Entry Key="UI_OTHER_GROUP" Val="O Outro Grupo"/>
+		<Entry Key="UI_DEV_ADD_RP" Val="Adicionar Pontos de Progressão"/>
+		<Entry Key="UI_DEV_ADD_RESOURCES" Val="Adicionar Recursos"/>       
+		<Entry Key="UI_OPTIONAL_EVENT_INVITE_GLOBAL" Val="{COLOR:yellow}{0}{END_COLOR} te convidou para um evento. Quer participar?"/>
+		<Entry Key="UI_MANDATORY_EVENT_INVITE_GLOBAL" Val="{COLOR:yellow}{0}{END_COLOR} precisa da sua ajuda com um evento. Recusar não é uma opção."/>
+		<Entry Key="UI_START_EVENT" Val="Começar Evento"/>
+		<Entry Key="UI_TUTORIAL_LEVEL_UP1" Val="Subida de Nível"/>
+		<Entry Key="UI_TUTORIAL_LEVEL_UP2" Val="Um dos seus personagens ganhou experiência suficiente para {COLOR:yellow}subir de nível.{END_COLOR}\n\n{COLOR:yellow}Clique no ícone do personagem na área de notificações para melhorar as habilidades dele.{END_COLOR}"/>
+		<Entry Key="UI_TUTORIAL_LEVEL_UP3" Val="As subidas de nível alternam entre bônus nos atributos e nas habilidades do personagem.\n\nSelecione o atributo desejado para cada personagem e aperte Confirmar.\n\nVocê não vai poder desfazer as escolhas."/>
+		<Entry Key="UI_MORALE_BONUSES" Val="Moral: Bônus"/>
+		<Entry Key="UI_CURRENT_MORALE" Val="Moral Atual"/>
+		<Entry Key="UI_MORALE_BONUS0" Val="Nenhum"/>
+		<Entry Key="UI_MORALE_BONUS1" Val="+1 de Proteção ({ICON:ShieldingIcon})"/>
+		<Entry Key="UI_MORALE_BONUS2" Val="+10% de Pontos de Vida ({ICON:HealthPhysicalIcon} {ICON:HealthMentalIcon} {ICON:HealthSpiritualIcon})"/>
+		<Entry Key="UI_MORALE_BONUS3" Val="+10% de Eficiência em Tarefas\n+1 de Proteção ({ICON:ShieldingIcon})"/>
+		<Entry Key="UI_MORALE_BONUS4" Val="+1 de Regeneração de Vida ({ICON:PhysicalRegenerationIcon})"/>
+		<Entry Key="UI_MORALE_BONUS5" Val="+1 PM ({ICON:MPIcon})"/>
+		<Entry Key="UI_MORALE_BONUS6" Val="+0.1 XP"/>
+		<Entry Key="UI_MORALE_BONUS7" Val="+10% de Pontos de Vida ({ICON:HealthPhysicalIcon} {ICON:HealthMentalIcon} {ICON:HealthSpiritualIcon})\n+1 de Regeneração ({ICON:PhysicalRegenerationIcon} {ICON:MentalRegenerationIcon} {ICON:SpiritualRegenerationIcon})"/>
+		<Entry Key="UI_MORALE_BONUS8" Val="+10% de Eficiência em Tarefas"/>
+		<Entry Key="UI_MORALE_BONUS9" Val="+1 de Alcance de Visão ({ICON:ViewRangeIcon})"/>
+		<Entry Key="UI_MORALE_BONUS10" Val="+1 PM ({ICON:MPIcon})"/>
+		<Entry Key="UI_LOGBOOK" Val="Diário de Bordo"/>
+		<Entry Key="UI_END_OF_QUEST" Val="Fim da Missão"/>
+		<Entry Key="UI_RECYCLE" Val="Reciclar"/>
+		<Entry Key="UI_RECYCLE_ALL" Val="Reciclar Tudo"/>
+		<Entry Key="UI_TUTORIALS" Val="Tutoriais"/>
+		<Entry Key="UI_TUTORIAL1" Val="Tutorial 1"/>
+		<Entry Key="UI_TUTORIAL2" Val="Tutorial 2"/>
+		<Entry Key="UI_TUTORIAL3" Val="Tutorial 3"/>
+		<Entry Key="UI_NO_SAVE_FILES_FOUND" Val="Nenhum arquivo de save encontrado."/>
+		<Entry Key="UI_MUHA_PHOTON_CLOUD" Val="MuHa Photon Cloud"/>
+		<Entry Key="UI_SELF_HOSTED_SERVER" Val="Servidor Próprio"/>
+		<Entry Key="UI_CHANGE_PROFILE" Val="Trocar Perfil"/>
+		<Entry Key="UI_GAMEPLAY" Val="Jogabilidade"/>
+		<Entry Key="UI_AUDIO" Val="Áudio"/>
+		<Entry Key="UI_VIDEO" Val="Vídeo"/>
+		<Entry Key="UI_ALWAYS_CONFIRM_DISMANTLE" Val="Sempre confirmar desmontagem"/>
+		<Entry Key="UI_FOOD_ALERT_THRESHOLD" Val="Limiar de alerta de comida"/>
+		<Entry Key="UI_FUEL_ALERT_THRESHOLD" Val="Limiar de alerta de combustível"/>
+		<Entry Key="UI_HP_ALERT_THRESHOLD" Val="Limiar de alerta de pontos de vida"/>
+		<Entry Key="UI_PLAY_INTRO" Val="Reproduzir Introdução"/>
+		<Entry Key="UI_AUTO_END_TURN_CHALL" Val="Terminar turno automaticamente nos desafios"/>
+		<Entry Key="UI_ALLOW_ENTERING_WATER_TILES" Val="Permitir entrar em hexágonos de água"/>
+		<Entry Key="UI_RESET_HELP" Val="Zerar Ajuda"/>
+		<Entry Key="UI_LANGUAGE" Val="Idioma:"/>
+		<Entry Key="UI_AMBIENT_OCCLUSION" Val="Oclusão de Ambiente"/>
+		<Entry Key="UI_ANTI_ALIASING" Val="Antialiasing"/>
+		<Entry Key="UI_SUPER_SAMPLING" Val="Superamostragem"/>
+		<Entry Key="UI_VSYNC" Val="VSync:"/>
+		<Entry Key="UI_OFF" Val="Desligado"/>
+		<Entry Key="UI_LIMIT_FPS" Val="Limitar FPS"/>
+		<Entry Key="UI_NODE_USABLE_ONLY_ONCE" Val="Nó Utilizável Apenas Uma Vez"/>
+		<Entry Key="UI_EVENT_USABLE_ONLY_ONCE" Val="Evento Utilizável Apenas Uma Vez"/>
+		<Entry Key="UI_F8_REPORT" Val="Aperte F8 para reportar um bug"/>
+		<Entry Key="UI_SAVE_SUCCESSFUL" Val="O seu jogo foi salvo."/>
+		<Entry Key="UI_ROOM_NAME_ALREADY_IN_USE" Val="Nome do servidor já em uso."/>
+		<Entry Key="UI_SET_SAVE_NAME" Val="Digite o nome do save:"/>
+		<Entry Key="UI_SEA_EVENT" Val="Evento Marítimo"/>
+		<Entry Key="UI_BIOME" Val="Bioma:"/>
+		<Entry Key="UI_FEMALE" Val="Feminino"/>
+		<Entry Key="UI_MALE" Val="Masculino"/>
+		<Entry Key="UI_FUEL_FILTER" Val="Combustível"/>
+		<Entry Key="UI_COOKED_FOOD_FILTER" Val="Comida Cozinhada"/>
+		<Entry Key="UI_RAW_FOOD_FILTER" Val="Comida Crua"/>
+		<Entry Key="UI_TOOLS_FILTER" Val="Ferramentas"/>
+		<Entry Key="UI_JEWELLERY_FILTER" Val="Joias"/>
+		<Entry Key="UI_PETS_FILTER" Val="Pets"/>
+		<Entry Key="UI_GAME_SUMMARY" Val="Resumo da Partida"/>
+		<Entry Key="UI_ENTER_CHARACTER_NAME" Val="Digite o Nome do Personagem"/>
+		<Entry Key="UI_ROOM_DOES_NOT_EXIST" Val="Este servidor não existe.\n\nConfira que os dois jogadores estão conectados à mesma região e que o nome do servidor é exatamente igual (espaços, maiúsculas e minúsculas, etc.)."/>
+		<Entry Key="UI_KEEP_PLAYING" Val="Continuar Jogando"/>
+		<Entry Key="UI_END_GAME" Val="Terminar Jogo"/>
+		<Entry Key="UI_VIEW_STATS" Val="Ver Estatísticas"/>
+		<Entry Key="UI_FINISHING_MAIN_QUEST" Val="Missão Principal Concluída:"/>
+		<Entry Key="UI_MAP_TILES_REVEALED" Val="Hexágonos de Mapa Revelados:"/>
+		<Entry Key="UI_XP_COLLECTED" Val="Pontos de Experiência Coletados:"/>
+		<Entry Key="UI_AP_COLLECTED" Val="Pontos de Progressão Coletados:"/>
+		<Entry Key="UI_TURNS_SURVIVED" Val="Turnos Sobrevividos:"/>
+		<Entry Key="UI_BEST_ITEM" Val="Melhor Item:"/>
+		<Entry Key="UI_MOST_POWERFUL_CHARACTER" Val="Personagem Mais Poderoso:"/>
+		<Entry Key="UI_EVENTS_TAKEN_PART_IN" Val="Caminhos de Evento Revelados:"/>
+		<Entry Key="UI_TOTAL_POINTS" Val="PONTOS TOTAIS:"/>
+		<Entry Key="UI_GAME_DIFFICULTY_ADJUSTMENT" Val="Ajuste de Dificuldade do Jogo:"/>
+		<Entry Key="UI_GOD_POINTS_AWARDED" Val="Pontos de Deus Concedidos:"/>
+		<Entry Key="UI_TUTORIAL_GODS_CHOSEN1" Val="Aqui você decide quem vai ser o Escolhido do Deus. Este personagem vai ser importante para a linha de missões."/>
+		<Entry Key="UI_TUTORIAL_GODS_CHOSEN2" Val="O Escolhido pode ser de qualquer classe com que você começa, incluindo os personagens adicionais que você tenha selecionado nos Traços Divinos."/>
+		<Entry Key="UI_TUTORIAL_GODS_CHOSEN3" Val="Não esqueça de dar um nome!"/>
+		<Entry Key="UI_CREDITS" Val="Créditos"/>
+		<Entry Key="UI_DATABASE" Val="Banco de Dados"/>
+		<Entry Key="UI_SETTLE" Val="Estabelecer Povoado"/>
+		<Entry Key="UI_TUTORIAL_SETTLE1" Val="Se quiser se estabelecer e construir uma aldeia, primeiro monte um Acampamento, depois abra a tela de Criação e crie um Ídolo."/>
+		<Entry Key="UI_TUTORIAL_SETTLE2" Val="Construir um Ídolo exige um material raro chamado Semente Cósmica."/>
+		<Entry Key="UI_TUTORIAL_SETTLE3" Val="Você recebeu uma de Theodore no começo, mas use com sabedoria, quando a sua aldeia estiver construída, você não pode simplesmente demolir o lugar para se mudar!"/>
+		<Entry Key="UI_TUTORIAL_SETTLE4" Val="Os bônus concedidos pelo Ídolo dependem de que materiais foram usados na construção dele.\n\nQuando o Ídolo estiver pronto, você vai poder construir outras construções, desde que as tenha pesquisado antes."/>
+		<Entry Key="UI_DEV_OPTIONS" Val="Opções de Desenvolvedor"/>
+		<Entry Key="UI_WARNING2" Val="ATENÇÃO!"/>
+		<Entry Key="UI_DEV_OPTIONS_WARNING1" Val="Mudar estas opções pode causar falhas. Leia os tooltips para mais informações."/>
+		<Entry Key="UI_DEV_OPTIONS_WARNING2" Val="Mudar os arquivos do jogo pode quebrá-lo ou causar comportamentos não intencionais. O desenvolvedor não vai poder dar suporte a um jogo modificado."/>
+		<Entry Key="UI_FORCE_OLD_CACHE" Val="Forçar Cache Antiga"/>
+		<Entry Key="UI_ENABLE_DEV_CONSOLE" Val="Ativar Console de Desenvolvedor"/>
+		<Entry Key="UI_WELCOME_HEADING" Val="Thea 2 - Acesso Antecipado"/>
+		<Entry Key="UI_WELCOME_MESSAGE1" Val="Tenha em mente que o jogo não é considerado final. Bugs e funcionalidades ausentes são esperados nesta fase."/>
+		<Entry Key="UI_WELCOME_MESSAGE2" Val="Se achou um bug e quer reportá-lo, aperte F8."/>
+		<Entry Key="UI_WELCOME_MESSAGE3" Val="Saiba que os saves podem não ser compatíveis entre patches."/>
+		<Entry Key="UI_LETS_PLAY" Val="Vamos Jogar!"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_HEADING1" Val="Tutorial de Desafio: 1/8"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_HEADING2" Val="Tutorial de Desafio: 2/8"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_HEADING3" Val="Tutorial de Desafio: 3/8"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_HEADING4" Val="Tutorial de Desafio: 4/8"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_HEADING5" Val="Tutorial de Desafio: 5/8"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_HEADING6" Val="Tutorial de Desafio: 6/8"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_HEADING7" Val="Tutorial de Desafio: 7/8"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_HEADING8" Val="Tutorial de Desafio: 8/8"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_1" Val="Boas-vindas ao seu primeiro desafio!"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_2" Val="Vamos ensinar o básico, para você saber o que está acontecendo."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_3" Val="A tela do desafio consiste em:"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_4" Val="- {COLOR:yellow}Mão{END_COLOR}: estas são as suas cartas,"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_5" Val="- {COLOR:yellow}Campo de Batalha{END_COLOR}: onde você e o inimigo colocam as cartas que querem jogar,"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_6" Val="- {COLOR:yellow}Barra de Sequência{END_COLOR}: mostra a ordem das ações,"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_7" Val="- {COLOR:yellow}Indicadores de Turno{END_COLOR}: estado da rodada atual."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_8" Val="Você e o inimigo se alternam para jogar as cartas durante os {COLOR:yellow}Turnos de Preparação.{END_COLOR}"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_9" Val="Os Seus Turnos"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_10" Val="Turnos do Inimigo"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_11" Val="Todas as ações entram numa fila (a Barra de Sequência mostra a ordem) e são executadas depois, nos Turnos de Luta."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_12" Val="Jogar uma carta pela primeira vez custa 1 Ponto de Ação ({ICON:APIcon})."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_13" Val="{COLOR:yellow}Para jogar uma carta:{END_COLOR}"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_14" Val="1. Clique numa carta da sua Mão.\n2. Selecione uma ação.\n3. Clique num espaço do Campo de Batalha."/>
+		<Entry Key="UI_SHOW_ME" Val="Mostre-me"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_15" Val="Quando gastar os seus PAs ({ICON:APIcon}), termine o turno e o inimigo terá a chance de realizar as ações dele."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_16" Val="Cada um terá um total de {COLOR:yellow}4 Turnos de Preparação{END_COLOR} e vai receber PAs ({ICON:APIcon}) no início de cada turno."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_17" Val="Você pode jogar o mesmo personagem mais de uma vez."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_18" Val="Cada vez que jogar o mesmo personagem, o custo em PAs dele aumenta em {ICON:APIcon}1."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_19" Val="Você vai ver um ícone de {COLOR:yellow}Clone{END_COLOR} em cada carta que foi jogada mais de uma vez."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_20" Val="A cor dela será diferente se as unidades clonadas forem diferentes."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_21" Val="Cada ação que mira um dos Clones afeta todos eles."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_22" Val="Quando os Turnos de Preparação terminam, começam os {COLOR:yellow}Turnos de Luta{END_COLOR}."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_23" Val="Os personagens trocam golpes e realizam ações na ordem da {COLOR:yellow}Barra de Sequência.{END_COLOR}"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_24" Val="Ações com o menor {COLOR:yellow}Atraso{END_COLOR} ({ICON:DelayIcon}) são executadas primeiro."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_25" Val="Se não houver vencedor após a primeira rodada, outra rodada começa."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE1_26" Val="O desafio dura até você ou o inimigo perderem todos os personagens."/>
+		<Entry Key="UI_TURN_INDICATORS" Val="Indicadores de Turno"/>
+		<Entry Key="UI_SEQUENCE_BAR" Val="Barra de Sequência"/>
+		<Entry Key="UI_YOUR_HAND" Val="A Sua Mão"/>
+		<Entry Key="UI_BATTLEFIELD_ALLIES" Val="Campo de Batalha: Aliados"/>
+		<Entry Key="UI_BATTLEFIELD_ENEMIES" Val="Campo de Batalha: Inimigos"/>
+		<Entry Key="UI_PREPARATION_TURNS" Val="Turnos de Preparação"/>
+		<Entry Key="UI_FIGHT_TURNS" Val="Turnos de Luta"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE2_HEADING1" Val="Tutorial de Desafio: 1/3"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE2_HEADING2" Val="Tutorial de Desafio: 2/3"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE2_HEADING3" Val="Tutorial de Desafio: 3/3"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE2_1" Val="Aperte o Botão do Meio do Mouse (ou use a roda) para aproximar uma carta, se quiser ver mais informações sobre ela."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE2_2" Val="Este desafio é bem mais difícil, o seu Guerreiro não é especialista em desafios Espirituais."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE2_3" Val="Quando a vitória não é provável, pode ser uma boa ideia fugir."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE2_4" Val="Clique no botão {COLOR:yellow}Desistir do Desafio{END_COLOR} e confirme a decisão no popup."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE2_5" Val="O seu guerreiro pode sofrer algum dano e/ou a história vai reagir à sua ação, mas às vezes é melhor correr e viver do que lutar e morrer."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE3_HEADING1" Val="Tutorial de Desafio: 1/4"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE3_HEADING2" Val="Tutorial de Desafio: 2/4"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE3_HEADING3" Val="Tutorial de Desafio: 3/4"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE3_HEADING4" Val="Tutorial de Desafio: 4/4"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE3_1" Val="Este é um {COLOR:yellow}Desafio vs Conceito{END_COLOR}. Nos desafios vs Conceito, você não pode usar habilidades que vêm de itens equipados. Em outras palavras, só as habilidades naturais contam aqui."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE3_2" Val="Se os seus personagens não têm uma habilidade adequada para o desafio em que estão, vão poder usar um ataque padrão, mas ele não é muito eficaz."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE3_3" Val="Perder (ou desistir de) um desafio contra um conceito também pode ter consequência ruim, mas normalmente não afeta os pontos de vida dos seus personagens."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE3_4" Val="Aliás, durante os Turnos de Luta, você vai ver o controle de Velocidade de Animação aparecer neste lugar."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE3_5" Val="Ele permite mudar a rapidez com que a luta e os efeitos de ataque são reproduzidos."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE4_1" Val="Nesta luta, os seus personagens têm alguns itens à disposição."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE4_2" Val="Os itens vêm com habilidades diferentes, e usá-los corretamente melhora a chance de vitória."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE4_3" Val="Habilidades podem ter regras de uso diferentes, que definem o que podem mirar, quando os efeitos disparam e que tipo de efeito é aplicado no momento em que disparam."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE4_4" Val="Ao decidir que habilidade usar, passe o mouse sobre cada ícone para ver como a habilidade funciona."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE4_5" Val="Por exemplo: a {COLOR:yellow}Varinha{END_COLOR} que a {COLOR:yellow}Anya{END_COLOR} segura é uma {COLOR:yellow}arma à distância{END_COLOR}. Você só pode usá-la da sua {COLOR:yellow}fileira à distância{END_COLOR}."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE4_6" Val="Armas à distância podem mirar qualquer personagem inimigo, a menos que haja um parado na fileira de corpo a corpo à frente de quem a usa, bloqueando a visão."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE4_7" Val="Você vai poder escolher o alvo durante os Turnos de Luta. Porém, se Anya for bloqueada por um inimigo, esse inimigo é o alvo obrigatório."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE4_8" Val="{COLOR:yellow}Kamil{END_COLOR} segura um pergaminho com a habilidade {COLOR:yellow}Canção de Ninar{END_COLOR}. Usá-la vai {COLOR:yellow}imediatamente{END_COLOR} aumentar o Atraso ({ICON:DelayIcon}) de um personagem inimigo no Campo de Batalha, fazendo com que ele aja mais tarde do que agir normalmente."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE4_9" Val="Diferente dos ataques de arma, as habilidades instantâneas aplicam o efeito quando você confirma o(s) alvo(s)."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_HEADING1" Val="Tutorial de Desafio: 1/5"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_HEADING2" Val="Tutorial de Desafio: 2/5"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_HEADING3" Val="Tutorial de Desafio: 3/5"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_HEADING4" Val="Tutorial de Desafio: 4/5"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_HEADING5" Val="Tutorial de Desafio: 5/5"/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_1" Val="Ora, esses bandidos não têm a menor chance contra a grandiosidade pura dos seus anões."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_2" Val="Vamos usar esta luta como oportunidade para explicar Proteção, Dano Verdadeiro e Dano em Área."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_3" Val="A {COLOR:yellow}Proteção{END_COLOR} guarda os pontos de vida dos seus personagens e normalmente precisa ser reduzida primeiro. Ela é reposta entre desafios, mas não entre rodadas."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_4" Val="Um dos seus anões carrega {COLOR:yellow}um escudo{END_COLOR}, que permite proteger outro aliado aumentando a Proteção dele."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_5" Val="Ele também carrega uma Machadinha, que causa uma versão melhorada do {COLOR:yellow}Dano Verdadeiro{END_COLOR} ({ICON:DamageTrueAncient}). Seu anão não só causa o dano cheio aos pontos de vida, como também causa a mesma quantidade de dano à Proteção do inimigo."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_6" Val="O seu outro anão está equipado com uma Marreta. É uma arma lenta, mas bem poderosa, que causa {COLOR:yellow}Dano em Área{END_COLOR} ({ICON:DamageTSplash}). Ela fere os inimigos que estão ao lado do alvo principal do seu personagem."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_7" Val="Passe o mouse sobre um personagem do Campo de Batalha para ver o(s) alvo(s) dele."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_8" Val="Se os {COLOR:yellow}Clones{END_COLOR} estiverem em pé um ao lado do outro, todos serão afetados pela área e receberão muito mais dano."/>
+		<Entry Key="UI_TUTORIAL_CHALLENGE5_9" Val="Tente tirar vantagem disso ao usar uma habilidade de dano em área, e cuidado com o posicionamento das suas unidades se suspeitar que o inimigo tenha uma arma de dano em área."/>
+		<Entry Key="UI_DB_VER" Val="Versão do banco de dados:"/>
+		<Entry Key="UI_CURRENT" Val="Atual"/>
+		<Entry Key="UI_THIS_CHANGE_REQUIRES_RESTART" Val="Esta mudança será aplicada quando o aplicativo for reiniciado."/>
+		<Entry Key="UI_CURENT_DB_NO_CHANGE_NEEDED" Val="O banco de dados não foi mudado; reiniciar não é necessário."/>
+		<Entry Key="UI_SAVE_INCOMPATIBLE" Val="O save que você está tentando carregar é incompatível com o banco de dados do jogo em uso. Recomendamos trocar para a versão do jogo correspondente usando as branches beta."/>
+		<Entry Key="UI_DEFAULT" Val="Banco Padrão"/>
+		<Entry Key="UI_CONFIRM_DB_DELETE" Val="Tem certeza de que quer excluir este banco de dados?"/>
+		<Entry Key="UI_CONFIRM_DB_SWITCH" Val="Tem certeza de que quer trocar para este banco de dados?"/>
+		<Entry Key="UI_VIEW_SUMMARY" Val="Ver Resumo"/>
+		<Entry Key="UI_DEV_TOXINE_GROUP" Val="Aplicar Toxina ao Grupo"/>
+		<Entry Key="UI_DEV_COMBO_ADD" Val="Adicionar Carga de Item"/>
+		<Entry Key="UI_DEV_EXPORT_GROUP_POWERS" Val="Exportar Poderes do Grupo"/>
+		<Entry Key="UI_DEV_LOG_SELECTED_GROUP_DEBUG" Val="Registrar Debug do Grupo Selecionado"/>
+		<Entry Key="UI_DEV_ADD_MP" Val="Adicionar PM"/>
+		<Entry Key="UI_DEV_ADD_XP" Val="Adicionar XP"/>
+		<Entry Key="UI_CLIENT_CONNECTION_LOST" Val="Você perdeu a conexão com o servidor."/>
+		<Entry Key="UI_YOU_HAVE_BEEN_DISCONNECTED" Val="Você foi desconectado."/>
+		<Entry Key="UI_SOMEONE_LEFT_THE_GAME" Val="Um jogador saiu do jogo. Os outros jogadores precisam voltar ao menu principal e reiniciar a sessão multijogador para continuar."/>
+		<Entry Key="UI_MASTER_LEFT_THE_GAME" Val="O servidor saiu do jogo."/>
+		<Entry Key="UI_RESOLVE_MANUALLY" Val="Resolver Manualmente"/>
+		<Entry Key="UI_ACCEPT_OUTCOME" Val="Aceitar o Resultado"/>
+		<Entry Key="UI_AUTORESOLVE_OUTCOME" Val="Resultado da Resolução Automática"/>
+		<Entry Key="UI_TOTAL_DEFEAT" Val="Derrota Total"/>
+		<Entry Key="UI_VICTORY_WITH_GRAVE_INJURIES" Val="Vitória com ferimentos graves"/>
+		<Entry Key="UI_VICTORY_WITH_SERIOUS_INJURIES" Val="Vitória com ferimentos sérios"/>
+		<Entry Key="UI_VICTORY_WITH_INJURIES" Val="Vitória com ferimentos"/>
+		<Entry Key="UI_PERFECT_VICTORY" Val="Vitória Perfeita"/>
+		<Entry Key="UI_AUTORESOLVE_OUTCOME_INFO" Val="Você aceita este resultado ou quer tentar resolver este desafio manualmente?"/>
+		<Entry Key="UI_GROUP_INFO" Val="Informações do Grupo"/>
+		<Entry Key="UI_TUTORIAL_GROUP_INFO1" Val="Esta tela permite gerenciar o uso de comida e combustível do seu grupo."/>
+		<Entry Key="UI_TUTORIAL_GROUP_INFO2" Val="Você pode restringir tipos específicos, ou até decidir não permitir nenhum item novo de comida ou combustível que eles coletem."/>
+		<Entry Key="UI_TUTORIAL_GROUP_INFO3" Val="Tenha em mente que quanto mais tipos de comida as suas pessoas podem usar, melhor fica a moral delas."/>
+		<Entry Key="UI_TUTORIAL_GROUP_INFO4" Val="Moral alta oferece bônus melhores. Ela também é usada para repor os Pontos de Vida Mentais: Sanidade ({ICON:HealthMentalIcon})."/>
+		<Entry Key="UI_TUTORIAL_GROUP_INFO5" Val="O painel de Bônus de Moral mostra a moral de todos os personagens deste grupo de relance."/>
+		<Entry Key="UI_EMPTY" Val=""/>    
+		<Entry Key="UI_SELECT_AN_EVENT" Val="Selecione um Evento"/>    
+		<Entry Key="UI_OBSOLETE_PROFILE_PLEASE_CHANGE" Val="Perfis criados com a demo de setembro para patrocinadores estão obsoletos. Exclua-os e crie um perfil novo."/>    
+		<Entry Key="UI_STATUS" Val="Estado"/>    
+		<Entry Key="UI_MODULES_HASH" Val="Hash dos Módulos:"/>    
+		<Entry Key="UI_LOAD_ANYWAY" Val="Carregar Mesmo Assim"/>    
+		<Entry Key="UI_AUTOSAVE" Val="Autosave"/>
+		<Entry Key="UI_GOD_POINTS_UPDATE" Val="Os Pontos de Deus do seu perfil são atualizados cada vez que a tela de Resumo é aberta."/>
+		<Entry Key="UI_30" Val="30 FPS"/>
+		<Entry Key="UI_60" Val="60 FPS"/>
+		<Entry Key="UI_VSYNC_1" Val="VSync a cada quadro"/>
+		<Entry Key="UI_VSYNC_2" Val="VSync a cada dois quadros"/>
+		<Entry Key="UI_ISSUE_ENCOUNTERED" Val="Problema Encontrado"/>
+		<Entry Key="UI_ISSUE_ENCOUNTERED_DES" Val="Ocorreu um problema. O jogo pode ficar instável e/ou travar. Qualquer save criado a partir de agora pode estar corrompido.\n\nFeche este popup e aperte F8 para reportar um bug.\n\nRecomenda-se reiniciar o aplicativo depois."/>
+		<Entry Key="UI_ADVANCEMENT" Val="Progressão"/>
+		<Entry Key="UI_TUTORIAL_ADVANCEMENT1" Val="Esta tela permite gastar Pontos de Progressão ({ICON:AdvancementPointIcon}) em novos materiais, receitas de criação e construções."/>
+		<Entry Key="UI_TUTORIAL_ADVANCEMENT2" Val="Aperte estes botões para ver cada categoria:"/>
+		<Entry Key="UI_TUTORIAL_ADVANCEMENT3" Val="O custo de desbloqueio de cada receita aparece ao lado do ícone dela."/>
+		<Entry Key="UI_TUTORIAL_ADVANCEMENT4" Val="Os materiais nas {COLOR:yellow}receitas de equipamento{END_COLOR} desbloqueiam em ordem aleatória a cada partida, mas você pode ver os detalhes antes de gastar os Pontos de Progressão clicando numa receita."/>
+		<Entry Key="UI_TUTORIAL_ADVANCEMENT5" Val="Cada receita exige que você desbloqueie pelo menos um nó superior que leve a ela."/>
+		<Entry Key="UI_TUTORIAL_ADVANCEMENT6" Val="Por exemplo, a Madeira Cristalina só pode ser obtida depois de desbloquear Diamante ou Madeira Ancestral."/>
+		<Entry Key="UI_TUTORIAL_ADVANCEMENT7" Val="Pontos de Progressão {ICON:AdvancementPointIcon} são concedidos cada vez que você coleta Pontos de Pesquisa (RPs) suficientes."/>
+		<Entry Key="UI_TUTORIAL_ADVANCEMENT8" Val="RPs são dados ao completar eventos, construir uma Escola ou pesquisar artefatos de terreno e criatura."/>
+		<Entry Key="UI_STAY_IN_GAME" Val="Ficar no Jogo"/>
+		<Entry Key="UI_EXIT_GAME" Val="Sair do Jogo"/>
+		<Entry Key="UI_CONNECTION_LOST" Val="Conexão Perdida"/>
+		<Entry Key="UI_SELECT_CATEGORY" Val="Selecione a Categoria"/>
+		<Entry Key="UI_SAVE_DELETE_WARNING" Val="Tem certeza de que quer excluir este arquivo de save?"/>
+		<Entry Key="UI_CUSTOM_DB_IN_USE" Val="Você está usando um banco de dados antigo. Se quiser começar um jogo novo, é recomendado trocar para o banco atual. Isso exige reiniciar o jogo."/>
+		<Entry Key="UI_SWITCH_AND_EXIT" Val="Trocar e Sair"/>
+		<Entry Key="UI_START_ANYWAY" Val="Começar Mesmo Assim"/>
+		<Entry Key="UI_VALUE_SORT" Val="Ordenar por Valor"/>
+		<Entry Key="UI_WEIGHT_SORT" Val="Ordenar por Peso"/>
+		<Entry Key="UI_WEIGHT_TOTAL_SORT" Val="Ordenar por Peso Total"/>
+		<Entry Key="UI_SKILL_LVL_SORT" Val="Ordenar por Nível de Habilidade"/>
+		<Entry Key="UI_DEV_HEAL_GROUP" Val="Curar o Grupo"/>
+		<Entry Key="UI_EASY" Val="Fácil"/>
+		<Entry Key="UI_NORMAL" Val="Normal"/>
+		<Entry Key="UI_DIFFICULT" Val="Difícil"/>
+		<Entry Key="UI_HARD" Val="Duro"/>
+		<Entry Key="UI_CUSTOM" Val="Personalizado"/>
+		<Entry Key="UI_FINAL_SCORE_MULTIPLIER" Val="Multiplicador de Pontuação Final:"/>
+		<Entry Key="UI_PRESETS" Val="Predefinições"/>
+		<Entry Key="UI_BASE_GROUP" Val="Grupo Base"/>
+		<Entry Key="UI_CHARACTER_GROUP_CARRY" Val="Bônus de Carga do Grupo por Personagem"/>
+		<Entry Key="UI_WORLD_PROGRESSION" Val="Progressão do Mundo"/>
+		<Entry Key="UI_TRUE" Val="Verdadeiro"/>
+		<Entry Key="UI_FALSE" Val="Falso"/>
+		<Entry Key="UI_DISMANTLE_DIFFICULTY" Val="Recuperação de Recursos na Desmontagem"/>
+		<Entry Key="UI_ROGUE_SPAWN" Val="Taxa de Surgimento de Grupos Renegados"/>
+		<Entry Key="UI_WORLD_SIZE" Val="Tamanho do Mundo"/>
+		<Entry Key="UI_RESOURCE_AVAILABILITY" Val="Disponibilidade de Recursos"/>
+		<Entry Key="UI_RUINS" Val="Ruínas"/>
+		<Entry Key="UI_LOTS" Val="Muitos"/>
+		<Entry Key="UI_FEW" Val="Poucos"/>
+		<Entry Key="UI_BASE_GROUP1" Val="2 x Guerreiro + 1 x Criança"/>
+		<Entry Key="UI_BASE_GROUP2" Val="1 x Guerreiro + 1 x Criança"/>
+		<Entry Key="UI_BASE_GROUP3" Val="1 x Criança"/>
+		<Entry Key="UI_CHARACTER_GROUP_CARRY_EASY" Val="600 de Bônus de Carga"/>
+		<Entry Key="UI_CHARACTER_GROUP_CARRY_NORMAL" Val="400 de Bônus de Carga"/>
+		<Entry Key="UI_CHARACTER_GROUP_CARRY_DIFFICULT" Val="200 de Bônus de Carga"/>
+		<Entry Key="UI_SLOW" Val="Lento"/>
+		<Entry Key="UI_QUICK" Val="Rápido"/>
+		<Entry Key="UI_DISMANTLE_DIFFICULTY_30" Val="30 a 60%"/>
+		<Entry Key="UI_DISMANTLE_DIFFICULTY_20" Val="20 a 50%"/>
+		<Entry Key="UI_DISMANTLE_DIFFICULTY_10" Val="10 a 40%"/>
+		<Entry Key="UI_FREQUENT" Val="Frequente"/>
+		<Entry Key="UI_SELDOM" Val="Raro"/>
+		<Entry Key="UI_SMALL" Val="Pequeno"/>
+		<Entry Key="UI_LARGE" Val="Grande"/>
+		<Entry Key="UI_ABUNDANT" Val="Abundante"/>
+		<Entry Key="UI_SPARSE" Val="Escasso"/>
+        <Entry Key="UI_AUDIO_DRIVER_ERROR" Val="O FMOD não conseguiu inicializar o dispositivo de saída.\n\nParece haver um erro no driver de áudio. Se o problema persistir, reinstale os drivers de áudio e confira se o seu dispositivo de som funciona corretamente."/>
+        <Entry Key="UI_VIEW_GROUPS" Val="Ver Grupos"/>
+		<Entry Key="UI_CANNOT_MODIFY_EQUIPMENT" Val="Você não pode mudar o equipamento durante um evento."/>
+		<Entry Key="UI_SAVE_GAME_VER_INCOMPATIBLE" Val="O save que você está tentando carregar é incompatível com a versão atual do jogo. Se quiser continuar jogando, use as branches beta da Steam para voltar à versão compatível."/>
+		<Entry Key="UI_GATHERING_MAX_1PACK" Val="Coleta Excedente Pela Metade"/>
+		<Entry Key="UI_MADE_IN_GAME_VER" Val="Salvo na versão do jogo: "/>
+		<Entry Key="UI_PREVIOUS_GROUP" Val="Grupo Anterior"/>
+		<Entry Key="UI_NEXT_GROUP" Val="Próximo Grupo"/>
+		<Entry Key="UI_CHARACTERS" Val="Personagens"/>
+		<Entry Key="UI_SHOW_QUEST_TRACKER" Val="Mostrar Acompanhamento de Missões"/>
+		<Entry Key="UI_SHOW_QUEST_TRACKER_DES" Val="Uma lista prática das suas missões atuais."/>
+		<Entry Key="UI_RESEARCH_MATERIAL_ACQUIRED" Val="Material de Pesquisa Conquistado!"/>
+		<Entry Key="UI_INDEX_ENEMIES" Val="Índice: Inimigos"/>
+		<Entry Key="UI_INDEX_TERRAIN" Val="Índice: Terreno"/>
+		<Entry Key="UI_INDEX" Val="Índice"/>
+		<Entry Key="UI_THEOPEDIA" Val="Theopedia"/>
+		<Entry Key="UI_RESEARCH_MATERIAL_COLLECTED" Val="Material de pesquisa coletado"/>
+		<Entry Key="UI_RESEARCH_COMPLETED_CHAR" Val="Pesquisa concluída: 15% de bônus de poder nos desafios resolvidos automaticamente contra esta criatura."/>
+		<Entry Key="UI_RESEARCH_COMPLETED_TERRAIN" Val="Pesquisa concluída."/>
+		<Entry Key="UI_DEFEATED" Val="Derrotado"/>
+		<Entry Key="UI_SKILLS_INNATE" Val="Habilidades: Inatas"/>
+		<Entry Key="UI_SKILLS_FROM_EQUIPMENT" Val="Habilidades: Do Equipamento"/>
+		<Entry Key="UI_RMB_SHOW_ENTITY_INFO" Val="{ICON:RMB}: ver detalhes"/>
+		<Entry Key="UI_FACTION_LOYALTY_CHANGED" Val="A Lealdade de Facção mudou:"/>
+		<Entry Key="UI_RESEARCH_SORT" Val="Ordenar por Pesquisa"/>
+		<Entry Key="UI_RESEARCH_ARTIFACTS" Val="Pesquisar Artefatos"/>
+		<Entry Key="UI_TUTORIAL_ARTIFACTS1" Val="Errando pelo mundo de Thea, você vai se deparar com Artefatos de Pesquisa. Às vezes são conquistados ao vencer desafios, ou podem ser achados no chão."/>
+		<Entry Key="UI_TUTORIAL_ARTIFACTS2" Val="Acampar perto de um Artefato de Terreno permite coletá-lo. Quando a coleta termina, um recurso aparece naquele lugar."/>
+		<Entry Key="UI_TUTORIAL_ARTIFACTS3" Val="O artefato coletado não aparece no seu inventário; você o encontra na tela de Pesquisa, onde pode designar pessoas para o trabalho de pesquisa.\n\nArtefatos de Terreno e de Criatura desbloqueiam novas entradas de lore na Theopedia."/>
+		<Entry Key="UI_FACTION_FRIENDLY" Val="Amistosa"/>
+		<Entry Key="UI_FACTION_NEUTRAL" Val="Neutra"/>
+		<Entry Key="UI_FACTION_HOSTILE" Val="Hostil"/>
+		<Entry Key="UI_ITS_SPRING" Val="É a Primavera!"/>
+		<Entry Key="UI_ITS_SUMMER" Val="É o Verão!"/>
+		<Entry Key="UI_ITS_AUTUMN" Val="É o Outono!"/>
+		<Entry Key="UI_ITS_WINTER" Val="É o Inverno!"/>
+		<Entry Key="UI_SEASONAL_EFFECTS" Val="Efeitos sazonais:"/>
+		<Entry Key="UI_POSSIBLE_WEATHER_CONDITIONS" Val="Possíveis condições de clima:"/>
+		<Entry Key="UI_SPRING_EFFECT1" Val="Recuperação de Vida, Sanidade e Fé aumentada"/>
+		<Entry Key="UI_SUMMER_EFFECT1" Val="A Coleta dá +0.5 XP por turno"/>
+		<Entry Key="UI_AUTUMN_EFFECT1" Val="A Criação é 25% mais rápida"/>
+		<Entry Key="UI_AUTUMN_EFFECT2" Val="Os inimigos são tão agressivos durante o dia quanto durante a noite"/>
+		<Entry Key="UI_WINTER_EFFECT1" Val="O ganho de Pontos de Experiência de eventos dobra para todos os personagens"/>
+		<Entry Key="UI_WINTER_EFFECT2" Val="Os inimigos são tão agressivos quanto durante a noite"/>
+		<Entry Key="UI_WINTER_EFFECT3" Val="A chance de surgimento de ninhos de monstros é maior"/>
+		<Entry Key="UI_WINTER_EFFECT4" Val="Acampamentos e aldeias usam 2 de combustível por turno em vez de 1"/>
+		<Entry Key="UI_WINTER_EFFECT5" Val="Recuperar Vida, Sanidade ou Fé exige um acampamento ou aldeia com combustível"/>
+		<Entry Key="UI_WINTER_EFFECT6" Val="Coletar comida e criar recursos é mais difícil"/>
+		<Entry Key="UI_TRAITS" Val="Traços"/>
+		<Entry Key="UI_COMPOSITE_INFO" Val="Este recurso é um composto e pode ser criado no painel de Cozinha e Compostos."/>
+		<Entry Key="UI_INVENTORY_SHIFT" Val="- transferir pilha"/>
+		<Entry Key="UI_SEASONS" Val="Estações"/>
+		<Entry Key="UI_ONLY_POSITIVE_EFFECTS" Val="Só efeitos positivos"/>
+		<Entry Key="UI_ALL_SEASONS_EFFECTS" Val="Todos os efeitos sazonais"/>
+		<Entry Key="UI_PARTICIPATING_GROUPS" Val="Grupo(s) Participante(s)"/>
+		<Entry Key="UI_TUTORIAL_EVENTS1" Val="Você encontrou um evento. A maioria dos eventos acontece ao acaso no fim do turno ou ao se mover pelo mapa."/>
+		<Entry Key="UI_TUTORIAL_EVENTS2" Val="Se um evento for disparado por um grupo em terra, {COLOR:yellow}outros grupos num raio de 6 hexágonos entram também (isso depende da configuração de dificuldade).{END_COLOR}"/>
+		<Entry Key="UI_TUTORIAL_EVENTS3" Val="Clique no botão Ver Grupo para ver exatamente que grupos participam do evento."/>
+		<Entry Key="UI_TUTORIAL_EVENTS4" Val="Sob cada parte da história, você vê uma ou mais respostas possíveis."/>
+		<Entry Key="UI_TUTORIAL_EVENTS5" Val="Algumas respostas só são visíveis se o seu grupo atende a uma condição, por exemplo, conter um tipo específico de personagem."/>
+		<Entry Key="UI_TUTORIAL_EVENTS6" Val="Se você vir qualquer um destes símbolos:"/>
+		<Entry Key="UI_TUTORIAL_EVENTS7" Val="significa que essa resposta leva a uma luta, então leia as respostas com cuidado!"/>
+		<Entry Key="UI_SHOW_RESOURCE" Val="Mostrar o Recurso!"/>
+		<Entry Key="UI_MAP_OF_THEA" Val="Mapa de Thea"/>
+		<Entry Key="UI_WORLD" Val="Mundo"/>
+		<Entry Key="UI_ISLAND" Val="Ilha"/>
+		<Entry Key="UI_NOTE" Val="Nota"/>
+		<Entry Key="UI_BUILDINGS_FILTER" Val="Construções"/>
+		<Entry Key="UI_EQUIPMENT_FILTER" Val="Equipamento"/>
+		<Entry Key="UI_SHIPS_FILTER" Val="Embarcações"/>
+		<Entry Key="UI_PRODUCTION_COST_SORT" Val="Ordenar por Custo de Produção"/>
+		<Entry Key="UI_LUCK_SORT" Val="Ordenar por Sorte"/>
+		<Entry Key="UI_DOMINATION_VICTORY" Val="Vitória por Dominação"/>
+		<Entry Key="UI_DOMINATION_VICTORY_DES" Val="Para alcançar a Vitória por Dominação, você precisa atender a um requisito em cada uma destas três categorias:"/>
+		<Entry Key="UI_DOMINATION_1A" Val="Conquistou pelo menos metade dos povoados das facções."/>
+		<Entry Key="UI_DOMINATION_1B" Val="Amistoso com pelo menos 5 facções (Lealdade a 50 ou mais)."/>
+		<Entry Key="UI_DOMINATION_2A" Val="Tem pelo menos 20 seguidores."/>
+		<Entry Key="UI_DOMINATION_2B" Val="Tem pelo menos 7 raças diferentes entre os seguidores."/>
+		<Entry Key="UI_DOMINATION_3A" Val="Tem pelo menos 6 construções com nível de habilidade 4."/>
+		<Entry Key="UI_DOMINATION_3B" Val="Tem pelo menos 6 personagens no nível 20."/>
+		<Entry Key="UI_CURRENTLY_CONQUERED" Val="Conquistados atualmente:"/>
+		<Entry Key="UI_CURRENTLY_LOYAL" Val="Fiéis atualmente:"/>
+		<Entry Key="UI_FOLLOWERS" Val="Seguidores:"/>
+		<Entry Key="UI_DIFFERENT_RACES" Val="Raças diferentes:"/>
+		<Entry Key="UI_OWNED_LV4_BUILDINGS" Val="Construções de nível 4 possuídas:"/>
+		<Entry Key="UI_CHARACTERS_ON_LVL20" Val="Personagens no nível 20:"/>
+		<Entry Key="UI_OR" Val="OU"/>
+		<Entry Key="UI_GROUP_POINTS" Val="Custo Total Máximo de Traços"/>
+		<Entry Key="UI_STARTING_SEASON" Val="Estação Inicial"/>
+		<Entry Key="UI_SUMMER" Val="Verão"/>
+		<Entry Key="UI_AUTUMN" Val="Outono"/>
+		<Entry Key="UI_WINTER" Val="Inverno"/>
+		<Entry Key="UI_RARITY_SORT" Val="Ordenar por Raridade"/>
+		<Entry Key="UI_UNLOCKED" Val="Desbloqueado"/>
+		<Entry Key="UI_LOCKED" Val="Bloqueado"/>
+		<Entry Key="UI_MATCHING" Val="Correspondente"/>
+		<Entry Key="UI_CHARACTERS_FILTER" Val="Só Personagens"/>
+		<Entry Key="UI_DOMAIN_SORT" Val="Ordenar por Domínio"/>
+		<Entry Key="UI_COST_SORT" Val="Ordenar por Custo"/>
+		<Entry Key="UI_ACTIVE_QUESTS" Val="Missões Ativas"/>
+		<Entry Key="UI_PARENT_UNLOCK_REQUIRED" Val="{COLOR:#C80000}Você precisa desbloquear a progressão superior primeiro."/>
+		<Entry Key="UI_CURRENT_TRADE_VALUE" Val="Saldo Atual:"/>
+		<Entry Key="UI_ALLOW_SAVES" Val="Saves Manuais"/>
+		<Entry Key="UI_ALLOW_CUSTOM_SAVES" Val="Permitido"/>
+		<Entry Key="UI_DISALLOW_CUSTOM_SAVES" Val="Não Permitido"/>
+		<Entry Key="UI_SAVE_AND_QUIT" Val="Salvar e Sair"/>
+		<Entry Key="UI_FINISHED_QUESTS" Val="Missões Concluídas"/>
+		<Entry Key="UI_CHALLENGE_DIFFICULTY_INCREASE" Val="Aumento de Dificuldade dos Desafios"/>
+		<Entry Key="UI_NYIA_UNLOCKED" Val="Nyia Desbloqueada!"/>
+		<Entry Key="UI_TRIGLAV_UNLOCKED" Val="Triglav Desbloqueado!"/>
+		<Entry Key="UI_COAL_REMOVED_FROM_FIRST_ISLAND" Val="Carvão removido da ilha inicial"/>
+		<Entry Key="UI_SKIP_TO_RESOLUTION" Val="Pular para a Resolução"/>
+		<Entry Key="UI_ARE_YOU_SURE_SKIP_TO_RESOLUTION" Val="Tem certeza de que quer terminar a conjuração das suas cartas nesta rodada e pular para a resolução? O inimigo joga as cartas dele normalmente."/>
+		<Entry Key="UI_STRENGTH_CHARACTER_SORT" Val="Ordenar por Força"/>
+		<Entry Key="UI_PERCEPTION_CHARACTER_SORT" Val="Ordenar por Percepção"/>
+		<Entry Key="UI_INTELLIGENCE_CHARACTER_SORT" Val="Ordenar por Inteligência"/>
+		<Entry Key="UI_WISDOM_CHARACTER_SORT" Val="Ordenar por Sabedoria"/>
+		<Entry Key="UI_MYSTICISM_CHARACTER_SORT" Val="Ordenar por Misticismo"/>
+		<Entry Key="UI_DESTINY_CHARACTER_SORT" Val="Ordenar por Destino"/>
+		<Entry Key="UI_CRAFTING_CHARACTER_SORT" Val="Ordenar por Criação"/>
+		<Entry Key="UI_RESEARCH_CHARACTER_SORT" Val="Ordenar por Pesquisa"/>
+		<Entry Key="UI_RITUALS_CHARACTER_SORT" Val="Ordenar por Rituais"/>
+		<Entry Key="UI_CLASS_CHARACTER_SORT" Val="Ordenar por Classe"/>
+		<Entry Key="UI_CARRY_LIMIT_CHARACTER_SORT" Val="Ordenar por Limite de Carga"/>
+		<Entry Key="UI_AUTOSELECT" Val="Auto-selecionar"/>
+		<Entry Key="UI_INFORMATION" Val="Informações"/>
+		<Entry Key="UI_TUTORIALS_RESET" Val="Os tutoriais foram zerados."/>
+		<Entry Key="UI_LEVEL_CHARACTER_SORT" Val="Ordenar por Nível"/>
+		<Entry Key="UI_VILLAGERS" Val="Aldeões"/>
+		<Entry Key="UI_FUEL" Val="Combustível"/>
+		<Entry Key="UI_BUILDINGS_SHIPS" Val="Construções e Embarcações"/>
+		<Entry Key="UI_LUCK_CHARACTER_SORT" Val="Ordenar por Sorte"/>
+		<Entry Key="UI_ESSENCE_AMOUNT_SORT" Val="Ordenar por Quantidade de Essência"/>
+		<Entry Key="UI_ESSENCE_TYPE_SORT" Val="Ordenar por Tipo de Essência"/>
+		<Entry Key="UI_AUTORESOLVE_PROFICIENCY" Val="Proficiência na Resolução Automática"/>
+		<Entry Key="UI_GOOD" Val="Boa"/>
+		<Entry Key="UI_POOR" Val="Fraca"/>
+		<Entry Key="UI_SWITCHING_DATABASE" Val="Recomendamos que você use a versão mais recente dos arquivos de banco de dados e só volte a outra versão se souber o que está fazendo. Garanta que as versões do jogo batem; usar um banco de dados incorreto provavelmente causa falhas! Se quiser continuar um jogo salvo numa versão anterior, troque para a versão anterior usando as branches beta."/>
+		<Entry Key="UI_PATCH_NOTES" Val="Notas de Patch"/>
+		<Entry Key="UI_TAB_TO_SWITCH" Val="TAB: alternar entre grupos"/>
+		<Entry Key="UI_SEE_RESULTS" Val="Ver Resultados"/>
+		<Entry Key="UI_LESS" Val="Menos"/>
+		<Entry Key="UI_ADDED_TO_PROFILE" Val="Adicionado ao Perfil:"/>
+		<Entry Key="UI_CLAIM" Val="Reivindicar Pontos"/>
+		<Entry Key="UI_TOTAL_VALUE" Val="Valor Total:"/>
+		<Entry Key="UI_SELECT_LANGUAGE" Val="Selecione o Idioma"/>
+		<Entry Key="UI_LOADING_FILES_FROM_CLOUD_FAILED" Val="Falha ao carregar arquivos da nuvem; possivelmente algo está bloqueando o acesso ao disco.\n\nAtenção, pode haver perda de dados! Fale conosco em bugs@muhagames.com e vamos tentar ajudar a resolver o seu problema."/>
+		<Entry Key="UI_LOCAL_AND_CLOUD_IS_DIFFERENT" Val="Os arquivos do seu disco local e da nuvem têm o mesmo nome, mas estão fora de sincronia; que versão você quer manter?\n\n(Nota: saves ou perfis removidos ou perdidos num computador não são removidos do outro. Para evitar perda de dados, você vai ter que removê-los de novo no outro computador, se desejar.)"/>
+		<Entry Key="UI_USE_CLOUD" Val="Usar a Nuvem"/>
+		<Entry Key="UI_USE_LOCAL" Val="Usar o Local"/>
+		<Entry Key="UI_MODS" Val="Mods"/>
+		<Entry Key="UI_MOVE_UP" Val="Mover para Cima"/>
+		<Entry Key="UI_MOVE_DOWN" Val="Mover para Baixo"/>
+		<Entry Key="UI_MOD_MANAGER" Val="Gerenciador de Mods"/>
+		<Entry Key="UI_PUBLISH" Val="Publicar"/>
+		<Entry Key="UI_DESCRIPTION" Val="Descrição"/>
+		<Entry Key="UI_AUTHOR" Val="Autor:"/>
+		<Entry Key="UI_VISIBILITY" Val="Visibilidade:"/>
+		<Entry Key="UI_CHANGES_TO_HAVE_EFFECT" Val="Reinicie o aplicativo para que as mudanças tenham efeito."/>
+		<Entry Key="UI_LATER" Val="Mais Tarde"/>		
+		<Entry Key="UI_PUBLIC" Val="Público"/>
+		<Entry Key="UI_FRIENDS_ONLY" Val="Só Amigos"/>
+		<Entry Key="UI_PRIVATE" Val="Privado"/>
+		<Entry Key="UI_INCORRECT_VALUE" Val="{COLOR:yellow}Valor Incorreto{END_COLOR}"/>
+		<Entry Key="UI_BUG_REPORTING_FEATURE_NOT_AVALIABLE" Val="Desculpe, o recurso de relatório de bugs não está disponível no momento."/>
+		<Entry Key="UI_REINFORCEMENTS" Val="Alcance de Reforços"/>
+		<Entry Key="UI_6_HEX" Val="6 Hexágonos"/>
+		<Entry Key="UI_3_HEX" Val="3 Hexágonos"/>
+		<Entry Key="UI_SAME_SPOT" Val="Só o Mesmo Hexágono"/>
+		<Entry Key="UI_FORFEIT" Val="Desistir"/>
+		<Entry Key="UI_WORLD_SHAPE" Val="Forma do Mundo"/>
+		<Entry Key="UI_ABUNDANT_CHARACTERS" Val="8, +2 Personagens Grátis"/>
+		<Entry Key="UI_CRAFTING_RESOURCES_FILTER" Val="Recursos de Criação"/>
+		<Entry Key="UI_ACTIVE_QUESTS2" Val="Missões Ativas:"/>
+		<Entry Key="UI_CHARACTERS_LIST" Val="Lista de Personagens"/>
+		<Entry Key="UI_TAG" Val="Tag"/>
+		<Entry Key="UI_TARGETS_LIST" Val="Lista de Alvos"/>
+		<Entry Key="UI_SHOW_SCORE" Val="Mostrar Pontuação"/>
+		<Entry Key="UI_FINISHING_GOSK_QUEST" Val="Missão O Poder de Gosk Concluída:"/>
+		<Entry Key="UI_CHARACTER_INFORMATION_NOT_AVAILABLE" Val="Informações do personagem não disponíveis."/>
+		<Entry Key="UI_HIDING" Val="Sigilo"/>
+		<Entry Key="UI_CAMP_HIDE" Val="Sigilo de Acampamento e Aldeia"/>		
+		<Entry Key="UI_ROOM_CREATION_FAILED" Val="Falha ao criar a sala; provavelmente o nome já está em uso.\n Reabra esta tela para poder selecionar a região de novo."/>
+		<Entry Key="UI_ROOM_JOIN_FAILED" Val="Falha ao entrar na sala; provavelmente o servidor não está configurado, ou não está na mesma região que o cliente.\n Reabra esta tela para poder selecionar a região de novo." />
+		<Entry Key="UI_FAILED_CONNECT_TO_REGION" Val="Falha ao conectar à região selecionada."/>
+		<Entry Key="UI_BURIAL_GROUNDS" Val="Memorial"/>		
+		
+		
+  </LOC_LIBRARY-UI>
+</DATABASE_UI_LOCALIZATION-NO_HSH>
