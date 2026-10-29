@@ -81,6 +81,7 @@ Estas formas foram adotadas no primeiro lote; descrições de cada atributo mant
 - Wraith: Espectro; Ghost: Fantasma (segue o glossário de combate).
 - Pets com nome próprio de demônio e gente mantidos: Skshack, Cmuch, Zmey; Cocatrice é a forma consagrada em jogos.
 - Cmuch, Skshack e outros nomes de criatura não mudam de cena para cena.
+- Dola, Hochlick e Cmuch são nomes próprios de demônios (folclore eslavo) e levam inicial maiúscula em qualquer posição, mesmo quando o inglês exibe minúscula ("a dola" = a Dola; "um demônio dola" = um demônio Dola).
 
 ## Armas (tipos)
 
