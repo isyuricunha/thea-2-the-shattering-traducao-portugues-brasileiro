@@ -1,0 +1,77 @@
+example info.txt
+
+<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="My First Mod" Graphic="infoArt.png" Visibility="0">  
+	<DB>DATABASE_DES_LOCALIZATION.xml</DB>
+	<DB>DATABASE_QUEST_LOCALIZATION.xml</DB>
+	<DB>DATABASE_UI_LOCALIZATION.xml</DB>  
+	
+	<SCRIPT>MyScript.cs</SCRIPT>
+	
+	<STORY_MODULE>MyOwnStory.xml</STORY_MODULE>  
+	<LOCALIZATION>MyOwnStory.txt</LOCALIZATION>  
+	<LOCALIZATION>Bandits attack.txt</LOCALIZATION>  
+		
+	<IMAGE Name="CharImage" Model="HumanChildMale5" Path="NewCharacter.png" Path2="NewCharacter_Portrait.png" MemoryStorage="true" TagMode="false" EventImage="false"/>	
+	<IMAGE Name="EventImage" Path="EventExample.png" MemoryStorage="false" TagMode="false"  EventImage="true"/>	
+	<IMAGE Name="SkillImage" Path="SkillExample.png" MemoryStorage="true" TagMode="false"  EventImage="false"/>
+	
+	<TAG>Language</TAG>
+	
+General mod description
+</ModInfo>
+
+-----------------------------------------------------------------
+
+<ModInfo> paremeters: 
+Name - is displayed in game to identify this specific mod
+Graphic - have to point to a PNG or JPG graphic used along name
+Visibility - 0- Public, 1- Friends, 2- Private
+
+<DB> nodes contain file names, all file names which are identical to those in vanila database will be loaded right after those files. 
+	    This gives oportunity to override any types previously defined.
+		All names which are not identical to those un vanila database will be loaded at the end. 
+		Please note that if any of your files contains types which are later refered by any other type within database and does not override those types in time
+		References will contain original types even though your type overrides it later and varying erros can follow. therefore its recommended to use our database names to keep order
+		
+<SCRIPT> nodes contain script files, in which modder should make class 		
+
+<STORY_MODULE> story module produced in the editor, moved to the mod directory containing custom events. This node can be used to override vanila story module when the same name of the file is used.
+<LOCALIZATION> localization to be applied to the module of the same name. (diference is only in file extension xml vs txt)
+		Those files are exported from editor using Export Single module feature. 
+		We do not support modding with the use of bundle(multi) module localization due to its vulnerability to changes and difficulty to get fixed. 
+		Simple way to develop story localization: 
+					- localize story directly in the editor
+					- export single modules
+					- copy them from StreamingAssets\Exported Modules to your Mod directory
+					- Register them in info.txt, and activate module in the game					
+		Efficient way to develop story localization: 
+		            - localize story using bundle export (which can cut 30% of the text to translate)
+					- import it back to the editor
+					- export single modules one by one
+					- Follow steps of the simple way to develop story localization.
+		NOTE! in most cases you do not want to save modules with their localization applied as it will override their original language (unless you do this eg for spell check purposes)
+		Remember that using localization mods and any form of manual import in the editor applies those changes to the stored events and will be saved to the source file if save modules is used in the editor.		
+		Experiment with the system to learn how it works before you do something to lose your work!
+		
+<IMAGE> Allows to enchance game with new graphic. 
+        Name 		- Graphic is referrenced in database by this parameter, note that it may override name which was present in vanila game if that is what you wish, or one can add new graphic with new unique name.
+		Model 		- this is to be used only if Name represents object which can be used on map (ie character, location...)
+		Path 		- main graphic component, containing name of the main graphic file. In case of characters this is large(card) graphic, in case of items / tags etc, this is the sole graphic required.
+		Path2 		- secondary graphic used in case of character icons. If missing for characters, path graphic will be used.
+		MemoryStorage - most of the graphics except event should be stored in the memory for fater access, but the control is left for the modding comunity to manage. Graphics which can be accesed often or are relatively small are better to be stored in memory.
+		TagMode 	- in great most of cases anything including tags can have this paremeter set to false, this mode forces game to store double the size of the texture in the memory when its in use so that it can be read on CPU side. This feature is required for example by scrolling/animated tags on skills
+		EventImage 	- image might be referenced in events without this set to true, but it wont be listed in the editor.
+
+-----------------------------------------------------------------
+
+Mod Directory:
+       Thea 2 The Shattering\Thea2_Data\StreamingAssets\Mods\MyMod\
+Expected files:
+       info.txt - xml file constructed as described above
+	   *.png or *.jpg - art file which exact name is provided in Graphic parameter in info.txt
+	   
+	   modid.txt - this file is generated first time mode is published and contains steam mod id required for future updates. Losing that file will make it impossible to provide further updates/force you to create new item in workshop
+	   DATABASE_*.xml - some database files which extends source database. 
+	                    Note! You no longer need to do any other changes to other files to register your database files. they are automatically taken from active mods during loading of the game
+						You can either create new records in database or override those which are in other mods or in vanila game. Be aware that we do little check to ensure you did not made any error and in most cases bugtracking is in your hands.
+						If you need help please ask on Discord where other players and/us are often present or via bugs@muhagames.com if you have enountered an issue with our content.

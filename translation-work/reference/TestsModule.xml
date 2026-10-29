@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TestsModule" lastEventIndex="49" allowToUse="true" uniqueModuleID="-15544664">
+  <Adventure name="Event New" uniqueID="48" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="3" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event009">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="567" positionY="-73" width="350" height="725">
+      <outputs name="Not Ok" ownerID="2" targetID="3" fromX="892" fromY="-564" />Modded File new node 2</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1090" positionY="-204" width="350" height="530" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="Event Real" uniqueID="49" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="3" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event009">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="567" positionY="-73" width="350" height="725">
+      <outputs name="Modded Ok" ownerID="2" targetID="3" fromX="892" fromY="-564" />Modded File</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1090" positionY="-204" width="350" height="530" linkedEventUniqueID="0" />
+  </Adventure>
+</MODULE>

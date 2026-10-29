@@ -1,0 +1,30 @@
+name: Publicar traduÃ§Ã£o validada
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'PTBR/**'
+      - 'translation-work/build-manifest.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ptbr-release
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Verificar build completo sem reconstruÃ§Ã£o
+        run: python -B translation-work/toolkit.py verify-output
+      - name: Versionar, empacotar e publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -B translation-work/release.py

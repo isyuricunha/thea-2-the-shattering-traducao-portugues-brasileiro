@@ -1,0 +1,5 @@
+translation-work/.state/
+__pycache__/
+*.pyc
+PTBR.zip
+.preview/

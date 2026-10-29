@@ -1,0 +1,3056 @@
+{
+  "events": [
+    {
+      "event_id": "32",
+      "event_name": "AlphaclansVillageSmall",
+      "module_id": "1862270847",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Alphaclan.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='32']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Alphaclan.xml#module:1862270847/event:32/"
+    },
+    {
+      "event_id": "35",
+      "event_name": "AlphaclansVillageMed",
+      "module_id": "1862270847",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "87",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "88",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Alphaclan.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='35']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Alphaclan.xml#module:1862270847/event:35/"
+    },
+    {
+      "event_id": "64",
+      "event_name": "Unliving",
+      "module_id": "1862270847",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "21",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Alphaclan.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='64']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Alphaclan.xml#module:1862270847/event:64/"
+    },
+    {
+      "event_id": "66",
+      "event_name": "Orc guardians",
+      "module_id": "1862270847",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "16",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "16",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "",
+            "scriptName": "FLP_AandB",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "list1": "orc",
+            "list2": "fem",
+            "name": "orcfem"
+          },
+          "selector_parent": "LogicProcessing"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "31",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "man"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "31",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "",
+            "scriptName": "FLP_AandB",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "list1": "orc",
+            "list2": "man",
+            "name": "orcmale"
+          },
+          "selector_parent": "LogicProcessing"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "32",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Alphaclan.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='66']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Alphaclan.xml#module:1862270847/event:66/"
+    },
+    {
+      "event_id": "12",
+      "event_name": "Bybedder",
+      "module_id": "1727971019",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "woman"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "woman"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Awakening DLC.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='12']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Awakening DLC.xml#module:1727971019/event:12/"
+    },
+    {
+      "event_id": "21",
+      "event_name": "VavelDragon3",
+      "module_id": "1727971019",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "32",
+          "node_type": "NodeTrade",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Awakening DLC.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='21']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Awakening DLC.xml#module:1727971019/event:21/"
+    },
+    {
+      "event_id": "32",
+      "event_name": "KingArathor ",
+      "module_id": "1727971019",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "12",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Awakening DLC.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='32']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Awakening DLC.xml#module:1727971019/event:32/"
+    },
+    {
+      "event_id": "1",
+      "event_name": "Orc bandits",
+      "module_id": "1722647765",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "21",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "mele"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Bandits attack.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='1']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Bandits attack.xml#module:1722647765/event:1/"
+    },
+    {
+      "event_id": "7",
+      "event_name": "Striga bandits",
+      "module_id": "1722647765",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "24",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Bandits attack.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='7']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Bandits attack.xml#module:1722647765/event:7/"
+    },
+    {
+      "event_id": "8",
+      "event_name": "Human bandits",
+      "module_id": "1722647765",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "45",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Bandits attack.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='8']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Bandits attack.xml#module:1722647765/event:8/"
+    },
+    {
+      "event_id": "12",
+      "event_name": "Unliving ruins spwn",
+      "module_id": "1722647765",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "21",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Bandits attack.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='12']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Bandits attack.xml#module:1722647765/event:12/"
+    },
+    {
+      "event_id": "1",
+      "event_name": "StorkHum",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='1']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:1/"
+    },
+    {
+      "event_id": "2",
+      "event_name": "StorkGob",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='2']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:2/"
+    },
+    {
+      "event_id": "3",
+      "event_name": "StorkOrcMix",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='3']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:3/"
+    },
+    {
+      "event_id": "4",
+      "event_name": "StorkOrcMix2",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='4']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:4/"
+    },
+    {
+      "event_id": "5",
+      "event_name": "StorkOrc",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='5']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:5/"
+    },
+    {
+      "event_id": "7",
+      "event_name": "StorkGobMix",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='7']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:7/"
+    },
+    {
+      "event_id": "8",
+      "event_name": "StorkGobMix2",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='8']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:8/"
+    },
+    {
+      "event_id": "9",
+      "event_name": "StorkDwarfRus",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='9']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:9/"
+    },
+    {
+      "event_id": "29",
+      "event_name": "StorkOrcMixDiff5",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='29']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:29/"
+    },
+    {
+      "event_id": "30",
+      "event_name": "StorkOrcMix2Diff5",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='30']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:30/"
+    },
+    {
+      "event_id": "31",
+      "event_name": "StorkOrcDiff7",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='31']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:31/"
+    },
+    {
+      "event_id": "37",
+      "event_name": "__StorkGob",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='37']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:37/"
+    },
+    {
+      "event_id": "38",
+      "event_name": "__StorkGobMix",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='38']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:38/"
+    },
+    {
+      "event_id": "39",
+      "event_name": "__StorkGobMix2",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='39']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:39/"
+    },
+    {
+      "event_id": "43",
+      "event_name": "Dwarf Child",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='43']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:43/"
+    },
+    {
+      "event_id": "47",
+      "event_name": "StorkBOrcMix",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='47']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:47/"
+    },
+    {
+      "event_id": "48",
+      "event_name": "StorkBlOrcMix2",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='48']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:48/"
+    },
+    {
+      "event_id": "49",
+      "event_name": "StorkBlOrc",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='49']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:49/"
+    },
+    {
+      "event_id": "50",
+      "event_name": "StorkBlOrcOrc",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='50']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:50/"
+    },
+    {
+      "event_id": "51",
+      "event_name": "StorkBlOrcOrc2",
+      "module_id": "1995964287",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Children.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='51']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Children.xml#module:1995964287/event:51/"
+    },
+    {
+      "event_id": "8",
+      "event_name": "Divine 2a",
+      "module_id": "1711258550",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Divine.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='8']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Divine.xml#module:1711258550/event:8/"
+    },
+    {
+      "event_id": "9",
+      "event_name": "Divine 2a spwn",
+      "module_id": "1711258550",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Divine.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='9']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Divine.xml#module:1711258550/event:9/"
+    },
+    {
+      "event_id": "13",
+      "event_name": "Lada",
+      "module_id": "1711258550",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "29",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "39",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Divine.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='13']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Divine.xml#module:1711258550/event:13/"
+    },
+    {
+      "event_id": "17",
+      "event_name": "Horz",
+      "module_id": "1711258550",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "29",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "39",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Divine.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='17']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Divine.xml#module:1711258550/event:17/"
+    },
+    {
+      "event_id": "23",
+      "event_name": "__Lada",
+      "module_id": "1711258550",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "29",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "39",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Divine.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='23']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Divine.xml#module:1711258550/event:23/"
+    },
+    {
+      "event_id": "25",
+      "event_name": "__Horz",
+      "module_id": "1711258550",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "29",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "39",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Divine.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='25']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Divine.xml#module:1711258550/event:25/"
+    },
+    {
+      "event_id": "48",
+      "event_name": "DwarfKillsmallSyrin",
+      "module_id": "-144450658",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Earthbound.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='48']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Earthbound.xml#module:-144450658/event:48/"
+    },
+    {
+      "event_id": "64",
+      "event_name": "DwarfKillMedTrolls",
+      "module_id": "-144450658",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "60",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Earthbound.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='64']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Earthbound.xml#module:-144450658/event:64/"
+    },
+    {
+      "event_id": "11",
+      "event_name": "DwarfChildGrowingup",
+      "module_id": "1584505271",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "3",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "33",
+          "node_type": "NodeProduceDrop",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "48",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "48",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Generic.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='11']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Generic.xml#module:1584505271/event:11/"
+    },
+    {
+      "event_id": "14",
+      "event_name": "OrcChildGrowingup",
+      "module_id": "1584505271",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "3",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "35",
+          "node_type": "NodeDealDamage",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "47",
+          "node_type": "NodeDealDamage",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "52",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "f"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "55",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "f"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Generic.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='14']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Generic.xml#module:1584505271/event:14/"
+    },
+    {
+      "event_id": "28",
+      "event_name": "Childgrowingup__",
+      "module_id": "1584505271",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "19",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "49",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "68",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "80",
+          "node_type": "NodeAdventureEnd",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "f"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "89",
+          "node_type": "NodeProduceDrop",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "92",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "101",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "104",
+          "node_type": "NodeAdventureEnd",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "m"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "106",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "m"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "106",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "f"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "120",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "m"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "120",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "f"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Generic.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='28']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Generic.xml#module:1584505271/event:28/"
+    },
+    {
+      "event_id": "38",
+      "event_name": "BlOrcChildGrowingup",
+      "module_id": "1584505271",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "3",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Generic.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='38']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Generic.xml#module:1584505271/event:38/"
+    },
+    {
+      "event_id": "47",
+      "event_name": "BlOrcChildGrowingupSea",
+      "module_id": "1584505271",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "3",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Generic.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='47']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Generic.xml#module:1584505271/event:47/"
+    },
+    {
+      "event_id": "53",
+      "event_name": "HumChildgrowingup SEA",
+      "module_id": "1584505271",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "19",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "49",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "68",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "80",
+          "node_type": "NodeAdventureEnd",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "f"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "89",
+          "node_type": "NodeProduceDrop",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "92",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "101",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "104",
+          "node_type": "NodeAdventureEnd",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "m"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "106",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "m"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "106",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "f"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "120",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "m"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "120",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "f"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Generic.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='53']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Generic.xml#module:1584505271/event:53/"
+    },
+    {
+      "event_id": "55",
+      "event_name": "DwarfChildGrowingup SEA",
+      "module_id": "1584505271",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "3",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "33",
+          "node_type": "NodeProduceDrop",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "48",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "48",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Generic.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='55']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Generic.xml#module:1584505271/event:55/"
+    },
+    {
+      "event_id": "56",
+      "event_name": "OrcChildGrowingup Sea",
+      "module_id": "1584505271",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "3",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "35",
+          "node_type": "NodeDealDamage",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "47",
+          "node_type": "NodeDealDamage",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "52",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "f"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "55",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "f"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Generic.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='56']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Generic.xml#module:1584505271/event:56/"
+    },
+    {
+      "event_id": "1",
+      "event_name": "Trick or Treat",
+      "module_id": "-243310599",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "17",
+          "node_type": "NodeAdventureEnd",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "m"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Haloween DLC.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='1']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Haloween DLC.xml#module:-243310599/event:1/"
+    },
+    {
+      "event_id": "10",
+      "event_name": "StorkDwarfRus",
+      "module_id": "-243310599",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "1",
+          "node_type": "NodeStarting",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Haloween DLC.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='10']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Haloween DLC.xml#module:-243310599/event:10/"
+    },
+    {
+      "event_id": "11",
+      "event_name": "Meeting Rusalka",
+      "module_id": "-243310599",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "14",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "20",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "30",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Haloween DLC.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='11']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Haloween DLC.xml#module:-243310599/event:11/"
+    },
+    {
+      "event_id": "4",
+      "event_name": "Barn Wedding",
+      "module_id": "2010316765",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/KS Events.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='4']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/KS Events.xml#module:2010316765/event:4/"
+    },
+    {
+      "event_id": "29",
+      "event_name": "Sea Haven 4b",
+      "module_id": "2010316765",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "20",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/KS Events.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='29']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/KS Events.xml#module:2010316765/event:29/"
+    },
+    {
+      "event_id": "30",
+      "event_name": "Kupala Night",
+      "module_id": "2010316765",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "27",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "27",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/KS Events.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='30']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/KS Events.xml#module:2010316765/event:30/"
+    },
+    {
+      "event_id": "56",
+      "event_name": "Village attacked",
+      "module_id": "2010316765",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/KS Events.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='56']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/KS Events.xml#module:2010316765/event:56/"
+    },
+    {
+      "event_id": "67",
+      "event_name": "Koshei witch",
+      "module_id": "2010316765",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "23",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/KS Events.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='67']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/KS Events.xml#module:2010316765/event:67/"
+    },
+    {
+      "event_id": "69",
+      "event_name": "Koshei witch 2",
+      "module_id": "2010316765",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "10",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/KS Events.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='69']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/KS Events.xml#module:2010316765/event:69/"
+    },
+    {
+      "event_id": "43",
+      "event_name": "DwarfSmth2Spwn_",
+      "module_id": "-351469709",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Misc Encounters 2.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='43']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Misc Encounters 2.xml#module:-351469709/event:43/"
+    },
+    {
+      "event_id": "32",
+      "event_name": "NightdemonsVillage",
+      "module_id": "327858400",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "70",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "76",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "79",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Nightdemons.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='32']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Nightdemons.xml#module:327858400/event:32/"
+    },
+    {
+      "event_id": "8",
+      "event_name": "Unliving",
+      "module_id": "-948151719",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "21",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Ruins Basic.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='8']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Ruins Basic.xml#module:-948151719/event:8/"
+    },
+    {
+      "event_id": "19",
+      "event_name": "Orc guardians",
+      "module_id": "-948151719",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "16",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "16",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "",
+            "scriptName": "FLP_AandB",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "list1": "orc",
+            "list2": "fem",
+            "name": "orcfem"
+          },
+          "selector_parent": "LogicProcessing"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "32",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Ruins Basic.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='19']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Ruins Basic.xml#module:-948151719/event:19/"
+    },
+    {
+      "event_id": "32",
+      "event_name": "ShadowkinTown",
+      "module_id": "31404432",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "25",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "38",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "41",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "52",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Shadowkin.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='32']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Shadowkin.xml#module:31404432/event:32/"
+    },
+    {
+      "event_id": "44",
+      "event_name": "Unliving",
+      "module_id": "-461441224",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "21",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Slavyan.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='44']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Slavyan.xml#module:-461441224/event:44/"
+    },
+    {
+      "event_id": "16",
+      "event_name": "Summer Harvest",
+      "module_id": "-1610678347",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/VOLH DLC.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='16']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/VOLH DLC.xml#module:-1610678347/event:16/"
+    },
+    {
+      "event_id": "17",
+      "event_name": "Autumn Preserves",
+      "module_id": "-1610678347",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/VOLH DLC.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='17']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/VOLH DLC.xml#module:-1610678347/event:17/"
+    },
+    {
+      "event_id": "37",
+      "event_name": "Chosen advancement",
+      "module_id": "-1610678347",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "makePublic": "true",
+            "name": "fem"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "45",
+          "node_type": "NodeAdventureEnd",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "46",
+          "node_type": "NodeAdventureEnd",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/VOLH DLC.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='37']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/VOLH DLC.xml#module:-1610678347/event:37/"
+    },
+    {
+      "event_id": "4",
+      "event_name": "Lataviec village",
+      "module_id": "2103875404",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "20",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "20",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/VillageEncounters.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='4']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/VillageEncounters.xml#module:2103875404/event:4/"
+    },
+    {
+      "event_id": "1",
+      "event_name": "Water Village",
+      "module_id": "-482362026",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "49",
+          "node_type": "NodeAdventureEnd",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "50",
+          "node_type": "NodeAdventureEnd",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "51",
+          "node_type": "NodeAdventureEnd",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "52",
+          "node_type": "NodeAdventureEnd",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        },
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "53",
+          "node_type": "NodeAdventureEnd",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Water demons.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='1']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Water demons.xml#module:-482362026/event:1/"
+    },
+    {
+      "event_id": "4",
+      "event_name": "Syrin",
+      "module_id": "-482362026",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "36",
+          "node_type": "NodeChallenge",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_MALE"
+          },
+          "selector_context": {
+            "name": "male"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/Water demons.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='4']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/Water demons.xml#module:-482362026/event:4/"
+    },
+    {
+      "event_id": "15",
+      "event_name": "Lone befuddler",
+      "module_id": "-542201323",
+      "selectors": [
+        {
+          "certainty": "confirmed native runtime filter; no fixed speaker or referent inferred",
+          "node_id": "2",
+          "node_type": "NodeAdventure",
+          "script_call": {
+            "parameter": "1",
+            "scriptName": "FwT_AllPlayersAllGroupsCharacters",
+            "tag": "TAG-GENDER_FEMALE"
+          },
+          "selector_context": {
+            "name": "female"
+          },
+          "selector_parent": "LogicFilter"
+        }
+      ],
+      "source_file": "Thea2_Data/StreamingAssets/Modules/demon encounters.xml",
+      "source_locator": "MODULE/Adventure[@uniqueID='15']",
+      "translation_id_prefix": "Thea2_Data/StreamingAssets/Modules/demon encounters.xml#module:-542201323/event:15/"
+    }
+  ],
+  "generation": "7fcb81e8963755c0dbbb1828b3298e9305b6c6ec8123df1eb13406d7c412fa32",
+  "interpretation": "Character selection filters, not automatically speaker identity. Trace named lists and node outputs before grammatical decisions.",
+  "schema": 1,
+  "scope": "Initial source generation only. Confirm against current XML after updates."
+}
