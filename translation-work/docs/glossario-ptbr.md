@@ -57,14 +57,16 @@ Estas formas foram adotadas no primeiro lote; descrições de cada atributo mant
 
 ## Sistema
 
-- Slots (vagas de trabalho e pesquisa): "espaços", como nas strings do próprio jogo ("Extra Research Slots" = Espaços de Pesquisa adicionais).
-- Essence: Essência (Essência cinzenta, Essência de couro, Essência de metal, Essência de madeira).
+- Slots (vagas de trabalho e pesquisa): "espaços", como nas strings do próprio jogo ("Extra Research Slots" = Espaços de Pesquisa Adicionais).
+- Essence: Essência (Essência Cinzenta, Essência de Couro, Essência de Metal, Essência de Madeira).
 - Níveis de proficiência de tecnologia: Advanced = Avançado; Expert = Especialista.
 - "splash damage" nas descrições: dano em área.
-- Trait: Traço ("Bônus de Traço de <Deus>"); First Strike: Primeiro golpe (descrições de arma usam "capaz de atacar primeiro").
-- Group Carry: Carga do Grupo; Personal Carry: Carga Pessoal.
-- Visibility Range: Alcance de Visão; Movement Points: Pontos de Movimento.
-- Nomes de criatura mantidos em inglês por não terem termo fechado: Eldercone, Pineconette, Gnoll.
+- Trait: Traço ("Bônus de Traço de <Deus>"); First Strike: Primeiro Golpe (descrições de arma usam "capaz de atacar primeiro").
+- Group Carry: Carga do Grupo; Personal Carry: Carga Pessoal; "Carry Limit": Limite de Carga.
+- Visibility Range: Alcance de Visão; Movement Points: Pontos de Movimento (PM).
+- Nomes de criatura mantidos em inglês por não terem termo fechado: Gnoll. Eldercone é "Pinha Anciã" e Pineconette é "pinhinha" (cânone do projeto, lote 1).
+- Advancement Points: Pontos de Progressão; Research Points (RP): Pontos de Pesquisa.
+- Tile (mapa hexagonal): hexágono; greyworld: mundo cinzento; fighting pits: arena de lutas; trading: negócio de troca.
 
 ## Construções, veículos e receitas
 
