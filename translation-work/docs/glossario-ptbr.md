@@ -82,11 +82,12 @@ Estas formas foram adotadas no primeiro lote; descrições de cada atributo mant
 
 ## Armas (tipos)
 
-- Hatchet: Machadinha; Battle Axe: Machado de batalha; Sword: Espada; Greatsword: Espada grande; Club: Clube; Mallet: Marreta; Spear: Lança; Polearm: Arma de haste; Bow: Arco; Crossbow: Besta; Javelins: Dardos; Artefact: Artefato; Relic: Relíquia; Robes: Mantos; Medium Armour: Armadura média; Heavy Armour: Armadura pesada; Shield: Escudo; Wand: Varinha; Scroll: Pergaminho.
+- Hatchet: Machadinha; Battle Axe: Machado de Batalha; Sword: Espada; Greatsword: Espada Grande; Club: Clube; Mallet: Marreta; Spear: Lança; Polearm: Arma de Haste; Bow: Arco; Crossbow: Besta; Javelins: Dardos; Artefact: Artefato; Relic: Relíquia; Robes: Mantos; Medium Armour: Armadura Média; Heavy Armour: Armadura Pesada; Shield: Escudo; Wand: Varinha; Scroll: Pergaminho.
+- Capitalização (diretriz do Yuri, 29/10/2026): onde o inglês exibe palavra com inicial maiúscula, o português também exibe: "Dryad Mallet" = Marreta de Dríade; "Blood Hatchet" = Machadinha de Sangue; "Shadow Sword" = Espada das Sombras. Preposições, artigos e conjunções ficam minúsculos ("de", "das", "com", "e").
 - A família BOW varia no próprio inglês: materiais metálicos e gemas exibem Crossbow (Besta) e o restante exibe Bow (Arco). Seguir o nome exibido, não a chave.
-- Robes é irregular: a base exibe Leather Robes (Mantos de couro) e as variantes exibem `<Adj> Robes` (Mantos + material ou adjetivo).
-- Descrições de arma usam "capaz de atacar primeiro" para "capable of first strike attack"; o nome do subskill First Strike é registrado quando seu lote for traduzido.
-- Em nomes de itens, caixa de frase: `Machadinha de sangue`, `Espada grande ígnea`.
+- Robes é irregular: a base exibe Leather Robes (Mantos de Couro) e as variantes exibem `<Adj> Robes` (Mantos + material ou adjetivo).
+- Descrições de arma usam "capaz de atacar primeiro" para "capable of first strike attack"; o nome do subskill First Strike é Primeiro Golpe.
+- Thrown Spears (rótulo de categoria) = Lanças de Arremesso; Javelins (nome do item) = Dardos.
 
 ## Materiais recorrentes em nomes de itens
 

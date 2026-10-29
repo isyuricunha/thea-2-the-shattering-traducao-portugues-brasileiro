@@ -10,10 +10,8 @@ substitui revisão do português nem teste das frases dinâmicas dentro do jogo.
 
 ## Escolhas registradas
 
-- Nomes de itens: caixa de frase no PT-BR, material `de`/`das`/`dos` ou adjetivo
-  que concorda com o gênero do tipo de arma. Quando o inglês exibe um adjetivo
-  solto, o material identificador vem da chave do registro.
-- Descrições de arma: manter o tom prático e direto do original; "splash damage"
-  vira "dano em área" nas descrições e segue o glossário nos rótulos de combate.
-- Voz do narrador: segunda pessoa dirigida ao grupo do jogador, sem formalizar.
-  Diálogos citados dentro da narração mantêm o registro do falante.
+- Capitalização espelhada (diretriz do Yuri, 29/10/2026): onde o inglês exibe inicial maiúscula, o PT-BR também exibe, inclusive em material e adjetivo de nome de item; preposições, artigos e conjunções ficam minúsculos. Vale para nomes de itens, criaturas, construções, tecnologias, habilidades e rótulos de sistema.
+- Nomes de itens: material `de`/`das`/`dos` ou adjetivo que concorda com o gênero e o número do tipo de item. Quando o inglês exibe um adjetivo solto, o material identificador vem da chave do registro.
+- Descrições de arma: manter o tom prático e direto do original; "splash damage" vira "dano em área" nas descrições e segue o glossário nos rótulos de combate.
+- Voz do narrador: segunda pessoa dirigida ao grupo do jogador, sem formalizar. Diálogos citados dentro da narração mantêm o registro do falante.
+- Contradições herdadas do original (ex.: nome "Decrease..." com descrição que diz "Increase...") são traduzidas como estão, sem corrigir a lógica do jogo.
