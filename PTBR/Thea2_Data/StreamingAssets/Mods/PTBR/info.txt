@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModInfo Name="Thea 2 Português Brasileiro" Graphic="example_art.png" Visibility="0">
+<ModInfo Name="Thea 2 Português Brasileiro" Graphic="image.png" Visibility="0">
 <DB>DATABASE_DES_LOCALIZATION.xml</DB>
 <DB>DATABASE_DES_NAMES.xml</DB>
 <DB>DATABASE_QUEST_LOCALIZATION.xml</DB>
