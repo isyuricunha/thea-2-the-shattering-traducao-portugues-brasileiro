@@ -61,6 +61,10 @@ Estas formas foram adotadas no primeiro lote; descrições de cada atributo mant
 - Essence: Essência (Essência cinzenta, Essência de couro, Essência de metal, Essência de madeira).
 - Níveis de proficiência de tecnologia: Advanced = Avançado; Expert = Especialista.
 - "splash damage" nas descrições: dano em área.
+- Trait: Traço ("Bônus de Traço de <Deus>"); First Strike: Primeiro golpe (descrições de arma usam "capaz de atacar primeiro").
+- Group Carry: Carga do Grupo; Personal Carry: Carga Pessoal.
+- Visibility Range: Alcance de Visão; Movement Points: Pontos de Movimento.
+- Nomes de criatura mantidos em inglês por não terem termo fechado: Eldercone, Pineconette, Gnoll.
 
 ## Construções, veículos e receitas
 
