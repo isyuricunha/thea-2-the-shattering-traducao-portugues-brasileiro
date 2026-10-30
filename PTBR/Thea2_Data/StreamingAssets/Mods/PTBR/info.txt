@@ -48,6 +48,7 @@
 <STORY_MODULE>Wrath of Sea DLC.xml</STORY_MODULE>
 <STORY_MODULE>demon encounters.xml</STORY_MODULE>
 <STORY_MODULE>mChapter 1.xml</STORY_MODULE>
+<SCRIPT>PTBRFontFallback.cs</SCRIPT>
 <TAG>Portuguese</TAG>
 <TAG>Translation</TAG>
 [h1]Thea 2: The Shattering em Português Brasileiro[/h1]

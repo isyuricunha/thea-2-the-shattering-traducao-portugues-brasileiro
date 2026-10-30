@@ -232,7 +232,7 @@ def rebuild_module(path, data, translations):
 
 
 def output_paths(sources):
-    return [MOD + Path(p).name for p in sources] + [MOD + 'info.txt', MOD + 'image.png']
+    return [MOD + Path(p).name for p in sources] + [MOD + 'info.txt', MOD + 'image.png', MOD + 'PTBRFontFallback.cs', MOD + 'modid.txt']
 
 
 def build_outputs(sources, translations):
@@ -247,7 +247,17 @@ def build_outputs(sources, translations):
         result[MOD + name] = rebuild(path, data, translations)
         tag = 'STORY_MODULE' if module else 'DB'
         info.append(f'<{tag}>{html.escape(name)}</{tag}>')
+    info.append('<SCRIPT>PTBRFontFallback.cs</SCRIPT>')
+    ui = MOD + 'DATABASE_UI_LOCALIZATION.xml'
+    original = b'{SCRIPT:UIS_GetCurentPlayerName}'
+    if ui in result and original in result[ui]:
+        require(result[ui].count(original) == 1, 'Expected unique player-name hook for font fallback')
+        result[ui] = result[ui].replace(original, b'{SCRIPT:PTBR_GetCurrentPlayerName}')
+    result[MOD + 'PTBRFontFallback.cs'] = Path(__file__).with_name('mod-assets').joinpath('PTBRFontFallback.cs').read_bytes()
     info.extend(['<TAG>Portuguese</TAG>', '<TAG>Translation</TAG>', html.escape(Path(__file__).with_name('mod-assets').joinpath('description.txt').read_text(encoding='utf8')), '</ModInfo>', ''])
+    modid = Path(__file__).with_name('mod-assets').joinpath('modid.txt').read_bytes()
+    require(len(modid) == 8 and int.from_bytes(modid, 'little') == 3829844206, 'Unexpected Workshop item identity')
+    result[MOD + 'modid.txt'] = modid
     result[MOD + 'image.png'] = Path(__file__).with_name('mod-assets').joinpath('image.png').read_bytes()
     result[MOD + 'info.txt'] = '\n'.join(info).encode('utf8')
     ET.fromstring(result[MOD + 'info.txt'])

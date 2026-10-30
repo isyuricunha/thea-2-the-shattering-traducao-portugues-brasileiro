@@ -559,7 +559,7 @@ class Project:
         return dict(status='built', outputs=output_hashes, records=len(rows))
 
     def tooling_fingerprint(self):
-        return fingerprint({name: sha(self.path(WORK + name).read_bytes() if name.endswith('.png') else self.path(WORK + name).read_bytes().replace(b'\r\n', b'\n')) for name in ('native.py', 'toolkit.py', 'catalog.json', 'mod-assets/description.txt', 'mod-assets/image.png')})
+        return fingerprint({name: sha(self.path(WORK + name).read_bytes() if name.endswith('.png') or name == 'mod-assets/modid.txt' else self.path(WORK + name).read_bytes().replace(b'\r\n', b'\n')) for name in ('native.py', 'toolkit.py', 'catalog.json', 'mod-assets/description.txt', 'mod-assets/image.png', 'mod-assets/PTBRFontFallback.cs', 'mod-assets/modid.txt')})
 
     def verify_output(self):
         require(not self.interrupted(), 'Interrupted transaction; recover first')

@@ -9,3 +9,5 @@ PTBR/** -text -whitespace
 translation-work/accepted-sources/** -text -whitespace
 translation-work/reference/** -text -whitespace
 LICENSE -text -whitespace
+
+translation-work/mod-assets/modid.txt -text

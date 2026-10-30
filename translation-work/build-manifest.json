@@ -16,7 +16,7 @@
     "Thea2_Data/StreamingAssets/Mods/PTBR/DATABASE_DES_LOCALIZATION.xml": "63100a9c5d7c33f58e425d1ce807b5b20de78d404781dd2ab2383c489a32891a",
     "Thea2_Data/StreamingAssets/Mods/PTBR/DATABASE_DES_NAMES.xml": "de89421474f064986ee9dcab33440e5d162205b55bfbdb9aab3cf44166fdd2b1",
     "Thea2_Data/StreamingAssets/Mods/PTBR/DATABASE_QUEST_LOCALIZATION.xml": "4a8bd5d4ca18b3cd6900f70dcbe35f3f86b9fb5e1583acab6d5dc305c162b2d8",
-    "Thea2_Data/StreamingAssets/Mods/PTBR/DATABASE_UI_LOCALIZATION.xml": "41c444b59fa0a950bc26cd7b96e171d27e6e3efe7447e53c37249902def51942",
+    "Thea2_Data/StreamingAssets/Mods/PTBR/DATABASE_UI_LOCALIZATION.xml": "b3118423d9d1e01c00f46ccc1be7f835d790d22136d79978642cd2006b1b5cc2",
     "Thea2_Data/StreamingAssets/Mods/PTBR/Death.xml": "081063114cf360ff051c607b590c2259937c6929f6ffb99d87125e68d70aaaa7",
     "Thea2_Data/StreamingAssets/Mods/PTBR/Divine.xml": "19c671f2caac89971b50cef9d074c297fc9a275c5510f64eb2d89cdeb39dadc0",
     "Thea2_Data/StreamingAssets/Mods/PTBR/Earthbound.xml": "fceb0a6fe19b8d31635f0b1b1ee2bc2517c5f8f243f0f13d7b49bf811405b555",
@@ -34,6 +34,7 @@
     "Thea2_Data/StreamingAssets/Mods/PTBR/Natural disaster.xml": "aa6115b515be7e533e4625ad0ccd5c10f55d14a27ca1904121bc92de283815ee",
     "Thea2_Data/StreamingAssets/Mods/PTBR/Nest.xml": "c7c2c9997eeef256e6ad1e41c1dad7a28f8c15a419b91ac0e505316e4b1dd330",
     "Thea2_Data/StreamingAssets/Mods/PTBR/Nightdemons.xml": "2da00cc9dd9b4cac3d63cd622b105363f8bdd8c0084b4fa9a0bab38bd6597eaf",
+    "Thea2_Data/StreamingAssets/Mods/PTBR/PTBRFontFallback.cs": "b936791446a6863ad3ff27de4333a81cbe9d4009fa32c30cef7296d6c3420ab2",
     "Thea2_Data/StreamingAssets/Mods/PTBR/Post Water Stuff.xml": "68d99dd9544a4555e8e171d44194340d429db2bff0f7c3c6d6641cdb81566e32",
     "Thea2_Data/StreamingAssets/Mods/PTBR/Quarry.xml": "dffc1920ab946e5916ac3d2d9c4f02610a8fddce4c6ce1befe430feb82809a3b",
     "Thea2_Data/StreamingAssets/Mods/PTBR/Ruins Basic.xml": "d7598609c503a6bfe5247a47221cf6cf48cf31a2dc2473f9fd7e5a98949028f7",
@@ -51,12 +52,13 @@
     "Thea2_Data/StreamingAssets/Mods/PTBR/Wrath of Sea DLC.xml": "1fe4ed2081702aafe42de6a3207b920511f768c9f7e0476e825413827710311e",
     "Thea2_Data/StreamingAssets/Mods/PTBR/demon encounters.xml": "aa59965eccba0ddcab0c550b7a7f65fd8b98ea83eeb52a6b2f727d1a00ef79c5",
     "Thea2_Data/StreamingAssets/Mods/PTBR/image.png": "4b0de793b046d1e55628e330a278164952406e1e562783bff34e2189898e1c74",
-    "Thea2_Data/StreamingAssets/Mods/PTBR/info.txt": "3ca0aa6122133ba85d7e1226950876c9a0ede21bd737b8a205b6334bb4df53f8",
-    "Thea2_Data/StreamingAssets/Mods/PTBR/mChapter 1.xml": "8b703925667d1f7c6960f8a0fe2bb83feab1fa661b1a24534b5ea878033dd8d1"
+    "Thea2_Data/StreamingAssets/Mods/PTBR/info.txt": "a41fe02f1367cd84fe48a5d7b73f8db9981a6d11a24299ea73aba729f4bf2bf6",
+    "Thea2_Data/StreamingAssets/Mods/PTBR/mChapter 1.xml": "8b703925667d1f7c6960f8a0fe2bb83feab1fa661b1a24534b5ea878033dd8d1",
+    "Thea2_Data/StreamingAssets/Mods/PTBR/modid.txt": "f06a3a661dac1c42d4b4ff5ab7ee1b8de9ca7f8f7b8aaceae0d58794d5d5096d"
   },
   "pending": 0,
   "producer": "thea2-toolkit-build-v1",
-  "receipt_hash": "fc9fed26ad089d3ea5649b9cdd47aac0dbf90ddd00d525532684756eb6fd00bd",
+  "receipt_hash": "de8d85adb49653d94e7dacf7611ca9bfc8598d208893085acb391296ee04da3c",
   "records": 45325,
   "schema": 1,
   "source_version": "2.0528.0681",
@@ -110,6 +112,6 @@
     "Thea2_Data/StreamingAssets/Modules/demon encounters.xml": "c212dbdaafab6f273f2c4721eb283c40f8c66caa300ef7ade3e2b47e83468341",
     "Thea2_Data/StreamingAssets/Modules/mChapter 1.xml": "6a3f219862b13341cb5c047373994dae65a82f4186a0f1dc4350d146df597524"
   },
-  "tooling": "e795eac05bc52c0f2ed4db2bb2eee900cece69949aa7900d753f9c4d47bb8e36",
+  "tooling": "60c6501db99e7d5a19e684c9508249ae4117b95f6d807d04749f50ac2624d506",
   "translation_fingerprint": "6c283b2bc39c3bac1d7dc61dde59372786bec72301a90170dd192ab97c5ac719"
 }
