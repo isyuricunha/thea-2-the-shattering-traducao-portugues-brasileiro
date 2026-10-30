@@ -1,0 +1,26 @@
+[h1]Thea 2: The Shattering em Português Brasileiro[/h1]
+Entre deuses e sombras, cada escolha conta uma história.
+
+Explore Thea e acompanhe suas aventuras em português brasileiro. A tradução abrange interface, descrições de itens e habilidades, missões, narrativas e escolhas dos eventos presentes na versão de referência do jogo, incluindo o conteúdo das atualizações incorporadas ao jogo base.
+
+[h2]Como ativar[/h2]
+[list]
+[*]Inscreva-se neste mod e aguarde o download pela Steam.
+[*]Abra o jogo, entre em Mods e ative Português Brasileiro.
+[*]Desative outras traduções que substituam os mesmos textos e reinicie o jogo.
+[/list]
+O áudio e as imagens do jogo permanecem originais. Outros mods podem exigir traduções próprias. Atualizações do jogo podem exigir uma nova versão deste mod.
+
+[h2]Ajuda e sugestões[/h2]
+Encontrou um erro? Informe o texto, o contexto, a versão do jogo e os mods ativos; uma captura de tela ajuda a localizar o problema.
+[url=https://github.com/isyuricunha/thea-2-the-shattering-traducao-portugues-brasileiro/issues]Relatar um problema[/url]
+[url=https://traducao.yuricunha.com/]Portal de Traduções[/url]
+[url=https://discord.gg/uFEwSMwUYb]Comunidade Vai Brasil no Discord[/url]
+
+[h2]Créditos e licença[/h2]
+Coordenação e manutenção: Yuri Cunha. Jogo: MuHa Games e Eerie Forest Studio; publicação pela MuHa Games.
+Projeto independente de fãs. Os recursos originais do jogo pertencem aos respectivos titulares.
+O conteúdo original da tradução segue CC BY-NC-SA 4.0, dentro dos direitos efetivamente detidos. Há autorização adicional gratuita para integração oficial no jogo, inclusive comercial, com créditos e para material autorizado.
+[url=https://github.com/isyuricunha/thea-2-the-shattering-traducao-portugues-brasileiro]Documentação, licença e créditos[/url]
+
+Apoio voluntário via Pix: pix@yuricunha.com

@@ -9,7 +9,9 @@
     "translation-work/consent.py": "4de91fe989776d2a167f011b8eb892e5ca03d3c4d91e76ecce5ee61d8dba3614",
     "translation-work/docs/contexto-genero.json": "2071ee892986545c9ae599b25bdab39bd04ddc28bad930e773cfec319001f4f6",
     "translation-work/doctor.py": "d484abded28fad8171f578da84b471521087fe83bf0e77477f131df756c7af5a",
-    "translation-work/native.py": "b3e17f3394c95130245d9892f371202e3c5ec0289255d2ebebaaaad1daad44cf",
+    "translation-work/mod-assets/description.txt": "ca7d350d159bc9e6ac2e459d6319677c777a2778874c6ca16e5f8d036c7a639c",
+    "translation-work/mod-assets/image.png": "4b0de793b046d1e55628e330a278164952406e1e562783bff34e2189898e1c74",
+    "translation-work/native.py": "f76131bb1971d04e9c24da470fce3ff25710cea09e1ab204e6c4ec371e8c1e61",
     "translation-work/reference/EditorScripts.cs": "c4e42c539ebbf6996f782c2393a51a06bf39df9fb4624aafc4c298d069e7834d",
     "translation-work/reference/GameplayScripts.cs": "c17cfa120b73640da1a3075989864c7c3c0dc974c7d528e9cb684b4af67ce854",
     "translation-work/reference/TestsModule.txt": "9a2666d3372c4ad0bc25ca73a2d43922b18284bd899ae015fdd3270a16c2e359",
@@ -18,6 +20,6 @@
     "translation-work/reference/how_to.txt": "e313569af177714e4efc0adb88bdfc628a415e32cee6df1810535f405c64157a",
     "translation-work/release.py": "e90b11a5cde92b084582c2ab142420de49acbe6117712d3e7cf3ebe2fe90a61c",
     "translation-work/source-policy.json": "97b1773f542144f13494e4fac9e6f5bdec78c5dd548950f30e9c9b3bc6e7dd6a",
-    "translation-work/toolkit.py": "3953624ebb33fb348db4fa48f0e41e0941d859cc63aed69addc53083590cca8e"
+    "translation-work/toolkit.py": "f0d08e7753a6e2ac2336ba9a8fc19e6c8aa3e9d2de8aa0d076d11c58f73f50ba"
   }
 }

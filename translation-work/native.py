@@ -232,12 +232,12 @@ def rebuild_module(path, data, translations):
 
 
 def output_paths(sources):
-    return [MOD + Path(p).name for p in sources] + [MOD + 'info.txt']
+    return [MOD + Path(p).name for p in sources] + [MOD + 'info.txt', MOD + 'image.png']
 
 
 def build_outputs(sources, translations):
     result = {}
-    info = ['<?xml version="1.0" encoding="utf-8"?>', '<ModInfo Name="Thea 2 Português Brasileiro" Visibility="0">']
+    info = ['<?xml version="1.0" encoding="utf-8"?>', '<ModInfo Name="Português Brasileiro" Graphic="image.png" Visibility="0">']
     for path, data in sources.items():
         for record in records(path, data):
             validate_translation(dict(record, PTBR=translations[record['id']]))
@@ -247,7 +247,8 @@ def build_outputs(sources, translations):
         result[MOD + name] = rebuild(path, data, translations)
         tag = 'STORY_MODULE' if module else 'DB'
         info.append(f'<{tag}>{html.escape(name)}</{tag}>')
-    info.extend(['<TAG>Portuguese</TAG>', '<TAG>Translation</TAG>', 'Tradução para Português Brasileiro.', '</ModInfo>', ''])
+    info.extend(['<TAG>Portuguese</TAG>', '<TAG>Translation</TAG>', html.escape(Path(__file__).with_name('mod-assets').joinpath('description.txt').read_text(encoding='utf8')), '</ModInfo>', ''])
+    result[MOD + 'image.png'] = Path(__file__).with_name('mod-assets').joinpath('image.png').read_bytes()
     result[MOD + 'info.txt'] = '\n'.join(info).encode('utf8')
     ET.fromstring(result[MOD + 'info.txt'])
     return result
