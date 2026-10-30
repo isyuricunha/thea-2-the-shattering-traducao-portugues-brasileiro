@@ -5,6 +5,8 @@
   <p><em>Entre deuses e sombras, cada escolha conta uma história.</em></p>
   <p>
     <a href="https://store.steampowered.com/app/606230/Thea_2_The_Shattering/"><img src="https://img.shields.io/badge/Steam-Thea_2-1b2838?style=for-the-badge" alt="Steam — página do jogo"></a>
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3829844206"><img src="https://img.shields.io/badge/Steam_Workshop-Assine-1b2838?style=for-the-badge" alt="Steam Workshop — assine a tradução"></a>
+    <a href="https://www.nexusmods.com/thea2theshattering/mods/43"><img src="https://img.shields.io/badge/Nexus_Mods-Página_da_Tradução-2c2c2c?style=for-the-badge" alt="Nexus Mods — página da tradução"></a>
     <a href="https://github.com/isyuricunha/thea-2-the-shattering-traducao-portugues-brasileiro/releases"><img src="https://img.shields.io/badge/GitHub-Releases-3478b8?style=for-the-badge" alt="GitHub — versões da tradução"></a>
     <a href="https://discord.gg/uFEwSMwUYb"><img src="https://img.shields.io/badge/Discord-Vai_Brasil-5865f2?style=for-the-badge" alt="Discord — comunidade Vai Brasil"></a>
   </p>
@@ -46,7 +48,18 @@ homônimos da Steam oferecem artes. Veja as descrições oficiais de
 [The Awakening](https://store.steampowered.com/app/1212890/) e
 [Wrath of the Sea](https://store.steampowered.com/app/1240020/).
 
+## 🌐 Onde encontrar
+
+- [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3829844206): assine o item para instalar e receber atualizações pela Steam.
+- [Nexus Mods](https://www.nexusmods.com/thea2theshattering/mods/43): página da tradução com o pacote para download manual.
+- [GitHub Releases](https://github.com/isyuricunha/thea-2-the-shattering-traducao-portugues-brasileiro/releases): pacote validado a cada versão.
+- Espelhos do código: [GitLab](https://gitlab.com/isyuricunha/thea-2-the-shattering-traducao-portugues-brasileiro) e [YuGit](https://git.yuricunha.com/isyuricunha/thea-2-the-shattering-traducao-portugues-brasileiro).
+- [Portal Vai Brasil!](https://traducao.yuricunha.com/): catálogo dos projetos de tradução.
+
 ## 📦 Download
+
+O caminho mais simples é assinar o item no Steam Workshop; o pacote também está
+no Nexus Mods e nas Releases do GitHub.
 
 Consulte a [página de Releases](https://github.com/isyuricunha/thea-2-the-shattering-traducao-portugues-brasileiro/releases)
 e baixe **`PTBR.zip`** da versão compatível, quando disponível. Leia as notas da
