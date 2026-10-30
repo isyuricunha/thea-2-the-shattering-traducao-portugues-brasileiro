@@ -51,14 +51,14 @@
     "Thea2_Data/StreamingAssets/Mods/PTBR/Woodlandkin.xml": "3e58516575297fffafc349987ca5de1f048835dc5fed7eaf4dd600cf90ac779f",
     "Thea2_Data/StreamingAssets/Mods/PTBR/Wrath of Sea DLC.xml": "1fe4ed2081702aafe42de6a3207b920511f768c9f7e0476e825413827710311e",
     "Thea2_Data/StreamingAssets/Mods/PTBR/demon encounters.xml": "aa59965eccba0ddcab0c550b7a7f65fd8b98ea83eeb52a6b2f727d1a00ef79c5",
-    "Thea2_Data/StreamingAssets/Mods/PTBR/image.png": "4b0de793b046d1e55628e330a278164952406e1e562783bff34e2189898e1c74",
+    "Thea2_Data/StreamingAssets/Mods/PTBR/image.png": "479ddc74fc649284fc713deab9767365f839be7414e2ccfee6e9f6d5bcbacaaa",
     "Thea2_Data/StreamingAssets/Mods/PTBR/info.txt": "a41fe02f1367cd84fe48a5d7b73f8db9981a6d11a24299ea73aba729f4bf2bf6",
     "Thea2_Data/StreamingAssets/Mods/PTBR/mChapter 1.xml": "8b703925667d1f7c6960f8a0fe2bb83feab1fa661b1a24534b5ea878033dd8d1",
     "Thea2_Data/StreamingAssets/Mods/PTBR/modid.txt": "f06a3a661dac1c42d4b4ff5ab7ee1b8de9ca7f8f7b8aaceae0d58794d5d5096d"
   },
   "pending": 0,
   "producer": "thea2-toolkit-build-v1",
-  "receipt_hash": "de8d85adb49653d94e7dacf7611ca9bfc8598d208893085acb391296ee04da3c",
+  "receipt_hash": "1cbe1e3e0c4f4860c2dd5b1a3f9811d14b9924282207a57cfb0dc3a3c5c6f443",
   "records": 45325,
   "schema": 1,
   "source_version": "2.0528.0681",
@@ -112,6 +112,6 @@
     "Thea2_Data/StreamingAssets/Modules/demon encounters.xml": "c212dbdaafab6f273f2c4721eb283c40f8c66caa300ef7ade3e2b47e83468341",
     "Thea2_Data/StreamingAssets/Modules/mChapter 1.xml": "6a3f219862b13341cb5c047373994dae65a82f4186a0f1dc4350d146df597524"
   },
-  "tooling": "60c6501db99e7d5a19e684c9508249ae4117b95f6d807d04749f50ac2624d506",
+  "tooling": "a023b682dadc53103f613edf97c1a0451d23b99ba63eec32e265432a756e2bfe",
   "translation_fingerprint": "6c283b2bc39c3bac1d7dc61dde59372786bec72301a90170dd192ab97c5ac719"
 }
