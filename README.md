@@ -5,8 +5,8 @@
   <p><em>Entre deuses e sombras, cada escolha conta uma história.</em></p>
   <p>
     <a href="https://store.steampowered.com/app/606230/Thea_2_The_Shattering/"><img src="https://img.shields.io/badge/Steam-Thea_2-1b2838?style=for-the-badge" alt="Steam — página do jogo"></a>
-    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3829844206"><img src="https://img.shields.io/badge/Steam_Workshop-Assine-1b2838?style=for-the-badge" alt="Steam Workshop — assine a tradução"></a>
-    <a href="https://www.nexusmods.com/thea2theshattering/mods/43"><img src="https://img.shields.io/badge/Nexus_Mods-Página_da_Tradução-2c2c2c?style=for-the-badge" alt="Nexus Mods — página da tradução"></a>
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3829844206"><img src="https://img.shields.io/badge/Steam_Workshop-Assinar-1b2838?style=for-the-badge" alt="Steam Workshop — assine a tradução"></a>
+    <a href="https://www.nexusmods.com/thea2theshattering/mods/43"><img src="https://img.shields.io/badge/Nexus_Mods-Download-2c2c2c?style=for-the-badge" alt="Nexus Mods — página da tradução"></a>
     <a href="https://github.com/isyuricunha/thea-2-the-shattering-traducao-portugues-brasileiro/releases"><img src="https://img.shields.io/badge/GitHub-Releases-3478b8?style=for-the-badge" alt="GitHub — versões da tradução"></a>
     <a href="https://discord.gg/uFEwSMwUYb"><img src="https://img.shields.io/badge/Discord-Vai_Brasil-5865f2?style=for-the-badge" alt="Discord — comunidade Vai Brasil"></a>
   </p>
