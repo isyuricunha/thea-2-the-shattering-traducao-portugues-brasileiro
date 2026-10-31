@@ -444,7 +444,7 @@ Esquisitamente, há um barco pequeno esperando você na margem. É construído d
           </LogicModifiers>
         </ModifierBlock>
       </logic><outputs name="Cantar a nana para apaziguar o espírito de criança." ownerID="3" targetID="5" fromX="934" fromY="411" /><outputs name="[Usuário de Magia] Cantar a nana e combiná-la com o próprio conhecimento de você dos espíritos para invocar um ritual de ligação." ownerID="3" targetID="6" fromX="934" fromY="331" />Quando você se aproxima das ilhas, ouve o soluçamento fraco mas crescente de uma criança jovem, entrelaçado com um lamento antinatural que gela os ossos de você. </nodes>
-    <nodes xsi:type="NodeAdventure" ID="4" positionX="918.9737" positionY="-267.825073" width="350" height="885"><outputs name="Atacar os fantasmas!" ownerID="4" targetID="11" fromX="1244" fromY="-758" /><outputs name="[Usuário de Magia] Tentar usar um ritual de ligação para expulsar estes espíritos maus." ownerID="4" targetID="6" fromX="1244" fromY="-839" /><outputs name="Correr!" ownerID="4" targetID="43" fromX="1244" fromY="-919" />Quando você se aproxima das ilhas, ouve o soluçamento fraco mas crescente de uma criança jovem, entrelaçado com um lamento antinatural que gela os ossos de você.
+    <nodes xsi:type="NodeAdventure" ID="4" positionX="918.9737" positionY="-267.825073" width="350" height="885"><outputs name="Atacar os fantasmas!" ownerID="4" targetID="11" fromX="1244" fromY="-758" /><outputs name="[Usuário de Magia] Tentar usar um ritual de ligação para expulsar estes espíritos maus." ownerID="4" targetID="6" fromX="1244" fromY="-839" /><outputs name="Fugir!" ownerID="4" targetID="43" fromX="1244" fromY="-919" />Quando você se aproxima das ilhas, ouve o soluçamento fraco mas crescente de uma criança jovem, entrelaçado com um lamento antinatural que gela os ossos de você.
 
 Uma névoa espessa engole você; e os gritos viram guinchos insuportáveis.
 
@@ -558,7 +558,7 @@ Dois olhadores
 E um abana-cauda</nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="3719.79639" positionY="3752.26221" width="350" height="885"><outputs name="Vaca?" ownerID="22" targetID="36" fromX="4045" fromY="3261" /><outputs name="Cão?" ownerID="22" targetID="29" fromX="4045" fromY="3180" /><outputs name="Uma cadela de bies? " ownerID="22" targetID="35" fromX="4045" fromY="3100" />Vocês conseguem decifrar mais a língua velha:
 
-Quatro balancês (tetast do úbere) 
+Quatro balancês (tetas do úbere) 
 Quatro paus-in-pé (pernas) 
 Dois ganques (chifres) 
 Dois olhadores (olhos) 
@@ -774,7 +774,7 @@ Há um ar inquietante de magia sombria sobre ela; mas ela está claramente grata
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="12;18" tag="ITEM_CARGO-PACK_GRANITE" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Atacá-los!" ownerID="16" targetID="17" fromX="349" fromY="-1413" /><outputs name="Correr!" ownerID="16" targetID="12" fromX="349" fromY="-1493" />Vocês pegam as pedras e sentem uma rajada fria sobre você. 
+      </logic><outputs name="Atacá-los!" ownerID="16" targetID="17" fromX="349" fromY="-1413" /><outputs name="Fugir!" ownerID="16" targetID="12" fromX="349" fromY="-1493" />Vocês pegam as pedras e sentem uma rajada fria sobre você. 
 
 Espíritos despertam e circulam você em fúria. Eles estão vestidos de armadura preta; e cantam algo numa língua que você não conhece.</nodes>
     <nodes xsi:type="NodeChallenge" ID="17" positionX="-709.1376" positionY="-1395.61194" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-WRAITH_5P_4M_5S" challengeScale="101" challengedList="ppl">
@@ -995,7 +995,7 @@ Ela sibila, roda e morde você antes de escorregar para fora!</nodes>
             <scriptCallWithTag scriptName="FRA_Chance" parameter="50" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Lutar!" ownerID="10" targetID="11" fromX="3227" fromY="-909" /><outputs name="Correr!" ownerID="10" targetID="20" fromX="3227" fromY="-989" />Vocês puxam a corda; e desta vez ela está pesada. Você acha que vê o casaco peludo do homem enquanto o arrasta para fora; mas é um urso; e ele ataca!</nodes>
+      </logic><outputs name="Lutar!" ownerID="10" targetID="11" fromX="3227" fromY="-909" /><outputs name="Fugir!" ownerID="10" targetID="20" fromX="3227" fromY="-989" />Vocês puxam a corda; e desta vez ela está pesada. Você acha que vê o casaco peludo do homem enquanto o arrasta para fora; mas é um urso; e ele ataca!</nodes>
     <nodes xsi:type="NodeChallenge" ID="11" positionX="3332.27783" positionY="-200.854431" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-BEAR_ONE_1P_0M_0S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="11" targetID="13" fromX="3773" fromY="-696" />
       <outputs name="Lose" ownerID="11" targetID="14" fromX="3773" fromY="-776" />
@@ -1663,7 +1663,7 @@ Vocês a ouvem guinchando de dor enquanto voa embora, provavelmente ao fim dela.
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="14" positionX="1279.3125" positionY="-1468.07349" width="350" height="805"><outputs name="Sair da história." ownerID="14" targetID="15" group="G1" fromX="1605" fromY="-1959" /><outputs name="Sair da história." ownerID="14" targetID="16" group="G1" fromX="1605" fromY="-2039" />Vocês matam a ave com rapidez, encerrando a luta dela. Mas você sente um ar de pavor enquanto o faz. Talvez cegonhas não sejam quaisquer aves. 
+    <nodes xsi:type="NodeAdventure" ID="14" positionX="1279.3125" positionY="-1468.07349" width="350" height="805"><outputs name="Sair da história." ownerID="14" targetID="15" group="G1" fromX="1605" fromY="-1959" /><outputs name="Sair da história." ownerID="14" targetID="16" group="G1" fromX="1605" fromY="-2039" />Vocês matam a ave com rapidez, encerrando a luta dela. Mas você sente um ar de pavor enquanto o faz. Talvez cegonhas não sejam quaisquer aves.
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="15" positionX="2149" positionY="-1492" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
@@ -1872,7 +1872,7 @@ Ela desaparece tão rápido quanto; mas deixa você engasgando e tossindo. </nod
 
 À primeira ele parece descansar; mas, quando você chega mais perto, vê que ele respira pesado; e a pele dele está fumegando sob os raios do sol. 
 
-Vocês reconhecem este como Smetek, um czort que ajudaram uma vez. 
+Vocês reconhecem este como Smetek, um czort que ajudaram uma vez.
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="866.6345" positionY="293.030762" width="350" height="805"><outputs name="Isto só pode significar que o demônio quebrou um trato. Perguntar se é o caso." ownerID="3" targetID="4" fromX="1192" fromY="-198" /><outputs name="Perguntar ao skshack o que está acontecendo aqui." ownerID="3" targetID="12" fromX="1192" fromY="-278" />Vocês tentam mover o czort da pedra; mas ele está preso lá por uma força invisível. 
 
@@ -2030,7 +2030,7 @@ Apesar da intenção homicida de você, o ato final de gratidão do czort elevou
         </ModifierBlock>
       </logic><outputs name="Armar isca e observar. " ownerID="21" targetID="22" group="G1" fromX="-131" fromY="-1096" /><outputs name="Armar isca e observar. " ownerID="21" targetID="23" group="G1" fromX="-131" fromY="-1176" />Vocês vão nos afazeres de você armando o acampamento quando percebem que um pouco da comida de você sumiu. 
 
-Nos dias seguintes, vocês notam pedaços de equipamento que faltam, uma colher aqui, uma meia lá. 
+Nos dias seguintes, vocês notam pedaços de equipamento que faltam, uma colher aqui, uma meia lá.
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="-6.305443" positionY="-840.026" width="350" height="805"><logic>
         <FilterBlock>
@@ -2112,7 +2112,7 @@ Ele se move rápido; mas não vai cruzar a trilha de você.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="104.921455" positionY="-776.8855" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="4" positionX="898.0792" positionY="-5.692571" width="350" height="885" image="Event197"><outputs name="Isto é provavelmente um tipo de czart, um demônio velhaco. Falar com ele; mas permanecer atento." ownerID="4" targetID="5" group="G1" fromX="1223" fromY="-496" /><outputs name="Falar com a criatura. Perguntar o que há. " ownerID="4" targetID="11" group="G1" fromX="1223" fromY="-577" /><outputs name="Atacá-lo!" ownerID="4" targetID="13" fromX="1223" fromY="-657" />Vocês acham um ponto para observar as nuvens; e logo veem uma criatura peluda, com dois chifres e cascos, montando uma cabra pequena mas muito saltitante; e arrastando as nuvens trovejantes atrás dele. 
 
-A criatura parece aflita; e buscando algo. 
+A criatura parece aflita; e buscando algo.
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1333.76367" positionY="305.95108" width="350" height="805"><logic>
         <FilterBlock>
@@ -2199,7 +2199,7 @@ O chort estremece, salta na cabra e dispensa você com a mão.</nodes>
       </logic><outputs name="Ótimo. Perguntar se ele está bem agora." ownerID="16" targetID="12" fromX="2131" fromY="-1473" />A criatura parece insegura, mas faz que sim com a cabeça em concordância.
 
 Vocês sacam umas tenazes e resolvem rápido o dente inchado. </nodes>
-    <nodes xsi:type="NodeAdventure" ID="17" positionX="2993.37866" positionY="-624.0871" width="350" height="805"><outputs name="Correr!" ownerID="17" targetID="18" fromX="3319" fromY="-1115" /><outputs name="Atacar a criatura!" ownerID="17" targetID="13" fromX="3319" fromY="-1195" />A criatura buf e assobia para você em dor tecida de raiva. 
+    <nodes xsi:type="NodeAdventure" ID="17" positionX="2993.37866" positionY="-624.0871" width="350" height="805"><outputs name="Fugir!" ownerID="17" targetID="18" fromX="3319" fromY="-1115" /><outputs name="Atacar a criatura!" ownerID="17" targetID="13" fromX="3319" fromY="-1195" />A criatura buf e assobia para você em dor tecida de raiva. 
 
 As nuvens de tempestade de repente crescem; e ameaçam engolir você!</nodes>
     <nodes xsi:type="NodeChallenge" ID="18" positionX="3443.8208" positionY="-767.241333" width="500" height="726" challengeType="TypePhysical" versusConcept="true" versusGroup="GROUP-CON_P_2P_0M_0S" challengeScale="101" challengedList="ppl">
@@ -3007,7 +3007,7 @@ Vocês sentem a graça da senhora de você sobre você pela boa ação de você;
       </logic><outputs name="Andar na direção do centro, com cuidado. " ownerID="2" targetID="3" fromX="747" fromY="-545" /><outputs name="Melhor só partir." ownerID="2" targetID="27" fromX="747" fromY="-625" />Vocês se deparam com os restos do que um dia deve ter sido uma aldeia próspera. 
 
 Ela fica junto a um ribeirão vivo. Muitos dos lares foram feitos de pedra; e até a senda pelo centro é pavimentada.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="3" positionX="838.818542" positionY="255.539" width="350" height="725"><outputs name="Vasculhar umas casas; mas ficar atento." ownerID="3" targetID="13" fromX="1164" fromY="-235" />Quando chegam à praça central, veem um poço de pedra, uma casa de sino e o que parece um tear de tecelagem perfeitamente conservado , completo com fios de linho de seda de aranha pela metade, simplesmente de pé lá sozinho.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="838.818542" positionY="255.539" width="350" height="725"><outputs name="Vasculhar umas casas; mas ficar atento." ownerID="3" targetID="13" fromX="1164" fromY="-235" />Quando chegam à praça central, veem um poço de pedra, uma casa de sino e o que parece um tear de tecelagem perfeitamente conservado, completo com fios de linho de seda de aranha pela metade, simplesmente de pé lá sozinho.</nodes>
     <nodes xsi:type="NodeChallenge" ID="4" positionX="1232.7981" positionY="726.0295" width="500" height="726" challengeType="TypeSpirit" versusConcept="true" versusGroup="GROUP-CON_S_0P_0M_2S" challengeScale="101" challengedList="ppl">
       <logic>
         <FilterBlock>
@@ -3105,7 +3105,7 @@ Vocês podiam tentar oferecer uma prece para facilitar a passagem deles.</nodes>
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="50% 0;1" tag="ITEM_CARGO-STRONG_ONE_PET_GHOST" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Escutar os sussurros." ownerID="16" targetID="17" fromX="2682" fromY="-1123" /><outputs name="Só partir." ownerID="16" targetID="18" fromX="2682" fromY="-1203" />Vocês rezam e sentem uma rajada pesada de energia estremecer o chão. 
+      </logic><outputs name="Escutar os sussurros." ownerID="16" targetID="17" fromX="2682" fromY="-1123" /><outputs name="Só sair da história." ownerID="16" targetID="18" fromX="2682" fromY="-1203" />Vocês rezam e sentem uma rajada pesada de energia estremecer o chão. 
 
 Os corpos queimados, sentem que as almas deles continuam enfermas; mas, com o tempo, vão agora passar aos submundos. 
 
@@ -4111,7 +4111,7 @@ O gato senta junto aos ossos de um humano morto. Ele te olha, implorando.</nodes
       </logic><outputs name="Sair da história." ownerID="11" targetID="9" fromX="2678" fromY="-1374" />O gato observa você realizar o ritual; e você sente uma energia esquisita encher o ar. 
 
 As almas de vocês parecem nutridas por este feito. </nodes>
-    <nodes xsi:type="NodeAdventure" ID="12" positionX="1936.95972" positionY="-1685.55835" width="350" height="805"><outputs name="Atacá-los!" ownerID="12" targetID="13" fromX="2262" fromY="-2176" /><outputs name="Correr!" ownerID="12" targetID="9" fromX="2262" fromY="-2256" />Vocês acham a casa infestada de ratos!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="1936.95972" positionY="-1685.55835" width="350" height="805"><outputs name="Atacá-los!" ownerID="12" targetID="13" fromX="2262" fromY="-2176" /><outputs name="Fugir!" ownerID="12" targetID="9" fromX="2262" fromY="-2256" />Vocês acham a casa infestada de ratos!</nodes>
     <nodes xsi:type="NodeChallenge" ID="13" positionX="2384.93" positionY="-1744.33777" width="500" height="807" challengeType="TypePhysical" versusGroup="GROUP-RATS_0P_0M_0S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="13" targetID="10" group="G1" fromX="2826" fromY="-2239" />
       <outputs name="Lose" ownerID="13" targetID="14" fromX="2826" fromY="-2319" />
@@ -4888,7 +4888,7 @@ Ele foge; mas você sente-se elevado pela boa ação.</nodes>
         </FilterBlock>
       </logic><outputs name="Tomar o espólio e partir." ownerID="3" targetID="40" fromX="1237" fromY="-138" /><outputs name="Perguntar por que um leshy trabalha com um criminoso comum." ownerID="3" targetID="41" fromX="1237" fromY="-218" />O leshy sorri, com as feições dele agora límpidas,
 
-'Ahhh, vocês trouxxeerram ummoooss paaarentesss daaa florestaaa paraa mim. Aqui, isssso é ooo queee foii prooometido, né?'
+'Ahhh, vocês trouxeram muitos parentes daaa floresta paraa mim. Aqui, isssso é ooo queee foii prooometido, né?'
 
 O leshy entrega a você um baú pequeno de espólio. O bandido parece irritado; mas não diz nada.</nodes>
     <nodes xsi:type="NodeAdventure" ID="4" positionX="1124.23828" positionY="-545.0879" width="350" height="805"><outputs name="Defender-se." ownerID="4" targetID="5" fromX="1449" fromY="-1036" /><outputs name="Tentar fugir!" ownerID="4" targetID="6" fromX="1449" fromY="-1116" />Ele mete a mão dentro das raízes; e a árvore o engole inteiro. 
@@ -4933,7 +4933,7 @@ Ele então te cospe para fora; e você sente o espírito drenado.</nodes>
         </ModifierBlock>
       </logic><outputs name="Bom. Agora hora de partir." ownerID="15" targetID="12" fromX="2571" fromY="306" />As folhas do leshy farfalham; e uma rajada de vento quase te derruba enquanto ele suspira. 
 
-'Neutro é sooolitaaaão. Eu não me imppooorta de bugigannhas de ouuuro. Eu não me impooortaaa de quem as peeerrdeu. 
+'Neutro é sooolitaaaão. Eu não me importa de bugigangas de ouuuro. Eu não me importa de quem as perdeu. 
 
 Maas você fala cooom a voooz da natureza. Eu vooou obedeeeceer.'
 
@@ -4988,7 +4988,7 @@ O bandido estica os braços dele:
       <outputs name="Lose" ownerID="23" targetID="35" fromX="73" fromY="-2959" />
       <outputs name="Surrender" ownerID="23" targetID="35" fromX="73" fromY="-3040" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="24" positionX="1244.639" positionY="-2268.90576" width="350" height="805"><outputs name="Deixar o Rabsik ir, como combinado." ownerID="24" targetID="27" fromX="1570" fromY="-2760" /><outputs name="Afastar-se do leshy; depois matar o Rabsik e fugir." ownerID="24" targetID="30" fromX="1570" fromY="-2840" />'Siiiim, eu concordo. Soolte o Rabsik; e teeente o baaú aqqui.'
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="1244.639" positionY="-2268.90576" width="350" height="805"><outputs name="Deixar o Rabsik ir, como combinado." ownerID="24" targetID="27" fromX="1570" fromY="-2760" /><outputs name="Afastar-se do leshy; depois matar o Rabsik e fugir." ownerID="24" targetID="30" fromX="1570" fromY="-2840" />'Siiiim, eu concordo. Solte o Rabsik; e tenha o baaú aqui.'
 
 A árvore produz um baú de madeira e o põe ao seu lado; depois solta o aperto dela sobre você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="25" positionX="-796.5493" positionY="-1800.78687" width="350" height="805"><outputs name="Defender-se." ownerID="25" targetID="5" fromX="-470" fromY="-2291" /><outputs name="Tentar fugir!" ownerID="25" targetID="6" fromX="-467" fromY="-2372" />Vocês metem a mão dentro das raízes da árvore para pegar o baú escondido; mas, em vez disso, sentem a árvore agarrar os braços de você!
@@ -5062,7 +5062,7 @@ Ele desaparece dentro do leshy; e o demônio permanece parado, observando você.
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="36" positionX="846.6191" positionY="-2180.985" width="350" height="805"><outputs name="Atacar o leshy em vez disso!" ownerID="36" targetID="5" fromX="1172" fromY="-2672" /><outputs name="Concordar com os termos dele e deixar o bandido ir." ownerID="36" targetID="38" fromX="1172" fromY="-2752" />O leshy aperta o aperto dele sobre você.
 
-'Nããão! Vocês ooo soltarem liivree, ou vocêes morreeem!'</nodes>
+'Nããão! Deixem ele livre, ou vocês morrem!'</nodes>
     <nodes xsi:type="NodeDealDamage" ID="37" positionX="357.802856" positionY="-2398.96069" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="20" maxDamage="30" useCountInPercent="true" targetGroup="ppl">
       <logic>
         <ModifierBlock>
@@ -5140,7 +5140,7 @@ Rabsik se vira a você:
         </FilterBlock>
       </logic><outputs name="Tomar o espólio e partir." ownerID="3" targetID="16" fromX="1250" fromY="-164" /><outputs name="Perguntar por que um leshy trabalha com um criminoso comum." ownerID="3" targetID="17" fromX="1250" fromY="-244" />O leshy sorri, com as feições dele agora límpidas.
 
-'Ahhh, vocês trouxxeerram ummoooss paaarentesss daaa florestaaa paraa mim. Aqui, isssso é ooo queee foii prooometido, né?'
+'Ahhh, vocês trouxeram muitos parentes daaa floresta paraa mim. Aqui, isssso é ooo queee foii prooometido, né?'
 
 O leshy produz para você um baú pequeno de espólio.
 </nodes>
@@ -5194,7 +5194,7 @@ Ele então te cospe para fora; e você sente o espírito drenado.</nodes>
         </ModifierBlock>
       </logic><outputs name="Bom. Agora hora de partir." ownerID="15" targetID="12" fromX="2584" fromY="153" />As folhas do leshy farfalham; e uma rajada de vento quase te derruba enquanto ele suspira:
 
-'Neutro é sooolitaaaão. Eu não me imppooorta de bugigannhas de ouuuro. Eu não me impooortaaa de quem as peeerrdeu. Maas você fala cooom a voooz da natureza. Eu vooou obedeeeceer.'
+'Neutro é sooolitaaaão. Eu não me importa de bugigangas de ouuuro. Eu não me importa de quem as perdeu. Maas você fala cooom a voooz da natureza. Eu vooou obedeeeceer.'
 
 Ele cai no sono; e você sabe que ele não vai acordar por muitas décadas agora.
 </nodes>
@@ -5210,17 +5210,17 @@ Ele cai no sono; e você sabe que ele não vai acordar por muitas décadas agora
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="19" positionX="99.29227" positionY="-1325.53967" width="350" height="725"><outputs name="Dizer a ele que o bandido está morto; mas que vocês seguiram as instruções dele para chegar aqui." ownerID="19" targetID="20" fromX="425" fromY="-1816" />Quando você se aproxima, a árvore abre os olhos dela, te olha e pergunta:
 
-'Onnnnde está Rabsik?'
+'Onde está Rabsik?'
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="20" positionX="493.747681" positionY="-1405.1438" width="350" height="805"><outputs name="Perguntar que esperteza ele quer dizer." ownerID="20" targetID="21" fromX="819" fromY="-1896" /><outputs name="Perguntar sobre o tesouro." ownerID="20" targetID="21" fromX="819" fromY="-1976" />'Inssstruuções, voccê diiiz... duviidooso. Úúltima esperteza, ele preetendia. O tolo. Pena. Tempos sooolitááários voltam de novo...' 
+    <nodes xsi:type="NodeAdventure" ID="20" positionX="493.747681" positionY="-1405.1438" width="350" height="805"><outputs name="Perguntar que esperteza ele quer dizer." ownerID="20" targetID="21" fromX="819" fromY="-1896" /><outputs name="Perguntar sobre o tesouro." ownerID="20" targetID="21" fromX="819" fromY="-1976" />'Inssstruuções, voccê diiiz... duvidoso. Última esperteza, ele pretendia. O tolo. Pena. Tempos solitários voltam de novo...' 
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="21" positionX="469" positionY="-2292" width="350" height="805"><outputs name="Atacar!" ownerID="21" targetID="5" fromX="794" fromY="-2783" /><outputs name="Convincer ele de que violência assim não é precisa, porque um leshy não precisa de coisas, com certeza." ownerID="21" targetID="22" fromX="794" fromY="-2863" />'Cooorte-me para baixo, eles diiizem, e riquezas serão suas até o seu diia de morte.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="21" positionX="469" positionY="-2292" width="350" height="805"><outputs name="Atacar!" ownerID="21" targetID="5" fromX="794" fromY="-2783" /><outputs name="Convincer ele de que violência assim não é precisa, porque um leshy não precisa de coisas, com certeza." ownerID="21" targetID="22" fromX="794" fromY="-2863" />'Cortem-me para baixo, eles dizem, e riquezas serão suas até o seu dia de morte.'</nodes>
     <nodes xsi:type="NodeChallenge" ID="22" positionX="993.9458" positionY="-2360.39087" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-LESHY_MIX_7P_6M_7S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="22" targetID="23" fromX="1435" fromY="-2855" />
       <outputs name="Lose" ownerID="22" targetID="26" fromX="1435" fromY="-2936" />
       <outputs name="Surrender" ownerID="22" targetID="26" fromX="1435" fromY="-3016" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="23" positionX="1592.75781" positionY="-2219.005" width="350" height="725"><outputs name="Tomar o espólio e deixá-lo em paz." ownerID="23" targetID="31" fromX="1918" fromY="-2710" />'Combiiinado. Teeente, teeente tudooo.'
+    <nodes xsi:type="NodeAdventure" ID="23" positionX="1592.75781" positionY="-2219.005" width="350" height="725"><outputs name="Tomar o espólio e deixá-lo em paz." ownerID="23" targetID="31" fromX="1918" fromY="-2710" />'Combinado. Tenha, tenha tudooo.'
 
 Ele cospe para fora um baú para você; depois fica em silêncio.</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="24" positionX="2039.49036" positionY="-2281.975" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
@@ -6014,7 +6014,7 @@ Ela sibila, roda e morde você antes de escorregar para fora!</nodes>
             <scriptCallWithTag scriptName="FRA_Chance" parameter="50" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Lutar!" ownerID="10" targetID="11" fromX="3227" fromY="-909" /><outputs name="Correr!" ownerID="10" targetID="20" fromX="3227" fromY="-989" />Vocês puxam a corda; e desta vez ela está pesada. Você acha que vê o casaco peludo do homem enquanto o arrasta para fora; mas é um urso; e ele ataca!</nodes>
+      </logic><outputs name="Lutar!" ownerID="10" targetID="11" fromX="3227" fromY="-909" /><outputs name="Fugir!" ownerID="10" targetID="20" fromX="3227" fromY="-989" />Vocês puxam a corda; e desta vez ela está pesada. Você acha que vê o casaco peludo do homem enquanto o arrasta para fora; mas é um urso; e ele ataca!</nodes>
     <nodes xsi:type="NodeChallenge" ID="11" positionX="3332.27783" positionY="-200.854431" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-BEAR_ONE_1P_0M_0S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="11" targetID="13" fromX="3773" fromY="-696" />
       <outputs name="Lose" ownerID="11" targetID="14" fromX="3773" fromY="-776" />

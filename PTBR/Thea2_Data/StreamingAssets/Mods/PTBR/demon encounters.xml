@@ -1327,7 +1327,7 @@ O peixe desaparece.</nodes>
       </logic>
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-656" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="2" positionX="428" positionY="-78" width="350" height="885"><outputs name="Investigar." ownerID="2" targetID="3" group="G1" fromX="753" fromY="-569" /><outputs name="Investigar." ownerID="2" targetID="4" group="G1" fromX="753" fromY="-649" /><outputs name="Investigar." ownerID="2" targetID="6" group="G1" fromX="753" fromY="-729" />Vocês entram numa mata velha, e sentem a presença de mais que só vida selvagem aqui. '</nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="428" positionY="-78" width="350" height="885"><outputs name="Investigar." ownerID="2" targetID="3" group="G1" fromX="753" fromY="-569" /><outputs name="Investigar." ownerID="2" targetID="4" group="G1" fromX="753" fromY="-649" /><outputs name="Investigar." ownerID="2" targetID="6" group="G1" fromX="753" fromY="-729" />Vocês entram numa mata velha, e sentem a presença de mais que só vida selvagem aqui. </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="947.609" positionY="59.8069572" width="350" height="455" linkedEventUniqueID="8">
       <logic>
         <FilterBlock>
@@ -1411,16 +1411,16 @@ Num dos trechos de pântano, vocês notam uma árvore meio submersa que identifi
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Detê-lo antes que continue, e lembrar ao leshy que ele está quase afundado no pântano." ownerID="5" targetID="6" fromX="1604" fromY="344" /><outputs name="Isto é sem sentido. Pegar qualquer madeira de valor, e partir." ownerID="5" targetID="15" fromX="1604" fromY="263" />'Povo-de-árvore, de qquaal soorrt, voooocê eees, siiim... Hmm...
+      </logic><outputs name="Detê-lo antes que continue, e lembrar ao leshy que ele está quase afundado no pântano." ownerID="5" targetID="6" fromX="1604" fromY="344" /><outputs name="Isto é sem sentido. Pegar qualquer madeira de valor, e partir." ownerID="5" targetID="15" fromX="1604" fromY="263" />'Povo-de-árvore, de qual sorte, voooocê eees, siiim... Hmm...
 
-Loukuura, voooocê ppeerguntaa? Tuudo comeecou...'
+Loucura, voooocê pergunta? Tuudo comeecou...'
 
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="6" positionX="1709.25879" positionY="1105.42017" width="350" height="966"><outputs name="Vocês são fortes o bastante para puxar o leshy para fora, então fazer." ownerID="6" targetID="8" group="G1" fromX="2035" fromY="614" /><outputs name="Tentar puxar o leshy para fora à força." ownerID="6" targetID="7" fromX="2035" fromY="534" /><outputs name="Dizer ao leshy que não são fortes o bastante para puxá-lo para fora, mas vão buscar vingança. Correr atrás de quem quer que tenha feito isto." ownerID="6" targetID="10" group="G1" fromX="2035" fromY="453" /><outputs name="Dizer ao leshy que não são fortes o bastante para puxá-lo para fora, mas vão buscar vingança. Correr atrás de quem quer que tenha feito isto." ownerID="6" targetID="12" group="G1" fromX="2035" fromY="373" />'Apreeessaa, de faaato, quee triiste. Por faavor, ajuuude... 
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="1709.25879" positionY="1105.42017" width="350" height="966"><outputs name="Vocês são fortes o bastante para puxar o leshy para fora, então fazer." ownerID="6" targetID="8" group="G1" fromX="2035" fromY="614" /><outputs name="Tentar puxar o leshy para fora à força." ownerID="6" targetID="7" fromX="2035" fromY="534" /><outputs name="Dizer ao leshy que não são fortes o bastante para puxá-lo para fora, mas vão buscar vingança. Correr atrás de quem quer que tenha feito isto." ownerID="6" targetID="10" group="G1" fromX="2035" fromY="453" /><outputs name="Dizer ao leshy que não são fortes o bastante para puxá-lo para fora, mas vão buscar vingança. Correr atrás de quem quer que tenha feito isto." ownerID="6" targetID="12" group="G1" fromX="2035" fromY="373" />'Apreeessaa, de faaato, quee triiste. Por faavor, ajude... 
 
-E, se voooocê não ppuuder me ajjuudar, ao meenoos, perssuiga o demoônio que fez isto à minha poorra flooreesta. 
+E, se voooocê não puder me ajudar, ao meenoos, perssuiga o demoônio que fez isto à minha poorra flooreesta. 
 
-Ele fuui ppaara aqqueele lado!'</nodes>
+Ele fuui para aquele lado!'</nodes>
     <nodes xsi:type="NodeChallenge" ID="7" positionX="2162" positionY="1261" width="500" height="726" challengeType="TypePhysical" versusConcept="true" versusGroup="GROUP-CON_P_4P_0M_0S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="7" targetID="21" fromX="2603" fromY="765" />
       <outputs name="Lose" ownerID="7" targetID="65" fromX="2603" fromY="685" />
@@ -1451,7 +1451,7 @@ Ele fuui ppaara aqqueele lado!'</nodes>
         </ModifierBlock>
       </logic><outputs name="Ficar para escutar ao conto." ownerID="8" targetID="22" fromX="2177" fromY="1594" /><outputs name="Aceitar os presentes com agradecimento, e partir." ownerID="8" targetID="24" fromX="2177" fromY="1514" />Vocês puxam o leshy para fora do pântano.
 
-'Obrigaaada, aamiigo. Estou fraco agggora, e voou dormiir. Os páássaros voão contaar a você o que acontteceu aqqui, se quisser. Se nãão, váão bem, e levem os coorpos da floreesta caída minha como reecompeensa.'</nodes>
+'Obrigaaada, aamiigo. Estou fraco agora, e vou dormir. Os páássaros vão contaar a você o que aconteceu aqui, se quisser. Se nãão, váão bem, e levem os coorpos da floreesta caída minha como reecompeensa.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="10" positionX="2236.71851" positionY="-47.1237335" width="350" height="966"><logic>
         <FilterBlock>
           <LogicResultAction>
@@ -1478,7 +1478,7 @@ A figura senta numa pedra, e não parece notar você.</nodes>
 Se havia madeira de valor aqui, parece ter desaparecido sob um cobertor de arbusto em movimento.</nodes>
     <nodes xsi:type="NodeAdventure" ID="16" positionX="840.795837" positionY="-419.218964" width="350" height="966"><outputs name="Perguntar ao guardião da floresta como podem ajudar." ownerID="16" targetID="6" fromX="1166" fromY="-910" /><outputs name="Isto é sem sentido. Pegar qualquer madeira de valor, e partir." ownerID="16" targetID="15" fromX="1166" fromY="-990" /><outputs name="Madeira de leshy é boa madeira. Matá-lo!" ownerID="16" targetID="60" fromX="1166" fromY="-1070" /><outputs name="Sair da história." ownerID="16" targetID="20" fromX="1166" fromY="-1150" />'Hmm...
 
-Loukuura, voooocê ppeerguntaa, tuudo comeecou... haaá muito, provavelmente aantees do seu nascimento, pelo visual da peeelle fresca sua...'
+Loucura, voooocê pergunta, tuudo comeecou... haaá muito, provavelmente antes do seu nascimento, pelo visual da pele fresca sua...'
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="1261.55969" positionY="1651.13037" width="350" height="805"><logic>
         <FilterBlock>
@@ -1489,9 +1489,9 @@ Loukuura, voooocê ppeerguntaa, tuudo comeecou... haaá muito, provavelmente aan
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Pedir desculpas pela pressa indevida, mas perguntar se podem ajudar o leshy, porque parece que ele não tem muito tempo restante." ownerID="18" targetID="6" fromX="1587" fromY="1159" /><outputs name="Isto é sem sentido. Pegar qualquer madeira de valor, e partir." ownerID="18" targetID="15" fromX="1587" fromY="1079" />'Ooh, voooocê escolhee fealar a faala moortaal, quee esssteeerro. 
+      </logic><outputs name="Pedir desculpas pela pressa indevida, mas perguntar se podem ajudar o leshy, porque parece que ele não tem muito tempo restante." ownerID="18" targetID="6" fromX="1587" fromY="1159" /><outputs name="Isto é sem sentido. Pegar qualquer madeira de valor, e partir." ownerID="18" targetID="15" fromX="1587" fromY="1079" />'Ooh, voooocê escolhe falar a faala mortal, quee esssteeerro. 
 
-Hmm... Loukuura, voooocê ppeerguntaa, tuudo comeecou...'
+Hmm... Loucura, voooocê pergunta, tuudo comeecou...'
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="19" positionX="355.647064" positionY="-712.805664" width="350" height="1046"><outputs name="Vocês são fortes o bastante para puxar o leshy para fora, então fazer." ownerID="19" targetID="8" fromX="681" fromY="-1203" /><outputs name="Tentar puxar o leshy para fora à força." ownerID="19" targetID="7" fromX="681" fromY="-1284" /><outputs name="Madeira de leshy é boa madeira. Matá-lo!" ownerID="19" targetID="60" fromX="681" fromY="-1364" /><outputs name="Tentar pegar qualquer madeira de valor, e partir." ownerID="19" targetID="15" fromX="681" fromY="-1444" /><outputs name="Sair da história." ownerID="19" targetID="20" fromX="681" fromY="-1524" />A floresta está esquisita. Tem pedras, buracos, e trechos ao acaso de áreas pantanosas. 
 
@@ -1508,7 +1508,7 @@ Numa tal área, vocês avistam uma árvore grande e viva, meio submersa na lama,
         </ModifierBlock>
       </logic><outputs name="Ficar para escutar ao conto." ownerID="21" targetID="22" fromX="3126" fromY="802" /><outputs name="Aceitar os presentes com agradecimento, e partir." ownerID="21" targetID="24" fromX="3126" fromY="722" />Vocês puxam o leshy para fora do pântano.
 
-'Obrigaaada, aamiigo. Estou fraco agggora, e voou dormiir. Os páássaros voão contaar a você o que acontteceu aqqui, se quisser. Se nãão, váão bem, e levem os coorpos da floreesta caída minha como reecompeensa.'</nodes>
+'Obrigaaada, aamiigo. Estou fraco agora, e vou dormir. Os páássaros vão contaar a você o que aconteceu aqui, se quisser. Se nãão, váão bem, e levem os coorpos da floreesta caída minha como reecompeensa.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="2323.4502" positionY="2152.084" width="350" height="725"><outputs name="Escutar." ownerID="22" targetID="23" fromX="2649" fromY="1660" />O leshy cai em sono. A cara dele desaparece na casca da árvore, e logo ele parece um carvalho velho, comum. 
 
 Mas os pássaros começam a cantar, e vocês conseguem distinguir umas das palavras...</nodes>
@@ -1595,7 +1595,7 @@ Vocês agora identificam a figura como algum tipo de elfo, embora um coberto de 
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-CURSE_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr!" ownerID="34" targetID="50" fromX="4199" fromY="-1708" />'Vocês têm sede de sangue, depois se acocoram de medo, mansas, e covardes...' 
+      </logic><outputs name="Fugir!" ownerID="34" targetID="50" fromX="4199" fromY="-1708" />'Vocês têm sede de sangue, depois se acocoram de medo, mansas, e covardes...' 
 
 A figura parte, e o chão sob você estremece. O ar fica gelado de frio, e os céus escurecem enquanto a névoa preta infecta as almas de você!</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="35" positionX="4946.816" positionY="-945.3418" width="350" height="408" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0" />
@@ -1843,9 +1843,9 @@ Se ao menos o leshy tivesse falado mais rápido. Vocês jamais vão saber se ele
             <scriptCallWithTag scriptName="FLP_AorB" />
           </LogicProcessing>
         </FilterBlock>
-      </logic><outputs name="Falar com ele." ownerID="2" targetID="5" fromX="319" fromY="-441" /><outputs name="[Demônio da Floresta]Vocês olham com desgosto à cara de um leshy moribundo. Compelir ele a contar que demônio fez isto, para que possam tomar vingança!'" ownerID="2" targetID="7" fromX="319" fromY="-521" /><outputs name="[Druida ou leshy]Tentar reacender vida no leshy.'" ownerID="2" targetID="3" fromX="319" fromY="-601" /><outputs name="Um espírito de árvore quase morto? Bom, deixá-lo morrer, e recolher a madeira.'" ownerID="2" targetID="20" fromX="319" fromY="-681" /><outputs name="Pode estar quase morto, mas é melhor simplesmente deixá-lo em paz. Partir.'" ownerID="2" targetID="4" fromX="319" fromY="-762" />Vocês entram na floresta, e descobrem um acampamento de lenhador abandonado às pressas. 
+      </logic><outputs name="Falar com ele." ownerID="2" targetID="5" fromX="319" fromY="-441" /><outputs name="[Demônio da Floresta]Vocês olham com desgosto à cara de um leshy moribundo. Compelir ele a contar que demônio fez isto, para que possam tomar vingança!" ownerID="2" targetID="7" fromX="319" fromY="-521" /><outputs name="[Druida ou leshy]Tentar reacender vida no leshy." ownerID="2" targetID="3" fromX="319" fromY="-601" /><outputs name="Um espírito de árvore quase morto? Bom, deixá-lo morrer, e recolher a madeira." ownerID="2" targetID="20" fromX="319" fromY="-681" /><outputs name="Pode estar quase morto, mas é melhor simplesmente deixá-lo em paz. Partir." ownerID="2" targetID="4" fromX="319" fromY="-762" />Vocês entram na floresta, e descobrem um acampamento de lenhador abandonado às pressas. 
 
-Há um pedaço grandão de árvore que foi talhado para baixo, mas ainda não trabalhado por inteiro. Vocês veem uma cara, em grande dor, encarando de volta para você do tronco da árvore!'</nodes>
+Há um pedaço grandão de árvore que foi talhado para baixo, mas ainda não trabalhado por inteiro. Vocês veem uma cara, em grande dor, encarando de volta para você do tronco da árvore!</nodes>
     <nodes xsi:type="NodeChallenge" ID="3" positionX="-977.279663" positionY="-1185.80652" width="500" height="726" challengeType="TypeSpirit" versusConcept="true" versusGroup="GROUP-CON_S_0P_0M_3S" challengeScale="101" challengedList="ppl">
       <logic>
         <FilterBlock>
@@ -1859,18 +1859,18 @@ Há um pedaço grandão de árvore que foi talhado para baixo, mas ainda não tr
       <outputs name="Surrender" ownerID="3" targetID="24" fromX="-536" fromY="-1841" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="-771" positionY="-624" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventure" ID="5" positionX="466.4209" positionY="802.3812" width="350" height="966"><outputs name="Tomar a bolota. Usar o poder de floresta de você para plantá-la direito, e assim permitir o renascimento eventual do leshy." ownerID="5" targetID="8" group="G1" fromX="792" fromY="311" /><outputs name="Plantar a bolota, e esperar pelo melhor." ownerID="5" targetID="14" group="G1" fromX="792" fromY="231" /><outputs name="Plantar a bolota, e esperar pelo melhor." ownerID="5" targetID="13" group="G1" fromX="792" fromY="150" /><outputs name="Isto parece valioso. Tomar a bolota." ownerID="5" targetID="9" fromX="792" fromY="70" />''Huumph, hamph... hmmm.... Paaalavras... difíceis... booolota.... plaanta... preessaaa...'
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="466.4209" positionY="802.3812" width="350" height="966"><outputs name="Tomar a bolota. Usar o poder de floresta de você para plantá-la direito, e assim permitir o renascimento eventual do leshy." ownerID="5" targetID="8" group="G1" fromX="792" fromY="311" /><outputs name="Plantar a bolota, e esperar pelo melhor." ownerID="5" targetID="14" group="G1" fromX="792" fromY="231" /><outputs name="Plantar a bolota, e esperar pelo melhor." ownerID="5" targetID="13" group="G1" fromX="792" fromY="150" /><outputs name="Isto parece valioso. Tomar a bolota." ownerID="5" targetID="9" fromX="792" fromY="70" />'Huumph, hamph... hmmm.... Paaalavras... difíceis... bolota.... plaanta... preessaaa...'
 
-A árvore cospe para fora uma bolotinha. "</nodes>
+A árvore cospe para fora uma bolotinha. </nodes>
     <nodes xsi:type="NodeAdventure" ID="7" positionX="493.549683" positionY="-156.628815" width="350" height="966"><logic>
         <FilterBlock>
           <LogicResultAction list="fdemon">
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Tomar a bolota. Usar o poder de floresta de você para plantá-la direito, e assim permitir o renascimento eventual do leshy." ownerID="7" targetID="8" fromX="819" fromY="-647" /><outputs name="Isto é valioso, arriscado, mas valioso. Tomar a bolota." ownerID="7" targetID="11" group="G1" fromX="819" fromY="-727" /><outputs name="Isto é valioso, arriscado, mas valioso. Tomar a bolota." ownerID="7" targetID="9" group="G1" fromX="819" fromY="-808" /><outputs name="Deixar a bolota em paz, e recolher qualquer madeira que restou aqui." ownerID="7" targetID="20" fromX="819" fromY="-888" />''Huumph, hamph... hmmm.... Paaalavras... difíceis... booolota.... plaanta... preessaaa...'
+      </logic><outputs name="Tomar a bolota. Usar o poder de floresta de você para plantá-la direito, e assim permitir o renascimento eventual do leshy." ownerID="7" targetID="8" fromX="819" fromY="-647" /><outputs name="Isto é valioso, arriscado, mas valioso. Tomar a bolota." ownerID="7" targetID="11" group="G1" fromX="819" fromY="-727" /><outputs name="Isto é valioso, arriscado, mas valioso. Tomar a bolota." ownerID="7" targetID="9" group="G1" fromX="819" fromY="-808" /><outputs name="Deixar a bolota em paz, e recolher qualquer madeira que restou aqui." ownerID="7" targetID="20" fromX="819" fromY="-888" />'Huumph, hamph... hmmm.... Paaalavras... difíceis... bolota.... plaanta... preessaaa...'
 
-A árvore cospe para fora uma bolotinha. "</nodes>
+A árvore cospe para fora uma bolotinha. </nodes>
     <nodes xsi:type="NodeAdventure" ID="8" positionX="1079.49023" positionY="-0.7869377" width="350" height="725"><logic>
         <FilterBlock>
           <LogicProcessing name="forestfolk" list1="elf" list2="fdemon">
@@ -2551,7 +2551,7 @@ Quando tentam dar um passo à frente, sentem uma resistência física, testando 
       </logic>
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="2" positionX="462.856659" positionY="-131.480133" width="350" height="885"><outputs name="Seguir adiante.'" ownerID="2" targetID="4" group="G1" fromX="788" fromY="-622" /><outputs name="Seguir adiante.'" ownerID="2" targetID="5" group="G1" fromX="788" fromY="-702" /><outputs name="Seguir adiante.'" ownerID="2" targetID="6" group="G1" fromX="788" fromY="-783" />Vocês entram nos pântanos, onde o ar está espesso de escuridão pairante.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="462.856659" positionY="-131.480133" width="350" height="885"><outputs name="Seguir adiante." ownerID="2" targetID="4" group="G1" fromX="788" fromY="-622" /><outputs name="Seguir adiante." ownerID="2" targetID="5" group="G1" fromX="788" fromY="-702" /><outputs name="Seguir adiante." ownerID="2" targetID="6" group="G1" fromX="788" fromY="-783" />Vocês entram nos pântanos, onde o ar está espesso de escuridão pairante.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="888.2032" positionY="-504.5495" width="350" height="530" linkedEventUniqueID="14">
       <logic>
         <FilterBlock>
@@ -3036,7 +3036,7 @@ O espírito de você está drenado, e o corpo de você enfraquecido, antes que c
         </ModifierBlock>
       </logic><outputs name="Partir juntos." ownerID="27" targetID="25" fromX="3757.71582" fromY="-1505.28271" />Muito tempo depois do encontro infrator, você passa por uma lagoa, e vê um reflexo de você com uma criança. 
 
-A criança então sai da lagoa, e você sabe por instinto que é de você, de algum jeito...'</nodes>
+A criança então sai da lagoa, e você sabe por instinto que é de você, de algum jeito...</nodes>
     <nodes xsi:type="NodeAdventure" ID="28" positionX="2596.71875" positionY="-1495.44067" width="350" height="681"><outputs name="Sair da história." ownerID="28" targetID="25" fromX="2922" fromY="-1942" />Vocês conversam, conversam, e antes que percebam, se veem varridos embora pelo encanto puro do menino.
 
 Quando voltam aos sentidos de você, o homem jovem já se foi. Vocês sentem o espírito drenado, mas, fora isto, foi ótimo.</nodes>
@@ -3156,7 +3156,7 @@ Pequenos redemoinhos de vento dançam ao redor delas, então acreditam que devem
       </logic>
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="10" positionX="1065.23291" positionY="-1174.64844" width="350" height="725"><outputs name="Sair da história." ownerID="10" targetID="9" fromX="1390" fromY="-1665" />As vily despertam com fúria, querendo punir você, mas a canção-verde as apazigua no fim, deixando você livre para pegar os despojos. </nodes>
-    <nodes xsi:type="NodeAdventure" ID="11" positionX="1674.73816" positionY="-605.54" width="350" height="805"><outputs name="Correr!" ownerID="11" targetID="18" fromX="2000" fromY="-1096" /><outputs name="Ficar, e lutá-las!" ownerID="11" targetID="12" fromX="2000" fromY="-1176" />As vily despertam com fúria, e descem voando, querendo punir você por transgredir!
+    <nodes xsi:type="NodeAdventure" ID="11" positionX="1674.73816" positionY="-605.54" width="350" height="805"><outputs name="Fugir!" ownerID="11" targetID="18" fromX="2000" fromY="-1096" /><outputs name="Ficar, e lutá-las!" ownerID="11" targetID="12" fromX="2000" fromY="-1176" />As vily despertam com fúria, e descem voando, querendo punir você por transgredir!
 
 Vocês têm uma chance de escapar, mas não sem preço nenhum. </nodes>
     <nodes xsi:type="NodeChallenge" ID="12" positionX="847.9055" positionY="703.703247" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-VILY_4P_4M_3S" challengeScale="101" challengedList="ppl">

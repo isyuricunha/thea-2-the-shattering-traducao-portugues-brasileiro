@@ -39,7 +39,7 @@
       <Entry Key="QUEST_MQ_AMBUSH2_DES" Val="Os bandidos derrotaram você, mas deixaram você ir. Os malandros contaram da terra fragmentando os lares deles e da luz levando as pessoas deles, empurrando-os à vida de bandido. Essa praga de luz precisa ser detida. Fique atento a um jeito."/>
 
       <Entry Key="QUEST_MQ_ALECHEMIST" Val="Você se deparou com um homem estranho que se chama de Alquimista."/>
-      <Entry Key="QUEST_MQ_ALECHEMIST2_DES" Val="Você mata o homem e saqueia a mesa estranha dele. Entre outras coisas, você encontra um mapa com um lugar marcado de forma evidente: &quot;Bandidos estúpidos, incapazes de entender a importância daquela caverna. Preciso entrar aí antes que tudo se fragmente!&quot;"/>
+      <Entry Key="QUEST_MQ_ALECHEMIST2_DES" Val="Você mata o homem e saqueia a mesa estranha dele. Entre outras coisas, você encontra um mapa com um lugar marcado de forma evidente: &quot;Bandidos estúpidos, incapazes de entender a importância daquela caverna. Preciso entrar aí antes que tudo se fragmente!"/>
       <Entry Key="QUEST_MQ_ALECHEMIST3_DES" Val="Você tentou, mas falhou em matar o Alquimista. Ele deixou você viver e se provou um agente da vontade divina como você. Ele contou de uma caverna vermelha que pode guardar o segredo da praga dos Portadores da Luz. Mas para entrar na caverna, você precisa lidar com os bandidos da Serra Vermelha, que montaram acampamento perto da entrada da caverna. O covil dos bandidos deve aparecer no seu mapa."/>
       <Entry Key="QUEST_MQ_ALECHEMIST_DES" Val="O Alquimista se provou um agente da vontade divina como você. Ele contou de uma caverna vermelha que pode guardar o segredo da praga dos Portadores da Luz. Mas para entrar na caverna, você precisa lidar com os bandidos da Serra Vermelha, que montaram acampamento perto da entrada da caverna. O covil dos bandidos deve aparecer no seu mapa."/>
 
@@ -75,7 +75,7 @@
       <Entry Key="QUEST_MQ_MINE2_DES" Val="Os demônios ficaram felizes em saber do seu sucesso e te desejaram sorte."/>
       <Entry Key="QUEST_MQ_MINE3_DES" Val="Você fechou um acordo com os demônios, voltar aos bandidos, mentir sobre tê-los matado e então chamar os demônios com uma palavra secreta, para que eles possam te ajudar a matar os bandidos da Serra Vermelha."/>
       <Entry Key="QUEST_MQ_MINE4_DES" Val="Os demônios ofereceram um acordo: eles vão te ajudar a matar os bandidos. Você disse que vai pensar."/>
-      <Entry Key="QUEST_MQ_MINE5_DES" Val="Os demônios se ofereceram para se esconder, para que você possa mentir aos bandidos e dizer que os matou. Volte ao acampamento dos bandidos."/>
+      <Entry Key="QUEST_MQ_MINE5_DES" Val="Os demônios se ofereceram para se esconder, para que você possa mentir aos bandidos e dizer que os matou. Volte ao acampamento dos bandidos. "/>
       <Entry Key="QUEST_MQ_MINE6_DES" Val="Você matou os demônios como pedido. Hora de relatar aos bandidos."/>
       <Entry Key="QUEST_MQ_MINE7_DES" Val="Os demônios surraram você e forçaram você a fugir. Você pode tentar de novo ou tentar outro caminho."/>
       <Entry Key="QUEST_MQ_MINE8_DES" Val="Você não conseguiu lidar com os demônios. Você pode tentar de novo ou tentar outro caminho."/>
@@ -205,9 +205,9 @@
       <Entry Key="QUEST_DIV_PATH_ONEB1_DES" Val="O lugar se provou uma das raízes divinas da antiga deusa Mokosh. Alguns Portadores da Luz assaltavam a raiz e você foi derrotado por eles. Volte quando estiver pronto para o desafio."/>
 
       <Entry Key="QUEST_DIV_PATH_TWOA_DES" Val="Você encontrou a vara de Perun, mas falhou em libertá-la. Precisa voltar quando estiver melhor preparado."/>
-      <Entry Key="QUEST_DIV_PATH_TWOAZORYA_DES" Val="Você encontrou a vara de Perun e a libertou das mãos do gigante. A voz do deus antigo falou com você e ordenou que vá descobrir o destino do seu próprio deus agora, para completar a jornada. Encontre o rastro de Zorya nas terras vulcânicas."/>
-      <Entry Key="QUEST_DIV_PATH_TWOATRIGLAV_DES" Val="Você encontrou a vara de Perun e a libertou das mãos do gigante. A voz do deus antigo falou com você e ordenou que vá descobrir o destino do seu próprio deus agora, para completar a jornada. Encontre o rastro de Triglav nas terras vulcânicas."/>
-      <Entry Key="QUEST_DIV_PATH_TWOASVAROG_DES" Val="Você encontrou a vara de Perun e a libertou das mãos do gigante. A voz do deus antigo falou com você e ordenou que vá descobrir o destino do seu próprio deus agora, para completar a jornada. Encontre o rastro de Svarog nas terras de metal."/>
+      <Entry Key="QUEST_DIV_PATH_TWOAZORYA_DES" Val="Você encontrou a vara de Perun e a libertou das mãos do gigante. A voz do deus antigo falou com você e ordenou que vá descobrir o destino do seu próprio deus agora, para completar a jornada. Encontre o rastro de Zorya nas terras vulcânicas. "/>
+      <Entry Key="QUEST_DIV_PATH_TWOATRIGLAV_DES" Val="Você encontrou a vara de Perun e a libertou das mãos do gigante. A voz do deus antigo falou com você e ordenou que vá descobrir o destino do seu próprio deus agora, para completar a jornada. Encontre o rastro de Triglav nas terras vulcânicas. "/>
+      <Entry Key="QUEST_DIV_PATH_TWOASVAROG_DES" Val="Você encontrou a vara de Perun e a libertou das mãos do gigante. A voz do deus antigo falou com você e ordenou que vá descobrir o destino do seu próprio deus agora, para completar a jornada. Encontre o rastro de Svarog nas terras de metal. "/>
       <Entry Key="QUEST_DIV_PATH_TWOASTRIBOG_DES" Val="Você encontrou a vara de Perun e a libertou das mãos do gigante. A voz do deus antigo falou com você e ordenou que vá descobrir o destino do seu próprio deus agora, para completar a jornada. Encontre o rastro de Stribog navegando pelos mares."/>
       <Entry Key="QUEST_DIV_PATH_TWOB_DES" Val="Você encontrou outra raiz de uma árvore de Mokosh, mas falhou em interagir com ela de forma adequada. Precisa voltar quando estiver melhor preparado."/>
       <Entry Key="QUEST_DIV_PATH_TWOB1_DES" Val="Você encontrou outra raiz de uma árvore de Mokosh, mas decidiu atacar o guardião dela e destruí-la. O caminho divino agora está fechado para você."/>
@@ -233,7 +233,7 @@
       <Entry Key="QUEST_DIV_ZORYA" Val="Você seguiu o caminho divino e encontrou o avatar de Zorya."/>
       <Entry Key="QUEST_DIV_ZORYA_DES" Val="Você falhou em descorrentar a essência da sua deusa. Ainda sente a conexão com Zorya e sabe que ela não se foi, mas também sabe que falhou na tarefa final e não vai receber as últimas bênçãos."/>
       <Entry Key="QUEST_DIV_NYIA" Val="Você seguiu o caminho divino e encontrou o avatar de Nyia."/>
-      <Entry Key="QUEST_DIV_NYIA_DES" Val="Você sabe que falhou com a sua deusa e vai precisar provar o valor com os presentes que já recebeu nesta jornada."/>
+      <Entry Key="QUEST_DIV_NYIA_DES" Val=" Você sabe que falhou com a sua deusa e vai precisar provar o valor com os presentes que já recebeu nesta jornada."/>
 
       <Entry Key="QUEST_LOG1" Val="O Legado do Ferreiro"/>
       <Entry Key="QUEST_SMITH" Val="Você nota uma construção interessante por perto."/>
@@ -265,8 +265,8 @@
       <Entry Key="QUEST_LEO_HOCH3_DES" Val="O Hochlick queria que você matasse Leopold na próxima aparição dele. Em troca, ofereceria uma recompensa. Você matou o Hochlick."/>
       <Entry Key="QUEST_LEO_KILL_DES" Val="Você matou Leopold e recebeu a recompensa do Hochlick."/>
       <Entry Key="QUEST_LEO_KILL2_DES" Val="Você falhou em matar Leopold. Ele pediu que jogasse o jogo de demônios por ele mesmo assim e correu. Se você visitou a Dola ou o Cmuch, vai achar a entrada do jogo em breve."/>
-      <Entry Key="QUEST_LEO_KILL3_DES" Val="Você não matou Leopold como o Hochlick pediu, então ainda precisa jogar o jogo de demônios. Se você visitou a Dola ou o Cmuch, vai achar a entrada do jogo em breve."/>
-      <Entry Key="QUEST_LEO_HOCH4_DES" Val="Você concordou em vender Leopold à servidão depois de ganhar o jogo de demônios. Em troca, o Hochlick ofereceria uma recompensa. Agora precisa buscar o jogo. Se você visitou a Dola ou o Cmuch, vai achar a entrada do jogo em breve."/>
+      <Entry Key="QUEST_LEO_KILL3_DES" Val="Você não matou Leopold como o Hochlick pediu, então ainda precisa jogar o jogo de demônios. Se você visitou a Dola ou o Cmuch, vai achar a entrada do jogo em breve. "/>
+      <Entry Key="QUEST_LEO_HOCH4_DES" Val="Você concordou em vender Leopold à servidão depois de ganhar o jogo de demônios. Em troca, o Hochlick ofereceria uma recompensa. Agora precisa buscar o jogo. Se você visitou a Dola ou o Cmuch, vai achar a entrada do jogo em breve. "/>
       <Entry Key="QUEST_LEO_HOCHEND" Val="O Hochlick, Frix, veio a você depois do jogo."/>
       <Entry Key="QUEST_LEO_HOCHEND_DES" Val="Você foi recompensado pelo serviço."/>
       <Entry Key="QUEST_LEOEND" Val="Leopold te visitou depois do fiasco do Kurv Game."/>
@@ -286,7 +286,7 @@
 
       <Entry Key="QUEST_LOG3" Val="Clãs Alfa"/>
       <Entry Key="QUEST_ALPHACLANS" Val="Você descobriu o povoado principal dos clãs alfa."/>
-      <Entry Key="QUEST_ALPHACLANS_DES" Val="Os orcs são tradicionalmente uma sociedade nômade baseada em clãs, governada por matriarcas de clã. A matriarca alfa supervisiona todos os clãs, e ela detém o poder nos vilarejos orcs estabelecidos. Orcs desprezam a covardia, então pense duas vezes antes de escolher se render na presença deles.\n\nOrcs normalmente não negociam por osso ou couro, já que costumam ter esses materiais em abundância. Quando virar amigo, talvez possa recrutar um orc pela arena de lutas. Para ganhar amizade, tente fazer tarefas para os alfas quando disponíveis."/>
+      <Entry Key="QUEST_ALPHACLANS_DES" Val="Os orcs são tradicionalmente uma sociedade nômade baseada em clãs, governada por matriarcas de clã. A matriarca alfa supervisiona todos os clãs, e ela detém o poder nos vilarejos orcs estabelecidos. Orcs desprezam a covardia, então pense duas vezes antes de escolher se render na presença deles.\n\nOrcs normalmente não negociam por osso ou couro, já que costumam ter esses materiais em abundância. Quando virar amigo, talvez possa recrutar um orc pela arena de lutas. Para ganhar amizade, tente fazer tarefas para os alfas quando disponíveis. "/>
       <Entry Key="QUEST_ALPHACLANSARMY" Val="Você se deparou com uma banda dos clãs alfa. Isso pode significar que o povoado deles fica por perto."/>
 
       <Entry Key="QUEST_LOG4" Val="Slavyans"/>
@@ -444,10 +444,10 @@
       <Entry Key="QUEST_MISC3_GOBKILLSPWNONE7_DES" Val="Você ajudou eles a rastrear os goblins, e ficaram gratos."/>
       <Entry Key="QUEST_LOG16" Val="Ajudando os Slavyans"/>
       <Entry Key="QUEST_H_SLAVYANS" Val="Você perguntou se podia ajudar com alguma tarefa na aldeia Slavyan."/>
-      <Entry Key="QUEST_H_SLAVYANS_DES" Val="Os Slavyans te mandaram lidar com uma encrenca. Cuide da tarefa."/>
+      <Entry Key="QUEST_H_SLAVYANS_DES" Val="Os Slavyans te mandaram lidar com uma encrenca. Cuide da tarefa. "/>
       <Entry Key="QUEST_LOG17" Val="Ajudando os Saqueadores"/>
       <Entry Key="QUEST_H_SCAVENGERS" Val="Você perguntou se podia ajudar com alguma tarefa na aldeia dos saqueadores."/>
-      <Entry Key="QUEST_H_SCAVENGERS_DES" Val="Os saqueadores te mandaram lidar com uma encrenca. Cuide da tarefa."/>
+      <Entry Key="QUEST_H_SCAVENGERS_DES" Val="Os saqueadores te mandaram lidar com uma encrenca. Cuide da tarefa. "/>
       <Entry Key="QUEST_LOGVOLH" Val="Maldição do Volh"/>
       <Entry Key="QUEST_LOG_RATCURSE" Val="Maldição do Rato"/>
       <Entry Key="QUEST_VOLH_RATCURSE" Val="Você descobriu e ajudou a bruxa que um dia o amaldiçoou a uma vida de vermes."/>
@@ -466,7 +466,7 @@
       <Entry Key="QUEST_V_DARKV_TWO_DES" Val="Havia boatos de alguém chamando os mortos-vivos; pode ser o garoto, Ivan."/>
       <Entry Key="QUEST_V_DARKV_THREE" Val="Você encontrou Ivan nas garras da escuridão, com o professor morto aos pés dele e o próprio garoto preso no mundo cinzento."/>
       <Entry Key="QUEST_V_DARKV_THREE_DES" Val="Você conseguiu resgatar o garoto do mundo cinzento. Talvez ainda haja lacaios dele à solta, mas o garoto não vai mais se meter em necromancia."/>
-      <Entry Key="QUEST_V_DARKV_THREE_DES2" Val="Você conseguiu deter a escuridão e mais fiends mortos-vivos, mas o garoto não sobreviveu."/>
+      <Entry Key="QUEST_V_DARKV_THREE_DES2" Val="Você conseguiu deter a escuridão e mais diabos mortos-vivos, mas o garoto não sobreviveu."/>
       <Entry Key="QUEST_V_DARKV_THREE_DES3" Val="Você falhou em matar, ou ajudar, o garoto; qualquer escuridão em que ele caiu, agora está livre para espalhá-la..."/>
       <Entry Key="QUEST_V_DARKV_THREE_DES4" Val="Você decidiu que isso não é problema seu."/>
       <Entry Key="QUEST_V_DARKV_THREE_DES5" Val="Você matou o garoto e impediu a escuridão dele de se espalhar."/>
@@ -510,7 +510,7 @@
       <Entry Key="QUEST_HALLOW_KEN_DES1" Val="Gurtek admitiu que ele e Bogslava tramaram acabar com o Halloween. Disse que os sumidos estão escondidos em segurança no alojamento dos lenhadores."/>
       <Entry Key="QUEST_HALLOW_FORE" Val="Você encontrou os espíritos dos antepassados possuindo as esculturas de madeira."/>
       <Entry Key="QUEST_HALLOW_FORE_DES" Val="Você decidiu que os antepassados têm o direito de julgar a Aldeia do Urso como bem entenderem, então os deixou à vontade."/>
-      <Entry Key="QUEST_HALLOW_FORE_DES1" Val="Você foi derrotado pelos antepassados e forçado a fugir. Lembre-se de que tem tempo limitado para tentar matá-los."/>
+      <Entry Key="QUEST_HALLOW_FORE_DES1" Val="Você foi derrotado pelos antepassados e forçado a fugir. Lembre-se de que tem tempo limitado para tentar matá-los. "/>
       <Entry Key="QUEST_HALLOW_FORE_DES2" Val="Você recuou por ora, esperando poder voltar e lidar com os antepassados antes que executem a vingança deles contra a Aldeia do Urso. Você não sabe quanto tempo tem, mas eles não vão esperar aqui para sempre..."/>
       <Entry Key="QUEST_HALLOW_FORE_DES3" Val="Você derrotou os antepassados, e espera que isso ponha um fim na história, embora sinta que parte do espírito deles ainda pode rondar a Aldeia do Urso. Relate a Tomislav."/>
       <Entry Key="QUEST_HALLOW_FORE_DES4" Val="Você derrotou os antepassados de uma vez. Eles aplaudiram a força de espírito sua e prometeram deixar a aldeia em paz."/>
@@ -526,11 +526,11 @@
       <Entry Key="QUEST_HALLOW_KEN_DES5" Val="Gurtek acredita que Fredrick, o estrangeiro, é o responsável pela encrenca na aldeia, mas os cães de Gurtek continuam os principais suspeitos. Melhor falar com Tomislav sobre isso."/>
       <Entry Key="QUEST_HALLOW_BEAR" Val="Você foi atacado por uma estátua de urso de madeira empunhando um machado!"/>
       <Entry Key="QUEST_HALLOW_BEAR1" Val="Você tentou derrotar a estátua de urso de madeira de novo."/>
-      <Entry Key="QUEST_HALLOW_BEAR_DES" Val="Você foi derrotado, e Tomislav implorou que tentasse de novo quando puder. [Você tem 200 turnos para derrotar o urso e o que quer que venha depois dele.]"/>
+      <Entry Key="QUEST_HALLOW_BEAR_DES" Val="Você foi derrotado, e Tomislav implorou que tentasse de novo quando puder. [Você tem 200 turnos para derrotar o urso e o que quer que venha depois dele.] "/>
       <Entry Key="QUEST_HALLOW_BEAR_DES1" Val="Você escapou, mas Tomislav pediu que tentasse derrotar essa criatura, pelo bem da Aldeia do Urso. [Você tem 200 turnos para derrotar o urso e o que quer que venha depois dele.]"/>
       <Entry Key="QUEST_HALLOW_BEAR_DES2" Val="Você derrotou o urso de madeira, e você e Tomislav esperam que isso ajude a aldeia por ora. Porém, o urso estava possuído pelos espíritos dos antepassados, então talvez queira procurá-los para ver se isto realmente acabou. Cuidado: você tem tempo limitado para investigar isso. [200 turnos]"/>
       <Entry Key="QUEST_HALLOW_BEAR_DES3" Val="Você derrotou o urso de madeira, e você e Tomislav esperam que isso ajude a aldeia por ora. Tomislav pediu que tentasse achar os antepassados para ver se isto realmente acabou, mas você decidiu que isso não é problema seu."/>
-      <Entry Key="QUEST_HALLOW_BEAR_DES4" Val="Você foi derrotado; talvez tente de novo quando puder. [Você tem 200 turnos para derrotar o urso e o que quer que venha depois dele.]"/>
+      <Entry Key="QUEST_HALLOW_BEAR_DES4" Val="Você foi derrotado; talvez tente de novo quando puder. [Você tem 200 turnos para derrotar o urso e o que quer que venha depois dele.] "/>
       <Entry Key="QUEST_HALLOWINV" Val="Você foi convidado a visitar a Aldeia do Urso"/>
       <Entry Key="QUEST_HALLOWINV_DES" Val="A localização foi marcada no seu mapa."/>
       <Entry Key="QUEST_HALLOW_KEN_DES6" Val="Você descobriu que os espíritos dos antepassados estão mesmo muito furiosos com a Aldeia do Urso, e você teme que tenham intenções sangrentas. Melhor ir contar a Tomislav sobre isso."/>
@@ -539,7 +539,7 @@
       <Entry Key="QUEST_HALLOW_TOM_DES2" Val="Você falou com Tomislav sobre os antepassados furiosos e decidiu que isso não é problema seu; você foi embora."/>
       <Entry Key="QUEST_HALLOW_HUT_DES1" Val="Você completou a tarefa da caravana para Bogslava, e ela ficou muito grata."/>
       <Entry Key="QUEST_HALLOW_FORE_DES7" Val="As esculturas dos antepassados estão imóveis, em silêncio. Os olhos delas são vazios, mas há manchas de sangue na madeira também."/>
-      <Entry Key="QUEST_HALLOW_WOOD_DES1" Val="Você encontrou o alojamento e, dentro dele, um massacre sangrento. Forças sombrias parecem estar em ação aqui; melhor falar com Tomislav de volta na aldeia."/>
+      <Entry Key="QUEST_HALLOW_WOOD_DES1" Val="Você encontrou o alojamento e, dentro dele, um massacre sangrento. Forças sombrias parecem estar em ação aqui; melhor falar com Tomislav de volta na aldeia. "/>
 
       <Entry Key="QUEST_LOG18" Val="Dragão de Vavel"/>
       <Entry Key="QUEST_VAVELINV" Val="Um dragão ameaça a sua aldeia."/>

@@ -4959,7 +4959,7 @@ Os catadores ficam contentes com o trabalho de você.
             <scriptCallWithTag scriptName="FRA_Chance" parameter="50" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="[Catador]Falar com o parente seu. Dizer que a trupinha de você é maior e mais dura, então é melhor compartilharem." ownerID="4" targetID="41" fromX="1804" fromY="707" /><outputs name="Atacar!" ownerID="4" targetID="22" fromX="1807" fromY="627" /><outputs name="Correr." ownerID="4" targetID="3" fromX="1807" fromY="547" />Vocês buscam pelo entulho, mas, em vez de provisões, se deparam com um bando de catadores que não parece contente de compartilhar este lugar.</nodes>
+      </logic><outputs name="[Catador]Falar com o parente seu. Dizer que a trupinha de você é maior e mais dura, então é melhor compartilharem." ownerID="4" targetID="41" fromX="1804" fromY="707" /><outputs name="Atacar!" ownerID="4" targetID="22" fromX="1807" fromY="627" /><outputs name="Fugir." ownerID="4" targetID="3" fromX="1807" fromY="547" />Vocês buscam pelo entulho, mas, em vez de provisões, se deparam com um bando de catadores que não parece contente de compartilhar este lugar.</nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1485.41907" positionY="-611.82605" width="350" height="1046"><logic>
         <FilterBlock>
           <LogicFilter name="dwarf" makePublic="true">
@@ -5098,7 +5098,7 @@ Vocês mal saem vivos.</nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="[Catador]Falar com o parente seu. Dizer que a trupinha de você é maior e mais dura, então é melhor compartilharem." ownerID="36" targetID="41" fromX="1244" fromY="640" /><outputs name="Tentar superar estes catadores em esperteza antes que eles vejam você." ownerID="36" targetID="21" fromX="1244" fromY="560" /><outputs name="Atacar!" ownerID="36" targetID="22" fromX="1244" fromY="480" /><outputs name="Correr." ownerID="36" targetID="3" fromX="1244" fromY="400" />Vocês buscam pelo entulho, mas em vez de provisões, se deparam com um bando de catadores. Eles ainda não viram você.</nodes>
+      </logic><outputs name="[Catador]Falar com o parente seu. Dizer que a trupinha de você é maior e mais dura, então é melhor compartilharem." ownerID="36" targetID="41" fromX="1244" fromY="640" /><outputs name="Tentar superar estes catadores em esperteza antes que eles vejam você." ownerID="36" targetID="21" fromX="1244" fromY="560" /><outputs name="Atacar!" ownerID="36" targetID="22" fromX="1244" fromY="480" /><outputs name="Fugir." ownerID="36" targetID="3" fromX="1244" fromY="400" />Vocês buscam pelo entulho, mas em vez de provisões, se deparam com um bando de catadores. Eles ainda não viram você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="38" positionX="2703.64917" positionY="1606.73755" width="350" height="725"><outputs name="Recolher o que der." ownerID="38" targetID="30" fromX="3029" fromY="1115" />Estas pedreiras velhas têm muitas cavernas e tocas; e os catadores são muito supersticiosos. 
 
 Vocês os espetam com sons suspeitos e rochas caindo até decidirem que este lugar é assombrado; e o abandonam, deixando até um pouco das coisas deles atrás.</nodes>
@@ -5365,7 +5365,7 @@ E, já que não somos estúpidos o bastante para se meter com os deuses de você
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-CURSE_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr!" ownerID="12" targetID="77" fromX="1752" fromY="-788" /><outputs name="Ficar e lutar esta coisa!" ownerID="12" targetID="49" fromX="1752" fromY="-869" />Vocês entram na parte leste das ruínas e acham que um corte fundo e maldoso foi talhado no chão sob você. 
+      </logic><outputs name="Fugir!" ownerID="12" targetID="77" fromX="1752" fromY="-788" /><outputs name="Ficar e lutar esta coisa!" ownerID="12" targetID="49" fromX="1752" fromY="-869" />Vocês entram na parte leste das ruínas e acham que um corte fundo e maldoso foi talhado no chão sob você. 
 
 De dentro dele, você sente uma presença, observando, esperando...
 
@@ -5480,7 +5480,7 @@ Os catadores olham para você e decidem que o espólio não vale as vidas deles.
       <outputs name="Lose" ownerID="26" targetID="28" fromX="-103" fromY="-378" />
       <outputs name="Surrender" ownerID="26" targetID="28" fromX="-103" fromY="-458" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="28" positionX="10" positionY="-276" width="350" height="805"><outputs name="Lutar!" ownerID="28" targetID="6" fromX="335" fromY="-767" /><outputs name="Correr." ownerID="28" targetID="77" fromX="335" fromY="-847" />'Vocês são assustador, mas não são muitos. A gente leva você!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="10" positionY="-276" width="350" height="805"><outputs name="Lutar!" ownerID="28" targetID="6" fromX="335" fromY="-767" /><outputs name="Fugir." ownerID="28" targetID="77" fromX="335" fromY="-847" />'Vocês são assustador, mas não são muitos. A gente leva você!'</nodes>
     <nodes xsi:type="NodeAdventure" ID="29" positionX="-998.110962" positionY="896.1697" width="350" height="725"><outputs name="Bom. Juntar o espólio e partir." ownerID="29" targetID="24" fromX="-672" fromY="405" />'A gente vai agora. Você não mata a gente!'
 
 Os catadores olham para você e decidem que o espólio não vale as vidas deles. Eles fogem.
@@ -5497,7 +5497,7 @@ Os catadores olham para você e decidem que o espólio não vale as vidas deles.
             <scriptCallWithTag scriptName="FRA_Chance" parameter="60" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Atacá-los com um golpe preventivo!" ownerID="30" targetID="31" fromX="1213" fromY="-1575" /><outputs name="Correr." ownerID="30" targetID="77" fromX="1213" fromY="-1655" /><outputs name="Negociar com eles, bandido com bandido." ownerID="30" targetID="64" fromX="1213" fromY="-1735" /><outputs name="Tentar intimidá-los." ownerID="30" targetID="33" fromX="1213" fromY="-1815" />Vocês reconhecem à frente e descobrem que é um grupo de bandidos fingindo saquear as ruínas, mas na verdade esperando armar tocaia para você!</nodes>
+      </logic><outputs name="Atacá-los com um golpe preventivo!" ownerID="30" targetID="31" fromX="1213" fromY="-1575" /><outputs name="Fugir." ownerID="30" targetID="77" fromX="1213" fromY="-1655" /><outputs name="Negociar com eles, bandido com bandido." ownerID="30" targetID="64" fromX="1213" fromY="-1735" /><outputs name="Tentar intimidá-los." ownerID="30" targetID="33" fromX="1213" fromY="-1815" />Vocês reconhecem à frente e descobrem que é um grupo de bandidos fingindo saquear as ruínas, mas na verdade esperando armar tocaia para você!</nodes>
     <nodes xsi:type="NodeChallenge" ID="31" positionX="1274.97424" positionY="-1143.84973" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-BANDITS_3P_3M_1S" challengeScale="80" challengedList="ppl">
       <outputs name="Win" ownerID="31" targetID="38" fromX="1716" fromY="-1639" />
       <outputs name="Lose" ownerID="31" targetID="69" fromX="1716" fromY="-1719" />
@@ -5720,7 +5720,7 @@ Ou podemos negociar com o que achamos até agora.' </nodes>
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_P" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Atacar!" ownerID="72" targetID="46" fromX="1881" fromY="963" /><outputs name="Correr." ownerID="72" targetID="82" fromX="1881" fromY="883" />Vocês sentem-se fortalecidos pelo deus de você.
+      </logic><outputs name="Atacar!" ownerID="72" targetID="46" fromX="1881" fromY="963" /><outputs name="Fugir." ownerID="72" targetID="82" fromX="1881" fromY="883" />Vocês sentem-se fortalecidos pelo deus de você.
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="73" positionX="2445.18213" positionY="211.617813" width="350" height="408" allPlayersXP="1" linkedEventUniqueID="0">
       <logic>
@@ -6140,7 +6140,7 @@ Quando entram, velas se acendem ao longo do caminho de vocês e, dentro, acham u
         </FilterBlock>
       </logic><outputs name="[Caçador ou percepção] Conferir a área antes de entrar." ownerID="2" targetID="9" fromX="885" fromY="-654" /><outputs name="Entrar." ownerID="2" targetID="8" fromX="885" fromY="-734" /><outputs name="Sair da história." ownerID="2" targetID="25" fromX="885" fromY="-815" />Vocês se deparam com uma caverna, e os batedores relatam que ela tem túneis fundos dentro, que podem guardar mistérios.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1538.18115" positionY="-1804.15967" width="350" height="408" allPlayersXP="1" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventure" ID="8" positionX="1262.92651" positionY="-502.7114" width="350" height="805"><outputs name="Atacar!" ownerID="8" targetID="11" fromX="1588" fromY="-993" /><outputs name="Correr!" ownerID="8" targetID="26" group="G1" fromX="1588" fromY="-1074" />Vocês entram na caverna para ver se tem bons minerais dentro. Mas são também sobressaltados por um ninho de morcegos furiosos!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="8" positionX="1262.92651" positionY="-502.7114" width="350" height="805"><outputs name="Atacar!" ownerID="8" targetID="11" fromX="1588" fromY="-993" /><outputs name="Fugir!" ownerID="8" targetID="26" group="G1" fromX="1588" fromY="-1074" />Vocês entram na caverna para ver se tem bons minerais dentro. Mas são também sobressaltados por um ninho de morcegos furiosos!</nodes>
     <nodes xsi:type="NodeAdventure" ID="9" positionX="1068.84351" positionY="461.654327" width="350" height="885"><logic>
         <FilterBlock>
           <LogicFilter name="hunter">
@@ -6181,7 +6181,7 @@ A caverna tem bons minerais dentro, sim. Você também vê fezes de morcego, ent
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="15" positionX="3565.143" positionY="-198.604553" width="350" height="725"><outputs name="Sair da história." ownerID="15" targetID="27" fromX="3890" fromY="-689" />Os morcegos te surram feio e forçam você a fugir.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="16" positionX="4382.30859" positionY="-772.2433" width="350" height="408" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventure" ID="18" positionX="2090.94434" positionY="-26.772604" width="350" height="805"><outputs name="Atacar!" ownerID="18" targetID="11" fromX="2416" fromY="-517" /><outputs name="Correr!" ownerID="18" targetID="26" group="G1" fromX="2416" fromY="-598" />Ao anoitecer, os morcegos saem para a refeição, e você entra de fininho para pegar o que der da caverna.
+    <nodes xsi:type="NodeAdventure" ID="18" positionX="2090.94434" positionY="-26.772604" width="350" height="805"><outputs name="Atacar!" ownerID="18" targetID="11" fromX="2416" fromY="-517" /><outputs name="Fugir!" ownerID="18" targetID="26" group="G1" fromX="2416" fromY="-598" />Ao anoitecer, os morcegos saem para a refeição, e você entra de fininho para pegar o que der da caverna.
 
 Ah, mas os morcegos devem ter avistado você. Eles voltam e te cobrem em enxame!</nodes>
     <nodes xsi:type="NodeAdventure" ID="19" positionX="3371.455" positionY="982.107666" width="350" height="805"><outputs name="Vasculhar a caverna." ownerID="19" targetID="20" group="G1" fromX="3697" fromY="490" /><outputs name="Vasculhar a caverna, juntar o espólio e partir." ownerID="19" targetID="28" group="G1" fromX="3697" fromY="410" />Vocês matam os morcegos e ficam livres para explorar.</nodes>

@@ -2235,7 +2235,7 @@ O navio está ancorado numa ilha minúscula. A tripulação, tal como os outros 
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="14" positionX="1525" positionY="-750" width="350" height="805"><outputs name="Correr!" ownerID="14" targetID="16" fromX="1850" fromY="-1241" /><outputs name="Atacar!" ownerID="14" targetID="15" fromX="1850" fromY="-1321" />Vocês tentam chegar de furtivo aos piratas criando uma distração. Ah, vocês não notaram o maldito papagaio sentado ali, observando cada movimento de você! 
+    <nodes xsi:type="NodeAdventure" ID="14" positionX="1525" positionY="-750" width="350" height="805"><outputs name="Fugir!" ownerID="14" targetID="16" fromX="1850" fromY="-1241" /><outputs name="Atacar!" ownerID="14" targetID="15" fromX="1850" fromY="-1321" />Vocês tentam chegar de furtivo aos piratas criando uma distração. Ah, vocês não notaram o maldito papagaio sentado ali, observando cada movimento de você! 
 Ele guincha, e vocês têm segundos para reagir.</nodes>
     <nodes xsi:type="NodeChallenge" ID="15" positionX="864" positionY="-929" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-PIRATES_6P_5M_5S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="15" targetID="19" fromX="1305" fromY="-1424" />

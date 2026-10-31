@@ -1949,7 +1949,7 @@ Os aldeões agradecem a você e dão uma recompensa.</nodes>
             <scriptCallWithTag scriptName="FRA_Chance" parameter="30" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Procurar sobreviventes no lugar." ownerID="62" targetID="25" fromX="-504" fromY="213" />Os ratos escutam ao tom de você e abandonam obedientemente o ninho deles. Vocês notam que um deles era na verdade um gambá-berçário, uma criatura supercrescida, torcida, semelhante a praga, com uma bolsa grande na frente dela, conhecida por roubar pequenos. O mais provável, não foi hipnotizado pela flauta; mas decidiu fugir enquanto dava. 
+      </logic><outputs name="Procurar sobreviventes no lugar." ownerID="62" targetID="25" fromX="-504" fromY="213" />Os ratos escutam ao tom de você e abandonam obedientemente o ninho deles. Vocês notam que um deles era na verdade um gambá-berçário, uma criatura supercrescida, torcida, semelhante a praga, com uma bolsa grande na frente dela, conhecida por roubar pequenos. O mais provável, não foi hipnotizado pela flauta; mas decidiu fugir enquanto dava.
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="63" positionX="2093" positionY="-978" width="350" height="805"><logic>
         <ModifierBlock>
@@ -2613,14 +2613,14 @@ Você bebe todo mundo debaixo da mesa e impressiona muito os locais.</nodes>
             <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
           </LogicProcessing>
         </FilterBlock>
-      </logic><outputs name="[Sabedoria ou percepção]Isto é com certeza trabalho de demônio. Tentar avistá-lo." ownerID="2" targetID="3" fromX="751" fromY="-695" /><outputs name="'Vocês são duros. Aguentem firme.'" ownerID="2" targetID="4" fromX="751" fromY="-775" />Vocês são despertados à noite pela risada histérica própria de você. Toda vez que acham que parou, sentem as cócegas de novo; e piorando cada vez!</nodes>
+      </logic><outputs name="[Sabedoria ou percepção]Isto é com certeza trabalho de demônio. Tentar avistá-lo." ownerID="2" targetID="3" fromX="751" fromY="-695" /><outputs name="Vocês são duros. Aguentem firme." ownerID="2" targetID="4" fromX="751" fromY="-775" />Vocês são despertados à noite pela risada histérica própria de você. Toda vez que acham que parou, sentem as cócegas de novo; e piorando cada vez!</nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="832" positionY="788" width="350" height="966" image="Event123"><logic>
         <FilterBlock>
           <LogicResultAction list="smart">
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="[Sabedoria]Demônios domésticos assim costumam tomar comida como oferenda. Arremessar um pouco a ele; e talvez ele pare." ownerID="3" targetID="7" fromX="1157" fromY="296" /><outputs name="[Percepção]Observá-lo." ownerID="3" targetID="5" fromX="1157" fromY="216" /><outputs name="[Criança]Uma briga de cócegas! Saltar sobre a criatura e fazer cócegas de volta. Isto é divertido demais." ownerID="3" targetID="13" fromX="1157" fromY="136" /><outputs name="'Vocês são duros. Aguentem firme.'" ownerID="3" targetID="4" fromX="1157" fromY="56" />A criatura é rápida mesmo e derrama um tipo de pó em você, de modo que não conseguem vê-la muito bem. Mas vocês a avistam; e você acha que pode ser um hahalek, um demônio trapaceiro que, entre outras coisas, gosta de fazer cócegas às presas deles; às vezes até a morte!</nodes>
+      </logic><outputs name="[Sabedoria]Demônios domésticos assim costumam tomar comida como oferenda. Arremessar um pouco a ele; e talvez ele pare." ownerID="3" targetID="7" fromX="1157" fromY="296" /><outputs name="[Percepção]Observá-lo." ownerID="3" targetID="5" fromX="1157" fromY="216" /><outputs name="[Criança]Uma briga de cócegas! Saltar sobre a criatura e fazer cócegas de volta. Isto é divertido demais." ownerID="3" targetID="13" fromX="1157" fromY="136" /><outputs name="Vocês são duros. Aguentem firme." ownerID="3" targetID="4" fromX="1157" fromY="56" />A criatura é rápida mesmo e derrama um tipo de pó em você, de modo que não conseguem vê-la muito bem. Mas vocês a avistam; e você acha que pode ser um hahalek, um demônio trapaceiro que, entre outras coisas, gosta de fazer cócegas às presas deles; às vezes até a morte!</nodes>
     <nodes xsi:type="NodeChallenge" ID="4" positionX="294" positionY="-1139" width="500" height="726" challengeType="TypePhysical" versusConcept="true" versusGroup="GROUP-CON_P_1P_0M_0S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="4" targetID="21" fromX="735" fromY="-1634" />
       <outputs name="Lose" ownerID="4" targetID="24" fromX="735" fromY="-1714" />
@@ -3006,7 +3006,7 @@ Tenho dois amigos que podem colocá-lo dentro. Um é um cmuch, então é um suje
             <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
           </LogicProcessing>
         </FilterBlock>
-      </logic><outputs name="[Demônio ou sabedoria]Dola são demônios amistosos. Entrar e chamar por ela." ownerID="2" targetID="4" fromX="768" fromY="-664" /><outputs name="Entrar com cuidado. " ownerID="2" targetID="6" fromX="768" fromY="-744" /><outputs name="Sair da história." ownerID="2" targetID="3" fromX="768" fromY="-824" />O mapa de Leopold leva você a uma casa abandonada. É aqui que moraria a dola que pode te dar um convite para o jogo de Kurv.</nodes>
+      </logic><outputs name="[Demônio ou sabedoria]Dola são demônios amistosos. Entrar e chamar por ela." ownerID="2" targetID="4" fromX="768" fromY="-664" /><outputs name="Entrar com cuidado. " ownerID="2" targetID="6" fromX="768" fromY="-744" /><outputs name="Sair da história." ownerID="2" targetID="3" fromX="768" fromY="-824" />O mapa de Leopold leva você a uma casa abandonada. É aqui que moraria a Dola que pode te dar um convite para o jogo de Kurv.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="-141" positionY="-906" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="4" positionX="870" positionY="287" width="350" height="805" image="Event254"><logic>
         <FilterBlock>
@@ -3017,11 +3017,11 @@ Tenho dois amigos que podem colocá-lo dentro. Um é um cmuch, então é um suje
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Contar a ela do skshack que encontrou e do jogo de Kurv em que precisa entrar." ownerID="4" targetID="5" fromX="1195" fromY="-204" /><outputs name="Matar a dola!" ownerID="4" targetID="10" fromX="1195" fromY="-284" />O demônio dola é raro e quase nunca se deixa ver, porque toma as formas de bichos de estimação comuns. 
+      </logic><outputs name="Contar a ela do skshack que encontrou e do jogo de Kurv em que precisa entrar." ownerID="4" targetID="5" fromX="1195" fromY="-204" /><outputs name="Matar a Dola!" ownerID="4" targetID="10" fromX="1195" fromY="-284" />O demônio Dola é raro e quase nunca se deixa ver, porque toma as formas de bichos de estimação comuns. 
 
 Então, quando vê um gato preto encarando você, desconfia que é ela.</nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1254" positionY="834" width="350" height="1046"><outputs name="[Demônio]Sim, é vergonhoso quebrar as leis dos demônios. É por isso que você precisa ir lá e dar um jeito neles." ownerID="5" targetID="24" fromX="1579" fromY="342" /><outputs name="[Criança]Encará-la com aqueles olhos grandes e tristes." ownerID="5" targetID="25" fromX="1579" fromY="262" /><outputs name="[Harmonia]Dola são conhecidos como espíritos guardiões e portadores de boa sorte. O domínio seu não se parece com a natureza dela? " ownerID="5" targetID="26" fromX="1579" fromY="182" /><outputs name="Implorar a ajuda dela, porque sua alternativa pode ser só matar o pobre skshack que ela chama de amigo." ownerID="5" targetID="16" fromX="1579" fromY="102" /><outputs name="Dizer que quer mesmo ajudar o skshack, e que esse jogo parece terrível de qualquer jeito." ownerID="5" targetID="23" fromX="1579" fromY="22" />'Ah, essa tolice. Sim, eu conheço. Mas por que eu ajudaria você, ou aquele meu amigo notório que nem devia ter participado disso, para começar? Demônios domésticos fazendo travessuras cruéis por diversão e por aposta. Que vergonha.' </nodes>
-    <nodes xsi:type="NodeAdventure" ID="6" positionX="908" positionY="-622" width="350" height="966" image="Event254"><outputs name="Gatos pretos são familiares de bruxa conhecidos. Matar!" ownerID="6" targetID="10" fromX="1233" fromY="-1113" /><outputs name="[Bruxa]Este não é nem um gato comum nem um familiar de bruxa. Tem de ser a dola." ownerID="6" targetID="7" group="G1" fromX="1233" fromY="-1193" /><outputs name="[Parentesco animal]Este não é um gato comum. Talvez seja a dola. Falar com ele." ownerID="6" targetID="8" group="G1" fromX="1233" fromY="-1273" /><outputs name="Gatos pretos são azares notórios, então melhor ficar atento, mas deixá-lo em paz. " ownerID="6" targetID="14" fromX="1233" fromY="-1353" />Você entra na casa, e tudo que acha é um gato preto encarando você.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="908" positionY="-622" width="350" height="966" image="Event254"><outputs name="Gatos pretos são familiares de bruxa conhecidos. Matar!" ownerID="6" targetID="10" fromX="1233" fromY="-1113" /><outputs name="[Bruxa]Este não é nem um gato comum nem um familiar de bruxa. Tem de ser a Dola." ownerID="6" targetID="7" group="G1" fromX="1233" fromY="-1193" /><outputs name="[Parentesco animal]Este não é um gato comum. Talvez seja a Dola. Falar com ele." ownerID="6" targetID="8" group="G1" fromX="1233" fromY="-1273" /><outputs name="Gatos pretos são azares notórios, então melhor ficar atento, mas deixá-lo em paz. " ownerID="6" targetID="14" fromX="1233" fromY="-1353" />Você entra na casa, e tudo que acha é um gato preto encarando você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="7" positionX="1425" positionY="-536" width="350" height="805"><logic>
         <FilterBlock>
           <LogicResultAction list="witch">
@@ -3054,9 +3054,9 @@ Então, quando vê um gato preto encarando você, desconfia que é ela.</nodes>
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-CURSE_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Sair da história." ownerID="11" targetID="32" fromX="1727" fromY="-2512" />Você luta contra a magia que te atacou, mas, quando olha ao redor da casa, a dola sumiu. 
+      </logic><outputs name="Sair da história." ownerID="11" targetID="32" fromX="1727" fromY="-2512" />Você luta contra a magia que te atacou, mas, quando olha ao redor da casa, a Dola sumiu. 
 
-Enquanto uma dola amistosa é conhecida por velar por crianças ou trazer boa sorte, uma furiosa . . .
+Enquanto uma Dola amistosa é conhecida por velar por crianças ou trazer boa sorte, uma furiosa . . .
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="12" positionX="839" positionY="-2692" width="350" height="725"><logic>
         <ModifierBlock>
@@ -3067,9 +3067,9 @@ Enquanto uma dola amistosa é conhecida por velar por crianças ou trazer boa so
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-CURSE_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Sair da história." ownerID="12" targetID="32" fromX="1164" fromY="-3183" />Você luta contra a magia que te atacou, mas, quando olha ao redor da casa, a dola sumiu. 
+      </logic><outputs name="Sair da história." ownerID="12" targetID="32" fromX="1164" fromY="-3183" />Você luta contra a magia que te atacou, mas, quando olha ao redor da casa, a Dola sumiu. 
 
-Enquanto uma dola amistosa é conhecida por velar por crianças ou trazer boa sorte, uma furiosa . . .</nodes>
+Enquanto uma Dola amistosa é conhecida por velar por crianças ou trazer boa sorte, uma furiosa . . .</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="13" positionX="1895" positionY="-2913" width="350" height="530" allPlayersXP="2" allPlayersRP="1" logBookName="QUEST_LEO_DOLA" logBookDescription="QUEST_LEO_DOLA_DES" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
@@ -3144,7 +3144,7 @@ Ela lhe entrega um dente humano ensanguentado.
         </ModifierBlock>
       </logic><outputs name="Sair da história." ownerID="21" targetID="32" fromX="3297" fromY="-161" /><outputs name="Atacar!" ownerID="21" targetID="10" fromX="3297" fromY="-241" />'Você ameaça a vida de um amigo meu e ainda espera ajuda? Suma, demônio mortal, e não volte.'
 
-Enquanto uma dola amistosa é conhecida por velar por crianças ou trazer boa sorte, uma furiosa . . .</nodes>
+Enquanto uma Dola amistosa é conhecida por velar por crianças ou trazer boa sorte, uma furiosa . . .</nodes>
     <nodes xsi:type="NodeDealDamage" ID="22" positionX="2459" positionY="93" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="30" maxDamage="50" useCountInPercent="true" targetGroup="ppl">
       <outputs ownerID="22" targetID="21" fromX="2888" fromY="-295" />
     </nodes>
@@ -3216,7 +3216,7 @@ Adeus.'</nodes>
             <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-QUEST44" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Sair da história." ownerID="29" targetID="30" fromX="-169" fromY="-667" />O mapa de Leopold leva você a uma casa abandonada. É aqui que moraria a dola que pode te dar um convite para o jogo de Kurv, mas ela está vazia. 
+      </logic><outputs name="Sair da história." ownerID="29" targetID="30" fromX="-169" fromY="-667" />O mapa de Leopold leva você a uma casa abandonada. É aqui que moraria a Dola que pode te dar um convite para o jogo de Kurv, mas ela está vazia. 
 
 Talvez tenha ouvido falar da morte de Leopold.</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="30" positionX="-1047" positionY="-157" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
@@ -3295,7 +3295,8 @@ Talvez tenha ouvido falar da morte de Leopold.</nodes>
           </LogicProcessing>
         </FilterBlock>
       </logic><outputs name="Leopold?!" ownerID="2" targetID="3" fromX="749" fromY="-620" /><outputs name="É isso. Matar ele!" ownerID="2" targetID="9" fromX="749" fromY="-700" />Você acorda de noite e descobre um skshack comendo as provisões suas!</nodes>
-    <nodes xsi:type="NodeAdventure" ID="3" positionX="860" positionY="118" width="350" height="1046"><outputs name="Mandá-lo se mandar antes que você resolva acabar com tudo matando ele." ownerID="3" targetID="4" fromX="1185" fromY="-373" /><outputs name="É isso. Matar ele!" ownerID="3" targetID="9" fromX="1188" fromY="-453" /><outputs name="Admitir que matou a dola, ou tentou. Foi um acidente. " ownerID="3" targetID="6" group="G1" fromX="841" fromY="-453" /><outputs name="Dizer que matou o cmuch." ownerID="3" targetID="29" fromX="841" fromY="-453" /><outputs name="Dizer a ele que a dola disse que ele se vira sozinho nessa encrenca." ownerID="3" targetID="31" group="G1" fromX="841" fromY="-453" />'Ah, é, é, eu disse mesmo . . . Não consigo evitar . . . Por favor, vai resolver o jogo, por favor . . .'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="860" positionY="118" width="350" height="1046"><outputs name="Mandá-lo se mandar antes que você resolva acabar com tudo matando ele." ownerID="3" targetID="4" fromX="1185" fromY="-373" /><outputs name="É isso. Matar ele!" ownerID="3" targetID="9" fromX="1188" fromY="-453" /><outputs name="Admitir que matou a Dola, ou tentou. Foi um acidente. " ownerID="3" targetID="6" group="G1" fromX="841" fromY="-453" /><outputs name="Dizer que matou o cmuch." ownerID="3" targetID="29" fromX="841" fromY="-453" /><outputs name="Dizer a ele que a Dola disse que ele se vira sozinho nessa encrenca." ownerID="3" targetID="31" group="G1" fromX="841" fromY="-453" />'Ah, é, é, eu disse mesmo . . . Não consigo evitar . . . Por favor, vai resolver o jogo, por favor . . .
+</nodes>
     <nodes xsi:type="NodeAdventure" ID="4" positionX="1282" positionY="338" width="350" height="725"><outputs name="Sair da história." ownerID="4" targetID="27" fromX="1607" fromY="-153" />'Sim, sim, eu vou. Tchau.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1291" positionY="-527" width="350" height="725"><outputs name="Sair da história." ownerID="5" targetID="27" fromX="1616" fromY="-1018" />'Bom, tá então, creio que a gente se vê por aí . . .'
 
@@ -3373,7 +3374,7 @@ Ele desaparece.</nodes>
             <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-MAIN32" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Sim. " ownerID="29" targetID="11" fromX="3243" fromY="-1014" /><outputs name="Não." ownerID="29" targetID="5" fromX="3243" fromY="-1094" /><outputs name="É isso. Matar ele!" ownerID="29" targetID="9" fromX="3243" fromY="-1174" /><outputs name="Matou a dola também." ownerID="29" targetID="16" fromX="3243" fromY="-1254" />'Ai, aí. Eu . . . bom, certeza que você não teve escolha. Então, você vai ver minha amiga dola no lugar?'</nodes>
+      </logic><outputs name="Sim. " ownerID="29" targetID="11" fromX="3243" fromY="-1014" /><outputs name="Não." ownerID="29" targetID="5" fromX="3243" fromY="-1094" /><outputs name="É isso. Matar ele!" ownerID="29" targetID="9" fromX="3243" fromY="-1174" /><outputs name="Matou a Dola também." ownerID="29" targetID="16" fromX="3243" fromY="-1254" />'Ai, aí. Eu . . . bom, certeza que você não teve escolha. Então, você vai ver minha amiga Dola no lugar?'</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="30" positionX="3494" positionY="-535" width="480" height="503" radius="4" settlementID="SET-SHACK" destroyOwner="false" linkedEventUniqueID="35">
       <outputs ownerID="30" targetID="7" fromX="3942" fromY="-967" />
     </nodes>
@@ -3662,7 +3663,7 @@ Ele lhe entrega um dente humano ensanguentado. </nodes>
             <scriptCallWithTag scriptName="FLP_AorB" />
           </LogicProcessing>
         </FilterBlock>
-      </logic><outputs name="[Demônio]Entrar." ownerID="2" targetID="3" fromX="757" fromY="-622" /><outputs name="Esperar a dola aparecer e transformá-lo em demônio." ownerID="2" targetID="6" fromX="757" fromY="-702" /><outputs name="Esperar o cmuch para que ele o acompanhe na entrada." ownerID="2" targetID="8" fromX="757" fromY="-782" />O dente ensanguentado vibra no bolso de você, e você sabe que o convite para o jogo de Kurv está valendo. 
+      </logic><outputs name="[Demônio]Entrar." ownerID="2" targetID="3" fromX="757" fromY="-622" /><outputs name="Esperar a Dola aparecer e transformá-lo em demônio." ownerID="2" targetID="6" fromX="757" fromY="-702" /><outputs name="Esperar o cmuch para que ele o acompanhe na entrada." ownerID="2" targetID="8" fromX="757" fromY="-782" />O dente ensanguentado vibra no bolso de você, e você sabe que o convite para o jogo de Kurv está valendo. 
 
 Logo você avista um portal, e, através dele, uma taberna. </nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="882" positionY="333" width="350" height="805"><logic>
@@ -3689,7 +3690,7 @@ A fada do dente te chama:
             <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-QUEST43" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Entrar na taberna. " ownerID="6" targetID="7" fromX="1736" fromY="-561" />A dola aparece:
+      </logic><outputs name="Entrar na taberna. " ownerID="6" targetID="7" fromX="1736" fromY="-561" />A Dola aparece:
 
 'Então, pronta para enfrentar aqueles patifes? Por favor, dê uma lição neles. Aqui, o encantamento vai funcionar por um tempo, mas tente não demorar demais.'
 
@@ -4727,7 +4728,7 @@ A idade aparente dos demônios d'água sugere que elas não eram as meninas que 
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Dizer a elas que não é isto que vai acontecer. Estas pedras não são bebês anãos. Não podem pegar qualquer pedra, cantar para ela e fazer um anão!" ownerID="5" targetID="6" fromX="2190" fromY="103" /><outputs name="Perguntar se sequer sabem o que esposas anãs fazem; e como alguém vira uma. Isto é tolice de de fora que estão encenando aqui." ownerID="5" targetID="27" fromX="2190" fromY="23" />'Quê? Quem és tu? E por que devíamos parar? Vamos fazer um anãozinho; e aí seremos esposas anãs!'</nodes>
+      </logic><outputs name="Dizer a elas que não é isto que vai acontecer. Estas pedras não são bebês anãos. Não podem pegar qualquer pedra, cantar para ela e fazer um anão!" ownerID="5" targetID="6" fromX="2190" fromY="103" /><outputs name="Perguntar se sequer sabem o que esposas anãs fazem; e como alguém vira uma. Isto é uma tolice de forasteiros que estão encenando aqui." ownerID="5" targetID="27" fromX="2190" fromY="23" />'Quê? Quem és tu? E por que devíamos parar? Vamos fazer um anãozinho; e aí seremos esposas anãs!'</nodes>
     <nodes xsi:type="NodeAdventure" ID="6" positionX="2310" positionY="645" width="350" height="725"><outputs name="Elas se moveram? Ah, não. Mandar elas se afastar daquelas pedrinhas agora! Os pais trolls delas com certeza estão por perto. " ownerID="6" targetID="25" fromX="2635" fromY="153" />'Vocês estão errados, é isto que são! Vimos estas pedrinhas se mover. São anões tão pequenos.' A outra irmã faz que sim com vigor. </nodes>
     <nodes xsi:type="NodeAdventure" ID="7" positionX="2326" positionY="-280" width="350" height="805"><outputs name="Mas elas são rusalkas. Por que querem ser esposas anãs?" ownerID="7" targetID="8" fromX="2651" fromY="-771" /><outputs name="Vocês não estão realmente interessados nisto. Bohdan disse que precisam voltar para casa. Agora. " ownerID="7" targetID="10" fromX="2651" fromY="-851" />'O vô sempre nos trata como bebês pequeninas. Bom, não somos. Queremos ser anãs de verdade agora. Mas a família anã nossa diz que não podemos ser esposas anãs porque não sabemos cantar a canção. Bom, escutamos; e sabemos! Se há uma coisa que rusalkas sabem fazer, é cantar.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="8" positionX="2758" positionY="-273" width="350" height="725"><outputs name="E cantar para estas pedras vai conseguir tudo isto?" ownerID="8" targetID="9" fromX="3083" fromY="-764" />'É direito nosso escolher. A herança nossa. Não sei se vamos escolher no fim; mas queremos ter a escolha, certo? 
@@ -5180,7 +5181,7 @@ Bohdan soluça. E é a Chale, a amiga troll de pedra, que fala:
       <outputs ownerID="17" targetID="16" group="G1" fromX="-1269" fromY="-354" />
       <outputs ownerID="17" targetID="18" group="G1" fromX="-1269" fromY="-434" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="18" positionX="-1156" positionY="-491" width="350" height="805"><outputs name="Correr." ownerID="18" targetID="22" fromX="-830" fromY="-982" /><outputs name="Matá-los!" ownerID="18" targetID="24" fromX="-830" fromY="-1062" />'Vocês ousam vir aqui com o pêsame de você quando não salvaram ela? Devia cravar a cabeça de você numa estaca para a minha filha banqueteá-la. Deixem a gente em paz agora.'
+    <nodes xsi:type="NodeAdventure" ID="18" positionX="-1156" positionY="-491" width="350" height="805"><outputs name="Fugir." ownerID="18" targetID="22" fromX="-830" fromY="-982" /><outputs name="Matá-los!" ownerID="18" targetID="24" fromX="-830" fromY="-1062" />'Vocês ousam vir aqui com o pêsame de você quando não salvaram ela? Devia cravar a cabeça de você numa estaca para a minha filha banqueteá-la. Deixem a gente em paz agora.'
 
 O troll de pedra, Chale, se ergue e se move devagar na direção de você, com a cara dele furiosa.</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="19" positionX="-1285" positionY="954" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">

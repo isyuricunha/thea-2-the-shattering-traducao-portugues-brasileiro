@@ -120,7 +120,7 @@
         </FilterBlock>
       </logic><outputs name="[Povo da Mata, sabedoria ou amigo]Oferecer um tributo aos guardiões da floresta para apaziguar a raiva deles." ownerID="2" targetID="7" fromX="859" fromY="-1064" /><outputs name="Perguntar se podem entrar e explorar?" ownerID="2" targetID="5" fromX="859" fromY="-1144" /><outputs name="Sair da história." ownerID="2" targetID="25" fromX="859" fromY="-1224" />Vocês entram no território reivindicado pelos demônios da floresta. Sentem muitos olhos sobre você.
 
-'O que busca aqui, estranho? Não gostamos de de fora rondando aqui.'</nodes>
+'O que busca aqui, estranho? Não gostamos de forasteiros rondando aqui.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="541" positionY="517" width="350" height="885"><logic>
         <FilterBlock>
           <LogicFilter name="ppl" makePublic="true">
@@ -497,7 +497,7 @@
         </ModifierBlock>
       </logic><outputs name="Aceitar quem quer que seja que queira se juntar." ownerID="38" targetID="39" fromX="1899" fromY="-3997" /><outputs name="Recusar educadamente." ownerID="38" targetID="25" fromX="1899" fromY="-4077" />De dentro da floresta, eles falam com você:
 
-'O panteão de vocês chama Dievanna de filha deles; e a natureza é um dos domínios de vocês. Quero me juntar à senda de você e conhecer mais estes deuses que os fizeram amigos da floresta.'</nodes>
+'O panteão de vocês chama Dzievanna de filha deles; e a natureza é um dos domínios de vocês. Quero me juntar à senda de você e conhecer mais estes deuses que os fizeram amigos da floresta.'</nodes>
     <nodes xsi:type="NodeDealDamage" ID="39" positionX="2050" positionY="-3943" width="460" height="699" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
       <outputs ownerID="39" targetID="41" group="G1" fromX="2479" fromY="-4331" />
       <outputs ownerID="39" targetID="40" group="G1" fromX="2479" fromY="-4411" />

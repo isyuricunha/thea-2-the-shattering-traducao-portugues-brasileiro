@@ -402,7 +402,7 @@ Elas não falam. Buscam só levá-lo à comunhão delas com a mente de luz.</nod
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="19" positionX="1656" positionY="-1920" width="350" height="725"><outputs name="Correr." ownerID="19" targetID="25" fromX="1981" fromY="-2411" />O espírito de você é fraco demais. As portadoras de luz assaltam você; e você mal escapa, e talvez alguns de vocês não... . . .</nodes>
+    <nodes xsi:type="NodeAdventure" ID="19" positionX="1656" positionY="-1920" width="350" height="725"><outputs name="Correr." ownerID="19" targetID="25" fromX="1981" fromY="-2411" />O espírito de você é fraco demais. As portadoras de luz assaltam você; e você mal escapa, e talvez alguns de vocês não . . .</nodes>
     <nodes xsi:type="NodeDealDamage" ID="20" positionX="1018" positionY="-2061" width="460" height="459" challengeTypeDamage="TypeSpirit" minDamage="20" maxDamage="40" useCountInPercent="true" targetGroup="ppl">
       <outputs ownerID="20" targetID="19" fromX="1447" fromY="-2449" />
     </nodes>

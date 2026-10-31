@@ -148,7 +148,9 @@ Para um de vocês, esta noite será a última nos reinos da carne mortal.</nodes
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" />
           </LogicFilter>
         </FilterBlock>
-      </logic><outputs name="Seguir os lampejos." ownerID="2" targetID="3" group="G1" fromX="789" fromY="-422" /><outputs name="[Sabedoria]Um fenômeno esquisito como este... espíritos malignos. Tentar lembrar o que fazer com eles. " ownerID="2" targetID="4" group="G1" fromX="789" fromY="-502" /><outputs name="Convencer as pessoas de vocês a correr para outro lugar. " ownerID="2" targetID="5" group="G1" fromX="789" fromY="-582" /><outputs name="[Usuário de Magia]Dizer que, se as fogueiras chamam, a gente apaga o fogo. Apagar as fogueiras!" ownerID="2" targetID="6" fromX="789" fromY="-663" />O seu grupo caminha há bastante tempo sem descanso. De repente, o mundo à frente de vocês parece se mexer, e a terra parece não ser mais o chão sólido de antes. As pessoas de vocês andam mais devagar, as fogueiras parecem imãs magnéticas, e os corpos de vocês são levados adiante, como marionetes...</nodes>
+      </logic><outputs name="Seguir os lampejos." ownerID="2" targetID="3" group="G1" fromX="789" fromY="-422" /><outputs name="Seguir os lampejos." ownerID="2" targetID="4" group="G1" fromX="789" fromY="-502" /><outputs name="Seguir os lampejos." ownerID="2" targetID="5" group="G1" fromX="789" fromY="-582" /><outputs name="[Usuário de Magia]Dizer que, se as fogueiras chamam, a gente apaga o fogo. Apagar as fogueiras!" ownerID="2" targetID="6" fromX="789" fromY="-663" />Enquanto vocês estão ao redor da fogueira, algumas fagulhas da chama começam a dançar no ar. Elas se afastam da fogueira e viram lampejos na noite. 
+
+Parecem querer que vocês as sigam para algum lugar.</nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="1058.04858" positionY="459.0035" width="350" height="725" image="Event004"><logic>
         <FilterBlock>
           <LogicResultAction>
@@ -334,7 +336,9 @@ Vocês ficam livres para vasculhar este lugar agora.</nodes>
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_PET_WRAITH" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Juntar o que der e partir." ownerID="23" targetID="21" fromX="4662" fromY="-1700" />As aparições param e fazem que sim em concordância. Vocês realizam a prece, e os espíritos recolhem-se ao lugar de descanso deles, deixando vocês vasculharem a cripta. </nodes>
+      </logic><outputs name="Juntar o que der e partir." ownerID="23" targetID="21" fromX="4662" fromY="-1700" />Os espectros param e acenam em concordância. Vocês fazem a prece a Nyia mais uma vez e, desta vez, o poder da deusa flui através de vocês e envolve os espíritos no abraço escuro e vazio dela.
+
+Alguns permanecem, e alguns podem até ficar com vocês, mas agora não representam perigo algum.</nodes>
     <nodes xsi:type="NodeDealDamage" ID="24" positionX="3869.591" positionY="-2045.3125" width="460" height="459" challengeTypeDamage="TypeSpirit" minDamage="40" maxDamage="50" useCountInPercent="true" targetGroup="ppl">
       <outputs ownerID="24" targetID="15" fromX="4298" fromY="-2433" />
     </nodes>

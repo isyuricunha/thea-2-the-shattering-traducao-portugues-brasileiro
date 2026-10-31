@@ -6228,7 +6228,7 @@ A gente não está tão a fim de chutar as traseiras de você; então pode esper
           </LogicModifiers>
         </ModifierBlock>
       </logic><outputs name="Pegar o aproveitamento e partir." ownerID="11" targetID="42" fromX="2914" fromY="2643" />Vocês matam os anões; e agora podem saquear o lugar em paz.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="14" positionX="2824.77246" positionY="2384.72461" width="350" height="725"><outputs name="Correr." ownerID="14" targetID="56" fromX="3150" fromY="1893" />Os anões vencem você; mas deixam você correr, claramente mais interessados em garimpar que em chutar as traseiras de você.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="14" positionX="2824.77246" positionY="2384.72461" width="350" height="725"><outputs name="Fugir." ownerID="14" targetID="56" fromX="3150" fromY="1893" />Os anões vencem você; mas deixam você correr, claramente mais interessados em garimpar que em chutar as traseiras de você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="16" positionX="1824.79138" positionY="1722.65076" width="350" height="725"><logic>
         <ModifierBlock>
           <LogicModifiers list="ppl">
@@ -6523,7 +6523,7 @@ Mais importante, há um baú intacto.</nodes>
           </LogicResultAction>
         </FilterBlock>
       </logic><outputs name="Atacar!" ownerID="4" targetID="7" fromX="1003" fromY="608" /><outputs name="[Magia ou usuário de magia]Uma magia forte emana de dentro da caverna. Se um dragão mora aqui, provavelmente está protegido por um feitiço enquanto dorme. Manter uma distância segura, mas entrar e olhar mais de perto. " ownerID="4" targetID="18" fromX="1003" fromY="528" /><outputs name="Passar de fininho para juntar qualquer espólio útil que esteja na caverna." ownerID="4" targetID="23" group="G1" fromX="1003" fromY="448" /><outputs name="Passar de fininho para juntar qualquer espólio útil que esteja na caverna." ownerID="4" targetID="55" group="G1" fromX="1003" fromY="368" />Vocês reconhecem a caverna e percebem rápido que uma fera grande deve morar aqui. Há marcas gigantes de garras nas paredes, e vocês acham várias escamas velhas descartadas, com toda probabilidade de dragão.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="5" positionX="205" positionY="-482" width="350" height="885" image="Event096"><outputs name="Lutar." ownerID="5" targetID="7" fromX="530" fromY="-973" /><outputs name="Correr!" ownerID="5" targetID="10" group="G1" fromX="530" fromY="-1053" /><outputs name="Largar alguns sacos na tentativa de distrair o drago, e depois correr." ownerID="5" targetID="86" group="G1" fromX="530" fromY="-1133" />Vocês entram e percebem tarde demais que estão diante de um dragão!
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="205" positionY="-482" width="350" height="885" image="Event096"><outputs name="Lutar." ownerID="5" targetID="7" fromX="530" fromY="-973" /><outputs name="Fugir!" ownerID="5" targetID="10" group="G1" fromX="530" fromY="-1053" /><outputs name="Largar alguns sacos na tentativa de distrair o drago, e depois correr." ownerID="5" targetID="86" group="G1" fromX="530" fromY="-1133" />Vocês entram e percebem tarde demais que estão diante de um dragão!
 
 Ele acabou de acordar, mas parece pronto para devorar vocês.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="976.65094" positionY="-2548.63037" width="350" height="360.8" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0" />
@@ -6827,7 +6827,7 @@ Quando vocês partem, sentem-se mais sábios.
 
 Aceito uns pets, um jovenzinho saboroso, ou uma virgem de cara fresca, ou, bom, alguém que passe por uma. Aprendi há muito a abrir mão dessa expectativa. Ou suponho que aceito carne, mas não dou uma recompensa tão boa por ela.'
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="52" positionX="2000.1311" positionY="-1145.933" width="350" height="805"><outputs name="Atacar!" ownerID="52" targetID="7" fromX="2325" fromY="-1637" /><outputs name="Correr!" ownerID="52" targetID="87" fromX="2325" fromY="-1717" />Vocês mexem com o feitiço e ele se vira contra você. Pior, o dragão se inquieta e se vira na direção de vocês!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="52" positionX="2000.1311" positionY="-1145.933" width="350" height="805"><outputs name="Atacar!" ownerID="52" targetID="7" fromX="2325" fromY="-1637" /><outputs name="Fugir!" ownerID="52" targetID="87" fromX="2325" fromY="-1717" />Vocês mexem com o feitiço e ele se vira contra você. Pior, o dragão se inquieta e se vira na direção de vocês!</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="54" positionX="606.7383" positionY="-659.899048" width="350" height="530" allPlayersXP="6" allPlayersRP="2" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeDealDamage" ID="55" positionX="1445.71863" positionY="-948.3713" width="460" height="459" challengeTypeDamage="TypeSpirit" minDamage="20" maxDamage="30" useCountInPercent="true" targetGroup="ppl">
       <outputs ownerID="55" targetID="56" fromX="1874" fromY="-1336" />
@@ -7299,7 +7299,7 @@ Mas, veja, ela me disse isto quando fiz o que fiz. Ela riu e disse que a roda va
     <nodes xsi:type="NodeAdventure" ID="10" positionX="3648" positionY="38" width="350" height="725"><outputs name="Continuar escutando." ownerID="10" targetID="28" fromX="3973" fromY="-453" />'Esse segredo eu guardo. Agora, quando levarem o coração meu, não vou conhecer você; então, quando nos encontrarmos de novo, a raiva fria minha vai correr funda. Tente ficar longe. Você me vê como um aqui; mas eu sou a água. Não morro. Volto. Venho como muitos. 
 
 E, quando o coração meu segurar esta prisão e a minha Dama for forçada a sofrer de novo, o inverno pode golpear por um tempo; pode mudar o mundo de você.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="11" positionX="4205" positionY="-609" width="350" height="725"><outputs name="Segurar o coração de gelo." ownerID="11" targetID="12" fromX="4530" fromY="-1100" />O dziad mroz aponta para um sarcillo e se retira. Quando você chega a ele, vê um único flocos-de-neve dentro. 
+    <nodes xsi:type="NodeAdventure" ID="11" positionX="4205" positionY="-609" width="350" height="725"><outputs name="Segurar o coração de gelo." ownerID="11" targetID="12" fromX="4530" fromY="-1100" />O dziad mroz aponta para um sincelo e se retira. Quando você chega a ele, vê um único flocos-de-neve dentro. 
 
 Um de vocês alcança o ciclo e a geada gela ele até o osso. </nodes>
     <nodes xsi:type="NodeDealDamage" ID="12" positionX="4663" positionY="-928" width="460" height="539" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
@@ -7538,14 +7538,14 @@ Você segura o floco de neve congelado e agora pode levá-lo à caverna vermelha
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="0" tag="TAG-DWARFREC" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Pagar a um ferreiro jovem." ownerID="8" targetID="3" fromX="1235" fromY="119" /><outputs name="Não; partir." ownerID="8" targetID="5" fromX="1235" fromY="39" /><outputs name="Pagar a um ferreiro." ownerID="8" targetID="14" fromX="1235" fromY="-40" />Um ferreiro jovem olha na direção de você. Mas pede que pague pelos serviços dele.</nodes>
+      </logic><outputs name="Pagar a um ferreiro jovem." ownerID="8" targetID="3" fromX="1235" fromY="119" /><outputs name="Não, sair da história." ownerID="8" targetID="5" fromX="1235" fromY="39" /><outputs name="Pagar a um ferreiro." ownerID="8" targetID="14" fromX="1235" fromY="-40" />Um ferreiro jovem olha na direção de você. Mas pede que pague pelos serviços dele.</nodes>
     <nodes xsi:type="NodeAdventure" allowOnce="true" ID="9" positionX="948" positionY="-501" width="350" height="805"><logic>
         <FilterBlock>
           <LogicResultAction>
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="0" tag="TAG-DWARFREC1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Pagar a eles." ownerID="9" targetID="6" fromX="1273" fromY="-992" /><outputs name="Não; partir." ownerID="9" targetID="5" fromX="1273" fromY="-1072" />Um operário olha na direção de você. Mas pede que pague pelos serviços dele.</nodes>
+      </logic><outputs name="Pagar a eles." ownerID="9" targetID="6" fromX="1273" fromY="-992" /><outputs name="Não, sair da história." ownerID="9" targetID="5" fromX="1273" fromY="-1072" />Um operário olha na direção de você. Mas pede que pague pelos serviços dele.</nodes>
     <nodes xsi:type="NodeAdventure" ID="10" positionX="383" positionY="-1272" width="350" height="725"><logic>
         <FilterBlock>
           <LogicFilter name="unsafeppl">
@@ -7572,7 +7572,7 @@ Você segura o floco de neve congelado e agora pode levá-lo à caverna vermelha
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="13" positionX="362" positionY="696" width="350" height="805"><outputs name="Pagar a eles." ownerID="13" targetID="3" fromX="687" fromY="204" /><outputs name="Não; partir." ownerID="13" targetID="5" fromX="687" fromY="124" />Um ferreiro jovem olha na direção de você. Mas pede que pague pelos serviços dele.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="362" positionY="696" width="350" height="805"><outputs name="Pagar a eles." ownerID="13" targetID="3" fromX="687" fromY="204" /><outputs name="Não, sair da história." ownerID="13" targetID="5" fromX="687" fromY="124" />Um ferreiro jovem olha na direção de você. Mas pede que pague pelos serviços dele.</nodes>
     <nodes xsi:type="NodeTrade" ID="14" positionX="1420" positionY="175" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="nofood" startingBalance="-35000">
       <logic>
         <FilterBlock>

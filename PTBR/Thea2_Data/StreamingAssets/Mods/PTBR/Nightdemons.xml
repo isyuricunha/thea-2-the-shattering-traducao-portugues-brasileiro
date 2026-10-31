@@ -403,7 +403,7 @@ O espírito de você é restaurado, mas você sente que um pouco do sangue seu f
             <scriptCallWithTag scriptName="FMO_UpgradeToSubrace" parameter="" tag="SUBRACE-NIGHT_STRIGA" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Partir..." ownerID="22" targetID="23" fromX="6330" fromY="-3570" />Vocês bêbaram numa casa de prazer de demônio da noite, quando acordam, estão cobertos de pelo de lobo e 'mordidas de amor' bem grossas... e, quando olham para baixo, para si, você é uma striga!</nodes>
+      </logic><outputs name="Partir..." ownerID="22" targetID="23" fromX="6330" fromY="-3570" />Vocês bêbaram numa casa de prazer de demônio da noite, quando acordam, estão cobertos de pelo de lobo e 'mordidas de amor' bem grossas... e, quando olham para baixo, para si mesmos, vocês são uma striga!</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="23" positionX="4927" positionY="-3093" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>

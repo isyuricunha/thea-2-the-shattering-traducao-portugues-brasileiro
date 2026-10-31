@@ -1315,9 +1315,9 @@ Vocês sentem a fé subir. </nodes>
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Bom, partir." ownerID="18" targetID="40" fromX="2372" fromY="-1680" />Vocês convinces os outros... Vocês convencem as outras almas de se fundirem a você, e, juntos, furam o feitiço sombrio.
+      </logic><outputs name="Bom, partir." ownerID="18" targetID="40" fromX="2372" fromY="-1680" />Vocês convencem as outras almas a se fundirem com vocês e, juntos, furam o feitiço sombrio.
 
-Uma das almas, agora virada à forma de espírito de direito, decide virar aliada de você.</nodes>
+Uma das almas, agora em sua forma de espírito legítima, decide se tornar aliada de vocês.</nodes>
     <nodes xsi:type="NodeAdventure" ID="19" positionX="2058.87378" positionY="-1914.18555" width="350" height="725"><logic>
         <ModifierBlock>
           <LogicProcessing name="1" list1="ppl">
@@ -3751,7 +3751,7 @@ Em teoria...</nodes>
       </logic>
       <outputs ownerID="13" targetID="74" fromX="4341" fromY="-1545" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="15" positionX="2397.47729" positionY="-1912.32935" width="350" height="1046"><outputs name="Só partir." ownerID="15" targetID="9" fromX="2723" fromY="-2403" /><outputs name="Abrir o caixão e matar o que estiver dentro!" ownerID="15" targetID="64" group="G1" fromX="2723" fromY="-2483" /><outputs name="Usar um ritual para se proteger, e depois atacar o demônio!" ownerID="15" targetID="66" fromX="2723" fromY="-2563" /><outputs name="Abrir a cripta e ver o que acontece. Estar pronto para a luta." ownerID="15" targetID="37" fromX="2723" fromY="-2644" /><outputs name="Abrir o caixão e matar o que estiver dentro!" ownerID="15" targetID="6" group="G1" fromX="2723" fromY="-2724" />Não parece haver um jeito de pegar a corrente de prata em segurança. </nodes>
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="2397.47729" positionY="-1912.32935" width="350" height="1046"><outputs name="Só sair da história." ownerID="15" targetID="9" fromX="2723" fromY="-2403" /><outputs name="Abrir o caixão e matar o que estiver dentro!" ownerID="15" targetID="64" group="G1" fromX="2723" fromY="-2483" /><outputs name="Usar um ritual para se proteger, e depois atacar o demônio!" ownerID="15" targetID="66" fromX="2723" fromY="-2563" /><outputs name="Abrir a cripta e ver o que acontece. Estar pronto para a luta." ownerID="15" targetID="37" fromX="2723" fromY="-2644" /><outputs name="Abrir o caixão e matar o que estiver dentro!" ownerID="15" targetID="6" group="G1" fromX="2723" fromY="-2724" />Não parece haver um jeito de pegar a corrente de prata em segurança. </nodes>
     <nodes xsi:type="NodeAdventure" ID="16" positionX="1905.33887" positionY="1202.50684" width="350" height="966"><outputs name="Fechar a tampa e pôr a corrente ao redor!" ownerID="16" targetID="69" fromX="2231" fromY="711" /><outputs name="Matar a striga!" ownerID="16" targetID="6" fromX="2231" fromY="631" /><outputs name="Pegar a corrente e correr!" ownerID="16" targetID="40" group="G1" fromX="2231" fromY="550" /><outputs name="Pegar a corrente e correr!" ownerID="16" targetID="56" group="G1" fromX="2231" fromY="470" />Vocês criam um anel de fogo, seguram a corrente e abrem a cripta. Dentro está um mestre striga seco, com os olhos vermelhos de fome e raiva, e as correntes de ferro e prata que o prendiam quebradas. Vocês não têm mais que umas poucas respirações antes que ele investa!</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="-568.5349" positionY="-265.05" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="18" positionX="-890.785156" positionY="-932.484863" width="350" height="885"><logic>
@@ -4349,7 +4349,7 @@ Vocês também avistam alguém sentado dentro da cripta, brincando com bonecas n
             <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="2" tag="TAG-LOYALTY_SLAVYAN" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Que merda. Enterrar a criança e continuar." ownerID="49" targetID="85" fromX="2181" fromY="-1928" />Vocês tentam confortar a criança, mas ela está inconsolável. Para o desalento de vocês, na noite seguinte vocês a acham morta no sono, e o corpo dela parece décadas mais velho. 
+      </logic><outputs name="Que merda. Enterrar a criança e continuar. " ownerID="49" targetID="85" fromX="2181" fromY="-1928" />Vocês tentam confortar a criança, mas ela está inconsolável. Para o desalento de vocês, na noite seguinte vocês a acham morta no sono, e o corpo dela parece décadas mais velho. 
 
 Mas sentem, sim, uma bênção de fonte desconhecida descer sobre você.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="51" positionX="2874.85742" positionY="-2755.78345" width="350" height="530" allPlayersXP="4" allPlayersRP="1" linkedEventUniqueID="0">
@@ -5601,8 +5601,7 @@ Há um vazio dentro do elfo adormecido, e o domínio de vocês parece correspond
         </FilterBlock>
       </logic><outputs name="Continuar a canção antes de partir." ownerID="9" targetID="44" fromX="864" fromY="-2468" /><outputs name="Parentes ou não, eles têm pedras preciosas. Saquear o elfo adormecido." ownerID="9" targetID="12" group="G2" fromX="864" fromY="-2549" /><outputs name="Parentes ou não, eles têm pedras preciosas. Saquear o elfo adormecido." ownerID="9" targetID="19" group="G2" fromX="864" fromY="-2629" />Vocês sabem que esta estátua é um elfo que entrou no sono-eterno mas não abandonou por completo a concha física dele. O parentesco élfico pode permanecer por séculos neste estado, ainda ciente do que acontece ao redor e capaz de despertar se necessário, mas descansando e contemplando ao mesmo tempo.
 
-A canção do sono-eterno apazigua tais dorminhocos e conta a eles a senda de vida de você.
-</nodes>
+A canção do sono-eterno apazigua tais dorminhocos e conta a eles a senda de vida de você. </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="10" positionX="1756.85193" positionY="-1761.53333" width="350" height="530" allPlayersXP="4" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
@@ -8150,7 +8149,7 @@ Vocês veem um corredor escuro descendo fundo. O ar está viciado, e a escuridã
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-CURSE_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr.&#13;&#10;" ownerID="42" targetID="49" fromX="5674" fromY="2587" />As strigas rasgam a carne de vocês e festejam o sangue mesmo enquanto fogem pelas vidas.
+      </logic><outputs name="Correr.&#13;&#10;" ownerID="42" targetID="49" fromX="5674" fromY="2587" />As strigas rasgam a carne de vocês e festejam o sangue mesmo enquanto fogem pelas vidas. 
 </nodes>
     <nodes xsi:type="NodeDealDamage" ID="43" positionX="1841.07349" positionY="3192.87427" width="460" height="459.36" challengeTypeDamage="TypePhysical" minDamage="6" maxDamage="10" useCountInPercent="false" targetGroup="adults">
       <outputs ownerID="43" targetID="24" fromX="2270.32349" fromY="2804.51416" />

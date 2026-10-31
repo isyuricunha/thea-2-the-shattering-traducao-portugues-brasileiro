@@ -494,7 +494,7 @@ Vocês chegam de furtivo e assassinam em silêncio vários dos bandidos, inclusi
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Atacar os que restaram!" ownerID="9" targetID="40" fromX="1460" fromY="-2019" /><outputs name="Correr!" ownerID="9" targetID="16" fromX="1460" fromY="-2099" />Como rastreador de sangue, você tem perícia em caçar presas, quaisquer presas.
+      </logic><outputs name="Atacar os que restaram!" ownerID="9" targetID="40" fromX="1460" fromY="-2019" /><outputs name="Fugir!" ownerID="9" targetID="16" fromX="1460" fromY="-2099" />Como rastreador de sangue, você tem perícia em caçar presas, quaisquer presas.
 
 Ah, apesar de banhar-se no sangue dos inimigos de você, há tantos demais. Vocês recuam enquanto eles te perseguem!</nodes>
     <nodes xsi:type="NodeChallenge" ID="10" positionX="1885.6156" positionY="1644.85364" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-LOTS_BANDITS_6P_5M_4S" challengeScale="101" challengedList="ppl">
@@ -657,7 +657,7 @@ Eles avançam!</nodes>
             <scriptCallWithTag scriptName="FMO_TakeItems" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr." ownerID="37" targetID="23" fromX="3362" fromY="-1581" />Os bandidos se provam mais fortes. Eles te surram feio; e você é forçado a largar um pouco dos bens de você para escapar.
+      </logic><outputs name="Fugir." ownerID="37" targetID="23" fromX="3362" fromY="-1581" />Os bandidos se provam mais fortes. Eles te surram feio; e você é forçado a largar um pouco dos bens de você para escapar.
 </nodes>
     <nodes xsi:type="NodeDealDamage" ID="38" positionX="2942.057" positionY="-1907.4248" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="10" maxDamage="20" useCountInPercent="true" targetGroup="ppl">
       <outputs ownerID="38" targetID="37" fromX="3371" fromY="-2295" />
@@ -1044,7 +1044,7 @@ O dragão volta a dormir.</nodes>
             <scriptCallWithTag scriptName="FRA_Chance" parameter="50" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="[Catador]Falar com o parente seu. Dizer que a trupinha de você é maior e mais dura, então é melhor compartilharem." ownerID="4" targetID="41" fromX="1804" fromY="707" /><outputs name="Atacar!" ownerID="4" targetID="22" fromX="1804" fromY="627" /><outputs name="Correr." ownerID="4" targetID="3" fromX="1804" fromY="547" />Vocês buscam pelo entulho, mas, em vez de provisões, se deparam com um bando de catadores que não parece contente de compartilhar este lugar.</nodes>
+      </logic><outputs name="[Catador]Falar com o parente seu. Dizer que a trupinha de você é maior e mais dura, então é melhor compartilharem." ownerID="4" targetID="41" fromX="1804" fromY="707" /><outputs name="Atacar!" ownerID="4" targetID="22" fromX="1804" fromY="627" /><outputs name="Fugir." ownerID="4" targetID="3" fromX="1804" fromY="547" />Vocês buscam pelo entulho, mas, em vez de provisões, se deparam com um bando de catadores que não parece contente de compartilhar este lugar.</nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1485.41907" positionY="-611.82605" width="350" height="1126"><logic>
         <FilterBlock>
           <LogicFilter name="dwarf" makePublic="true">
@@ -1189,7 +1189,7 @@ Vocês mal saem vivos.</nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="[Catador]Falar com o parente seu. Dizer que a trupinha de você é maior e mais dura, então é melhor compartilharem." ownerID="36" targetID="41" fromX="1147" fromY="608" /><outputs name="Tentar superar estes catadores em esperteza antes que eles vejam você." ownerID="36" targetID="21" fromX="1147" fromY="528" /><outputs name="Atacar!" ownerID="36" targetID="22" fromX="1147" fromY="448" /><outputs name="Correr." ownerID="36" targetID="3" fromX="1147" fromY="368" />Vocês buscam pelo entulho, mas em vez de provisões, se deparam com um bando de catadores. Eles ainda não viram você.</nodes>
+      </logic><outputs name="[Catador]Falar com o parente seu. Dizer que a trupinha de você é maior e mais dura, então é melhor compartilharem." ownerID="36" targetID="41" fromX="1147" fromY="608" /><outputs name="Tentar superar estes catadores em esperteza antes que eles vejam você." ownerID="36" targetID="21" fromX="1147" fromY="528" /><outputs name="Atacar!" ownerID="36" targetID="22" fromX="1147" fromY="448" /><outputs name="Fugir." ownerID="36" targetID="3" fromX="1147" fromY="368" />Vocês buscam pelo entulho, mas em vez de provisões, se deparam com um bando de catadores. Eles ainda não viram você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="38" positionX="2703.64917" positionY="1606.73755" width="350" height="725"><outputs name="Recolher o que der." ownerID="38" targetID="30" fromX="3029" fromY="1115" />Estas pedreiras velhas têm muitas cavernas e tocas; e os catadores são muito supersticiosos. 
 
 Vocês os espetam com sons suspeitos e rochas caindo até decidirem que este lugar é assombrado; e o abandonam, deixando até um pouco das coisas deles atrás.</nodes>
@@ -1314,7 +1314,7 @@ Vocês os espetam com sons suspeitos e rochas caindo até decidirem que este lug
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="5;10" tag="ITEM_CARGO-FEW_ADV_STONE" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr!" ownerID="4" targetID="5" group="G1" fromX="1619" fromY="-169" /><outputs name="Correr!" ownerID="4" targetID="7" group="G1" fromX="1619" fromY="-249" /><outputs name="Atacar!" ownerID="4" targetID="9" fromX="1619" fromY="-329" />Parece haver muita pedra boa empilhada em vários montes grandes, talvez abandonada aqui, ou talvez a Fragmentação a empilhou aqui.
+      </logic><outputs name="Fugir!" ownerID="4" targetID="5" group="G1" fromX="1619" fromY="-169" /><outputs name="Fugir!" ownerID="4" targetID="7" group="G1" fromX="1619" fromY="-249" /><outputs name="Atacar!" ownerID="4" targetID="9" fromX="1619" fromY="-329" />Parece haver muita pedra boa empilhada em vários montes grandes, talvez abandonada aqui, ou talvez a Fragmentação a empilhou aqui.
 
 Vocês começam a carregar a pedra quando percebem que os montes se moveram. Eles estão observando você; e vocês ouvem:
 
@@ -1443,7 +1443,7 @@ Vocês começam a carregar a pedra quando percebem que os montes se moveram. Ele
     <nodes xsi:type="NodeProduceDrop" ID="21" positionX="3388" positionY="-953" width="460" height="429" sourceGroup="GROUP-TROLL_ROCK_MIX_9P_7M_6S" dropPercentage="100" targetGroup="ppl">
       <outputs ownerID="21" targetID="36" fromX="3818" fromY="-1311" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="22" positionX="2980" positionY="-1069" width="350" height="885"><outputs name="Lutar!" ownerID="22" targetID="9" fromX="3306" fromY="-1559" /><outputs name="Correr!" ownerID="22" targetID="5" group="G1" fromX="3306" fromY="-1639" /><outputs name="Correr!" ownerID="22" targetID="7" group="G1" fromX="3306" fromY="-1719" />O plano de você falhou, e os trolls parecem famintos.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="22" positionX="2980" positionY="-1069" width="350" height="885"><outputs name="Lutar!" ownerID="22" targetID="9" fromX="3306" fromY="-1559" /><outputs name="Fugir!" ownerID="22" targetID="5" group="G1" fromX="3306" fromY="-1639" /><outputs name="Fugir!" ownerID="22" targetID="7" group="G1" fromX="3306" fromY="-1719" />O plano de você falhou, e os trolls parecem famintos.</nodes>
     <nodes xsi:type="NodeAdventure" ID="24" positionX="3521.21387" positionY="-1843.3584" width="350" height="725"><logic>
         <ModifierBlock>
           <LogicProcessing name="2" list1="ppl">
@@ -1466,7 +1466,7 @@ Vocês começam a carregar a pedra quando percebem que os montes se moveram. Ele
         </ModifierBlock>
       </logic><outputs name="Sorrir educadamente e pegar a pedra. " ownerID="26" targetID="27" fromX="2979" fromY="-2902" />'Éh, ainda não estou certo sobre os deuses de você, mas melhor prevenir que remediar. Levem a pedra que acharem, só não os meus paus, éh, ha!'</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="27" positionX="3106.49854" positionY="-2694.258" width="350" height="360.8" allPlayersXP="5" allPlayersRP="1" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventure" ID="28" positionX="2087.287" positionY="-2575.17773" width="350" height="841.85"><outputs name="Lutar!" ownerID="28" targetID="9" fromX="2413" fromY="-3022" /><outputs name="Correr!" ownerID="28" targetID="5" group="G1" fromX="2413" fromY="-3102" /><outputs name="Correr!" ownerID="28" targetID="7" group="G1" fromX="2413" fromY="-3182" />'Você me entedia com a conversa de você. Você parece saboroso!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="2087.287" positionY="-2575.17773" width="350" height="841.85"><outputs name="Lutar!" ownerID="28" targetID="9" fromX="2413" fromY="-3022" /><outputs name="Fugir!" ownerID="28" targetID="5" group="G1" fromX="2413" fromY="-3102" /><outputs name="Fugir!" ownerID="28" targetID="7" group="G1" fromX="2413" fromY="-3182" />'Você me entedia com a conversa de você. Você parece saboroso!'</nodes>
     <nodes xsi:type="NodeAdventure" ID="31" positionX="853" positionY="454" width="350" height="1126"><logic>
         <FilterBlock>
           <LogicFilter name="perc">
@@ -1487,7 +1487,7 @@ Vocês começam a carregar a pedra quando percebem que os montes se moveram. Ele
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="5;10" tag="ITEM_CARGO-FEW_ADV_STONE" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr!" ownerID="31" targetID="5" group="G1" fromX="1178" fromY="-37" /><outputs name="Correr!" ownerID="31" targetID="7" group="G1" fromX="1178" fromY="-117" /><outputs name="Atacar!" ownerID="31" targetID="9" fromX="1178" fromY="-197" /><outputs name="Tentar superá-los em esperteza." ownerID="31" targetID="10" fromX="1178" fromY="-277" /><outputs name="[Mestre de Runas]Em nome dos mestres de pedra ancestrais que forjaram você, talhar uma runa de sono nos corpos dos trolls, para que possam tomar o que é de você." ownerID="31" targetID="32" fromX="1178" fromY="-357" /><outputs name="[Natureza]Como os trolls são criaturas da vontade da natureza, proclamar que é o domínio de você, e assim eles precisam se afastar!" ownerID="31" targetID="11" fromX="1178" fromY="-438" />Parece haver muita pedra boa empilhada em vários montes grandes, talvez abandonada aqui, ou talvez a Fragmentação a empilhou aqui.
+      </logic><outputs name="Fugir!" ownerID="31" targetID="5" group="G1" fromX="1178" fromY="-37" /><outputs name="Fugir!" ownerID="31" targetID="7" group="G1" fromX="1178" fromY="-117" /><outputs name="Atacar!" ownerID="31" targetID="9" fromX="1178" fromY="-197" /><outputs name="Tentar superá-los em esperteza." ownerID="31" targetID="10" fromX="1178" fromY="-277" /><outputs name="[Mestre de Runas]Em nome dos mestres de pedra ancestrais que forjaram você, talhar uma runa de sono nos corpos dos trolls, para que possam tomar o que é de você." ownerID="31" targetID="32" fromX="1178" fromY="-357" /><outputs name="[Natureza]Como os trolls são criaturas da vontade da natureza, proclamar que é o domínio de você, e assim eles precisam se afastar!" ownerID="31" targetID="11" fromX="1178" fromY="-438" />Parece haver muita pedra boa empilhada em vários montes grandes, talvez abandonada aqui, ou talvez a Fragmentação a empilhou aqui.
 
 Mas vocês notam a tempo que os montes têm olhos, trolls de rocha, com certeza, e eles estão observando você, fingindo dormir.</nodes>
     <nodes xsi:type="NodeAdventure" ID="32" positionX="876.3228" positionY="-834.8466" width="350" height="725"><logic>
@@ -1658,7 +1658,7 @@ Vocês também sentem os rumores de algo maior vindo nesta direção.</nodes>
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-CURSE_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr!" ownerID="16" targetID="24" fromX="2480" fromY="911" /><outputs name="Atacar!" ownerID="16" targetID="25" fromX="2480" fromY="831" />As pedrinhas jazem espatifadas aos pés de você; e você sente que esta matança antinatural e sem provocação nenhuma dos pequenos não caiu bem com o domínio de você.
+      </logic><outputs name="Fugir!" ownerID="16" targetID="24" fromX="2480" fromY="911" /><outputs name="Atacar!" ownerID="16" targetID="25" fromX="2480" fromY="831" />As pedrinhas jazem espatifadas aos pés de você; e você sente que esta matança antinatural e sem provocação nenhuma dos pequenos não caiu bem com o domínio de você.
 
 Vocês também ouvem os brados rugidos de uma mamãe troll rolando na direção de você rápido!</nodes>
     <nodes xsi:type="NodeAdventure" ID="20" positionX="2345.63062" positionY="423.795044" width="350" height="725"><outputs name="Correr.&#13;" ownerID="20" targetID="21" fromX="2671" fromY="-67" />As pedrinhas te surram feio e forçam você a fugir.</nodes>
@@ -1704,7 +1704,7 @@ Vocês também ouvem os brados rugidos de uma mamãe troll rolando na direção 
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="12;25" tag="ITEM_CARGO-FEW_ADV_STONE" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr!" ownerID="29" targetID="24" fromX="3140" fromY="872" /><outputs name="Atacar!" ownerID="29" targetID="25" fromX="3140" fromY="792" />As pedrinhas jazem espatifadas aos pés de você; e você está livre para recolher a pedra.
+      </logic><outputs name="Fugir!" ownerID="29" targetID="24" fromX="3140" fromY="872" /><outputs name="Atacar!" ownerID="29" targetID="25" fromX="3140" fromY="792" />As pedrinhas jazem espatifadas aos pés de você; e você está livre para recolher a pedra.
 
 Porém, vocês ouvem os brados rugidos de uma mamãe troll rolando na direção de você rápido!</nodes>
     <nodes xsi:type="NodeAdventure" ID="30" positionX="1015.33179" positionY="-850.291931" width="350" height="725"><logic>

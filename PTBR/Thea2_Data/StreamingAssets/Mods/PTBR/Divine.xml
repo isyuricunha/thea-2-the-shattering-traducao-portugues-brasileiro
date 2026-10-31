@@ -4043,7 +4043,7 @@ A vitalidade de você cresce, e você sente-se fortalecido por inteiro. Uma fera
       </logic><outputs name="Deixar por ora." ownerID="35" targetID="24" fromX="1165" fromY="-2879" />O leshy vence você, e, surpreendentemente, não parece hostil além de se defender. 
 
 Você sente, porém, um fluxo de energia negativa do tronco da árvore. Parece que a essência divina que mora aqui não ficou impressionada com você.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="36" positionX="5653" positionY="2643" width="350" height="1206"><outputs name="Dievanna." ownerID="36" targetID="41" fromX="5978" fromY="2151" /><outputs name="Horz." ownerID="36" targetID="43" fromX="5978" fromY="2071" /><outputs name="Triglav." ownerID="36" targetID="44" fromX="5978" fromY="1991" /><outputs name="Nyia." ownerID="36" targetID="45" fromX="5631" fromY="1911" /><outputs name="Lada." ownerID="36" targetID="46" fromX="5631" fromY="1911" /><outputs name="Stribog." ownerID="36" targetID="58" fromX="5631" fromY="1911" /><outputs name="Mokosh." ownerID="36" targetID="60" fromX="5631" fromY="1911" />'Essa escolha é sempre sua, mas há uma etapa final da jornada de você, uma que leva você ao patrono divino de você e, assim, desbloqueia mais os dois potenciais de você.
+    <nodes xsi:type="NodeAdventure" ID="36" positionX="5653" positionY="2643" width="350" height="1206"><outputs name="Dzievanna." ownerID="36" targetID="41" fromX="5978" fromY="2151" /><outputs name="Horz." ownerID="36" targetID="43" fromX="5978" fromY="2071" /><outputs name="Triglav." ownerID="36" targetID="44" fromX="5978" fromY="1991" /><outputs name="Nyia." ownerID="36" targetID="45" fromX="5631" fromY="1911" /><outputs name="Lada." ownerID="36" targetID="46" fromX="5631" fromY="1911" /><outputs name="Stribog." ownerID="36" targetID="58" fromX="5631" fromY="1911" /><outputs name="Mokosh." ownerID="36" targetID="60" fromX="5631" fromY="1911" />'Essa escolha é sempre sua, mas há uma etapa final da jornada de você, uma que leva você ao patrono divino de você e, assim, desbloqueia mais os dois potenciais de você.
 
 A qual divindade você chama?'</nodes>
     <nodes xsi:type="NodeAdventure" ID="37" positionX="5391" positionY="1066" width="350" height="725"><logic>
@@ -4136,9 +4136,9 @@ Você também sente a vitalidade melhorada e o intelecto fortalecido.</nodes>
         </FilterBlock>
       </logic><outputs name="Reverenciar em agradecimento e partir." ownerID="41" targetID="54" fromX="6488" fromY="2404" />'Uma filha verdadeira da Harmonia e da Natureza, de um lado feroz e selvagem, do outro apaziguadora e calma. 
 
-Dievanna é filha de Veles, de antes dele ser divino. Ela foi chamada a ascender quando o pai dela precisou partir, e foi Mokosh quem a presenteou com os domínios dela e confiou à jovem deusa a guarda das florestas.
+Dzievanna é filha de Veles, de antes dele ser divino. Ela foi chamada a ascender quando o pai dela precisou partir, e foi Mokosh quem a presenteou com os domínios dela e confiou à jovem deusa a guarda das florestas.
 
-Busque a senda final de você na floresta ancestral, entre as matilhas ferais que chamam Dievanna de mestra delas.'
+Busque a senda final de você na floresta ancestral, entre as matilhas ferais que chamam Dzievanna de mestra delas.'
 
 O leshy não espera resposta, e volta ao sono dele.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="42" positionX="7582" positionY="3166" width="350" height="530" allPlayersXP="6" allPlayersRP="5" logBookName="QUEST_DIV_PATH_ALLPATHS2" logBookDescription="QUEST_DIV_PATH_TWOBLADA_DES" linkedEventUniqueID="0">
@@ -4636,7 +4636,7 @@ A vitalidade de você cresce, e você sente-se fortalecido por inteiro. Uma fera
       </logic><outputs name="Deixar por ora." ownerID="35" targetID="24" fromX="1165" fromY="-2879" />O leshy vence você, e, surpreendentemente, não parece hostil além de se defender. 
 
 Você sente, porém, um fluxo de energia negativa do tronco da árvore. Parece que a essência divina que mora aqui não ficou impressionada com você.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="36" positionX="5566" positionY="2692" width="350" height="1206"><outputs name="Dievanna." ownerID="36" targetID="41" fromX="5891" fromY="2200" /><outputs name="Horz." ownerID="36" targetID="43" fromX="5891" fromY="2120" /><outputs name="Triglav." ownerID="36" targetID="44" fromX="5891" fromY="2040" /><outputs name="Nyia." ownerID="36" targetID="45" fromX="5891" fromY="1960" /><outputs name="Lada." ownerID="36" targetID="46" fromX="5891" fromY="1880" /><outputs name="Stribog." ownerID="36" targetID="64" fromX="5891" fromY="1799" /><outputs name="Mokosh." ownerID="36" targetID="67" fromX="5891" fromY="1719" />'Essa escolha é sempre sua, mas há uma etapa final da jornada de você, uma que leva você ao patrono divino de você e, assim, desbloqueia mais os dois potenciais de você.
+    <nodes xsi:type="NodeAdventure" ID="36" positionX="5566" positionY="2692" width="350" height="1206"><outputs name="Dzievanna." ownerID="36" targetID="41" fromX="5891" fromY="2200" /><outputs name="Horz." ownerID="36" targetID="43" fromX="5891" fromY="2120" /><outputs name="Triglav." ownerID="36" targetID="44" fromX="5891" fromY="2040" /><outputs name="Nyia." ownerID="36" targetID="45" fromX="5891" fromY="1960" /><outputs name="Lada." ownerID="36" targetID="46" fromX="5891" fromY="1880" /><outputs name="Stribog." ownerID="36" targetID="64" fromX="5891" fromY="1799" /><outputs name="Mokosh." ownerID="36" targetID="67" fromX="5891" fromY="1719" />'Essa escolha é sempre sua, mas há uma etapa final da jornada de você, uma que leva você ao patrono divino de você e, assim, desbloqueia mais os dois potenciais de você.
 
 A qual divindade você chama?'</nodes>
     <nodes xsi:type="NodeAdventure" ID="37" positionX="5391" positionY="1066" width="350" height="725"><logic>
@@ -4729,9 +4729,9 @@ Você também sente a vitalidade melhorada e o intelecto fortalecido.</nodes>
         </FilterBlock>
       </logic><outputs name="Reverenciar em agradecimento e partir." ownerID="41" targetID="56" fromX="6355" fromY="2439" />'Uma filha verdadeira da Harmonia e da Natureza, de um lado feroz e selvagem, do outro apaziguadora e calma. 
 
-Dievanna é filha de Veles, de antes dele ser divino. Ela foi chamada a ascender quando o pai dela precisou partir, e foi Mokosh quem a presenteou com os domínios dela e confiou à jovem deusa a guarda das florestas.
+Dzievanna é filha de Veles, de antes dele ser divino. Ela foi chamada a ascender quando o pai dela precisou partir, e foi Mokosh quem a presenteou com os domínios dela e confiou à jovem deusa a guarda das florestas.
 
-Busque a senda final de você na floresta ancestral, entre as matilhas ferais que chamam Dievanna de mestra delas.'
+Busque a senda final de você na floresta ancestral, entre as matilhas ferais que chamam Dzievanna de mestra delas.'
 
 O leshy não espera resposta, e volta ao sono dele.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="42" positionX="7559" positionY="3174" width="350" height="530" allPlayersXP="6" allPlayersRP="5" logBookName="QUEST_DIV_PATH_ALLPATHS2" logBookDescription="QUEST_DIV_PATH_TWOBLADA_DES" linkedEventUniqueID="0">
@@ -5699,9 +5699,9 @@ Então, sim e não. Eles carregam a vontade dos três deuses ancestrais, mas tam
         </FilterBlock>
       </logic><outputs name="Chegar mais perto e tentar falar com ela." ownerID="2" targetID="3" fromX="765" fromY="-518" />Enquanto vagam pelas terras, vocês acham um bosque pequeno e sentem o puxão da conexão divina de você. 
 
-Vocês veem um bando de ferais de Dievanna rondando livre. Um deles se destaca, mais alto, mais rápido, irradiando presença divina. Quando ela se vira para você, você sente que, de algum jeito, é a deusa de você.
+Vocês veem um bando de ferais de Dzievanna rondando livre. Um deles se destaca, mais alto, mais rápido, irradiando presença divina. Quando ela se vira para você, você sente que, de algum jeito, é a deusa de você.
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="3" positionX="910" positionY="47" width="350" height="725" image="Event292"><outputs name="Dizer que estão aqui para falar com Dievanna." ownerID="3" targetID="7" fromX="1235" fromY="-444" />Quando você se aproxima, o outro feral dá um passo à frente, e a deusa se afasta. Um dos ferais fala, com a voz torta e enferrujada, como se a fala humana tivesse ficado estranha para ele:
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="910" positionY="47" width="350" height="725" image="Event292"><outputs name="Dizer que estão aqui para falar com Dzievanna." ownerID="3" targetID="7" fromX="1235" fromY="-444" />Quando você se aproxima, o outro feral dá um passo à frente, e a deusa se afasta. Um dos ferais fala, com a voz torta e enferrujada, como se a fala humana tivesse ficado estranha para ele:
 
 'Você sair, a gente livre, a gente sentir Ela em você, então você sem comida; mas vai.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="7" positionX="1381" positionY="242" width="350" height="1126"><logic>
@@ -5719,7 +5719,7 @@ Vocês veem um bando de ferais de Dievanna rondando livre. Um deles se destaca, 
             <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-BEAST" />
           </LogicFilter>
         </FilterBlock>
-      </logic><outputs name="[Só Escolhido]Falar com o feral com calma para convencê-lo de que você é o escolhido de Dievanna e, como tal, não quer mal nenhum." ownerID="7" targetID="40" fromX="1706" fromY="-249" /><outputs name="[Só Escolhido]Adiantar-se com o espírito exposto para mostrar que você também é filho da Natureza." ownerID="7" targetID="46" fromX="1706" fromY="-329" /><outputs name="[Só Escolhido Fera]Ceder à natureza bestial de você e mostrar ao feral que você é parente dele, além de escolhido de Dievanna." ownerID="7" targetID="29" fromX="1706" fromY="-409" /><outputs name="Atacar!" ownerID="7" targetID="30" fromX="1706" fromY="-489" /><outputs name="[Só Escolhido Druida]Falar com o feral em élfico e lembrar as raízes dele. Depois afirmar que você é o escolhido de Dievanna, então há parentesco entre vocês." ownerID="7" targetID="39" fromX="1706" fromY="-569" /><outputs name="Recuar e voltar quando estiver realmente pronto!" ownerID="7" targetID="50" fromX="1706" fromY="-650" />Você vê um lampejo fraco de reconhecimento nos olhos da deusa sua enquanto fala o nome dela; mas então ela olha para o bando dela, como se dependesse deles deixar você chegar, embora ela seja claramente a mais forte aqui.
+      </logic><outputs name="[Só Escolhido]Falar com o feral com calma para convencê-lo de que você é o escolhido de Dzievanna e, como tal, não quer mal nenhum." ownerID="7" targetID="40" fromX="1706" fromY="-249" /><outputs name="[Só Escolhido]Adiantar-se com o espírito exposto para mostrar que você também é filho da Natureza." ownerID="7" targetID="46" fromX="1706" fromY="-329" /><outputs name="[Só Escolhido Fera]Ceder à natureza bestial de você e mostrar ao feral que você é parente dele, além de escolhido de Dzievanna." ownerID="7" targetID="29" fromX="1706" fromY="-409" /><outputs name="Atacar!" ownerID="7" targetID="30" fromX="1706" fromY="-489" /><outputs name="[Só Escolhido Druida]Falar com o feral em élfico e lembrar as raízes dele. Depois afirmar que você é o escolhido de Dzievanna, então há parentesco entre vocês." ownerID="7" targetID="39" fromX="1706" fromY="-569" /><outputs name="Recuar e voltar quando estiver realmente pronto!" ownerID="7" targetID="50" fromX="1706" fromY="-650" />Você vê um lampejo fraco de reconhecimento nos olhos da deusa sua enquanto fala o nome dela; mas então ela olha para o bando dela, como se dependesse deles deixar você chegar, embora ela seja claramente a mais forte aqui.
 </nodes>
     <nodes xsi:type="NodeDealDamage" ID="8" positionX="2602" positionY="1222" width="460" height="539" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
       <outputs ownerID="8" targetID="9" group="G1" fromX="3031" fromY="833" />
@@ -5793,7 +5793,7 @@ Os escolhidos são via menos confiável, porque vocês agem tanto por capricho e
 
 A última bênção minha para você pode se revelar quando um dos filhos seus virar adulto. Mas, como vejo, a senda de você aqui já desbloqueou o poder de você; então siga em frente, meu escolhido, e escolha a senda em nome meu.'
 
-Você se vira por um instante e já não vê Dievanna; só a floresta; e assim fica só, com um último presente posto aos pés de você.</nodes>
+Você se vira por um instante e já não vê Dzievanna; só a floresta; e assim fica só, com um último presente posto aos pés de você.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="6489" positionY="817" width="350" height="530" allPlayersXP="10" allPlayersRP="7" logBookName="QUEST_DIV_DZIEVANNA" logBookDescription="QUEST_DIV_ALLGODS_DES" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
@@ -5831,7 +5831,7 @@ Você me deu clareza, escolhido. Agora entendo os sacrifícios feitos pelos deus
 
 A última bênção minha para você pode se revelar quando um dos filhos seus virar adulto. Mas, como vejo, a senda de você aqui já desbloqueou o poder de você; então siga em frente, meu escolhido, e escolha a senda em nome meu.'
 
-Você se vira por um instante e já não vê Dievanna; só a floresta; e assim fica só, com um último presente posto aos pés de você.</nodes>
+Você se vira por um instante e já não vê Dzievanna; só a floresta; e assim fica só, com um último presente posto aos pés de você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="5244" positionY="59" width="350" height="805"><logic>
         <ModifierBlock>
           <LogicModifiers list="ch">
@@ -5889,13 +5889,13 @@ Veja, à primeira, havia equilíbrio, com as duas coexistindo. Mas o filho da es
       <outputs name="Lose" ownerID="30" targetID="37" fromX="1462" fromY="2869" />
       <outputs name="Surrender" ownerID="30" targetID="37" fromX="1462" fromY="2789" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="31" positionX="2484" positionY="2003" width="350" height="725" image="Event292"><outputs name="Dobrar-se diante da deusa." ownerID="31" targetID="8" fromX="2809" fromY="1511" />Os ferais rosnam e bufam para você, mas, com o tempo, cedem e reconhecem o parentesco seu com a mestra deles. Dievanna faz que sim, com os olhos ficando instantaneamente aguçados como os de falcão, enquanto te fita direto nos seus:
+    <nodes xsi:type="NodeAdventure" ID="31" positionX="2484" positionY="2003" width="350" height="725" image="Event292"><outputs name="Dobrar-se diante da deusa." ownerID="31" targetID="8" fromX="2809" fromY="1511" />Os ferais rosnam e bufam para você, mas, com o tempo, cedem e reconhecem o parentesco seu com a mestra deles. Dzievanna faz que sim, com os olhos ficando instantaneamente aguçados como os de falcão, enquanto te fita direto nos seus:
 
 'Você passou; bom. Eu me perguntava quanto tempo levaria para você chegar. Agora, hora de abandonar este bando.'</nodes>
     <nodes xsi:type="NodeDealDamage" ID="32" positionX="1371" positionY="1514" width="460" height="459" challengeTypeDamage="TypeSpirit" minDamage="100" maxDamage="120" useCountInPercent="true" targetGroup="ch">
       <outputs ownerID="32" targetID="33" fromX="1800" fromY="1125" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="33" positionX="1984" positionY="1517" width="350" height="725" image="Event292"><outputs name="Dobrar-se diante da deusa." ownerID="33" targetID="8" fromX="2309" fromY="1025" />Os ferais rosnam e bufam para você e se recusam a recuar. Você persiste; e, com o tempo, vê Dievanna fazer que sim ao bando dela para deixar você passar; mas, como escolhido, sente o espírito drenado.
+    <nodes xsi:type="NodeAdventure" ID="33" positionX="1984" positionY="1517" width="350" height="725" image="Event292"><outputs name="Dobrar-se diante da deusa." ownerID="33" targetID="8" fromX="2309" fromY="1025" />Os ferais rosnam e bufam para você e se recusam a recuar. Você persiste; e, com o tempo, vê Dzievanna fazer que sim ao bando dela para deixar você passar; mas, como escolhido, sente o espírito drenado.
 
 'Você não é forte o bastante para o que a floresta exige! Ainda assim, esperemos que tenha tempo de remediar isto antes que tudo se perca. Agora, hora de abandonar este bando.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="34" positionX="3898" positionY="2794" width="350" height="725"><outputs name="Continuar escutando." ownerID="34" targetID="35" fromX="4223" fromY="2302" />'Os humanos nasceram de ambos, mas parecem favorecer a escuridão, sempre empurrando para se meter nas artes sombrias e mudar o mundo deles. Na verdade, se provaram ainda mais imprevisíveis que os outros.
@@ -8727,9 +8727,9 @@ Então, sim e não. Eles carregam a vontade dos três deuses ancestrais, mas tam
         </FilterBlock>
       </logic><outputs name="Chegar mais perto e tentar falar com ela." ownerID="2" targetID="3" fromX="765" fromY="-518" />Enquanto vagam pelas terras, vocês acham um bosque pequeno e sentem o puxão da conexão divina de você. 
 
-Vocês veem um bando de ferais de Dievanna rondando livre. Um deles se destaca, mais alto, mais rápido, irradiando presença divina. Quando ela se vira para você, você sente que, de algum jeito, é a deusa de você.
+Vocês veem um bando de ferais de Dzievanna rondando livre. Um deles se destaca, mais alto, mais rápido, irradiando presença divina. Quando ela se vira para você, você sente que, de algum jeito, é a deusa de você.
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="3" positionX="910" positionY="47" width="350" height="725" image="Event292"><outputs name="Dizer que estão aqui para falar com Dievanna." ownerID="3" targetID="7" fromX="1235" fromY="-444" />Quando você se aproxima, o outro feral dá um passo à frente, e a deusa se afasta. Um dos ferais fala, com a voz torta e enferrujada, como se a fala humana tivesse ficado estranha para ele:
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="910" positionY="47" width="350" height="725" image="Event292"><outputs name="Dizer que estão aqui para falar com Dzievanna." ownerID="3" targetID="7" fromX="1235" fromY="-444" />Quando você se aproxima, o outro feral dá um passo à frente, e a deusa se afasta. Um dos ferais fala, com a voz torta e enferrujada, como se a fala humana tivesse ficado estranha para ele:
 
 'Você sair, a gente livre, a gente sentir Ela em você, então você sem comida; mas vai.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="7" positionX="1381" positionY="242" width="350" height="1126"><logic>
@@ -8747,7 +8747,7 @@ Vocês veem um bando de ferais de Dievanna rondando livre. Um deles se destaca, 
             <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-BEAST" />
           </LogicFilter>
         </FilterBlock>
-      </logic><outputs name="[Só Escolhido]Falar com o feral com calma para convencê-lo de que você é o escolhido de Dievanna e, como tal, não quer mal nenhum." ownerID="7" targetID="40" fromX="1706" fromY="-249" /><outputs name="[Só Escolhido]Adiantar-se com o espírito exposto para mostrar que você também é filho da Natureza." ownerID="7" targetID="46" fromX="1706" fromY="-329" /><outputs name="[Só Escolhido Fera]Ceder à natureza bestial de você e mostrar ao feral que você é parente dele, além de escolhido de Dievanna." ownerID="7" targetID="29" fromX="1706" fromY="-409" /><outputs name="Atacar!" ownerID="7" targetID="30" fromX="1706" fromY="-489" /><outputs name="[Só Escolhido Druida]Falar com o feral em élfico e lembrar as raízes dele. Depois afirmar que você é o escolhido de Dievanna, então há parentesco entre vocês." ownerID="7" targetID="39" fromX="1706" fromY="-569" /><outputs name="Recuar e voltar quando estiver realmente pronto!" ownerID="7" targetID="51" fromX="1706" fromY="-650" />Você vê um lampejo fraco de reconhecimento nos olhos da deusa sua enquanto fala o nome dela; mas então ela olha para o bando dela, como se dependesse deles deixar você chegar, embora ela seja claramente a mais forte aqui.
+      </logic><outputs name="[Só Escolhido]Falar com o feral com calma para convencê-lo de que você é o escolhido de Dzievanna e, como tal, não quer mal nenhum." ownerID="7" targetID="40" fromX="1706" fromY="-249" /><outputs name="[Só Escolhido]Adiantar-se com o espírito exposto para mostrar que você também é filho da Natureza." ownerID="7" targetID="46" fromX="1706" fromY="-329" /><outputs name="[Só Escolhido Fera]Ceder à natureza bestial de você e mostrar ao feral que você é parente dele, além de escolhido de Dzievanna." ownerID="7" targetID="29" fromX="1706" fromY="-409" /><outputs name="Atacar!" ownerID="7" targetID="30" fromX="1706" fromY="-489" /><outputs name="[Só Escolhido Druida]Falar com o feral em élfico e lembrar as raízes dele. Depois afirmar que você é o escolhido de Dzievanna, então há parentesco entre vocês." ownerID="7" targetID="39" fromX="1706" fromY="-569" /><outputs name="Recuar e voltar quando estiver realmente pronto!" ownerID="7" targetID="51" fromX="1706" fromY="-650" />Você vê um lampejo fraco de reconhecimento nos olhos da deusa sua enquanto fala o nome dela; mas então ela olha para o bando dela, como se dependesse deles deixar você chegar, embora ela seja claramente a mais forte aqui.
 </nodes>
     <nodes xsi:type="NodeDealDamage" ID="8" positionX="2602" positionY="1222" width="460" height="539" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
       <outputs ownerID="8" targetID="9" group="G1" fromX="3031" fromY="833" />
@@ -8821,7 +8821,7 @@ Os escolhidos são via menos confiável, porque vocês agem tanto por capricho e
 
 A última bênção minha para você pode se revelar quando um dos filhos seus virar adulto. Mas, como vejo, a senda de você aqui já desbloqueou o poder de você; então siga em frente, meu escolhido, e escolha a senda em nome meu.'
 
-Você se vira por um instante e já não vê Dievanna; só a floresta; e assim fica só, com um último presente posto aos pés de você.</nodes>
+Você se vira por um instante e já não vê Dzievanna; só a floresta; e assim fica só, com um último presente posto aos pés de você.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="7396" positionY="169" width="350" height="530" allPlayersXP="10" allPlayersRP="7" logBookName="QUEST_DIV_DZIEVANNA" logBookDescription="QUEST_DIV_ALLGODS_DES" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
@@ -8859,7 +8859,7 @@ Você me deu clareza, escolhido. Agora entendo os sacrifícios feitos pelos deus
 
 A última bênção minha para você pode se revelar quando um dos filhos seus virar adulto. Mas, como vejo, a senda de você aqui já desbloqueou o poder de você; então siga em frente, meu escolhido, e escolha a senda em nome meu.'
 
-Você se vira por um instante e já não vê Dievanna; só a floresta; e assim fica só, com um último presente posto aos pés de você.</nodes>
+Você se vira por um instante e já não vê Dzievanna; só a floresta; e assim fica só, com um último presente posto aos pés de você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="5244" positionY="59" width="350" height="805"><logic>
         <ModifierBlock>
           <LogicModifiers list="ch">
@@ -8917,13 +8917,13 @@ Veja, à primeira, havia equilíbrio, com as duas coexistindo. Mas o filho da es
       <outputs name="Lose" ownerID="30" targetID="37" fromX="1462" fromY="2869" />
       <outputs name="Surrender" ownerID="30" targetID="37" fromX="1462" fromY="2789" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="31" positionX="2484" positionY="2003" width="350" height="725" image="Event292"><outputs name="Dobrar-se diante da deusa." ownerID="31" targetID="8" fromX="2809" fromY="1511" />Os ferais rosnam e bufam para você, mas, com o tempo, cedem e reconhecem o parentesco seu com a mestra deles. Dievanna faz que sim, com os olhos ficando instantaneamente aguçados como os de falcão, enquanto te fita direto nos seus:
+    <nodes xsi:type="NodeAdventure" ID="31" positionX="2484" positionY="2003" width="350" height="725" image="Event292"><outputs name="Dobrar-se diante da deusa." ownerID="31" targetID="8" fromX="2809" fromY="1511" />Os ferais rosnam e bufam para você, mas, com o tempo, cedem e reconhecem o parentesco seu com a mestra deles. Dzievanna faz que sim, com os olhos ficando instantaneamente aguçados como os de falcão, enquanto te fita direto nos seus:
 
 'Você passou; bom. Eu me perguntava quanto tempo levaria para você chegar. Agora, hora de abandonar este bando.'</nodes>
     <nodes xsi:type="NodeDealDamage" ID="32" positionX="1371" positionY="1514" width="460" height="459" challengeTypeDamage="TypeSpirit" minDamage="100" maxDamage="120" useCountInPercent="true" targetGroup="ch">
       <outputs ownerID="32" targetID="33" fromX="1800" fromY="1125" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="33" positionX="1984" positionY="1517" width="350" height="725" image="Event292"><outputs name="Dobrar-se diante da deusa." ownerID="33" targetID="8" fromX="2309" fromY="1025" />Os ferais rosnam e bufam para você e se recusam a recuar. Você persiste; e, com o tempo, vê Dievanna fazer que sim ao bando dela para deixar você passar; mas, como escolhido, sente o espírito drenado.
+    <nodes xsi:type="NodeAdventure" ID="33" positionX="1984" positionY="1517" width="350" height="725" image="Event292"><outputs name="Dobrar-se diante da deusa." ownerID="33" targetID="8" fromX="2309" fromY="1025" />Os ferais rosnam e bufam para você e se recusam a recuar. Você persiste; e, com o tempo, vê Dzievanna fazer que sim ao bando dela para deixar você passar; mas, como escolhido, sente o espírito drenado.
 
 'Você não é forte o bastante para o que a floresta exige! Ainda assim, esperemos que tenha tempo de remediar isto antes que tudo se perca. Agora, hora de abandonar este bando.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="34" positionX="3898" positionY="2794" width="350" height="725"><outputs name="Continuar escutando." ownerID="34" targetID="35" fromX="4223" fromY="2302" />'Os humanos nasceram de ambos, mas parecem favorecer a escuridão, sempre empurrando para se meter nas artes sombrias e mudar o mundo deles. Na verdade, se provaram ainda mais imprevisíveis que os outros.
@@ -9046,7 +9046,7 @@ Então, sim e não. Eles carregam a vontade dos três deuses ancestrais, mas tam
             <scriptCallWithTag scriptName="FRA_ListSizeLessEqualThan" parameter="0" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Sair da história." ownerID="52" targetID="51" fromX="-139" fromY="-572" />Esta é a senda de Dievanna. Só se entra com o escolhido que começou esta jornada.</nodes>
+      </logic><outputs name="Sair da história." ownerID="52" targetID="51" fromX="-139" fromY="-572" />Esta é a senda de Dzievanna. Só se entra com o escolhido que começou esta jornada.</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="53" positionX="6268" positionY="-441" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="53" targetID="49" fromX="6717" fromY="-873" />
     </nodes>

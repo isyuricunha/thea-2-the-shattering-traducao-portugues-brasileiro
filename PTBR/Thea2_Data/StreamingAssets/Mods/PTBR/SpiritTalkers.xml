@@ -453,7 +453,7 @@ Mas os fantasmas estão agitados, e mal conseguem falar com você. Eles estão v
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Concordar em assumir a responsabilidade. [Perder um fantasma]" ownerID="11" targetID="38" fromX="1131" fromY="-2832" /><outputs name="Não deixá-lo! O amigo de você partindo!" ownerID="11" targetID="54" fromX="1131" fromY="-2912" />Vocês chegam ao parente seu e questionam os jeitos desgovernados deles. Falam do perigo de se portar mal tão perto dos xamãs goblins, que podem destruir fantasmas se quiserem.
+      </logic><outputs name="Concordar em assumir a responsabilidade. [Perder um fantasma]" ownerID="11" targetID="38" fromX="1131" fromY="-2832" /><outputs name="Não permitir que o seu amigo parta!" ownerID="11" targetID="54" fromX="1131" fromY="-2912" />Vocês chegam ao parente seu e questionam os jeitos desgovernados deles. Falam do perigo de se portar mal tão perto dos xamãs goblins, que podem destruir fantasmas se quiserem.
 
 Os fantasmas imploram a você que fique com eles, e mostre a eles o caminho certo.</nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="3567.25" positionY="388.5005" width="350" height="805"><logic>
@@ -5342,7 +5342,7 @@ Os faladores de espírito ouvem do fracasso de você, e ficam decepcionados que 
         </ModifierBlock>
       </logic><outputs name="Agradecer e partir." ownerID="21" targetID="16" fromX="2434" fromY="-1897" />Os goblins desgarrados voltam aos anciãos deles. Os faladores de espírito ficam desconfiados dos métodos de você, mas não conseguem discutir com resultados.
 
-A amizade de você cresce um pouco, e eles dão a recompensa prometida.</nodes>
+A amizade de você cresce um pouco, e eles dão a recompensa prometida. </nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="852" positionY="1406" width="350" height="725"><logic>
         <FilterBlock>
           <LogicResultAction>
@@ -5588,7 +5588,7 @@ O lugar está morto.</nodes>
             <scriptCallWithTag scriptName="FMO_AddTags" parameter="+1" tag="TAG-STRENGTH" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Atacar!" ownerID="10" targetID="19" fromX="2717" fromY="53" /><outputs name="Correr!" ownerID="10" targetID="17" fromX="2717" fromY="-26" />Você quebra a porta do porão, mas o impacto também derruba uma parte do chão sob você, e você cai numa adega escura.
+      </logic><outputs name="Atacar!" ownerID="10" targetID="19" fromX="2717" fromY="53" /><outputs name="Fugir!" ownerID="10" targetID="17" fromX="2717" fromY="-26" />Você quebra a porta do porão, mas o impacto também derruba uma parte do chão sob você, e você cai numa adega escura.
 
 A sua queda foi amortecida por uma matilha de víboras raivosas, rastejando por toda parte!</nodes>
     <nodes xsi:type="NodeAdventure" ID="13" positionX="1486.46008" positionY="1478.79407" width="350" height="966"><logic>
@@ -5690,7 +5690,7 @@ A sua queda foi amortecida por uma matilha de víboras raivosas, rastejando por 
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="21" positionX="5093.97" positionY="241.876434" width="350" height="725"><outputs name="Saquear o baú e partir." ownerID="21" targetID="51" fromX="5419" fromY="-249" />Você mata todas as víboras e agora pode levar o baú escondido na adega.</nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="4655.114" positionY="141.03064" width="350" height="725" image="Event025"><outputs name="Saquear o baú e partir." ownerID="22" targetID="51" fromX="4980" fromY="-350" />Você posiciona várias tochas em chamas com cuidado, de modo que as serpentes se escondam nos cantos, longe do baú, deixando fácil pegá-lo. </nodes>
-    <nodes xsi:type="NodeAdventure" ID="23" positionX="4449.53467" positionY="-997.546448" width="350" height="725"><outputs name="Correr." ownerID="23" targetID="49" fromX="4775" fromY="-1488" />Você tenta assustar as serpentes com fogo, mas elas estão raivosas demais para se importar. Elas te atacam em enxame como loucas e te forçam a recuar!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="23" positionX="4449.53467" positionY="-997.546448" width="350" height="725"><outputs name="Fugir." ownerID="23" targetID="49" fromX="4775" fromY="-1488" />Você tenta assustar as serpentes com fogo, mas elas estão raivosas demais para se importar. Elas te atacam em enxame como loucas e te forçam a recuar!</nodes>
     <nodes xsi:type="NodeAdventure" ID="24" positionX="4479.67236" positionY="863.822632" width="350" height="725"><logic>
         <ModifierBlock>
           <LogicProcessing name="poisoned" list1="ppl">
@@ -5700,7 +5700,7 @@ A sua queda foi amortecida por uma matilha de víboras raivosas, rastejando por 
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-TOXINE" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr." ownerID="24" targetID="49" fromX="4805" fromY="372" />As serpentes se mostram ferozes demais. Elas te atacam em enxame como loucas e te forçam a recuar!
+      </logic><outputs name="Fugir." ownerID="24" targetID="49" fromX="4805" fromY="372" />As serpentes se mostram ferozes demais. Elas te atacam em enxame como loucas e te forçam a recuar!
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="27" positionX="5729.121" positionY="-950.2433" width="350" height="408" allPlayersXP="3" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
@@ -5853,7 +5853,7 @@ Você também fica com o estoque.</nodes>
           </LogicModifiers>
         </ModifierBlock>
       </logic><outputs name="Juntar o espólio e partir." ownerID="45" targetID="52" fromX="1218" fromY="-3148" />Você encanta os ratos, e eles se afastam enquanto você pega o estoque.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="46" positionX="1887.84351" positionY="-3048.34253" width="350" height="725"><outputs name="Correr." ownerID="46" targetID="49" fromX="2213" fromY="-3539" />Os ratos entram em frenesi e outro enxame se junta a eles por um túnel. Você é forçado a fugir!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="46" positionX="1887.84351" positionY="-3048.34253" width="350" height="725"><outputs name="Fugir." ownerID="46" targetID="49" fromX="2213" fromY="-3539" />Os ratos entram em frenesi e outro enxame se junta a eles por um túnel. Você é forçado a fugir!</nodes>
     <nodes xsi:type="NodeProduceDrop" ID="48" positionX="2593.15381" positionY="-1091.47986" width="460" height="429" sourceGroup="GROUP-RATS_1P_1M_1S" cargoPercentage="80" dropPercentage="60" targetGroup="ppl">
       <outputs ownerID="48" targetID="15" fromX="3023" fromY="-1449" />
     </nodes>
@@ -6146,7 +6146,7 @@ Você encontra um estoque de bens abandonado aqui por alguém que também tentou
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" />
           </LogicFilter>
         </FilterBlock>
-      </logic><outputs name="Chamar para ver se tem alguém em casa." ownerID="2" targetID="4" group="G1" fromX="769" fromY="-322" /><outputs name="Chamar para ver se tem alguém em casa." ownerID="2" targetID="6" group="G1" fromX="769" fromY="-402" /><outputs name="Sair da história." ownerID="2" targetID="4" group="G2" fromX="769" fromY="-483" /><outputs name="Sair da história." ownerID="2" targetID="5" group="G2" fromX="769" fromY="-563" /><outputs name="Sair da história." ownerID="2" targetID="3" fromX="769" fromY="-643" />Você se depara com uma velha cabana no mato. À primeira vista parece bem desfalcada, mas você vê fumaça saindo da chaminé. </nodes>
+      </logic><outputs name="Chamar para ver se tem alguém em casa." ownerID="2" targetID="4" group="G1" fromX="769" fromY="-322" /><outputs name="Chamar para ver se tem alguém em casa." ownerID="2" targetID="6" group="G1" fromX="769" fromY="-402" /><outputs name="Aproximar-se de fininho para investigar." ownerID="2" targetID="4" group="G2" fromX="769" fromY="-483" /><outputs name="Aproximar-se de fininho para investigar." ownerID="2" targetID="5" group="G2" fromX="769" fromY="-563" /><outputs name="Sair da história." ownerID="2" targetID="3" fromX="769" fromY="-643" />Você se depara com uma velha cabana no mato. À primeira vista parece bem desfalcada, mas você vê fumaça saindo da chaminé. </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="926.334656" positionY="-536.1101" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="4" positionX="877.876953" positionY="427.091919" width="350" height="885"><logic>
         <FilterBlock>
@@ -6169,8 +6169,8 @@ Você encontra um estoque de bens abandonado aqui por alguém que também tentou
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="É uma bruxa. Matá-la." ownerID="5" targetID="10" group="G1" fromX="1797" fromY="-1652" /><outputs name="É uma bruxa. Matá-la." ownerID="5" targetID="42" group="G1" fromX="1797" fromY="-1732" /><outputs name="Bater na porta." ownerID="5" targetID="43" fromX="1797" fromY="-1812" /><outputs name="É uma bruxa. Matá-la." ownerID="5" targetID="6" fromX="1797" fromY="-1892" />Dentro da cabana, você vê uma velhinha curvada sobre o fogão. O recôndito tem muitas ervas secas, líquidos estranhos em frascos, joelhos de galinha, pés de galinha e todo tipo de ingrediente parecido.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="6" positionX="688.7135" positionY="-961.436951" width="350" height="966" image="Event092"><outputs name="É uma bruxa. Matá-la." ownerID="6" targetID="10" group="G1" fromX="1014" fromY="-1452" /><outputs name="É uma bruxa. Matá-la." ownerID="6" targetID="42" group="G1" fromX="1014" fromY="-1532" /><outputs name="[Bruxa]Entrar para conversar, mas avisá-la para não tentar nenhuma esperteza." ownerID="6" targetID="14" fromX="1014" fromY="-1612" /><outputs name="Bater na porta." ownerID="6" targetID="43" fromX="1014" fromY="-1693" />Uma velha de capuz atende à porta e faz sinal para você entrar. Depois volta à cadeira de balanço dela, senta e diz:
+      </logic><outputs name="É uma bruxa. Matá-la." ownerID="5" targetID="10" group="G1" fromX="1797" fromY="-1652" /><outputs name="É uma bruxa. Matá-la." ownerID="5" targetID="42" group="G1" fromX="1797" fromY="-1732" /><outputs name="[Bruxa]Entrar para conversar, mas avisá-la para não tentar nenhuma esperteza." ownerID="5" targetID="43" fromX="1797" fromY="-1812" /><outputs name="Bater na porta." ownerID="5" targetID="6" fromX="1797" fromY="-1892" />Dentro da cabana, você vê uma velhinha curvada sobre o fogão. O recôndito tem muitas ervas secas, líquidos estranhos em frascos, joelhos de galinha, pés de galinha e todo tipo de ingrediente parecido.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="688.7135" positionY="-961.436951" width="350" height="966" image="Event092"><outputs name="É uma bruxa. Matá-la." ownerID="6" targetID="10" group="G1" fromX="1014" fromY="-1452" /><outputs name="É uma bruxa. Matá-la." ownerID="6" targetID="42" group="G1" fromX="1014" fromY="-1532" /><outputs name="Entrar e falar com ela." ownerID="6" targetID="14" fromX="1014" fromY="-1612" /><outputs name="[Bruxa]Entrar para conversar, mas avisá-la para não tentar nenhuma esperteza." ownerID="6" targetID="43" fromX="1014" fromY="-1693" />Uma velha de capuz atende à porta e faz sinal para você entrar. Depois volta à cadeira de balanço dela, senta e diz:
 
 'Entrem, entrem, forasteiros. Posso oferecer comida quente? Doces? Ou quem sabe uma negociação?'
 </nodes>
@@ -7687,7 +7687,7 @@ Vocês inalam e cavalgam a onda de visões de espírito, e impressionam muito os
         </FilterBlock>
       </logic><outputs name="Sim, dar um cão para ser treinado." ownerID="3" targetID="5" fromX="741" fromY="-502" /><outputs name="Sim, entregar um gato para treinar." ownerID="3" targetID="4" fromX="741" fromY="-582" /><outputs name="Sim, entregar um lobo para treinar." ownerID="3" targetID="11" fromX="741" fromY="-662" /><outputs name="Sim, dar uma cabra para ser treinada." ownerID="3" targetID="19" fromX="741" fromY="-742" /><outputs name="Sim, entregar um javali para treinar." ownerID="3" targetID="18" fromX="741" fromY="-822" /><outputs name="Sim, entregar um urso para treinar." ownerID="3" targetID="23" fromX="741" fromY="-903" /><outputs name="Não, sair da história." ownerID="3" targetID="10" fromX="741" fromY="-983" /><outputs name="Sim, dar uma rã de ferro para ser treinada." ownerID="3" targetID="27" fromX="741" fromY="-1063" /><outputs name="Sim, dar  um galo para ser treinado." ownerID="3" targetID="28" fromX="741" fromY="-1143" /><outputs name="Sim, dar  um caranguejo para ser treinado." ownerID="3" targetID="35" fromX="741" fromY="-1223" /><outputs name="Sim, dar  um papagaio para ser treinado." ownerID="3" targetID="42" fromX="741" fromY="-1304" />'Oi, você quer o seu pet ali treinado, né? Eu faço, por uma taxa.'
 
-[Training your pet will only raise it to third rank, no higher and you can only train one pet at a time]</nodes>
+[Treinar o seu pet só o eleva até a terceira patente, não mais, e só dá para treinar um pet por vez]</nodes>
     <nodes xsi:type="NodeAdventure" ID="4" positionX="-15" positionY="-756" width="350" height="725"><outputs name="Perguntar sobre outros pets." ownerID="4" targetID="3" fromX="310" fromY="-1247" />'Você tá doido? Não dá pra treinar gatos! Pareço um mago pra você? Essa turma é mais provável de rasgar os meus olhos do que escutar.'</nodes>
     <nodes xsi:type="NodeTrade" ID="5" positionX="835" positionY="161" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-60">
       <logic>
@@ -7925,7 +7925,7 @@ Vocês inalam e cavalgam a onda de visões de espírito, e impressionam muito os
         </FilterBlock>
       </logic><outputs name="Sim, dar um fantasma para ser treinado." ownerID="3" targetID="5" fromX="741" fromY="-502" /><outputs name="Sim, dar uma aparição para ser treinada." ownerID="3" targetID="11" fromX="741" fromY="-582" /><outputs name="Não, sair da história." ownerID="3" targetID="10" fromX="741" fromY="-662" />'Oi. Vocês viajam com companheiros de espírito. Por uma taxa, eu entro no mundo cinzento e dou mais mojó aos espíritos de você, éh?'
 
-[Training your pet will only raise it to fourth rank, with only a small chance for higher and you can only train one pet at a time]</nodes>
+[Treinar o seu pet só o eleva até a quarta patente, com uma chance pequena de ir além disso, e só dá para treinar um pet por vez]</nodes>
     <nodes xsi:type="NodeTrade" ID="5" positionX="835" positionY="161" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-70">
       <logic>
         <FilterBlock>

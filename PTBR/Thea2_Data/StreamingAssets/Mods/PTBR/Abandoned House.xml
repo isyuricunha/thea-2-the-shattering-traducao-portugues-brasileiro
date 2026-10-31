@@ -34,7 +34,7 @@
             <scriptCallWithTag scriptName="FRA_Chance" parameter="70" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Usar as suas ferramentas para abrir a porta do porão. " ownerID="4" targetID="13" fromX="1347" fromY="539" /><outputs name="Quebrar a porta na marra." ownerID="4" targetID="38" group="G1" fromX="1003" fromY="458" /><outputs name="Usar as suas ferramentas para abrir a porta do porão. " ownerID="4" targetID="3" fromX="1003" fromY="458" /><outputs name="Sair da história." ownerID="4" targetID="37" group="G1" fromX="1003" fromY="458" />A velha estalina cheira a podridão e lixo. Mas você acha uma porta de porão escondida sob as tábuas do chão. </nodes>
+      </logic><outputs name="Usar as suas ferramentas para abrir a porta do porão. " ownerID="4" targetID="13" fromX="1347" fromY="539" /><outputs name="Quebrar a porta na marra." ownerID="4" targetID="38" group="G1" fromX="1003" fromY="458" /><outputs name="Sair da história." ownerID="4" targetID="3" fromX="1003" fromY="458" /><outputs name="Quebrar a porta na marra." ownerID="4" targetID="37" group="G1" fromX="1003" fromY="458" />A velha estalina cheira a podridão e lixo. Mas você acha uma porta de porão escondida sob as tábuas do chão. </nodes>
     <nodes xsi:type="NodeChallenge" ID="7" positionX="1877.0741" positionY="-828.597961" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_2M_0S" challengeScale="101" challengedList="ppl">
       <logic>
         <FilterBlock>
@@ -65,7 +65,7 @@
             <scriptCallWithTag scriptName="FMO_AddTags" parameter="+1" tag="TAG-STRENGTH" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Atacar!" ownerID="10" targetID="19" fromX="2717" fromY="53" /><outputs name="Correr!" ownerID="10" targetID="17" fromX="2717" fromY="-26" />Você quebra a porta do porão, mas o impacto também derruba uma parte do chão sob você, e você cai numa adega escura.
+      </logic><outputs name="Atacar!" ownerID="10" targetID="19" fromX="2717" fromY="53" /><outputs name="Fugir!" ownerID="10" targetID="17" fromX="2717" fromY="-26" />Você quebra a porta do porão, mas o impacto também derruba uma parte do chão sob você, e você cai numa adega escura.
 
 A sua queda foi amortecida por uma matilha de víboras raivosas, rastejando por toda parte!</nodes>
     <nodes xsi:type="NodeAdventure" ID="13" positionX="1486.46008" positionY="1478.79407" width="350" height="966"><logic>
@@ -167,7 +167,7 @@ A sua queda foi amortecida por uma matilha de víboras raivosas, rastejando por 
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="21" positionX="5093.97" positionY="241.876434" width="350" height="725"><outputs name="Saquear o baú e partir." ownerID="21" targetID="51" fromX="5419" fromY="-249" />Você mata todas as víboras e agora pode levar o baú escondido na adega.</nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="4655.114" positionY="141.03064" width="350" height="725" image="Event025"><outputs name="Saquear o baú e partir." ownerID="22" targetID="51" fromX="4980" fromY="-350" />Você posiciona várias tochas em chamas com cuidado, de modo que as serpentes se escondam nos cantos, longe do baú, deixando fácil pegá-lo. </nodes>
-    <nodes xsi:type="NodeAdventure" ID="23" positionX="4449.53467" positionY="-997.546448" width="350" height="725"><outputs name="Correr." ownerID="23" targetID="49" fromX="4775" fromY="-1488" />Você tenta assustar as serpentes com fogo, mas elas estão raivosas demais para se importar. Elas te atacam em enxame como loucas e te forçam a recuar!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="23" positionX="4449.53467" positionY="-997.546448" width="350" height="725"><outputs name="Fugir." ownerID="23" targetID="49" fromX="4775" fromY="-1488" />Você tenta assustar as serpentes com fogo, mas elas estão raivosas demais para se importar. Elas te atacam em enxame como loucas e te forçam a recuar!</nodes>
     <nodes xsi:type="NodeAdventure" ID="24" positionX="4479.67236" positionY="863.822632" width="350" height="725"><logic>
         <ModifierBlock>
           <LogicProcessing name="poisoned" list1="ppl">
@@ -177,7 +177,7 @@ A sua queda foi amortecida por uma matilha de víboras raivosas, rastejando por 
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-TOXINE" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr." ownerID="24" targetID="49" fromX="4805" fromY="372" />As serpentes se mostram ferozes demais. Elas te atacam em enxame como loucas e te forçam a recuar!
+      </logic><outputs name="Fugir." ownerID="24" targetID="49" fromX="4805" fromY="372" />As serpentes se mostram ferozes demais. Elas te atacam em enxame como loucas e te forçam a recuar!
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="27" positionX="5729.121" positionY="-950.2433" width="350" height="530" allPlayersXP="3" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
@@ -331,7 +331,7 @@ Você também fica com o estoque.</nodes>
           </LogicModifiers>
         </ModifierBlock>
       </logic><outputs name="Juntar o espólio e partir." ownerID="45" targetID="58" fromX="878" fromY="-3227" />Você encanta os ratos, e eles se afastam enquanto você pega o estoque.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="46" positionX="2011" positionY="-3071" width="350" height="725"><outputs name="Correr." ownerID="46" targetID="49" fromX="2337" fromY="-3562" />Os ratos entram em frenesi e outro enxame se junta a eles por um túnel. Você é forçado a fugir!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="46" positionX="2011" positionY="-3071" width="350" height="725"><outputs name="Fugir." ownerID="46" targetID="49" fromX="2337" fromY="-3562" />Os ratos entram em frenesi e outro enxame se junta a eles por um túnel. Você é forçado a fugir!</nodes>
     <nodes xsi:type="NodeProduceDrop" ID="48" positionX="2593.15381" positionY="-1091.47986" width="460" height="509" sourceGroup="GROUP-RATS_1P_1M_1S" cargoPercentage="100" dropPercentage="100" targetGroup="ppl">
       <outputs ownerID="48" targetID="56" group="G1" fromX="3023" fromY="-1449" />
       <outputs ownerID="48" targetID="15" group="G1" fromX="3023" fromY="-1530" />
@@ -457,7 +457,7 @@ Provavelmente é um espírito. </nodes>
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
           </LogicFilter>
         </FilterBlock>
-      </logic><outputs name="Considerar que tipo de presença espiritual é essa." ownerID="5" targetID="6" fromX="1769" fromY="394" /><outputs name="Tentar abrir caminho para fora." ownerID="5" targetID="12" group="G1" fromX="1769" fromY="314" /><outputs name="Considerar que tipo de presença espiritual é essa." ownerID="5" targetID="7" group="G1" fromX="1769" fromY="234" />Assim que você entra na casa, as portas e postigos batem com força e fecham, deixando você no escuro.
+      </logic><outputs name="Considerar que tipo de presença espiritual é essa." ownerID="5" targetID="6" fromX="1769" fromY="394" /><outputs name="Tentar abrir caminho para fora." ownerID="5" targetID="12" group="G1" fromX="1769" fromY="314" /><outputs name="Tentar abrir caminho para fora." ownerID="5" targetID="7" group="G1" fromX="1769" fromY="234" />Assim que você entra na casa, as portas e postigos batem com força e fecham, deixando você no escuro.
 
 Um rangido vem de cima.
 
@@ -637,7 +637,7 @@ Você encontra mais vários corpos de visitantes menos sortudos. </nodes>
     <nodes xsi:type="NodeDealDamage" ID="49" positionX="2369.52026" positionY="917.4973" width="460" height="459" challengeTypeDamage="TypeSpirit" minDamage="20" maxDamage="60" useCountInPercent="true" targetGroup="ppl">
       <outputs ownerID="49" targetID="16" fromX="2798" fromY="529" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="50" positionX="3566.64" positionY="961.7982" width="350" height="885"><outputs name="Ficar firme e tentar destruir a cadeira!" ownerID="50" targetID="24" group="G1" fromX="3892" fromY="470" /><outputs name="Ficar firme e tentar destruir a cadeira!" ownerID="50" targetID="25" group="G1" fromX="3892" fromY="390" /><outputs name="Ficar firme e tentar destruir a cadeira!" ownerID="50" targetID="23" fromX="3892" fromY="310" />Na luz fraca das suas tochas, você vê uma cadeira de balanço de madeira, balançando sozinha.
+    <nodes xsi:type="NodeAdventure" ID="50" positionX="3566.64" positionY="961.7982" width="350" height="885"><outputs name="Ficar firme e tentar destruir a cadeira!" ownerID="50" targetID="24" group="G1" fromX="3892" fromY="470" /><outputs name="Ficar firme e tentar destruir a cadeira!" ownerID="50" targetID="25" group="G1" fromX="3892" fromY="390" /><outputs name="Tentar abrir caminho para fora à força." ownerID="50" targetID="23" fromX="3892" fromY="310" />Na luz fraca das suas tochas, você vê uma cadeira de balanço de madeira, balançando sozinha.
 
 O ar aqui é frio e pesado.
 
@@ -764,7 +764,7 @@ Ela te encara com reprovação.</nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Dar comida a ela. " ownerID="10" targetID="32" group="G1" fromX="2949" fromY="-1492" /><outputs name="Matá-la." ownerID="10" targetID="23" fromX="2949" fromY="-1572" /><outputs name="Expulsá-la." ownerID="10" targetID="17" group="G2" fromX="2949" fromY="-1652" /><outputs name="Conversar com ela." ownerID="10" targetID="19" group="G2" fromX="2949" fromY="-1732" /><outputs name="Dar comida a ela. " ownerID="10" targetID="24" fromX="2949" fromY="-1812" />Você conclui que é um domovnik, um demônio doméstico incumbido de proteger a morada que escolheu.
+      </logic><outputs name="Dar comida a ela. " ownerID="10" targetID="32" group="G1" fromX="2949" fromY="-1492" /><outputs name="Matá-la." ownerID="10" targetID="23" fromX="2949" fromY="-1572" /><outputs name="Expulsar a criatura." ownerID="10" targetID="17" group="G2" fromX="2949" fromY="-1652" /><outputs name="Expulsar a criatura." ownerID="10" targetID="19" group="G2" fromX="2949" fromY="-1732" /><outputs name="Conversar com ela." ownerID="10" targetID="24" fromX="2949" fromY="-1812" />Você conclui que é um domovnik, um demônio doméstico incumbido de proteger a morada que escolheu.
 
 Esse claramente está indo além do dever.
 
@@ -817,7 +817,7 @@ Mesmo assim, a casa tem coisas úteis para levar.
     <nodes xsi:type="NodeDealDamage" ID="23" positionX="3609.8186" positionY="-1143.33228" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="3" maxDamage="4" useCountInPercent="false" targetGroup="ppl">
       <outputs ownerID="23" targetID="21" fromX="4039" fromY="-1531" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="24" positionX="2507.47729" positionY="655.1842" width="350" height="966"><outputs name="Limpar a bagunça que vocês fizeram." ownerID="24" targetID="25" fromX="2833" fromY="164" /><outputs name="Matá-la." ownerID="24" targetID="23" fromX="2833" fromY="83" /><outputs name="Tentar convencê-la de que o dono se foi há muito tempo." ownerID="24" targetID="53" group="G2" fromX="2833" fromY="3" /><outputs name="Limpar a bagunça que vocês fizeram." ownerID="24" targetID="56" group="G2" fromX="2833" fromY="-76" />'Vocês fazem bagunça, fazem tanta bagunça! Os donos voltam, eles voltam...'
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="2507.47729" positionY="655.1842" width="350" height="966"><outputs name="Limpar a bagunça que vocês fizeram." ownerID="24" targetID="25" fromX="2833" fromY="164" /><outputs name="Matá-la." ownerID="24" targetID="23" fromX="2833" fromY="83" /><outputs name="Tentar convencê-la de que o dono se foi há muito tempo." ownerID="24" targetID="53" group="G2" fromX="2833" fromY="3" /><outputs name="Tentar convencê-la de que o dono se foi há muito tempo." ownerID="24" targetID="56" group="G2" fromX="2833" fromY="-76" />'Vocês fazem bagunça, fazem tanta bagunça! Os donos voltam, eles voltam...'
 
 A criatura repete a frase, uma e outra vez. Você teme que a cabecinha dela tenha se ido. </nodes>
     <nodes xsi:type="NodeAdventure" ID="25" positionX="3049.2207" positionY="1364.71838" width="350" height="725" image="Event234"><logic>
@@ -917,7 +917,7 @@ Depois de sair, você acha um pacotinho na mochila.</nodes>
             <scriptCallWithTag scriptName="FRA_Chance" parameter="35" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Reconhecer o recôndito para garantir que está seguro." ownerID="37" targetID="38" fromX="-4244" fromY="-457" /><outputs name="Chegar mais perto para ver se os restos guardam algo de valor. " ownerID="37" targetID="40" group="G1" fromX="-4244" fromY="-537" /><outputs name="Reconhecer o recôndito para garantir que está seguro." ownerID="37" targetID="61" group="G1" fromX="-4244" fromY="-617" />Dentro do que parece ser os restos de uma cozinha, com um velho fogão de pedra no centro, você vê panelas e frigideiras quebradas, uma despensa apodrecida há muito e os restos esqueléticos de vários humanoides que claramente morreram presos aqui.</nodes>
+      </logic><outputs name="Reconhecer o recôndito para garantir que está seguro." ownerID="37" targetID="38" fromX="-4244" fromY="-457" /><outputs name="Chegar mais perto para ver se os restos guardam algo de valor. " ownerID="37" targetID="40" group="G1" fromX="-4244" fromY="-537" /><outputs name="Chegar mais perto para ver se os restos guardam algo de valor. " ownerID="37" targetID="61" group="G1" fromX="-4244" fromY="-617" />Dentro do que parece ser os restos de uma cozinha, com um velho fogão de pedra no centro, você vê panelas e frigideiras quebradas, uma despensa apodrecida há muito e os restos esqueléticos de vários humanoides que claramente morreram presos aqui.</nodes>
     <nodes xsi:type="NodeAdventure" ID="38" positionX="-4053.49683" positionY="327.765564" width="350" height="966"><logic>
         <FilterBlock>
           <LogicFilter name="perception">
@@ -927,7 +927,7 @@ Depois de sair, você acha um pacotinho na mochila.</nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Como sábio, você conhece muitas criaturas. Tenta descobrir o que é isso." ownerID="38" targetID="39" fromX="-3727" fromY="-163" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="38" targetID="41" group="G1" fromX="-3727" fromY="-243" /><outputs name="Simplesmente sair da história. " ownerID="38" targetID="61" group="G1" fromX="-3727" fromY="-323" /><outputs name="Como sábio, você conhece muitas criaturas. Tenta descobrir o que é isso." ownerID="38" targetID="51" fromX="-3727" fromY="-403" />No canto mais escuro da câmara espreita uma criatura, com os olhos grandes e redondos cintilando no escuro. Você avista uma das pernas dela, de pelo lanudo e garras compridas e retorcidas. Você também ouve um ronronar baixo.
+      </logic><outputs name="Como sábio, você conhece muitas criaturas. Tenta descobrir o que é isso." ownerID="38" targetID="39" fromX="-3727" fromY="-163" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="38" targetID="41" group="G1" fromX="-3727" fromY="-243" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="38" targetID="61" group="G1" fromX="-3727" fromY="-323" /><outputs name="Só sair da história. " ownerID="38" targetID="51" fromX="-3727" fromY="-403" />No canto mais escuro da câmara espreita uma criatura, com os olhos grandes e redondos cintilando no escuro. Você avista uma das pernas dela, de pelo lanudo e garras compridas e retorcidas. Você também ouve um ronronar baixo.
 
 Ela está claramente te observando. </nodes>
     <nodes xsi:type="NodeAdventure" ID="39" positionX="-3961.98" positionY="-697.4258" width="350" height="1046" image="Event254"><logic>
@@ -945,7 +945,7 @@ Ela está claramente te observando. </nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="[Demônio comum]Tenta conversar com ela para mostrar que você não quer feri-la e que agora é seguro partir." ownerID="39" targetID="43" fromX="-3636" fromY="-1188" /><outputs name="[Usuário de magia] Realizar um ritual para apaziguar a alma perturbada deste demônio. " ownerID="39" targetID="42" fromX="-3636" fromY="-1268" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="39" targetID="41" group="G1" fromX="-3636" fromY="-1348" /><outputs name="Simplesmente sair da história. " ownerID="39" targetID="61" group="G1" fromX="-3636" fromY="-1429" /><outputs name="[Demônio comum]Tenta conversar com ela para mostrar que você não quer feri-la e que agora é seguro partir." ownerID="39" targetID="51" fromX="-3636" fromY="-1509" />Quanto mais você olha a criatura, mais acha que é um simples mrucek, um demônio doméstico inofensivo que ficou selvagem depois de ficar preso aqui com os donos mortos dele.</nodes>
+      </logic><outputs name="[Demônio comum]Tenta conversar com ela para mostrar que você não quer feri-la e que agora é seguro partir." ownerID="39" targetID="43" fromX="-3636" fromY="-1188" /><outputs name="[Usuário de magia] Realizar um ritual para apaziguar a alma perturbada deste demônio. " ownerID="39" targetID="42" fromX="-3636" fromY="-1268" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="39" targetID="41" group="G1" fromX="-3636" fromY="-1348" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="39" targetID="61" group="G1" fromX="-3636" fromY="-1429" /><outputs name="Só sair da história. " ownerID="39" targetID="51" fromX="-3636" fromY="-1509" />Quanto mais você olha a criatura, mais acha que é um simples mrucek, um demônio doméstico inofensivo que ficou selvagem depois de ficar preso aqui com os donos mortos dele.</nodes>
     <nodes xsi:type="NodeAdventure" ID="40" positionX="-3393.26733" positionY="-633.267334" width="350" height="725" image="Event254"><logic>
         <FilterBlock>
           <LogicResultAction>
@@ -1214,7 +1214,7 @@ Mas ele deixa você levar o que precisa da casa. </nodes>
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" />
           </LogicFilter>
         </FilterBlock>
-      </logic><outputs name="Chamar para ver se tem alguém em casa." ownerID="2" targetID="4" group="G1" fromX="769" fromY="-322" /><outputs name="Aproximar-se de fininho para investigar." ownerID="2" targetID="6" group="G1" fromX="769" fromY="-402" /><outputs name="Sair da história." ownerID="2" targetID="5" group="G2" fromX="769" fromY="-483" /><outputs name="Chamar para ver se tem alguém em casa." ownerID="2" targetID="3" fromX="769" fromY="-563" />Você se depara com uma velha cabana no mato. À primeira vista parece bem desfalcada, mas você vê fumaça saindo da chaminé. </nodes>
+      </logic><outputs name="Chamar para ver se tem alguém em casa." ownerID="2" targetID="4" group="G1" fromX="769" fromY="-322" /><outputs name="Chamar para ver se tem alguém em casa." ownerID="2" targetID="6" group="G1" fromX="769" fromY="-402" /><outputs name="Aproximar-se de fininho para investigar." ownerID="2" targetID="5" group="G2" fromX="769" fromY="-483" /><outputs name="Sair da história." ownerID="2" targetID="3" fromX="769" fromY="-563" />Você se depara com uma velha cabana no mato. À primeira vista parece bem desfalcada, mas você vê fumaça saindo da chaminé. </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="926.334656" positionY="-536.1101" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="4" positionX="877.876953" positionY="427.091919" width="350" height="885"><logic>
         <FilterBlock>
@@ -1237,8 +1237,8 @@ Mas ele deixa você levar o que precisa da casa. </nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="É uma bruxa. Matá-la." ownerID="5" targetID="10" group="G1" fromX="1797" fromY="-1652" /><outputs name="[Bruxa]Entrar para conversar, mas avisá-la para não tentar nenhuma esperteza." ownerID="5" targetID="42" group="G1" fromX="1797" fromY="-1732" /><outputs name="Bater na porta." ownerID="5" targetID="43" fromX="1797" fromY="-1812" /><outputs name="É uma bruxa. Matá-la." ownerID="5" targetID="6" fromX="1797" fromY="-1892" />Dentro da cabana, você vê uma velhinha curvada sobre o fogão. O recôndito tem muitas ervas secas, líquidos estranhos em frascos, joelhos de galinha, pés de galinha e todo tipo de ingrediente parecido.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="6" positionX="-110" positionY="-747" width="350" height="966" image="Event092"><outputs name="É uma bruxa. Matá-la." ownerID="6" targetID="10" group="G1" fromX="215" fromY="-1238" /><outputs name="Entrar e falar com ela." ownerID="6" targetID="42" group="G1" fromX="215" fromY="-1318" /><outputs name="[Bruxa]Entrar para conversar, mas avisá-la para não tentar nenhuma esperteza." ownerID="6" targetID="14" fromX="215" fromY="-1398" /><outputs name="É uma bruxa. Matá-la." ownerID="6" targetID="43" fromX="215" fromY="-1478" />Uma velha de capuz atende à porta e faz sinal para você entrar. Depois volta à cadeira de balanço dela, senta e diz:
+      </logic><outputs name="É uma bruxa. Matá-la." ownerID="5" targetID="10" group="G1" fromX="1797" fromY="-1652" /><outputs name="É uma bruxa. Matá-la." ownerID="5" targetID="42" group="G1" fromX="1797" fromY="-1732" /><outputs name="[Bruxa]Entrar para conversar, mas avisá-la para não tentar nenhuma esperteza." ownerID="5" targetID="43" fromX="1797" fromY="-1812" /><outputs name="Bater na porta." ownerID="5" targetID="6" fromX="1797" fromY="-1892" />Dentro da cabana, você vê uma velhinha curvada sobre o fogão. O recôndito tem muitas ervas secas, líquidos estranhos em frascos, joelhos de galinha, pés de galinha e todo tipo de ingrediente parecido.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="-110" positionY="-747" width="350" height="966" image="Event092"><outputs name="É uma bruxa. Matá-la." ownerID="6" targetID="10" group="G1" fromX="215" fromY="-1238" /><outputs name="É uma bruxa. Matá-la." ownerID="6" targetID="42" group="G1" fromX="215" fromY="-1318" /><outputs name="Entrar e falar com ela." ownerID="6" targetID="14" fromX="215" fromY="-1398" /><outputs name="[Bruxa]Entrar para conversar, mas avisá-la para não tentar nenhuma esperteza." ownerID="6" targetID="43" fromX="215" fromY="-1478" />Uma velha de capuz atende à porta e faz sinal para você entrar. Depois volta à cadeira de balanço dela, senta e diz:
 
 'Entrem, entrem, forasteiros. Posso oferecer comida quente? Doces? Ou quem sabe uma negociação?'
 </nodes>
@@ -1380,7 +1380,7 @@ Você espera o resto do ritual, mas ela só ri:
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="22" positionX="555.6033" positionY="-3668.92822" width="350" height="885"><outputs name="Agradecer o conselho e partir." ownerID="22" targetID="58" fromX="881" fromY="-4160" /><outputs name="Matá-la!" ownerID="22" targetID="10" group="G1" fromX="881" fromY="-4240" /><outputs name="Agradecer o conselho e partir." ownerID="22" targetID="42" group="G1" fromX="881" fromY="-4320" />A velha conta muitas histórias divertidas para você. Termina com:
+    <nodes xsi:type="NodeAdventure" ID="22" positionX="555.6033" positionY="-3668.92822" width="350" height="885"><outputs name="Agradecer o conselho e partir." ownerID="22" targetID="58" fromX="881" fromY="-4160" /><outputs name="Matá-la!" ownerID="22" targetID="10" group="G1" fromX="881" fromY="-4240" /><outputs name="Matá-la!" ownerID="22" targetID="42" group="G1" fromX="881" fromY="-4320" />A velha conta muitas histórias divertidas para você. Termina com:
 
 'E agora você sabe: na vida, as coisas mais preciosas são água quente, dentes bons e um travesseiro macio para a bunda velha sentar.'
 
@@ -1875,7 +1875,7 @@ Você encontra os restos de outras vítimas presas nas teias.</nodes>
             <scriptCallWithTag scriptName="FRA_Chance" parameter="50" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Subir e tentar saquear o ninho antes que o dono volte." ownerID="20" targetID="22" group="G1" fromX="1896" fromY="-1115" /><outputs name="Subir e tentar saquear o ninho antes que o dono volte." ownerID="20" targetID="24" group="G1" fromX="1896" fromY="-1195" /><outputs name="O telhado e a velha chaminé são frágeis. Derrubar o ninho com balanços." ownerID="20" targetID="26" group="G2" fromX="1896" fromY="-1275" /><outputs name="Subir e tentar saquear o ninho antes que o dono volte." ownerID="20" targetID="27" group="G2" fromX="1896" fromY="-1356" /><outputs name="Corvos gigantes são perigosos. Sair da história." ownerID="20" targetID="75" fromX="1896" fromY="-1436" /><outputs name="[Corvo]Voar e saquear o ninho. " ownerID="20" targetID="61" fromX="1896" fromY="-1516" />Você olha pela cabana desolada, mas não acha nada útil, exceto um grande ninho de corvo pendurado no que um dia foi a chaminé. 
+      </logic><outputs name="Subir e tentar saquear o ninho antes que o dono volte." ownerID="20" targetID="22" group="G1" fromX="1896" fromY="-1115" /><outputs name="Subir e tentar saquear o ninho antes que o dono volte." ownerID="20" targetID="24" group="G1" fromX="1896" fromY="-1195" /><outputs name="O telhado e a velha chaminé são frágeis. Derrubar o ninho com balanços." ownerID="20" targetID="26" group="G2" fromX="1896" fromY="-1275" /><outputs name="O telhado e a velha chaminé são frágeis. Derrubar o ninho com balanços." ownerID="20" targetID="27" group="G2" fromX="1896" fromY="-1356" /><outputs name="Corvos gigantes são perigosos. Sair da história." ownerID="20" targetID="75" fromX="1896" fromY="-1436" /><outputs name="[Corvo]Voar e saquear o ninho. " ownerID="20" targetID="61" fromX="1896" fromY="-1516" />Você olha pela cabana desolada, mas não acha nada útil, exceto um grande ninho de corvo pendurado no que um dia foi a chaminé. 
 
 Corvos gigantes são perigosos, mas são conhecidos por colecionar troféus das vítimas deles no ninho.</nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="2832.70361" positionY="-1270.34851" width="350" height="805"><logic>
@@ -1884,7 +1884,7 @@ Corvos gigantes são perigosos, mas são conhecidos por colecionar troféus das 
             <scriptCallWithTag scriptName="FRA_Chance" parameter="65" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Lutar!" ownerID="22" targetID="23" fromX="3158" fromY="-1761" /><outputs name="Correr!" ownerID="22" targetID="60" fromX="3158" fromY="-1841" />Você sobe e estende a mão para um estoque de bens quando um guincho ensurdecedor te atinge, e você vê penas negras e garras em queda livre na sua direção!</nodes>
+      </logic><outputs name="Lutar!" ownerID="22" targetID="23" fromX="3158" fromY="-1761" /><outputs name="Fugir!" ownerID="22" targetID="60" fromX="3158" fromY="-1841" />Você sobe e estende a mão para um estoque de bens quando um guincho ensurdecedor te atinge, e você vê penas negras e garras em queda livre na sua direção!</nodes>
     <nodes xsi:type="NodeChallenge" ID="23" positionX="3270.08447" positionY="-1252.416" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-CROW_2P_2M_2S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="23" targetID="71" fromX="3711" fromY="-1747" />
       <outputs name="Lose" ownerID="23" targetID="62" fromX="3711" fromY="-1828" />
@@ -1923,7 +1923,7 @@ Corvos gigantes são perigosos, mas são conhecidos por colecionar troféus das 
             <scriptCallWithTag scriptName="FRA_Chance" parameter="65" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Lutar!" ownerID="26" targetID="56" fromX="2465" fromY="-2621" /><outputs name="Correr!" ownerID="26" targetID="60" fromX="2465" fromY="-2701" />Você derruba o ninho sem problema, mas, no instante em que vai saqueá-lo, um guincho ensurdecedor te atinge, e você vê penas negras e garras em queda livre na sua direção!</nodes>
+      </logic><outputs name="Lutar!" ownerID="26" targetID="56" fromX="2465" fromY="-2621" /><outputs name="Fugir!" ownerID="26" targetID="60" fromX="2465" fromY="-2701" />Você derruba o ninho sem problema, mas, no instante em que vai saqueá-lo, um guincho ensurdecedor te atinge, e você vê penas negras e garras em queda livre na sua direção!</nodes>
     <nodes xsi:type="NodeAdventure" ID="27" positionX="1677.93274" positionY="-2279.22778" width="350" height="805"><outputs name="Contemplar a morte sem sentido dos filhotes de corvo. " ownerID="27" targetID="30" group="G1" fromX="2003" fromY="-2770" /><outputs name="Juntar o estoque e partir." ownerID="27" targetID="72" group="G1" fromX="2003" fromY="-2850" />Você derruba o ninho sem problema e encontra um estoque de bens escondido entre os filhotes de corvo agora mortos. </nodes>
     <nodes xsi:type="NodeAdventure" ID="30" positionX="2257.24585" positionY="-3021.719" width="350" height="725"><logic>
         <FilterBlock>
@@ -1945,7 +1945,7 @@ Corvos gigantes são perigosos, mas são conhecidos por colecionar troféus das 
       </logic><outputs name="Juntar o espólio com vergonha e partir." ownerID="30" targetID="72" fromX="2582" fromY="-3512" />Você sente que a destruição do ninho não estava em linha com a natureza nem com o caminho da harmonia. 
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="38" positionX="677.0791" positionY="-582.7712" width="350" height="530" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventure" ID="39" positionX="1196.08826" positionY="-1080.89185" width="350" height="1046" image="Event016"><outputs name="Atacar!" ownerID="39" targetID="40" fromX="1521" fromY="-1572" /><outputs name="Correr!" ownerID="39" targetID="44" group="G1" fromX="1521" fromY="-1652" /><outputs name="Atacar!" ownerID="39" targetID="75" group="G1" fromX="1521" fromY="-1732" /><outputs name="[Demônios da Noite]Elogiar a escolha da refeição deles e perguntar se têm algo para trocar." ownerID="39" targetID="63" fromX="1521" fromY="-1812" /><outputs name="[Mortos-Vivos]Avisar que você não tem valor nutritivo e pedir licença para sair da mesa." ownerID="39" targetID="65" fromX="1521" fromY="-1892" />Você interrompe um bando de brutamontes apreciando um belo pedaço de perna humanoide junto à fogueira.
+    <nodes xsi:type="NodeAdventure" ID="39" positionX="1196.08826" positionY="-1080.89185" width="350" height="1046" image="Event016"><outputs name="Atacar!" ownerID="39" targetID="40" fromX="1521" fromY="-1572" /><outputs name="Fugir!" ownerID="39" targetID="44" group="G1" fromX="1521" fromY="-1652" /><outputs name="Fugir!" ownerID="39" targetID="75" group="G1" fromX="1521" fromY="-1732" /><outputs name="[Demônios da Noite]Elogiar a escolha da refeição deles e perguntar se têm algo para trocar." ownerID="39" targetID="63" fromX="1521" fromY="-1812" /><outputs name="[Mortos-Vivos]Avisar que você não tem valor nutritivo e pedir licença para sair da mesa." ownerID="39" targetID="65" fromX="1521" fromY="-1892" />Você interrompe um bando de brutamontes apreciando um belo pedaço de perna humanoide junto à fogueira.
 
 Os olhos famintos deles se voltam para você, e eles se erguem, com as armas em riste. 
 </nodes>

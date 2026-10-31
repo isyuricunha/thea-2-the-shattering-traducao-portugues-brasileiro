@@ -152,7 +152,7 @@ Aparelhem comigo, e não vão se arrepender.'
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" parameter="1" tag="TAG-SHIP" />
           </LogicFilter>
         </FilterBlock>
-      </logic><outputs name="[Matriarca Orc]Ordenar que obedeçam à sua autoridade!" ownerID="24" targetID="25" group="G2" fromX="843" fromY="-239" /><outputs name="[Matriarca Orc]Ordenar que obedeçam à sua autoridade!" ownerID="24" targetID="26" group="G2" fromX="843" fromY="-319" /><outputs name="[Orc]Rosnar um grito de guerra e investir!" ownerID="24" targetID="41" group="G4" fromX="843" fromY="-399" /><outputs name="Lutar!" ownerID="24" targetID="3" group="G4" fromX="843" fromY="-479" /><outputs name="[Orc]Rosnar um grito de guerra e investir!" ownerID="24" targetID="27" fromX="843" fromY="-560" /><outputs name="[Zorya]Em nome de Zorya, exigir respeito!" ownerID="24" targetID="4" fromX="843" fromY="-640" /><outputs name="Tentar parlamentar com eles." ownerID="24" targetID="6" fromX="843" fromY="-720" /><outputs name="Largar alguns sacos e fugir. " ownerID="24" targetID="29" group="G3" fromX="843" fromY="-800" /><outputs name="Fugir!" ownerID="24" targetID="9" group="G3" fromX="843" fromY="-880" />Vocês são armados em emboscada por bandidos orcs!
+      </logic><outputs name="[Matriarca Orc]Ordenar que obedeçam à sua autoridade!" ownerID="24" targetID="25" group="G2" fromX="843" fromY="-239" /><outputs name="[Matriarca Orc]Ordenar que obedeçam à sua autoridade!" ownerID="24" targetID="26" group="G2" fromX="843" fromY="-319" /><outputs name="[Orc]Rosnar um grito de guerra e investir!" ownerID="24" targetID="41" group="G4" fromX="843" fromY="-399" /><outputs name="Lutar!" ownerID="24" targetID="3" group="G4" fromX="843" fromY="-479" /><outputs name="[Orc]Rosnar um grito de guerra e investir!" ownerID="24" targetID="27" fromX="843" fromY="-560" /><outputs name="Tentar parlamentar com eles." ownerID="24" targetID="4" fromX="843" fromY="-640" /><outputs name="Largar alguns sacos e fugir. " ownerID="24" targetID="6" fromX="843" fromY="-720" /><outputs name="Fugir!" ownerID="24" targetID="29" group="G3" fromX="843" fromY="-800" /><outputs name="Fugir!" ownerID="24" targetID="9" group="G3" fromX="843" fromY="-880" />Vocês são armados em emboscada por bandidos orcs!
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="25" positionX="-797.8079" positionY="-446.649841" width="350" height="725"><logic>
         <FilterBlock>
@@ -874,7 +874,7 @@ Os escravistas ficam agitados de empolgação enquanto ameaçam você, e você t
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-MAROVIT" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="[Usuário de Magia]Falar mais uma vez do poder de Marovit, do domínio dele sobre a magia, do poder dele sobre os pesadelos e o mundo dos espíritos." ownerID="12" targetID="24" group="G1" fromX="956" fromY="-1469" /><outputs name="[Orc]Rosnar para eles e dizer que, se não respeitarem Marovit, vão comer as entranhas verdes deles." ownerID="12" targetID="25" group="G1" fromX="956" fromY="-1549" /><outputs name="[Orc]Rosnar para eles e dizer que, se não respeitarem Marovit, você vai fazê-los comer as próprias entranhas verdes deles." ownerID="12" targetID="26" group="G1" fromX="956" fromY="-1629" /><outputs name="Concordar em entregar uma parte das coisas de vocês. " ownerID="12" targetID="29" group="G1" fromX="956" fromY="-1710" /><outputs name="Concordar em entregar uma parte das coisas de vocês. " ownerID="12" targetID="3" fromX="956" fromY="-1790" /><outputs name="Tentar convencê-los a desistir." ownerID="12" targetID="7" fromX="956" fromY="-1870" />'Bah, por que nos importar com os deuses de vocês? Mesmo que sejam gobbos, não nos incomodamos.
+      </logic><outputs name="[Usuário de Magia]Falar mais uma vez do poder de Marovit, do domínio dele sobre a magia, do poder dele sobre os pesadelos e o mundo dos espíritos." ownerID="12" targetID="24" group="G1" fromX="956" fromY="-1469" /><outputs name="[Orc]Rosnar para eles e dizer que, se não respeitarem Marovit, vão comer as entranhas verdes deles." ownerID="12" targetID="25" group="G1" fromX="956" fromY="-1549" /><outputs name="[Orc]Rosnar para eles e dizer que, se não respeitarem Marovit, você vai fazê-los comer as próprias entranhas verdes deles." ownerID="12" targetID="26" group="G1" fromX="956" fromY="-1629" /><outputs name="Concordar em entregar uma parte das coisas de vocês. " ownerID="12" targetID="29" group="G1" fromX="956" fromY="-1710" /><outputs name="Lutar!" ownerID="12" targetID="3" fromX="956" fromY="-1790" /><outputs name="Tentar convencê-los a desistir." ownerID="12" targetID="7" fromX="956" fromY="-1870" />'Bah, por que nos importar com os deuses de vocês? Mesmo que sejam gobbos, não nos incomodamos.
 
 Agora paguem ou apanhem!'
     </nodes>
@@ -930,7 +930,7 @@ Eles partem, mas você percebe tarde demais que assaltaram vocês enquanto você
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="16" positionX="2762.91943" positionY="370.547546" width="350" height="805"><outputs name=" Um javali decide ficar com você. " ownerID="16" targetID="40" group="G1" fromX="3088" fromY="-120" /><outputs name="Sair da história." ownerID="16" targetID="18" group="G1" fromX="3088" fromY="-200" />Vocês matam os bandidos e ficam livres para saquear os corpos deles.
+    <nodes xsi:type="NodeAdventure" ID="16" positionX="2762.91943" positionY="370.547546" width="350" height="805"><outputs name="Um javali decide ficar com você. " ownerID="16" targetID="40" group="G1" fromX="3088" fromY="-120" /><outputs name="Sair da história." ownerID="16" targetID="18" group="G1" fromX="3088" fromY="-200" />Vocês matam os bandidos e ficam livres para saquear os corpos deles.
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="17" positionX="3473.58057" positionY="-602.020935" width="350" height="725"><logic>
         <ModifierBlock>
@@ -1041,7 +1041,7 @@ A gente vai só partir...'
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-ILLNESS" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Concordar em entregar umas coisas à escolha de vocês.  " ownerID="27" targetID="34" fromX="2138" fromY="-3356" /><outputs name="Concordar em perder 10% da comida." ownerID="27" targetID="38" fromX="2138" fromY="-3436" /><outputs name="Concordar em entregar umas coisas à escolha de vocês.  " ownerID="27" targetID="32" fromX="2138" fromY="-3516" />'Bah, você fala bem demais. O código de bandido nosso não deixa a gente simplesmente partir, mas, se derem um pouco da comida de vocês, ou coisas à escolha, a gente vai e não incomoda mais.'
+      </logic><outputs name="Concordar em entregar umas coisas à escolha de vocês.  " ownerID="27" targetID="34" fromX="2138" fromY="-3356" /><outputs name="Concordar em perder 10% da comida." ownerID="27" targetID="38" fromX="2138" fromY="-3436" /><outputs name="Usar esta distração como chance de atacar!" ownerID="27" targetID="32" fromX="2138" fromY="-3516" />'Bah, você fala bem demais. O código de bandido nosso não deixa a gente simplesmente partir, mas, se derem um pouco da comida de vocês, ou coisas à escolha, a gente vai e não incomoda mais.'
 
 Dividam comida e bebida para marcar esta trégua.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="28" positionX="1839.95081" positionY="-2266.67725" width="350" height="530" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0">
@@ -1082,7 +1082,7 @@ Dividam comida e bebida para marcar esta trégua.</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="31" positionX="1662" positionY="-384" width="350" height="885"><outputs name="Perder um pouco de equipamento." ownerID="31" targetID="30" fromX="1987" fromY="-875" /><outputs name="Voltar a negociar." ownerID="31" targetID="29" fromX="1987" fromY="-955" /><outputs name="Perder um pouco de equipamento." ownerID="31" targetID="3" fromX="1987" fromY="-1035" />'Quê? Mudaram de ideia, hein? A gente vai só pegar o que gostarmos, então!'
+    <nodes xsi:type="NodeAdventure" ID="31" positionX="1662" positionY="-384" width="350" height="885"><outputs name="Perder um pouco de equipamento." ownerID="31" targetID="30" fromX="1987" fromY="-875" /><outputs name="Voltar a negociar." ownerID="31" targetID="29" fromX="1987" fromY="-955" /><outputs name="Lutar!" ownerID="31" targetID="3" fromX="1987" fromY="-1035" />'Quê? Mudaram de ideia, hein? A gente vai só pegar o que gostarmos, então!'
     </nodes>
     <nodes xsi:type="NodeChallenge" ID="32" positionX="2827.6438" positionY="-625.130432" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-GOBS_2P_4M_3S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="32" targetID="16" fromX="3268" fromY="-1120" />
@@ -1445,7 +1445,8 @@ Os anões também deixam um presente pequeno em agradecimento.</nodes>
       </logic><outputs name="Dizer que Svarog é o deus dos fogos e da luz, não um humano." ownerID="34" targetID="35" fromX="2670" fromY="-999" /><outputs name="Dizer que vai dar um pouco de comida a eles." ownerID="34" targetID="36" fromX="2670" fromY="-1079" /><outputs name="Fazer que sim e partir." ownerID="34" targetID="14" fromX="2670" fromY="-1159" />'Aí, eu vejo a marca do grande ferreiro em você. Caramba. Preferimos comer terra do que desonrar um humano que manja de ferreiragem.'
 
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="35" positionX="2773.74829" positionY="89.51063" width="350" height="805"><outputs name="Dizer que vai dar um pouco de comida a eles." ownerID="35" targetID="36" fromX="3099" fromY="-401" /><outputs name="Fazer que sim e partir." ownerID="35" targetID="14" fromX="3099" fromY="-481" />'Oi, não se embrulhe nisso; a história conta que ele já foi humano, é só o que eu digo.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="35" positionX="2773.74829" positionY="89.51063" width="350" height="805"><outputs name="Dizer que vai dar um pouco de comida a eles." ownerID="35" targetID="36" fromX="3099" fromY="-401" /><outputs name="Fazer que sim e partir." ownerID="35" targetID="14" fromX="3099" fromY="-481" />'Oi, não se embrulhe nisso; a história conta que ele já foi humano, é só o que eu digo.
+</nodes>
     <nodes xsi:type="NodeAdventure" ID="36" positionX="3171.767" positionY="120.401688" width="350" height="805"><logic>
         <FilterBlock>
           <LogicResultAction list="food">
@@ -1588,7 +1589,7 @@ A comida, agora!'</nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Insistir que isto não é o caminho da harmonia nem a senda da luz e da natureza, nada disso, que eles deviam respeitar!" ownerID="4" targetID="24" fromX="565" fromY="805" /><outputs name=" Desprezá-los por perderem honra e alma pela ganância. " ownerID="4" targetID="26" fromX="565" fromY="725" /><outputs name="Concordar em dar um pouco de comida, mas nada mais. " ownerID="4" targetID="33" fromX="565" fromY="645" /><outputs name="Usar esta oportunidade para tentar fazer eles entrarem em razão." ownerID="4" targetID="18" fromX="565" fromY="565" /><outputs name="Atacar!" ownerID="4" targetID="3" fromX="565" fromY="484" />'Este mundo despedaçou muitas leis ancestrais. A madeira nossa foi maculada pela praga humana, queimada, colhida e deixada em trapos. 
+      </logic><outputs name="Insistir que isto não é o caminho da harmonia nem a senda da luz e da natureza, nada disso, que eles deviam respeitar!" ownerID="4" targetID="24" fromX="565" fromY="805" /><outputs name="Desprezá-los por perderem honra e alma pela ganância. " ownerID="4" targetID="26" fromX="565" fromY="725" /><outputs name="Concordar em dar um pouco de comida, mas nada mais. " ownerID="4" targetID="33" fromX="565" fromY="645" /><outputs name="Usar esta oportunidade para tentar fazer eles entrarem em razão." ownerID="4" targetID="18" fromX="565" fromY="565" /><outputs name="Atacar!" ownerID="4" targetID="3" fromX="565" fromY="484" />'Este mundo despedaçou muitas leis ancestrais. A madeira nossa foi maculada pela praga humana, queimada, colhida e deixada em trapos. 
 
 Agora levamos o que desejamos dos fracos. É... revigorante.'</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="1177" positionY="-1889" width="350" height="530" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0">
@@ -1687,7 +1688,7 @@ Os elfos desaparecem nas matas, e você percebe que assaltaram vocês limpo!</no
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_NATURE" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Dizer que é hora de voltar à senda certa." ownerID="24" targetID="25" fromX="1031" fromY="1434" /><outputs name=" Desprezá-los por perderem honra e alma pela ganância. " ownerID="24" targetID="26" fromX="1031" fromY="1354" /><outputs name="Atacar!" ownerID="24" targetID="3" fromX="1031" fromY="1274" />'Vergonha de vocês. Para as divindades crianças nos olharem de cima com desprezo tão justo... Isto dói.
+      </logic><outputs name="Dizer que é hora de voltar à senda certa." ownerID="24" targetID="25" fromX="1031" fromY="1434" /><outputs name="Desprezá-los por perderem honra e alma pela ganância. " ownerID="24" targetID="26" fromX="1031" fromY="1354" /><outputs name="Atacar!" ownerID="24" targetID="3" fromX="1031" fromY="1274" />'Vergonha de vocês. Para as divindades crianças nos olharem de cima com desprezo tão justo... Isto dói.
 
 Vocês não quebraram as leis nossas, não invadiram a terra sagrada nossa, e ainda assim buscamos violência como orcs comuns.'</nodes>
     <nodes xsi:type="NodeChallenge" ID="25" positionX="1219.7666" positionY="2186.06177" width="500" height="807" challengeType="TypeMental" versusGroup="GROUP-ELVES_6P_6M_5S" challengeScale="101" challengedList="ppl">
@@ -1737,7 +1738,7 @@ Vocês não quebraram as leis nossas, não invadiram a terra sagrada nossa, e ai
             <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="3" tag="TAG-LOYALTY_WOODLAND_KIN" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name=" Despedir-se deles. " ownerID="29" targetID="30" group="G1" fromX="2176" fromY="1743" /><outputs name=" Despedir-se deles. " ownerID="29" targetID="31" group="G1" fromX="2176" fromY="1662" />'Agradecemos a vocês, irmãos, porque restauraram a harmonia nas almas perdidas nossas. 
+      </logic><outputs name="Despedir-se deles. " ownerID="29" targetID="30" group="G1" fromX="2176" fromY="1743" /><outputs name="Despedir-se deles. " ownerID="29" targetID="31" group="G1" fromX="2176" fromY="1662" />'Agradecemos a vocês, irmãos, porque restauraram a harmonia nas almas perdidas nossas. 
 
 Agora precisamos achar o caminho de volta à luz. Que a graça do panteão de vocês desça sobre você.'
 
@@ -1837,7 +1838,7 @@ Os elfos deixam um presente para vocês e partem.</nodes>
             <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="3" tag="TAG-LOYALTY_WOODLAND_KIN" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name=" Despedir-se deles. " ownerID="36" targetID="30" group="G1" fromX="2096" fromY="2690" /><outputs name=" Despedir-se deles. " ownerID="36" targetID="31" group="G1" fromX="2096" fromY="2609" />'A beleza sua apaziguou as almas nossas e nos lembrou da tolice dos jeitos nossos; esta vida pode ser fugaz e cheia de desespero, mas flores delicadas assim resistem e florescem na terra. Agradecemos.'
+      </logic><outputs name="Despedir-se deles. " ownerID="36" targetID="30" group="G1" fromX="2096" fromY="2690" /><outputs name="Despedir-se deles. " ownerID="36" targetID="31" group="G1" fromX="2096" fromY="2609" />'A beleza sua apaziguou as almas nossas e nos lembrou da tolice dos jeitos nossos; esta vida pode ser fugaz e cheia de desespero, mas flores delicadas assim resistem e florescem na terra. Agradecemos.'
 
 Os elfos deixam um presente para vocês e partem.</nodes>
     <nodes xsi:type="NodeChallenge" ID="37" positionX="1602" positionY="-340" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-LOTS_ELVES_8P_8M_7S" challengeScale="101" challengedList="ppl">
@@ -2295,7 +2296,7 @@ As strigas desaparecem na noite, e você sente a bênção do senhor da noite so
             <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="5" tag="TAG-LOYALTY_NIGHT_DEMONS" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Concordar." ownerID="24" targetID="27" group="G1" fromX="3700" fromY="-1099" /><outputs name="Concordar." ownerID="24" targetID="25" group="G1" fromX="3700" fromY="-1179" /><outputs name=" Recusar e mandá-lo partir. " ownerID="24" targetID="29" fromX="3700" fromY="-1259" />'Que poder cru e bestial nas palavras suas. Que beleza em cada movimento seu.
+      </logic><outputs name="Concordar." ownerID="24" targetID="27" group="G1" fromX="3700" fromY="-1099" /><outputs name="Concordar." ownerID="24" targetID="25" group="G1" fromX="3700" fromY="-1179" /><outputs name="Recusar e mandá-lo partir. " ownerID="24" targetID="29" fromX="3700" fromY="-1259" />'Que poder cru e bestial nas palavras suas. Que beleza em cada movimento seu.
 
 Serei seu para comandar, se me deixar provar você, só uma vez...' </nodes>
     <nodes xsi:type="NodeAdventure" ID="25" positionX="4266.43457" positionY="-850.059" width="350" height="725"><logic>
@@ -2498,7 +2499,7 @@ Então, que tal deixar a gente tomar um pouco do sangue, e talvez um pouco de ca
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-BLESS_P" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Concordar em ir com o capitão." ownerID="5" targetID="26" fromX="1181" fromY="-882" /><outputs name=" Fazer a donzela em apuros que não quer ceder a comportamentos tão ralistas. " ownerID="5" targetID="19" fromX="1181" fromY="-962" /><outputs name="Dizer que talvez um dia sim, mas, por ora, que tal os dois só negociarem bens em vez de derramar sangue?" ownerID="5" targetID="21" fromX="1181" fromY="-1042" />'Hã, sim, bom, digo, você é meio bonitinho, então o que você tem em mente? Digo, se você quiser um tempinho a sós à parte, os meus homens deixam você em paz, claro.'</nodes>
+      </logic><outputs name="Concordar em ir com o capitão." ownerID="5" targetID="26" fromX="1181" fromY="-882" /><outputs name="Fazer a donzela em apuros que não quer ceder a comportamentos tão ralistas. " ownerID="5" targetID="19" fromX="1181" fromY="-962" /><outputs name="Dizer que talvez um dia sim, mas, por ora, que tal os dois só negociarem bens em vez de derramar sangue?" ownerID="5" targetID="21" fromX="1181" fromY="-1042" />'Hã, sim, bom, digo, você é meio bonitinho, então o que você tem em mente? Digo, se você quiser um tempinho a sós à parte, os meus homens deixam você em paz, claro.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="6" positionX="1915.564" positionY="-1503.75842" width="350" height="805"><logic>
         <ModifierBlock>
           <LogicProcessing name="2" list1="ppl">
@@ -2604,7 +2605,7 @@ Ele implora que vocês o levem de volta, dizendo que os bandidos o fizeram ficar
           </LogicModifiers>
         </ModifierBlock>
       </logic><outputs name="Sorrir, fazer que sim, pegar as coisas dele e partir." ownerID="20" targetID="25" fromX="2285" fromY="-1128" />'Oh, certo, sim, digo não, nunca! Bom, aqui, isto é para você, e talvez, sabe, talvez a gente possa se encontrar em breve, sair para um jantar?'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="21" positionX="700.2836" positionY="-2043.36194" width="350" height="966"><outputs name="Sorrir e concordar com a negociação." ownerID="21" targetID="22" fromX="1026" fromY="-2534" /><outputs name="Concordar em ir com o capitão." ownerID="21" targetID="26" fromX="1026" fromY="-2614" /><outputs name=" Fazer a donzela em apuros que não quer ceder a comportamentos tão ralistas. " ownerID="21" targetID="19" fromX="1026" fromY="-2694" /><outputs name="Atacar!" ownerID="21" targetID="3" fromX="1026" fromY="-2775" />'Oh, certo, sim, digo, você promete me ver de novo em breve?
+    <nodes xsi:type="NodeAdventure" ID="21" positionX="700.2836" positionY="-2043.36194" width="350" height="966"><outputs name="Sorrir e concordar com a negociação." ownerID="21" targetID="22" fromX="1026" fromY="-2534" /><outputs name="Concordar em ir com o capitão." ownerID="21" targetID="26" fromX="1026" fromY="-2614" /><outputs name="Fazer a donzela em apuros que não quer ceder a comportamentos tão ralistas. " ownerID="21" targetID="19" fromX="1026" fromY="-2694" /><outputs name="Atacar!" ownerID="21" targetID="3" fromX="1026" fromY="-2775" />'Oh, certo, sim, digo, você promete me ver de novo em breve?
 
 Enfim, pela bandidagem, não posso simplesmente deixar você ir. Digo, a minha reputação e tal. 
 
@@ -3263,7 +3264,7 @@ Um dos mortos-vivos conecta-se à sua mente, e de repente você sabe o jeito orc
             <scriptCallWithTag scriptName="FRA_Chance" parameter="40" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Continuar ouvindo. Melhor não enfurecer mais um orc já furioso." ownerID="33" targetID="43" fromX="-151" fromY="-2008" />'Reivindicamos esta ruína como território nosso, marcado pelos iguais caídos nossos!'
+      </logic><outputs name="Continuar ouvindo. Melhor não enfurecer mais um orc já furioso." ownerID="33" targetID="43" fromX="-151" fromY="-2008" />Reivindicamos esta ruína como território nosso, marcado pelos iguais caídos nossos!'
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="35" positionX="-991.3109" positionY="-2350.2688" width="350" height="725"><outputs name="Bom. Levar o espólio e partir." ownerID="35" targetID="67" fromX="-665" fromY="-2841" />Você ajuda a escavar os corpos e faz piras funerárias adequadas, conforme os costumes orcs.</nodes>
     <nodes xsi:type="NodeAdventure" ID="36" positionX="-1180.947" positionY="-1462.71777" width="350" height="725"><logic>

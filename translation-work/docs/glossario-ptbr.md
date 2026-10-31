@@ -110,3 +110,13 @@ Estas formas foram adotadas no primeiro lote; descrições de cada atributo mant
 - Nomes de gente e demônios mantidos: Theodore, Nai-ysir, Belze'dhur, Leopold, Ail'yleth, Zbigniev, Zloslawa, Kastytis, Jurasmat, Gargamus, dziad mroz, manoviec, tresher; baba yaga em minúsculas como no original.
 - Mroki em minúsculas ("os mroki"), inclusive no plural.
 - Pontuação de diálogo (29/10/2026, após reparo de corpus): a vírgula do inglês vira vírgula; dois-pontos apenas onde o inglês tem dois-pontos, em aposto breve ou rótulo ("Cuidado:", "A pergunta é:"). Nunca trocar vírgula de diálogo por dois-pontos ou ponto e vírgula.
+
+## Revisão do corpus (30/10/2026)
+
+- Nomes próprios ficam idênticos ao EN, inclusive grafias com consoantes duplas: Dzievanna (não "Dievanna"), Tao, etc. O banco DES_NAMES mantém o nome inglês por design.
+- Fala com efeito cômico (leshy, zmey): vogais alongadas do inglês são espelhadas ("vooocê", "agoorra"); o "s" dobrado do zmey (ceceio) é intencional e fica. Dobramento de consoantes que o inglês não tem ("agggora", "ppuuder", "ajjuudar") é erro de grafia e foi corrigido.
+- fiends = diabos; icicle = sincelo (não "sarcillo", que é espanhol).
+- Sem contração antes de sujeito de infinitivo: "chance de o item sair", "risco de o filho ficar", "antes de a escuridão vir" ficam com "de o/de a". Com objeto direto o artigo contrai: "leva ao que parece".
+- Concordância com "de vocês": o verbo concorda com o núcleo ("a fé de vocês é", "um de vocês é"), não com "vocês".
+- "por que" em pergunta (direta ou indireta: "perguntar por que") é separado; "porque" causal em afirmativa é junto. "a hora", "a tempo", "dia a dia" não levam acento; "há" só no verbo haver/existência.
+- Opções de evento repetidas: cada EN recebe sempre o mesmo PTBR (cânone por grupo); texto de opção vizinha nunca entra na opção atual.

@@ -915,7 +915,7 @@ Mas esta senda nunca é fácil. Você precisa escolher que jornada o pequeno vai
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="4" targetID="8" fromX="1726" fromY="1106" />O jovem élfico de você claramente estava destinado a trilhar a senda mística, porque volta a você como mago.
+      </logic><outputs name="Exultar!" ownerID="4" targetID="8" fromX="1726" fromY="1106" />O jovem élfico de você claramente estava destinado a trilhar a senda mística, porque volta a você como mago.
 
 As provas foram duras, e ele ainda não é tão forte quanto um adulto pleno; mas, com o tempo, com certeza vai virar grande!</nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1298" positionY="753" width="350" height="725" image="Event167"><logic>
@@ -944,7 +944,7 @@ As provas foram duras, e ele ainda não é tão forte quanto um adulto pleno; ma
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="5" targetID="8" fromX="1623" fromY="261" />O filho volta um druida élfico. E, embora agora viva em atrito com a vida de aldeia, continua leal aos deuses e à família escolhida dele.</nodes>
+      </logic><outputs name="Exultar!" ownerID="5" targetID="8" fromX="1623" fromY="261" />O filho volta um druida élfico. E, embora agora viva em atrito com a vida de aldeia, continua leal aos deuses e à família escolhida dele.</nodes>
     <nodes xsi:type="NodeAdventure" ID="6" positionX="2000" positionY="1534" width="350" height="725" image="Event169"><logic>
         <ModifierBlock>
           <LogicModifiers list="1elfgrowing">
@@ -966,7 +966,7 @@ As provas foram duras, e ele ainda não é tão forte quanto um adulto pleno; ma
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="6" targetID="8" fromX="2325" fromY="1042" />O jovem élfico de você claramente não estava destinado à senda de mago, ao menos não ainda. Mas recebeu um treino; e, com toda a probabilidade, ainda supera a maioria dos usuários de magia não élficos; ou é o que dizem a você.
+      </logic><outputs name="Exultar!" ownerID="6" targetID="8" fromX="2325" fromY="1042" />O jovem élfico de você claramente não estava destinado à senda de mago, ao menos não ainda. Mas recebeu um treino; e, com toda a probabilidade, ainda supera a maioria dos usuários de magia não élficos; ou é o que dizem a você.
 
 </nodes>
     <nodes xsi:type="NodeProduceDrop" ID="7" positionX="836" positionY="1655" width="460" height="669">
@@ -1070,7 +1070,7 @@ Muitos anos depois, chega notícia de que a jornada dele o levou a terras distan
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="17" targetID="16" fromX="2670" fromY="-1838" />As provas dão certo, e o filho élfico cresce num jovem sob o olhar atento de você.</nodes>
+      </logic><outputs name="Exultar!" ownerID="17" targetID="16" fromX="2670" fromY="-1838" />As provas dão certo, e o filho élfico cresce num jovem sob o olhar atento de você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="1883" positionY="-1287" width="350" height="725"><logic>
         <ModifierBlock>
           <LogicModifiers list="1elfgrowing">
@@ -1080,7 +1080,7 @@ Muitos anos depois, chega notícia de que a jornada dele o levou a terras distan
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="2208" fromY="-1778" />As provas dão certo, e o filho élfico cresce num jovem sob o olhar atento de você.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="2208" fromY="-1778" />As provas dão certo, e o filho élfico cresce num jovem sob o olhar atento de você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="20" positionX="-157" positionY="-878" width="350" height="725" image="Event166"><logic>
         <FilterBlock>
           <LogicFilter name="str">
@@ -1140,7 +1140,7 @@ Muitos anos depois, chega notícia de que a jornada dele o levou a terras distan
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="23" targetID="16" fromX="321" fromY="-2130" />As provas dão certo, e o filho élfico cresce num jovem sob o olhar atento de você.</nodes>
+      </logic><outputs name="Exultar!" ownerID="23" targetID="16" fromX="321" fromY="-2130" />As provas dão certo, e o filho élfico cresce num jovem sob o olhar atento de você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="24" positionX="441" positionY="-1757" width="350" height="725"><logic>
         <ModifierBlock>
           <LogicModifiers list="warchild">
@@ -1182,7 +1182,7 @@ Ele foi claramente fortalecido pelo que quer que tenha acontecido; mas a mente e
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="27" targetID="29" fromX="-2006" fromY="-298" />O filho ouviu o chamado do mato e desapareceu na floresta por um tempo; só para voltar um feral.</nodes>
+      </logic><outputs name="Exultar!" ownerID="27" targetID="29" fromX="-2006" fromY="-298" />O filho ouviu o chamado do mato e desapareceu na floresta por um tempo; só para voltar um feral.</nodes>
     <nodes xsi:type="NodeAdventure" ID="28" positionX="-2100" positionY="-1050" width="350" height="725" image="Event227"><logic>
         <ModifierBlock>
           <LogicModifiers list="1elfgrowing">
@@ -1207,7 +1207,7 @@ Ele foi claramente fortalecido pelo que quer que tenha acontecido; mas a mente e
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="28" targetID="29" fromX="-1774" fromY="-1541" />O filho vira fada da floresta e volta ao lar de você, mudado mas leal para sempre.</nodes>
+      </logic><outputs name="Exultar!" ownerID="28" targetID="29" fromX="-1774" fromY="-1541" />O filho vira fada da floresta e volta ao lar de você, mudado mas leal para sempre.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="29" positionX="-2782" positionY="-434" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeProduceDrop" ID="30" positionX="1335" positionY="-925" width="460" height="509">
       <outputs ownerID="30" targetID="15" group="G1" fromX="1765" fromY="-1283" />
@@ -1230,7 +1230,7 @@ Ele foi claramente fortalecido pelo que quer que tenha acontecido; mas a mente e
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="31" targetID="29" fromX="-1623" fromY="-724" />O filho vira uma vila e volta ao lar de você, mudado mas leal para sempre.</nodes>
+      </logic><outputs name="Exultar!" ownerID="31" targetID="29" fromX="-1623" fromY="-724" />O filho vira uma vila e volta ao lar de você, mudado mas leal para sempre.</nodes>
     <nodes xsi:type="NodeAdventure" ID="32" positionX="-1543" positionY="3" width="350" height="725"><logic>
         <FilterBlock>
           <LogicResultAction list="1elfgrowing">
@@ -1245,7 +1245,7 @@ Ele foi claramente fortalecido pelo que quer que tenha acontecido; mas a mente e
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="32" targetID="29" fromX="-1217" fromY="-488" />O filho vira uma Pinha Anciã e volta ao lar de você, mudado mas leal para sempre.</nodes>
+      </logic><outputs name="Exultar!" ownerID="32" targetID="29" fromX="-1217" fromY="-488" />O filho vira uma Pinha Anciã e volta ao lar de você, mudado mas leal para sempre.</nodes>
     <nodes xsi:type="NodeProduceDrop" ID="33" positionX="766" positionY="641" width="460" height="669">
       <outputs ownerID="33" targetID="9" group="G1" fromX="1196" fromY="282" />
       <outputs ownerID="33" targetID="5" group="G1" fromX="1196" fromY="202" />
@@ -1278,7 +1278,7 @@ Ele foi claramente fortalecido pelo que quer que tenha acontecido; mas a mente e
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="34" targetID="8" fromX="2036" fromY="173" />O filho volta um druida élfico banido. E, embora agora viva em atrito com a vida de aldeia, continua leal aos deuses e à família escolhida dele.</nodes>
+      </logic><outputs name="Exultar!" ownerID="34" targetID="8" fromX="2036" fromY="173" />O filho volta um druida élfico banido. E, embora agora viva em atrito com a vida de aldeia, continua leal aos deuses e à família escolhida dele.</nodes>
     <nodes xsi:type="NodeAdventure" ID="35" positionX="2139" positionY="651" width="350" height="725" image="Event169"><logic>
         <ModifierBlock>
           <LogicModifiers list="1elfgrowing">
@@ -1303,7 +1303,7 @@ Ele foi claramente fortalecido pelo que quer que tenha acontecido; mas a mente e
             <scriptCallWithTag scriptName="FMO_ChangeLearnedSkillOnCharacter" tag="SKILL_PACK-SUMMON_BEAR" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="35" targetID="8" fromX="2464" fromY="159" />O jovem élfico de você claramente não estava destinado à senda de druida, ao menos não ainda. Mas recebeu um treino; e continua devotado a uma vida em comunhão com a natureza.
+      </logic><outputs name="Exultar!" ownerID="35" targetID="8" fromX="2464" fromY="159" />O jovem élfico de você claramente não estava destinado à senda de druida, ao menos não ainda. Mas recebeu um treino; e continua devotado a uma vida em comunhão com a natureza.
 
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="36" positionX="2587" positionY="1651" width="350" height="725" image="Event171"><logic>
@@ -1329,7 +1329,7 @@ Ele foi claramente fortalecido pelo que quer que tenha acontecido; mas a mente e
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="36" targetID="8" fromX="2912" fromY="1159" />O jovem élfico de você claramente estava destinado a trilhar a senda mística, porque volta a você como mago.
+      </logic><outputs name="Exultar!" ownerID="36" targetID="8" fromX="2912" fromY="1159" />O jovem élfico de você claramente estava destinado a trilhar a senda mística, porque volta a você como mago.
 
 As provas foram duras, e ele ainda não é tão forte quanto um adulto pleno; mas, com o tempo, com certeza vai virar grande!</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="38" positionX="4247" positionY="-343" width="350" height="530" linkedEventUniqueID="0">
@@ -1416,7 +1416,7 @@ O filho não vai perecer; isto a natureza divina de você pode garantir.</nodes>
             <scriptCallWithTag scriptName="FMO_ChangeLearnedSkillOnCharacter" tag="SKILL_PACK-SUMMON_BEAR" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="41" targetID="8" fromX="-397" fromY="-1990" />O jovem élfico de você cresce num coletor, mas um que aprendeu os jeitos dos druidas. Ele mostra promessa e, por isto, recebeu um treino, pois segue devotado a uma vida em comunhão com a natureza.
+      </logic><outputs name="Exultar!" ownerID="41" targetID="8" fromX="-397" fromY="-1990" />O jovem élfico de você cresce num coletor, mas um que aprendeu os jeitos dos druidas. Ele mostra promessa e, por isto, recebeu um treino, pois segue devotado a uma vida em comunhão com a natureza.
 
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="42" positionX="-723" positionY="-2260" width="350" height="725" image="Event344"><logic>
@@ -1545,7 +1545,7 @@ Mas a senda nunca é fácil. Agora você precisa escolher que jornada o pequeno 
             <scriptCallWithTag scriptName="FMO_UpgradeToSubrace" tag="SUBRACE-DWARF_SMITH" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="5" targetID="8" fromX="2055" fromY="636" />Pela vontade da pedra e do metal, o filho anão de você se provou um prodígio e virou um dos ferreiros plenos mais jovens, sobretudo para quem cresceu longe das cidades anãs.</nodes>
+      </logic><outputs name="Exultar!" ownerID="5" targetID="8" fromX="2055" fromY="636" />Pela vontade da pedra e do metal, o filho anão de você se provou um prodígio e virou um dos ferreiros plenos mais jovens, sobretudo para quem cresceu longe das cidades anãs.</nodes>
     <nodes xsi:type="NodeAdventure" ID="6" positionX="3824" positionY="50" width="350" height="725" image="Event150"><logic>
         <ModifierBlock>
           <LogicModifiers list="chM">
@@ -1561,7 +1561,7 @@ Mas a senda nunca é fácil. Agora você precisa escolher que jornada o pequeno 
             <scriptCallWithTag scriptName="FMO_ChangeLearnedSkillOnCharacter" tag="SKILL_PACK-ADV_CRAFTSMAN" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="6" targetID="8" fromX="4149" fromY="-441" />Pela vontade da pedra e do metal, o filho anão de você se provou um operário talentoso, superando de longe os iguais dele.
+      </logic><outputs name="Exultar!" ownerID="6" targetID="8" fromX="4149" fromY="-441" />Pela vontade da pedra e do metal, o filho anão de você se provou um operário talentoso, superando de longe os iguais dele.
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="3646" positionY="680" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="9" positionX="2568" positionY="1039" width="350" height="725"><logic>
@@ -1615,7 +1615,7 @@ Ainda assim, é jornada que vale a pena e deve ser feita com orgulho.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="17" targetID="16" fromX="2406" fromY="-1974" />As provas dão certo, e o filho anão cresce num jovem sob o olhar atento de você.</nodes>
+      </logic><outputs name="Exultar!" ownerID="17" targetID="16" fromX="2406" fromY="-1974" />As provas dão certo, e o filho anão cresce num jovem sob o olhar atento de você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="1425" positionY="-1395" width="350" height="725" image="Event151"><logic>
         <ModifierBlock>
           <LogicModifiers list="1dwarfgrowing">
@@ -1625,7 +1625,7 @@ Ainda assim, é jornada que vale a pena e deve ser feita com orgulho.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="1750" fromY="-1886" />As provas dão certo, e o filho anão cresce num jovem sob o olhar atento de você.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="1750" fromY="-1886" />As provas dão certo, e o filho anão cresce num jovem sob o olhar atento de você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="20" positionX="-226" positionY="-1039" width="350" height="725"><outputs name="Começar as provas." ownerID="20" targetID="21" fromX="99" fromY="-1530" />As provas de lutador são duras e perigosas. O filho precisa provar o valor dele no mato e segurar o próprio jogo contra desafiantes mais fortes. </nodes>
     <nodes xsi:type="NodeProduceDrop" ID="21" positionX="234" positionY="-1116" width="460" height="589">
       <outputs ownerID="21" targetID="39" group="G1" fromX="664" fromY="-1474" />
@@ -1646,7 +1646,7 @@ Ainda assim, é jornada que vale a pena e deve ser feita com orgulho.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="23" targetID="16" fromX="-166" fromY="-2290" />Pela vontade da pedra e do metal, o filho anão de você se provou um mestre de guerra talentoso.</nodes>
+      </logic><outputs name="Exultar!" ownerID="23" targetID="16" fromX="-166" fromY="-2290" />Pela vontade da pedra e do metal, o filho anão de você se provou um mestre de guerra talentoso.</nodes>
     <nodes xsi:type="NodeAdventure" ID="24" positionX="-116" positionY="-1879" width="350" height="725" image="Event150"><logic>
         <ModifierBlock>
           <LogicModifiers list="chM">
@@ -1712,7 +1712,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_AddTags" parameter="3" tag="TAG-STRENGTH" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="27" targetID="29" fromX="-1294" fromY="-730" />O filho vira pedrinha e volta ao lar de você, mudado mas leal para sempre.
+      </logic><outputs name="Exultar!" ownerID="27" targetID="29" fromX="-1294" fromY="-730" />O filho vira pedrinha e volta ao lar de você, mudado mas leal para sempre.
 
 Em poucas décadas, vai virar um troll de rocha.
 </nodes>
@@ -1737,7 +1737,7 @@ Em poucas décadas, vai virar um troll de rocha.
             <scriptCallWithTag scriptName="FMO_ChangeLearnedSkillOnCharacter" tag="SKILL_PACK-CLASS_CRAFTSMAN" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="28" targetID="29" fromX="-1725" fromY="-904" />O filho vira pedrinha de lava e volta ao lar de você, mudado mas leal para sempre.
+      </logic><outputs name="Exultar!" ownerID="28" targetID="29" fromX="-1725" fromY="-904" />O filho vira pedrinha de lava e volta ao lar de você, mudado mas leal para sempre.
 
 Em poucas décadas, vai virar um troll de lava.
 </nodes>
@@ -1756,7 +1756,7 @@ Em poucas décadas, vai virar um troll de lava.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="31" targetID="8" fromX="1902" fromY="1745" />Pela vontade da pedra e do metal, o filho anão de você se provou um prodígio e virou um dos mestres de runas mais jovens já registrados na memória anã.</nodes>
+      </logic><outputs name="Exultar!" ownerID="31" targetID="8" fromX="1902" fromY="1745" />Pela vontade da pedra e do metal, o filho anão de você se provou um prodígio e virou um dos mestres de runas mais jovens já registrados na memória anã.</nodes>
     <nodes xsi:type="NodeProduceDrop" ID="33" positionX="1950" positionY="-939" width="460" height="509">
       <logic>
         <FilterBlock>
@@ -1838,7 +1838,7 @@ Em poucas décadas, vai virar um troll de lava.
             <scriptCallWithTag scriptName="FMO_UpgradeToSubrace" tag="SUBRACE-DWARF_YOUNG_SMITH" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="38" targetID="8" fromX="2455" fromY="633" />Pela vontade da pedra e do metal, o filho anão de você se provou um prodígio e virou um dos ferreiros mais jovens, sobretudo para quem cresceu longe das cidades anãs.</nodes>
+      </logic><outputs name="Exultar!" ownerID="38" targetID="8" fromX="2455" fromY="633" />Pela vontade da pedra e do metal, o filho anão de você se provou um prodígio e virou um dos ferreiros mais jovens, sobretudo para quem cresceu longe das cidades anãs.</nodes>
     <nodes xsi:type="NodeAdventure" ID="39" positionX="329" positionY="-1801" width="350" height="725"><logic>
         <FilterBlock>
           <LogicProcessing name="chosenchild" list1="chM" list2="chosen">
@@ -1883,7 +1883,7 @@ Em poucas décadas, vai virar um troll de lava.
             <scriptCallWithTag scriptName="FMO_AddTags" parameter="15" tag="TAG-RESEARCH" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="41" targetID="8" fromX="2384" fromY="1589" />Pela vontade da pedra e do metal, o filho anão de você falhou nas provas dele! Mas, pela bênção da mãe da terra Mokosh, ele vive na forma primal dele.</nodes>
+      </logic><outputs name="Exultar!" ownerID="41" targetID="8" fromX="2384" fromY="1589" />Pela vontade da pedra e do metal, o filho anão de você falhou nas provas dele! Mas, pela bênção da mãe da terra Mokosh, ele vive na forma primal dele.</nodes>
     <nodes xsi:type="NodeAdventure" ID="42" positionX="793" positionY="277" width="350" height="805"><logic>
         <FilterBlock>
           <LogicProcessing name="dwarfgirl" makePublic="true" list1="1dwarfgrowing" list2="female">
@@ -1937,7 +1937,7 @@ Ela conta ao jovem de você que as matryoshka são um segredo anão guardado há
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="44" targetID="8" fromX="2043" fromY="-151" />Pela vontade da pedra e do metal, o filho anão de você vira uma matryoshka plena.</nodes>
+      </logic><outputs name="Exultar!" ownerID="44" targetID="8" fromX="2043" fromY="-151" />Pela vontade da pedra e do metal, o filho anão de você vira uma matryoshka plena.</nodes>
     <nodes xsi:type="NodeAdventure" ID="45" positionX="2134" positionY="331" width="350" height="725"><logic>
         <FilterBlock>
           <LogicResultAction list="dwarfgirl">
@@ -1952,7 +1952,7 @@ Ela conta ao jovem de você que as matryoshka são um segredo anão guardado há
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="45" targetID="8" fromX="2459" fromY="-160" />Pela vontade da pedra e do metal, o filho anão de você vira uma matryoshka jovem.</nodes>
+      </logic><outputs name="Exultar!" ownerID="45" targetID="8" fromX="2459" fromY="-160" />Pela vontade da pedra e do metal, o filho anão de você vira uma matryoshka jovem.</nodes>
     <nodes xsi:type="NodeAdventure" ID="46" positionX="3045" positionY="120" width="350" height="725"><logic>
         <ModifierBlock>
           <LogicModifiers list="dwarfgirl">
@@ -2047,7 +2047,7 @@ Uma matryoshka jovem (fêmea; mas as provas são arriscadas e podem falhar!)</no
             <scriptCallWithTag scriptName="FMO_AddTags" parameter="5" tag="TAG-STRENGTH" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="49" targetID="8" fromX="1818" fromY="-2649" />Pela vontade da pedra e do metal, o filho anão de você se provou um operário talentoso, superando de longe os iguais dele.
+      </logic><outputs name="Exultar!" ownerID="49" targetID="8" fromX="1818" fromY="-2649" />Pela vontade da pedra e do metal, o filho anão de você se provou um operário talentoso, superando de longe os iguais dele.
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="50" positionX="1882" positionY="-2283" width="350" height="725" image="Event152"><logic>
         <FilterBlock>
@@ -2066,7 +2066,7 @@ Uma matryoshka jovem (fêmea; mas as provas são arriscadas e podem falhar!)</no
             <scriptCallWithTag scriptName="FMO_TakeItems" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="50" targetID="8" fromX="2207" fromY="-2774" />Pela vontade da pedra e do metal, o filho anão de você se provou um ferreiro jovem talentoso.
+      </logic><outputs name="Exultar!" ownerID="50" targetID="8" fromX="2207" fromY="-2774" />Pela vontade da pedra e do metal, o filho anão de você se provou um ferreiro jovem talentoso.
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="51" positionX="2278" positionY="-2378" width="350" height="725" image="Event151"><logic>
         <FilterBlock>
@@ -2085,7 +2085,7 @@ Uma matryoshka jovem (fêmea; mas as provas são arriscadas e podem falhar!)</no
             <scriptCallWithTag scriptName="FMO_TakeItems" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="51" targetID="8" fromX="2603" fromY="-2869" />Pela vontade da pedra e do metal, o filho anão de você se provou um ferreiro jovem talentoso.
+      </logic><outputs name="Exultar!" ownerID="51" targetID="8" fromX="2603" fromY="-2869" />Pela vontade da pedra e do metal, o filho anão de você se provou um ferreiro jovem talentoso.
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="52" positionX="1038" positionY="-2861" width="350" height="725"><logic>
         <FilterBlock>
@@ -2104,7 +2104,7 @@ Uma matryoshka jovem (fêmea; mas as provas são arriscadas e podem falhar!)</no
             <scriptCallWithTag scriptName="FMO_TakeItems" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="52" targetID="8" fromX="1363" fromY="-3352" />Pela vontade da pedra e do metal, o filho anão de você vira uma matryoshka.</nodes>
+      </logic><outputs name="Exultar!" ownerID="52" targetID="8" fromX="1363" fromY="-3352" />Pela vontade da pedra e do metal, o filho anão de você vira uma matryoshka.</nodes>
     <nodes xsi:type="NodeProduceDrop" ID="53" positionX="527" positionY="-2815" width="460" height="669">
       <logic>
         <FilterBlock>
@@ -2135,7 +2135,7 @@ Uma matryoshka jovem (fêmea; mas as provas são arriscadas e podem falhar!)</no
             <scriptCallWithTag scriptName="FMO_TakeItems" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="54" targetID="8" fromX="1760" fromY="-3473" />Pela vontade da pedra e do metal, o filho anão de você vira uma matryoshka jovem.</nodes>
+      </logic><outputs name="Exultar!" ownerID="54" targetID="8" fromX="1760" fromY="-3473" />Pela vontade da pedra e do metal, o filho anão de você vira uma matryoshka jovem.</nodes>
     <nodes xsi:type="NodeAdventure" ID="55" positionX="1897" positionY="-3160" width="350" height="725"><logic>
         <FilterBlock>
           <LogicResultAction>
@@ -2199,7 +2199,7 @@ Uma matryoshka jovem (fêmea; mas as provas são arriscadas e podem falhar!)</no
             <scriptCallWithTag scriptName="FMO_TakeItems" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="59" targetID="8" fromX="295" fromY="-3382" />Pela vontade da pedra e do metal, o filho anão de você vira um mestre de guerra jovem.
+      </logic><outputs name="Exultar!" ownerID="59" targetID="8" fromX="295" fromY="-3382" />Pela vontade da pedra e do metal, o filho anão de você vira um mestre de guerra jovem.
 
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="60" positionX="390" positionY="-3579" width="350" height="725"><logic>
@@ -2460,7 +2460,7 @@ Mas a senda nunca é fácil. Agora você precisa escolher que jornada o pequeno 
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="5" targetID="8" fromX="2233" fromY="-272" />O filho é implacável e furtivo. Vira rastreador de sangue.</nodes>
+      </logic><outputs name="Exultar!" ownerID="5" targetID="8" fromX="2233" fromY="-272" />O filho é implacável e furtivo. Vira rastreador de sangue.</nodes>
     <nodes xsi:type="NodeAdventure" ID="6" positionX="3505" positionY="-137" width="350" height="725" image="Event148"><logic>
         <ModifierBlock>
           <LogicModifiers list="1dwarfgrowing">
@@ -2479,7 +2479,7 @@ Mas a senda nunca é fácil. Agora você precisa escolher que jornada o pequeno 
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="6" targetID="8" fromX="3830" fromY="-628" />Os orcs consideram o filho de você inútil; mas o jovem cresce num artesão hábil.
+      </logic><outputs name="Exultar!" ownerID="6" targetID="8" fromX="3830" fromY="-628" />Os orcs consideram o filho de você inútil; mas o jovem cresce num artesão hábil.
 </nodes>
     <nodes xsi:type="NodeProduceDrop" ID="7" positionX="1266" positionY="97" width="460" height="589">
       <logic>
@@ -2540,7 +2540,7 @@ Mas a senda nunca é fácil. Agora você precisa escolher que jornada o pequeno 
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="17" targetID="16" fromX="2791" fromY="-1940" />O filho orc aprende a virar trabalhador; mas parece se ressentir de você por isto.</nodes>
+      </logic><outputs name="Exultar!" ownerID="17" targetID="16" fromX="2791" fromY="-1940" />O filho orc aprende a virar trabalhador; mas parece se ressentir de você por isto.</nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="1551" positionY="-1159" width="350" height="725"><logic>
         <ModifierBlock>
           <LogicModifiers list="1dwarfgrowing">
@@ -2553,7 +2553,7 @@ Mas a senda nunca é fácil. Agora você precisa escolher que jornada o pequeno 
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="1876" fromY="-1650" />O filho orc aprende a virar trabalhador;  mas parece se ressentir de você por isto.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="1876" fromY="-1650" />O filho orc aprende a virar trabalhador;  mas parece se ressentir de você por isto.</nodes>
     <nodes xsi:type="NodeAdventure" ID="20" positionX="-156" positionY="-902" width="350" height="725"><logic>
         <FilterBlock>
           <LogicFilter name="str">
@@ -2601,7 +2601,7 @@ Mas a senda nunca é fácil. Agora você precisa escolher que jornada o pequeno 
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="23" targetID="16" fromX="-294" fromY="-2041" />O filho orc prova o valor dele como guerreiro; mas a senda dele foi difícil e deixou cicatrizes.</nodes>
+      </logic><outputs name="Exultar!" ownerID="23" targetID="16" fromX="-294" fromY="-2041" />O filho orc prova o valor dele como guerreiro; mas a senda dele foi difícil e deixou cicatrizes.</nodes>
     <nodes xsi:type="NodeAdventure" ID="24" positionX="606" positionY="-2004" width="350" height="725" image="Event148"><logic>
         <ModifierBlock>
           <LogicModifiers list="strch">
@@ -2656,7 +2656,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="31" targetID="8" fromX="1545" fromY="502" />O filho de você não é orc qualquer, é uma matriarca! Mas, apesar desta honra, escolheu voltar à senda da árvore cósmica.</nodes>
+      </logic><outputs name="Exultar!" ownerID="31" targetID="8" fromX="1545" fromY="502" />O filho de você não é orc qualquer, é uma matriarca! Mas, apesar desta honra, escolheu voltar à senda da árvore cósmica.</nodes>
     <nodes xsi:type="NodeAdventure" ID="33" positionX="-401" positionY="-2353" width="350" height="725" image="Event146"><logic>
         <FilterBlock>
           <LogicResultAction list="strch">
@@ -2686,7 +2686,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_AddTags" parameter="-2" tag="TAG-PERCEPTION" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="33" targetID="16" fromX="-75" fromY="-2844" />O filho orc prova o valor dele como rastreador de sangue; mas a senda dele foi difícil e deixou cicatrizes.</nodes>
+      </logic><outputs name="Exultar!" ownerID="33" targetID="16" fromX="-75" fromY="-2844" />O filho orc prova o valor dele como rastreador de sangue; mas a senda dele foi difícil e deixou cicatrizes.</nodes>
     <nodes xsi:type="NodeAdventure" ID="34" positionX="-2292" positionY="-750" width="350" height="725" image="Event147"><logic>
         <FilterBlock>
           <LogicResultAction list="1fem">
@@ -2701,7 +2701,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="34" targetID="16" fromX="-1966" fromY="-1242" />O filho orc prova o valor dele como bruxa.</nodes>
+      </logic><outputs name="Exultar!" ownerID="34" targetID="16" fromX="-1966" fromY="-1242" />O filho orc prova o valor dele como bruxa.</nodes>
     <nodes xsi:type="NodeDealDamage" ID="35" positionX="-777" positionY="-380" width="460" height="699" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
       <logic>
         <FilterBlock>
@@ -2789,7 +2789,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="38" targetID="16" fromX="339" fromY="-2230" />O filho orc prova o valor dele como guerreiro.</nodes>
+      </logic><outputs name="Exultar!" ownerID="38" targetID="16" fromX="339" fromY="-2230" />O filho orc prova o valor dele como guerreiro.</nodes>
     <nodes xsi:type="NodeAdventure" ID="39" positionX="-795" positionY="-2304" width="350" height="725" image="Event146"><logic>
         <FilterBlock>
           <LogicResultAction list="strch">
@@ -2804,7 +2804,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="39" targetID="16" fromX="-469" fromY="-2795" />O filho orc prova o valor dele como rastreador de sangue.</nodes>
+      </logic><outputs name="Exultar!" ownerID="39" targetID="16" fromX="-469" fromY="-2795" />O filho orc prova o valor dele como rastreador de sangue.</nodes>
     <nodes xsi:type="NodeAdventure" ID="40" positionX="2849" positionY="314" width="350" height="725" image="Event142"><logic>
         <FilterBlock>
           <LogicResultAction list="1dwarfgrowing">
@@ -2819,7 +2819,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="40" targetID="8" fromX="3174" fromY="-177" />O filho é implacável e poderoso; vira socadora.</nodes>
+      </logic><outputs name="Exultar!" ownerID="40" targetID="8" fromX="3174" fromY="-177" />O filho é implacável e poderoso; vira socadora.</nodes>
     <nodes xsi:type="NodeProduceDrop" ID="41" positionX="664" positionY="1306" width="460" height="669">
       <logic>
         <FilterBlock>
@@ -2957,7 +2957,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="48" targetID="16" fromX="-1440" fromY="-1838" />A filha orc prova o valor dela como bruxa; mas a jornada dela não foi fácil e deixou muitas cicatrizes.</nodes>
+      </logic><outputs name="Exultar!" ownerID="48" targetID="16" fromX="-1440" fromY="-1838" />A filha orc prova o valor dela como bruxa; mas a jornada dela não foi fácil e deixou muitas cicatrizes.</nodes>
     <nodes xsi:type="NodeProduceDrop" ID="49" positionX="2014" positionY="-1002" width="460" height="509">
       <outputs ownerID="49" targetID="15" group="G1" fromX="2444" fromY="-1360" />
       <outputs ownerID="49" targetID="17" group="G1" fromX="2444" fromY="-1440" />
@@ -2976,7 +2976,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="50" targetID="8" fromX="2081" fromY="522" />O filho de você provou ser forte e feroz; e, embora não tenha alcançado o posto de matriarca plena, é uma que pode um dia alcançar este objetivo.</nodes>
+      </logic><outputs name="Exultar!" ownerID="50" targetID="8" fromX="2081" fromY="522" />O filho de você provou ser forte e feroz; e, embora não tenha alcançado o posto de matriarca plena, é uma que pode um dia alcançar este objetivo.</nodes>
     <nodes xsi:type="NodeAdventure" ID="51" positionX="1553" positionY="-2147" width="350" height="1046"><logic>
         <FilterBlock>
           <LogicFilter name="chosen">
@@ -3026,7 +3026,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_TakeItems" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="52" targetID="16" fromX="2313" fromY="-2650" />O filho orc prova o valor dele como matriarca jovem.</nodes>
+      </logic><outputs name="Exultar!" ownerID="52" targetID="16" fromX="2313" fromY="-2650" />O filho orc prova o valor dele como matriarca jovem.</nodes>
     <nodes xsi:type="NodeAdventure" ID="53" positionX="2391" positionY="-2490" width="350" height="725" image="Event143"><logic>
         <ModifierBlock>
           <LogicModifiers list="chosenorc">
@@ -3039,7 +3039,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_TakeItems" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="53" targetID="16" fromX="2716" fromY="-2981" />O filho orc prova o valor dele como rastreador de sangue.</nodes>
+      </logic><outputs name="Exultar!" ownerID="53" targetID="16" fromX="2716" fromY="-2981" />O filho orc prova o valor dele como rastreador de sangue.</nodes>
     <nodes xsi:type="NodeAdventure" ID="54" positionX="2817" positionY="-2641" width="350" height="725" image="Event145"><logic>
         <ModifierBlock>
           <LogicModifiers list="chosenorc">
@@ -3052,7 +3052,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_TakeItems" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="54" targetID="16" fromX="3143" fromY="-3132" />O filho orc prova o valor dele como socadora.</nodes>
+      </logic><outputs name="Exultar!" ownerID="54" targetID="16" fromX="3143" fromY="-3132" />O filho orc prova o valor dele como socadora.</nodes>
     <nodes xsi:type="NodeAdventure" ID="55" positionX="1978" positionY="-2923" width="350" height="725" image="Event147"><logic>
         <FilterBlock>
           <LogicFilter name="myst">
@@ -3082,7 +3082,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_TakeItems" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="55" targetID="16" fromX="2303" fromY="-3414" />O filho orc prova o valor dele como bruxa jovem.</nodes>
+      </logic><outputs name="Exultar!" ownerID="55" targetID="16" fromX="2303" fromY="-3414" />O filho orc prova o valor dele como bruxa jovem.</nodes>
     <nodes xsi:type="NodeAdventure" ID="56" positionX="2420" positionY="291" width="350" height="725" image="Event142"><logic>
         <FilterBlock>
           <LogicResultAction list="1dwarfgrowing">
@@ -3097,7 +3097,7 @@ Vira operário; mas, mesmo nisso, continua fraco.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="56" targetID="8" fromX="2745" fromY="-200" />O filho é implacável e poderoso; vira socadora anciã.</nodes>
+      </logic><outputs name="Exultar!" ownerID="56" targetID="8" fromX="2745" fromY="-200" />O filho é implacável e poderoso; vira socadora anciã.</nodes>
   </Adventure>
   <Adventure name="Nest Generic All" uniqueID="15" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="10" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event014">
@@ -3453,7 +3453,7 @@ Agora você precisa escolher que jornada o pequeno vai fazer antes que, com a vo
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="5" targetID="8" fromX="1891" fromY="1506" />O filho é treinado como mestre das feras.</nodes>
+      </logic><outputs name="Exultar!" ownerID="5" targetID="8" fromX="1891" fromY="1506" />O filho é treinado como mestre das feras.</nodes>
     <nodes xsi:type="NodeProduceDrop" ID="7" positionX="1010" positionY="251" width="460" height="910">
       <outputs ownerID="7" targetID="48" group="G1" fromX="1440" fromY="-107" />
       <outputs ownerID="7" targetID="54" group="G1" fromX="1440" fromY="-187" />
@@ -3491,7 +3491,7 @@ Agora você precisa escolher que jornada o pequeno vai fazer antes que, com a vo
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="17" targetID="16" fromX="2678" fromY="-1801" />O filho não tem aptidão particular, a senda dele jaz na jornada livre de coletor.</nodes>
+      </logic><outputs name="Exultar!" ownerID="17" targetID="16" fromX="2678" fromY="-1801" />O filho não tem aptidão particular, a senda dele jaz na jornada livre de coletor.</nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="1763" positionY="-1426" width="350" height="725" image="Event164"><logic>
         <ModifierBlock>
           <LogicModifiers list="1dwarfgrowing">
@@ -3501,7 +3501,7 @@ Agora você precisa escolher que jornada o pequeno vai fazer antes que, com a vo
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="2088" fromY="-1917" />O filho acha o destino dele em engenhocas; vai aprender criação.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="2088" fromY="-1917" />O filho acha o destino dele em engenhocas; vai aprender criação.</nodes>
     <nodes xsi:type="NodeAdventure" ID="20" positionX="-23" positionY="-777" width="350" height="725"><logic>
         <FilterBlock>
           <LogicFilter name="str">
@@ -3536,7 +3536,7 @@ Agora você precisa escolher que jornada o pequeno vai fazer antes que, com a vo
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="23" targetID="16" fromX="374" fromY="-2141" />O filho prova o valor dele como escaramuçador.</nodes>
+      </logic><outputs name="Exultar!" ownerID="23" targetID="16" fromX="374" fromY="-2141" />O filho prova o valor dele como escaramuçador.</nodes>
     <nodes xsi:type="NodeAdventure" ID="24" positionX="561" positionY="-1867" width="350" height="725"><logic>
         <ModifierBlock>
           <LogicModifiers list="strchild">
@@ -3596,7 +3596,7 @@ Ele vira escaramuçador; mas, mesmo nisso, continua fraco.</nodes>
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="33" targetID="16" fromX="-63" fromY="-2054" />O filho prova o valor dele como mestre das feras.</nodes>
+      </logic><outputs name="Exultar!" ownerID="33" targetID="16" fromX="-63" fromY="-2054" />O filho prova o valor dele como mestre das feras.</nodes>
     <nodes xsi:type="NodeAdventure" ID="34" positionX="-1191" positionY="-1565" width="350" height="725" image="Event161"><logic>
         <ModifierBlock>
           <LogicModifiers list="mystchild">
@@ -3606,7 +3606,7 @@ Ele vira escaramuçador; mas, mesmo nisso, continua fraco.</nodes>
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="34" targetID="16" fromX="-865" fromY="-2056" />O filho entra no mundo cinzento, onde moram os espíritos, e volta a você como xamã. A jornada, porém, não esteve sem perigos; e a alma do jovem permanece manchada.</nodes>
+      </logic><outputs name="Exultar!" ownerID="34" targetID="16" fromX="-865" fromY="-2056" />O filho entra no mundo cinzento, onde moram os espíritos, e volta a você como xamã. A jornada, porém, não esteve sem perigos; e a alma do jovem permanece manchada.</nodes>
     <nodes xsi:type="NodeDealDamage" ID="35" positionX="-660" positionY="-818" width="460" height="699" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
       <logic>
         <FilterBlock>
@@ -3685,7 +3685,7 @@ Ele vira escaramuçador; mas, mesmo nisso, continua fraco.</nodes>
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="38" targetID="16" fromX="-449" fromY="-2692" />O filho prova o valor dele como montador de javali.</nodes>
+      </logic><outputs name="Exultar!" ownerID="38" targetID="16" fromX="-449" fromY="-2692" />O filho prova o valor dele como montador de javali.</nodes>
     <nodes xsi:type="NodeAdventure" ID="39" positionX="-1751" positionY="-1546" width="350" height="725" image="Event160"><logic>
         <FilterBlock>
           <LogicResultAction>
@@ -3706,7 +3706,7 @@ Ele vira escaramuçador; mas, mesmo nisso, continua fraco.</nodes>
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="39" targetID="16" fromX="-1425" fromY="-2037" />O filho entra no mundo cinzento, onde moram os espíritos; e, embora a jornada tenha sido dura, volta a você como xamã.</nodes>
+      </logic><outputs name="Exultar!" ownerID="39" targetID="16" fromX="-1425" fromY="-2037" />O filho entra no mundo cinzento, onde moram os espíritos; e, embora a jornada tenha sido dura, volta a você como xamã.</nodes>
     <nodes xsi:type="NodeDealDamage" ID="40" positionX="-700" positionY="-11" width="460" height="699" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
       <logic>
         <FilterBlock>

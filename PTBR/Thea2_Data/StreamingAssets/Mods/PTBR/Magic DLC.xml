@@ -756,7 +756,7 @@ Há também ursos brancos; e, de vez em quando, veem guerreiros humanos de peito
 Os barcos nossos quebraram, ficamos aqui por um tempo; depois vamos.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1995" positionY="335" width="350" height="805"><outputs name="Aceitar e dizer que vão ajudá-los." ownerID="5" targetID="12" fromX="2320" fromY="-156" /><outputs name="Recusar." ownerID="5" targetID="13" fromX="2320" fromY="-236" />'Ah, Mestre, é um grande mago, sim. Mas, está perdido para nós, o barco dele se espatifou; e não sabemos onde ele está. Vão ajudar a gente a buscar, nativos? Podemos pagar.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="6" positionX="1590" positionY="-125" width="350" height="805"><outputs name="Perguntar quem é este mestre?" ownerID="6" targetID="5" fromX="1915" fromY="-616" /><outputs name="Perguntar sobre os barcos e para onde iam quando quebraram?" ownerID="6" targetID="7" fromX="1915" fromY="-696" />'Torre com espelho, não, não sei o que é isto; mas talvez o Mestre saiba?'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="7" positionX="1615" positionY="-935" width="350" height="725"><outputs name="Perguntar como eles conhecem Stribog?" ownerID="7" targetID="8" fromX="1940" fromY="-1426" />'"Viajamos a muitas ilhas, o nosso mestre busca conhecimento. Navegamos para cá; mas o seu Stribog achou por bem encalhar a gente. Talvez destino de deuses, né?\''</nodes>
+    <nodes xsi:type="NodeAdventure" ID="7" positionX="1615" positionY="-935" width="350" height="725"><outputs name="Perguntar como eles conhecem Stribog?" ownerID="7" targetID="8" fromX="1940" fromY="-1426" />"Viajamos a muitas ilhas, o nosso mestre busca conhecimento. Navegamos para cá; mas o seu Stribog achou por bem encalhar a gente. Talvez destino de deuses, né?\''</nodes>
     <nodes xsi:type="NodeAdventure" ID="8" positionX="1969" positionY="-697" width="350" height="805"><outputs name="Perguntar quem é este mestre?" ownerID="8" targetID="5" fromX="2294" fromY="-1188" /><outputs name="Perguntar se sabem da torre de espelho?" ownerID="8" targetID="6" fromX="2294" fromY="-1268" />'O nosso Mestre sabe muitas coisas, ele ensina nós também, para que sirvamos melhor. No norte, Odin observa os mares. Aqui, Stribog. Poseidon a gente também ouviu falar, no sul.'</nodes>
     <nodes xsi:type="NodeChallenge" ID="10" positionX="-242" positionY="-1105" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-GNOLL_6P_4M_3S" challengeScale="0" challengedList="ppl">
       <outputs name="Win" ownerID="10" targetID="11" fromX="199" fromY="-1600" />
@@ -2326,7 +2326,7 @@ Herbert olha para você:
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="'?!?'" ownerID="7" targetID="8" fromX="2064" fromY="-313" />'Bom, meu amigo desperto, eu ia esperar e talvez te deixar entrar na diversão; mas bem...
+      </logic><outputs name="?!?" ownerID="7" targetID="8" fromX="2064" fromY="-313" />'Bom, meu amigo desperto, eu ia esperar e talvez te deixar entrar na diversão; mas bem...
 
 Tenho mais três lugares para visitar antes de seguir. É simples, sou um rato supremo, um Tsarat. Humanos e os iguais deles, eu detesto!
 
@@ -2459,12 +2459,12 @@ Ele parte; e você vê dentro do feixe um filhote de rato pequeno, branco,  com 
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="'?!?'" ownerID="29" targetID="8" fromX="2050" fromY="-1048" />'Bom, meu amigo de praga comum, gostou do labirinto meu? Normalmente não tenho tempo para fracassados; mas vou te agraciar. 
+      </logic><outputs name="?!?" ownerID="29" targetID="8" fromX="2050" fromY="-1048" />'Bom, meu amigo de praga comum, gostou do labirinto meu? Normalmente não tenho tempo para fracassados; mas vou te agraciar. 
 
 É simples, sou um rato supremo, um Tsarat. Humanos e os iguais deles, eu detesto!
 
 E assim, brinco com eles como eles fazem conosco. Extermínio. Em escala pequena, claro, não sou rato louco nenhum...'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="30" positionX="1272" positionY="-1290" width="350" height="805"><outputs name="'?!?'" ownerID="30" targetID="8" fromX="1597" fromY="-1781" /><outputs name="Atacar!" ownerID="30" targetID="11" fromX="1597" fromY="-1861" />'Bom, meu amigo de praga comum,  normalmente não tenho tempo para a laia de você; mas vou te agraciar.
+    <nodes xsi:type="NodeAdventure" ID="30" positionX="1272" positionY="-1290" width="350" height="805"><outputs name="?!?" ownerID="30" targetID="8" fromX="1597" fromY="-1781" /><outputs name="Atacar!" ownerID="30" targetID="11" fromX="1597" fromY="-1861" />'Bom, meu amigo de praga comum,  normalmente não tenho tempo para a laia de você; mas vou te agraciar.
 
 É simples, sou um rato supremo, um Tsarat. Humanos e os iguais deles, eu detesto!
 
@@ -2533,7 +2533,7 @@ Ele recolhe as coisas dele e parte; mas, quando desaparece, você vê que ele de
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="'?!?'" ownerID="44" targetID="8" fromX="1148" fromY="-1482" />'Bom, meu amigo desperto, eu ia esperar e talvez te deixar entrar na diversão; mas bem...
+      </logic><outputs name="?!?" ownerID="44" targetID="8" fromX="1148" fromY="-1482" />'Bom, meu amigo desperto, eu ia esperar e talvez te deixar entrar na diversão; mas bem...
 
 Tenho mais três lugares para visitar antes de seguir. É simples, eu também sou um rato supremo, um Tsarat.  Perguntaria como, no inferno dos ratos, você é como eu; mas não perguntarei, o meu ego pode não sobreviver...
 
@@ -3512,7 +3512,7 @@ O recôndito muda; e vocês são arremessados a uma arena de outro mundo, sem sa
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="17" targetID="16" fromX="860" fromY="-751" />O filhote de rato conseguiu crescer num Rato Místico talentoso.</nodes>
+      </logic><outputs name="Exultar!" ownerID="17" targetID="16" fromX="860" fromY="-751" />O filhote de rato conseguiu crescer num Rato Místico talentoso.</nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="912" positionY="259" width="350" height="725" image="Event369"><logic>
         <ModifierBlock>
           <LogicModifiers list="1elfgrowing">
@@ -3522,7 +3522,7 @@ O recôndito muda; e vocês são arremessados a uma arena de outro mundo, sem sa
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="1237" fromY="-232" />O filhote de rato conseguiu crescer num grande Rato Curandeiro.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="1237" fromY="-232" />O filhote de rato conseguiu crescer num grande Rato Curandeiro.</nodes>
   </Adventure>
   <Adventure name="RatChildGrowingup2" uniqueID="19" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="45" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-530" positionY="216" width="347" height="661" image="Event363">
@@ -3590,7 +3590,7 @@ Cuidado: ele vai encarar um desafio mortal para provar que é digno.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="1279" fromY="357" />O rato branco conseguiu crescer num tsarat verdadeiro.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="1279" fromY="357" />O rato branco conseguiu crescer num tsarat verdadeiro.</nodes>
     <nodes xsi:type="NodeChallenge" ID="41" positionX="291" positionY="736" width="500" height="726" challengeType="TypePhysical" versusConcept="true" versusGroup="GROUP-CON_P_3P_0M_0S" challengeScale="0" challengedList="1elfgrowing">
       <outputs name="Win" ownerID="41" targetID="18" fromX="732" fromY="240" />
       <outputs name="Lose" ownerID="41" targetID="17" fromX="732" fromY="160" />
@@ -3664,7 +3664,7 @@ Cuidado: ele vai encarar um desafio mortal para provar que é digno.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="1281" fromY="304" />O rato branco conseguiu crescer num tsarat verdadeiro.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="1281" fromY="304" />O rato branco conseguiu crescer num tsarat verdadeiro.</nodes>
     <nodes xsi:type="NodeChallenge" ID="41" positionX="348" positionY="806" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_2M_0S" challengeScale="0" challengedList="1elfgrowing">
       <outputs name="Win" ownerID="41" targetID="18" fromX="789" fromY="310" />
       <outputs name="Lose" ownerID="41" targetID="17" fromX="789" fromY="230" />
@@ -3738,7 +3738,7 @@ Cuidado: ele vai encarar um desafio mortal para provar que é digno.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="1281" fromY="304" />O rato branco conseguiu crescer num tsarat verdadeiro.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="1281" fromY="304" />O rato branco conseguiu crescer num tsarat verdadeiro.</nodes>
     <nodes xsi:type="NodeChallenge" ID="41" positionX="348" positionY="806" width="500" height="726" challengeType="TypeSpirit" versusConcept="true" versusGroup="GROUP-CON_S_0P_0M_2S" challengeScale="0" challengedList="1elfgrowing">
       <outputs name="Win" ownerID="41" targetID="18" fromX="789" fromY="310" />
       <outputs name="Lose" ownerID="41" targetID="17" fromX="789" fromY="230" />
@@ -7300,7 +7300,7 @@ Quando tentam avançar, sentem uma resistência quase física testando a resolu�
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="17" targetID="16" fromX="860" fromY="-751" />O filhote de rato conseguiu crescer num Rato Místico talentoso.</nodes>
+      </logic><outputs name="Exultar!" ownerID="17" targetID="16" fromX="860" fromY="-751" />O filhote de rato conseguiu crescer num Rato Místico talentoso.</nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="912" positionY="259" width="350" height="725" image="Event369"><logic>
         <ModifierBlock>
           <LogicModifiers list="1elfgrowing">
@@ -7310,7 +7310,7 @@ Quando tentam avançar, sentem uma resistência quase física testando a resolu�
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="1237" fromY="-232" />O filhote de rato conseguiu crescer num grande Rato Curandeiro.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="1237" fromY="-232" />O filhote de rato conseguiu crescer num grande Rato Curandeiro.</nodes>
   </Adventure>
   <Adventure name="RatChildGrowingup2SEA" uniqueID="42" seaEvent="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="45" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-530" positionY="216" width="347" height="661" image="Event363">
@@ -7378,7 +7378,7 @@ Cuidado: ele vai encarar um desafio mortal para provar que é digno.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="1279" fromY="357" />O rato branco conseguiu crescer num tsarat verdadeiro.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="1279" fromY="357" />O rato branco conseguiu crescer num tsarat verdadeiro.</nodes>
     <nodes xsi:type="NodeChallenge" ID="41" positionX="291" positionY="736" width="500" height="726" challengeType="TypePhysical" versusConcept="true" versusGroup="GROUP-CON_P_3P_0M_0S" challengeScale="0" challengedList="1elfgrowing">
       <outputs name="Win" ownerID="41" targetID="18" fromX="732" fromY="240" />
       <outputs name="Lose" ownerID="41" targetID="17" fromX="732" fromY="160" />
@@ -7452,7 +7452,7 @@ Cuidado: ele vai encarar um desafio mortal para provar que é digno.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="1281" fromY="304" />O rato branco conseguiu crescer num tsarat verdadeiro.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="1281" fromY="304" />O rato branco conseguiu crescer num tsarat verdadeiro.</nodes>
     <nodes xsi:type="NodeChallenge" ID="41" positionX="348" positionY="806" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_2M_0S" challengeScale="0" challengedList="1elfgrowing">
       <outputs name="Win" ownerID="41" targetID="18" fromX="789" fromY="310" />
       <outputs name="Lose" ownerID="41" targetID="17" fromX="789" fromY="230" />
@@ -7526,7 +7526,7 @@ Cuidado: ele vai encarar um desafio mortal para provar que é digno.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="1281" fromY="304" />O rato branco conseguiu crescer num tsarat verdadeiro.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="1281" fromY="304" />O rato branco conseguiu crescer num tsarat verdadeiro.</nodes>
     <nodes xsi:type="NodeChallenge" ID="41" positionX="348" positionY="806" width="500" height="726" challengeType="TypeSpirit" versusConcept="true" versusGroup="GROUP-CON_S_0P_0M_2S" challengeScale="0" challengedList="1elfgrowing">
       <outputs name="Win" ownerID="41" targetID="18" fromX="789" fromY="310" />
       <outputs name="Lose" ownerID="41" targetID="17" fromX="789" fromY="230" />
@@ -7601,7 +7601,7 @@ Cuidado: ele vai encarar um desafio mortal para provar que é digno.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="17" targetID="16" fromX="1871" fromY="-1110" />O filhote gnoll conseguiu crescer num xamã talentoso.</nodes>
+      </logic><outputs name="Exultar!" ownerID="17" targetID="16" fromX="1871" fromY="-1110" />O filhote gnoll conseguiu crescer num xamã talentoso.</nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="1567" positionY="148" width="350" height="725" image="Event364"><logic>
         <ModifierBlock>
           <LogicModifiers list="1elfgrowing">
@@ -7611,7 +7611,7 @@ Cuidado: ele vai encarar um desafio mortal para provar que é digno.
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Alegrar-se!" ownerID="18" targetID="16" fromX="1892" fromY="-343" />O filhote gnoll conseguiu crescer num grande caçador.</nodes>
+      </logic><outputs name="Exultar!" ownerID="18" targetID="16" fromX="1892" fromY="-343" />O filhote gnoll conseguiu crescer num grande caçador.</nodes>
     <nodes xsi:type="NodeChallenge" ID="41" positionX="332" positionY="1087" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-Q_ONE_RAT_1P_0M_0S" challengeScale="0" challengedList="1elfgrowing">
       <outputs name="Win" ownerID="41" targetID="15" fromX="773" fromY="591" />
       <outputs name="Lose" ownerID="41" targetID="42" fromX="773" fromY="511" />

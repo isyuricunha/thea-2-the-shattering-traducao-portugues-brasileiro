@@ -417,7 +417,7 @@ Vocês golpeiam contra eles, e, a cada golpe, só sentem o pavor mais. </nodes>
             <scriptCallWithTag scriptName="FRA_Chance" parameter="60" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Defender a aldeia. " ownerID="13" targetID="6" fromX="1133" fromY="-332" /><outputs name="[Harmonia]Talvez a harmonia seja o jeito de você, ou a cara de você torna a língua de você mais doce. De um jeito ou de outro, os bandidos parecem dispostos a escutar. Negociar com eles." ownerID="13" targetID="35" group="G1" fromX="1133" fromY="-413" /><outputs name="[Zorya]Em nome de Zorya, exigir respeito!" ownerID="13" targetID="30" group="G1" fromX="1133" fromY="-493" />Tal como suspeitavam, os bandidos chegam dentro de uns dias, prontos para uma luta!
+      </logic><outputs name="Defender a aldeia. " ownerID="13" targetID="6" fromX="1133" fromY="-332" /><outputs name="[Harmonia]Talvez a harmonia seja o jeito de você, ou a cara de você torna a língua de você mais doce. De um jeito ou de outro, os bandidos parecem dispostos a escutar. Negociar com eles." ownerID="13" targetID="35" group="G1" fromX="1133" fromY="-413" /><outputs name="Tentar parlamentar com eles." ownerID="13" targetID="30" group="G1" fromX="1133" fromY="-493" />Tal como suspeitavam, os bandidos chegam dentro de uns dias, prontos para uma luta!
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="14" positionX="3826" positionY="-2101" width="350" height="530" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
@@ -556,7 +556,7 @@ Eles recuam.</nodes>
             <scriptCallWithTag scriptName="FRA_Chance" parameter="30" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Defender a aldeia. " ownerID="36" targetID="6" fromX="1131" fromY="-1365" /><outputs name="[Harmonia ou atrativo]Talvez a harmonia seja o jeito de você, ou a cara de você torna a língua de você mais doce. De um jeito ou de outro, os bandidos parecem dispostos a escutar. Negociar com eles." ownerID="36" targetID="35" group="G1" fromX="1131" fromY="-1446" /><outputs name="[Zorya]Em nome de Zorya, exigir respeito!" ownerID="36" targetID="30" group="G1" fromX="1131" fromY="-1526" />Tal como suspeitavam, os bandidos chegam dentro de uns dias, armados e prontos para lutar. Eles não se desencorajam pelas fortificações de você.
+      </logic><outputs name="Defender a aldeia. " ownerID="36" targetID="6" fromX="1131" fromY="-1365" /><outputs name="[Harmonia ou atrativo]Talvez a harmonia seja o jeito de você, ou a cara de você torna a língua de você mais doce. De um jeito ou de outro, os bandidos parecem dispostos a escutar. Negociar com eles." ownerID="36" targetID="35" group="G1" fromX="1131" fromY="-1446" /><outputs name="Tentar parlamentar com eles." ownerID="36" targetID="30" group="G1" fromX="1131" fromY="-1526" />Tal como suspeitavam, os bandidos chegam dentro de uns dias, armados e prontos para lutar. Eles não se desencorajam pelas fortificações de você.
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="37" positionX="2972" positionY="836" width="350" height="725"><logic>
         <ModifierBlock>
@@ -1056,8 +1056,7 @@ Vocês sobrevivem à tempestade esquisita dentro de casa, mas ela arrasa a aldei
 
 Vocês não têm certeza se o que quer que os afligiu acabou, mas parece ter atenuado o aperto por ora.
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="5" positionX="713" positionY="1087" width="350" height="885"><outputs name="[Sabedoria ou zerca]Considerar a origem desta criatura." ownerID="5" targetID="13" fromX="1038" fromY="595" /><outputs name="Oferecer a ela um pouco de comida como pagamento. Espíritos costumam aceitar isto." ownerID="5" targetID="16" fromX="1041" fromY="515" /><outputs name="Simplesmente esperar ela passar, e esperar pelo melhor." ownerID="5" targetID="19" fromX="1041" fromY="435" />Vocês conferem a capoeira, mas acham só rastros molhados levando a uma das casas. Dentro, atrás do fogão, vocês acham uma galinha de cara esquisita. Olhando melhor, é mais uma velha murcha com pés de galinha, garras, e uma cara torcida de ave. Ela senta junto ao que parece um tear improvisado, tecendo do ar.
- 
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="713" positionY="1087" width="350" height="885"><outputs name="[Sabedoria ou zerca]Considerar a origem desta criatura." ownerID="5" targetID="13" fromX="1038" fromY="595" /><outputs name="Oferecer a ela um pouco de comida como pagamento. Espíritos costumam aceitar isto." ownerID="5" targetID="16" fromX="1041" fromY="515" /><outputs name="Simplesmente esperar ela passar, e esperar pelo melhor." ownerID="5" targetID="19" fromX="1041" fromY="435" />Vocês conferem a capoeira, mas acham só rastros molhados levando a uma das casas. Dentro, atrás do fogão, vocês acham uma galinha de cara esquisita. Olhando melhor, é mais uma velha murcha com pés de galinha, garras, e uma cara torcida de ave. Ela senta junto ao que parece um tear improvisado, tecendo do ar. 
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="1117.78528" positionY="-1320.94055" width="350" height="455" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeChallenge" ID="7" positionX="1746" positionY="844" width="500" height="726" challengeType="TypeSpirit" versusConcept="true" versusGroup="GROUP-CON_S_0P_0M_2S" challengeScale="101" challengedList="ppl">
@@ -3468,7 +3467,7 @@ Vocês veem ervas secas, umas trapças, pedaços e cacos, e várias coisas que v
       <outputs name="Lose" ownerID="7" targetID="29" fromX="2252" fromY="-783" />
       <outputs name="Surrender" ownerID="7" targetID="29" fromX="2252" fromY="-863" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="8" positionX="894.3386" positionY="-582.2572" width="350" height="805"><outputs name="Defender-se!" ownerID="8" targetID="9" fromX="1220" fromY="-1073" /><outputs name="Correr!" ownerID="8" targetID="30" fromX="1220" fromY="-1153" />Vocês entram de furtivo na caverna, e descobrem um acampamento. Vocês veem ervas secas, umas trapças, pedaços e cacos, e várias coisas que vêm da aldeia de você!
+    <nodes xsi:type="NodeAdventure" ID="8" positionX="894.3386" positionY="-582.2572" width="350" height="805"><outputs name="Defender-se!" ownerID="8" targetID="9" fromX="1220" fromY="-1073" /><outputs name="Fugir!" ownerID="8" targetID="30" fromX="1220" fromY="-1153" />Vocês entram de furtivo na caverna, e descobrem um acampamento. Vocês veem ervas secas, umas trapças, pedaços e cacos, e várias coisas que vêm da aldeia de você!
 
 Mas, antes que possam tomá-las de volta: veem uma velha com um gato te encarando: e sentem energia espiritual subindo:
 

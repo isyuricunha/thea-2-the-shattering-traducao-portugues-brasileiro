@@ -648,8 +648,8 @@ Aqueles meninos, dizem que vão buscar coisas para a gente. E buscaram. Não per
       <outputs ownerID="18" targetID="19" fromX="5662" fromY="-1086" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="19" positionX="4669" positionY="-747" width="350" height="530" allPlayersXP="2" allPlayersRP="1" logBookName="QUEST_MISC3_GOBKILL" logBookDescription="QUEST_MISC3_GOBKILL2_DES" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventure" ID="20" positionX="4351" positionY="335" width="350" height="725"><outputs name="Fazer que sim e partir para achar este matador de goblins." ownerID="20" targetID="18" fromX="4676" fromY="-156" />"'Você, você vai? Agradecemos com certeza! Ah, cuidado, eles vêm com outros às vezes.'"</nodes>
-    <nodes xsi:type="NodeAdventure" ID="21" positionX="5686" positionY="1833" width="350" height="725"><outputs name="Fazer que sim e partir para achar este matador de goblins." ownerID="21" targetID="18" fromX="6011" fromY="1341" />"'Você, você vai? Agradecemos com certeza! Ah, cuidado, eles vêm com outros às vezes.'"</nodes>
+    <nodes xsi:type="NodeAdventure" ID="20" positionX="4351" positionY="335" width="350" height="725"><outputs name="Fazer que sim e partir para achar este matador de goblins." ownerID="20" targetID="18" fromX="4676" fromY="-156" />'Você, você vai? Agradecemos com certeza! Ah, cuidado, eles vêm com outros às vezes.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="21" positionX="5686" positionY="1833" width="350" height="725"><outputs name="Fazer que sim e partir para achar este matador de goblins." ownerID="21" targetID="18" fromX="6011" fromY="1341" />'Você, você vai? Agradecemos com certeza! Ah, cuidado, eles vêm com outros às vezes.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="6074" positionY="919" width="350" height="725"><outputs name="Sair da história." ownerID="22" targetID="23" fromX="6399" fromY="427" />Os goblins partem o mais rápido que conseguem. Uns olham para você com gratidão por poupar as vidas deles; uns com medo; e outros com raiva e dor. Uma das crianças acena tchau e arremessa uma flor como presente.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="23" positionX="6525" positionY="884" width="350" height="530" allPlayersXP="6" allPlayersRP="3" logBookName="QUEST_MISC3_GOBKILL" logBookDescription="QUEST_MISC3_GOBKILL3_DES" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
@@ -748,7 +748,7 @@ Eles te medem de cima a baixo; mas não falam. </nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Lutar!" ownerID="3" targetID="4" fromX="458" fromY="122" /><outputs name="Ficar entre eles e o seu amigo goblin; e mandar que se acalmem, não há precisar de violência aqui. " ownerID="3" targetID="7" fromX="458" fromY="42" /><outputs name="Correr." ownerID="3" targetID="17" fromX="458" fromY="-37" />Vocês se deparam com um grupo armado de lutadores. Há um humano vestindo elmo, um orc alto de capuz com varinha de osso, uma zerca, um elfo e um anão.
+      </logic><outputs name="Lutar!" ownerID="3" targetID="4" fromX="458" fromY="122" /><outputs name="Ficar entre eles e o seu amigo goblin; e mandar que se acalmem, não há precisar de violência aqui. " ownerID="3" targetID="7" fromX="458" fromY="42" /><outputs name="Fugir." ownerID="3" targetID="17" fromX="458" fromY="-37" />Vocês se deparam com um grupo armado de lutadores. Há um humano vestindo elmo, um orc alto de capuz com varinha de osso, uma zerca, um elfo e um anão.
 O humano tem cabeças de goblin no cinto dele, então este deve ser o matador de goblins enlouquecido de que falaram a você. 
 
 Eles olham para você e cospem: 'Escória goblin: vindo até nós? Bom.'
@@ -790,7 +790,7 @@ Eles se aprontam para um ataque.</nodes>
             <scriptCallWithTag scriptName="FMO_TakeCharacters" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr." ownerID="6" targetID="21" fromX="2338" fromY="703" />Vocês são derrotados; e quaisquer peles-verdes no grupo de você não conseguem sair vivos.</nodes>
+      </logic><outputs name="Fugir." ownerID="6" targetID="21" fromX="2338" fromY="703" />Vocês são derrotados; e quaisquer peles-verdes no grupo de você não conseguem sair vivos.</nodes>
     <nodes xsi:type="NodeChallenge" ID="7" positionX="1325" positionY="316" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-Q_SLAYER_8P_7M_6S" challengeScale="101" challengedList="ppl">
       <logic>
         <FilterBlock>
@@ -1099,7 +1099,7 @@ Eles te medem de cima a baixo; mas não falam. </nodes>
             <scriptCallWithTag scriptName="FMO_TakeCharacters" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr." ownerID="6" targetID="21" fromX="2295" fromY="762" />Vocês são derrotados; e quaisquer peles-verdes no grupo de você não conseguem sair vivos.</nodes>
+      </logic><outputs name="Fugir." ownerID="6" targetID="21" fromX="2295" fromY="762" />Vocês são derrotados; e quaisquer peles-verdes no grupo de você não conseguem sair vivos.</nodes>
     <nodes xsi:type="NodeChallenge" ID="7" positionX="2006" positionY="436" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-Q_SLAYER_8P_7M_6S" challengeScale="101" challengedList="ppl">
       <logic>
         <FilterBlock>

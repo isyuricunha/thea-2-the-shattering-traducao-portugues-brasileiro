@@ -345,7 +345,7 @@ Os seus espíritos se elevam ao sentir a presença dos caídos, agora em paz. </
             <scriptCallWithTag scriptName="FRA_Chance" parameter="50" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Lutar!" ownerID="9" targetID="16" fromX="1877" fromY="-749" /><outputs name="Correr!" ownerID="9" targetID="17" fromX="1877" fromY="-830" /><outputs name="Falar com os seus iguais mortos-vivos para apaziguar a raiva deles e oferecer ajuda." ownerID="9" targetID="12" fromX="1877" fromY="-910" /><outputs name="Como a natureza e a harmonia balançam a sua alma, usar o seu domínio para enfraquecer esses mortos-vivos antes de matá-los de vez!" ownerID="9" targetID="54" fromX="1877" fromY="-990" />Você enterra os corpos conforme o costume seu, mas talvez os orcs caídos não tenham gostado, porque se erguem para te atacar!</nodes>
+      </logic><outputs name="Lutar!" ownerID="9" targetID="16" fromX="1877" fromY="-749" /><outputs name="Fugir!" ownerID="9" targetID="17" fromX="1877" fromY="-830" /><outputs name="Falar com os seus iguais mortos-vivos para apaziguar a raiva deles e oferecer ajuda." ownerID="9" targetID="12" fromX="1877" fromY="-910" /><outputs name="Como a natureza e a harmonia balançam a sua alma, usar o seu domínio para enfraquecer esses mortos-vivos antes de matá-los de vez!" ownerID="9" targetID="54" fromX="1877" fromY="-990" />Você enterra os corpos conforme o costume seu, mas talvez os orcs caídos não tenham gostado, porque se erguem para te atacar!</nodes>
     <nodes xsi:type="NodeAdventure" ID="10" positionX="-51.7503433" positionY="-746.656738" width="350" height="805" image="Event019"><outputs name="Continuar procurando por qualquer coisa útil." ownerID="10" targetID="33" group="G1" fromX="273" fromY="-1237" /><outputs name="Continuar procurando por qualquer coisa útil." ownerID="10" targetID="23" group="G1" fromX="273" fromY="-1318" />Você enterra os corpos conforme o costume seu, e nenhum morto-vivo se ergue para te matar, então provavelmente fez bem.</nodes>
     <nodes xsi:type="NodeAdventure" ID="12" positionX="1553.3446" positionY="-1525.7207" width="350" height="966"><logic>
         <FilterBlock>
@@ -389,7 +389,7 @@ Um dos mortos-vivos conecta-se à sua mente, e de repente você sabe o jeito orc
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-CURSE_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Lutar!" ownerID="15" targetID="16" fromX="2808" fromY="-1788" /><outputs name="Correr." ownerID="15" targetID="68" fromX="2808" fromY="-1868" />Os seus esforços são inúteis, e os mortos-vivos atacam!</nodes>
+      </logic><outputs name="Lutar!" ownerID="15" targetID="16" fromX="2808" fromY="-1788" /><outputs name="Fugir." ownerID="15" targetID="68" fromX="2808" fromY="-1868" />Os seus esforços são inúteis, e os mortos-vivos atacam!</nodes>
     <nodes xsi:type="NodeChallenge" ID="16" positionX="2947.45142" positionY="-1605.19055" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-ORC_SKELETON_5P_1M_2S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="16" targetID="18" fromX="3388" fromY="-2100" />
       <outputs name="Lose" ownerID="16" targetID="19" fromX="3388" fromY="-2180" />
@@ -584,7 +584,7 @@ Tanta luta me deixou com fome. Deixem a comida, deixem o espólio, e podem ir.'<
           </LogicResultAction>
         </FilterBlock>
       </logic><outputs name="Levar as coisas e partir." ownerID="41" targetID="60" fromX="945" fromY="428" />Quem quer que tenham sido estes mortos, os assassinos deles levaram boa parte do que era utilizável aqui, mas você ainda vê alguns recursos recuperáveis e algumas armas espalhadas que podem ser boas.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="42" positionX="911.21875" positionY="-442.113037" width="350" height="966" image="Event012"><outputs name="Lutar!" ownerID="42" targetID="16" fromX="1236" fromY="-933" /><outputs name="Correr!" ownerID="42" targetID="17" fromX="1236" fromY="-1013" /><outputs name="Falar com os seus iguais mortos-vivos para apaziguar a raiva deles e oferecer ajuda." ownerID="42" targetID="12" fromX="1236" fromY="-1093" /><outputs name="Como a natureza e a harmonia balançam a sua alma, usar o seu domínio para enfraquecer esses mortos-vivos antes de matá-los de vez!" ownerID="42" targetID="54" fromX="1236" fromY="-1173" />Você junta o pouco que sobrou nas ruínas, mas, no momento em que ergue um esqueleto para pegar a espada dele, ouve passos atrás de você e vê uns mortos-vivos!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="42" positionX="911.21875" positionY="-442.113037" width="350" height="966" image="Event012"><outputs name="Lutar!" ownerID="42" targetID="16" fromX="1236" fromY="-933" /><outputs name="Fugir!" ownerID="42" targetID="17" fromX="1236" fromY="-1013" /><outputs name="Falar com os seus iguais mortos-vivos para apaziguar a raiva deles e oferecer ajuda." ownerID="42" targetID="12" fromX="1236" fromY="-1093" /><outputs name="Como a natureza e a harmonia balançam a sua alma, usar o seu domínio para enfraquecer esses mortos-vivos antes de matá-los de vez!" ownerID="42" targetID="54" fromX="1236" fromY="-1173" />Você junta o pouco que sobrou nas ruínas, mas, no momento em que ergue um esqueleto para pegar a espada dele, ouve passos atrás de você e vê uns mortos-vivos!</nodes>
     <nodes xsi:type="NodeAdventure" ID="43" positionX="37.66743" positionY="-1711.24573" width="350" height="966"><outputs name="Concordar em ajudar com os corpos. " ownerID="43" targetID="36" group="G1" fromX="363" fromY="-2202" /><outputs name="Concordar em ajudar com os corpos. " ownerID="43" targetID="35" group="G1" fromX="363" fromY="-2282" /><outputs name="[Agitação] Como a agitação é a sua senda, ficar firme e dizer que não vai ceder às exigências deles. O espólio é seu, e se acham o contrário, podem lutar por ele." ownerID="43" targetID="39" group="G2" fromX="363" fromY="-2362" /><outputs name="[Agitação] Como a agitação é a sua senda, ficar firme e dizer que não vai ceder às exigências deles. O espólio é seu, e se acham o contrário, podem lutar por ele." ownerID="43" targetID="44" group="G2" fromX="363" fromY="-2442" />'Mas te digo uma coisa, você mostrou respeito aos mortos, mesmo que tenha enterrado em vez de queimar... Então ajude a gente a desenterrá-los e fazer as piras funerárias, e fica com metade do espólio.'</nodes>
     <nodes xsi:type="NodeChallenge" ID="44" positionX="-102.518814" positionY="-2805.95947" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-ORCS_4P_3M_1S" challengeScale="101" challengedList="ppl">
       <logic>
@@ -864,7 +864,7 @@ Vocês veem um corredor escuro descendo fundo. O ar está viciado, e a escuridã
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Usar o conhecimento de demônios para identificar estas criaturas." ownerID="15" targetID="17" group="G1" fromX="3605" fromY="1543" /><outputs name="Concentrar-se no domínio divino para descobrir isto." ownerID="15" targetID="18" group="G1" fromX="3605" fromY="1463" /><outputs name="Estas criaturas são claramente parentes demônios de vocês. Considerar como resolver a situação." ownerID="15" targetID="19" fromX="3605" fromY="1382" /><outputs name="Atacar!" ownerID="15" targetID="26" fromX="3605" fromY="1302" /><outputs name="Correr." ownerID="15" targetID="48" fromX="3605" fromY="1222" />Vocês avistam as silhuetas de criaturas humanoides penduradas do teto pelas colunas. 
+      </logic><outputs name="Usar o conhecimento de demônios para identificar estas criaturas." ownerID="15" targetID="17" group="G1" fromX="3605" fromY="1543" /><outputs name="Concentrar-se no domínio divino para descobrir isto." ownerID="15" targetID="18" group="G1" fromX="3605" fromY="1463" /><outputs name="Estas criaturas são claramente parentes demônios de vocês. Considerar como resolver a situação." ownerID="15" targetID="19" fromX="3605" fromY="1382" /><outputs name="Atacar!" ownerID="15" targetID="26" fromX="3605" fromY="1302" /><outputs name="Fugir." ownerID="15" targetID="48" fromX="3605" fromY="1222" />Vocês avistam as silhuetas de criaturas humanoides penduradas do teto pelas colunas. 
 
 Elas também avistaram vocês...</nodes>
     <nodes xsi:type="NodeAdventure" ID="16" positionX="2868" positionY="753" width="350" height="885" image="Event176"><outputs name="Atacá-los com o auxílio da luz ou da harmonia!" ownerID="16" targetID="25" group="G1" fromX="3193" fromY="261" /><outputs name="Lutar!" ownerID="16" targetID="26" group="G1" fromX="3193" fromY="181" /><outputs name="Correr, mesmo que possam levar alguns danos." ownerID="16" targetID="44" fromX="3193" fromY="101" />Quando entram na câmara, vocês são surpreendidos por criaturas que caem do teto sobre vocês!</nodes>
@@ -877,7 +877,7 @@ Elas também avistaram vocês...</nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Atacá-los com o auxílio da luz ou da harmonia!" ownerID="17" targetID="25" fromX="5177" fromY="1734" /><outputs name="Atacar!" ownerID="17" targetID="26" fromX="5177" fromY="1654" /><outputs name="Correr." ownerID="17" targetID="48" fromX="5177" fromY="1573" /><outputs name="[Criaturas sem Sangue]Como as strigas buscam sangue, criaturas sem sangue devem conseguir entrar e sair de fininho sem problema." ownerID="17" targetID="41" fromX="5177" fromY="1493" />Strigas são demônios mortos-vivos conhecidos não só por beber o sangue dos vivos, mas por devorar as entranhas deles! 
+      </logic><outputs name="Atacá-los com o auxílio da luz ou da harmonia!" ownerID="17" targetID="25" fromX="5177" fromY="1734" /><outputs name="Atacar!" ownerID="17" targetID="26" fromX="5177" fromY="1654" /><outputs name="Fugir." ownerID="17" targetID="48" fromX="5177" fromY="1573" /><outputs name="[Criaturas sem Sangue]Como as strigas buscam sangue, criaturas sem sangue devem conseguir entrar e sair de fininho sem problema." ownerID="17" targetID="41" fromX="5177" fromY="1493" />Strigas são demônios mortos-vivos conhecidos não só por beber o sangue dos vivos, mas por devorar as entranhas deles! 
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="4052.247" positionY="1479.95154" width="350" height="805"><logic>
         <FilterBlock>
@@ -888,7 +888,7 @@ Elas também avistaram vocês...</nodes>
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_HARMONY" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Atacá-los com o auxílio da luz ou da harmonia!" ownerID="18" targetID="25" fromX="4377" fromY="988" /><outputs name="Correr." ownerID="18" targetID="48" fromX="4377" fromY="908" />Vocês sentem que estas criaturas são da noite, manchadas pela escuridão. Assim, podem invocar o domínio de vocês para dar força para lutar contra elas.</nodes>
+      </logic><outputs name="Atacá-los com o auxílio da luz ou da harmonia!" ownerID="18" targetID="25" fromX="4377" fromY="988" /><outputs name="Fugir." ownerID="18" targetID="48" fromX="4377" fromY="908" />Vocês sentem que estas criaturas são da noite, manchadas pela escuridão. Assim, podem invocar o domínio de vocês para dar força para lutar contra elas.</nodes>
     <nodes xsi:type="NodeAdventure" ID="19" positionX="2503.2605" positionY="2370.14014" width="350" height="1046" image="Event176"><logic>
         <FilterBlock>
           <LogicFilter name="ndemon">
@@ -904,7 +904,7 @@ Elas também avistaram vocês...</nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Dar um pouco do sangue de vocês a elas. " ownerID="19" targetID="21" group="G1" fromX="2829" fromY="1878" /><outputs name="Dar um pouco do sangue de vocês a elas. " ownerID="19" targetID="20" group="G1" fromX="2829" fromY="1798" /><outputs name="Atacá-los com o auxílio da luz ou da harmonia!" ownerID="19" targetID="25" fromX="2829" fromY="1718" /><outputs name="Atacar!" ownerID="19" targetID="26" fromX="2829" fromY="1638" /><outputs name="Correr." ownerID="19" targetID="48" fromX="2829" fromY="1558" />As strigas são almas amaldiçoadas que precisam se alimentar do sangue dos vivos para sobreviver. Claramente ficaram presas aqui muito tempo e agora estão famintas. 
+      </logic><outputs name="Dar um pouco do sangue de vocês a elas. " ownerID="19" targetID="21" group="G1" fromX="2829" fromY="1878" /><outputs name="Dar um pouco do sangue de vocês a elas. " ownerID="19" targetID="20" group="G1" fromX="2829" fromY="1798" /><outputs name="Atacá-los com o auxílio da luz ou da harmonia!" ownerID="19" targetID="25" fromX="2829" fromY="1718" /><outputs name="Atacar!" ownerID="19" targetID="26" fromX="2829" fromY="1638" /><outputs name="Fugir." ownerID="19" targetID="48" fromX="2829" fromY="1558" />As strigas são almas amaldiçoadas que precisam se alimentar do sangue dos vivos para sobreviver. Claramente ficaram presas aqui muito tempo e agora estão famintas. 
 
 Se derem sangue a elas, deixam vocês saquear em paz.  </nodes>
     <nodes xsi:type="NodeAdventure" ID="20" positionX="1759.84583" positionY="2615.031" width="350" height="725"><outputs name="Ótimo. Juntar o espólio e partir." ownerID="20" targetID="43" fromX="2085" fromY="2123" />Vocês falam com os parentes e dão um pouco do sangue de vocês a elas. 
@@ -1050,7 +1050,7 @@ Vocês veem um corredor escuro descendo fundo. O ar está viciado, e a escuridã
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-CURSE_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr." ownerID="42" targetID="50" fromX="5857" fromY="2851" />As strigas rasgam a carne de vocês e festejam o sangue mesmo enquanto fogem pelas vidas.
+      </logic><outputs name="Correr." ownerID="42" targetID="50" fromX="5857" fromY="2851" />As strigas rasgam a carne de vocês e festejam o sangue mesmo enquanto fogem pelas vidas. 
 </nodes>
     <nodes xsi:type="NodeDealDamage" ID="43" positionX="2027.60828" positionY="3159.60718" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="6" maxDamage="10" useCountInPercent="false" targetGroup="adults">
       <outputs ownerID="43" targetID="24" fromX="2456" fromY="2771" />
@@ -1156,7 +1156,7 @@ E, já que não somos estúpidos o bastante para se meter com os deuses de você
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-CURSE_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr!" ownerID="12" targetID="77" fromX="1752" fromY="-772" /><outputs name="Ficar e lutar esta coisa!" ownerID="12" targetID="49" fromX="1752" fromY="-852" />Vocês entram na parte leste das ruínas e acham que um corte fundo e maldoso foi talhado no chão sob você. 
+      </logic><outputs name="Fugir!" ownerID="12" targetID="77" fromX="1752" fromY="-772" /><outputs name="Ficar e lutar esta coisa!" ownerID="12" targetID="49" fromX="1752" fromY="-852" />Vocês entram na parte leste das ruínas e acham que um corte fundo e maldoso foi talhado no chão sob você. 
 
 De dentro dele, você sente uma presença, observando, esperando...
 
@@ -1257,7 +1257,7 @@ Os catadores olham para você e decidem que o espólio não vale as vidas deles.
       <outputs name="Lose" ownerID="26" targetID="28" fromX="-103" fromY="-378" />
       <outputs name="Surrender" ownerID="26" targetID="28" fromX="-103" fromY="-458" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="28" positionX="10" positionY="-276" width="350" height="805"><outputs name="Lutar!" ownerID="28" targetID="6" fromX="335" fromY="-767" /><outputs name="Correr." ownerID="28" targetID="77" fromX="335" fromY="-847" />'Vocês são assustador, mas não são muitos. A gente leva você!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="10" positionY="-276" width="350" height="805"><outputs name="Lutar!" ownerID="28" targetID="6" fromX="335" fromY="-767" /><outputs name="Fugir." ownerID="28" targetID="77" fromX="335" fromY="-847" />'Vocês são assustador, mas não são muitos. A gente leva você!'</nodes>
     <nodes xsi:type="NodeAdventure" ID="29" positionX="-998.110962" positionY="896.1697" width="350" height="725"><outputs name="Bom. Juntar o espólio e partir." ownerID="29" targetID="24" fromX="-672" fromY="405" />'A gente vai agora. Você não mata a gente!'
 
 Os catadores olham para você e decidem que o espólio não vale as vidas deles. Eles fogem.
@@ -1274,7 +1274,7 @@ Os catadores olham para você e decidem que o espólio não vale as vidas deles.
             <scriptCallWithTag scriptName="FRA_Chance" parameter="60" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Atacá-los com um golpe preventivo!" ownerID="30" targetID="31" fromX="1213" fromY="-1575" /><outputs name="Correr." ownerID="30" targetID="77" fromX="1213" fromY="-1655" /><outputs name="Negociar com eles, bandido com bandido." ownerID="30" targetID="64" fromX="1213" fromY="-1735" /><outputs name="Tentar intimidá-los." ownerID="30" targetID="33" fromX="1213" fromY="-1815" />Vocês reconhecem à frente e descobrem que é um grupo de bandidos fingindo saquear as ruínas, mas na verdade esperando armar tocaia para você!</nodes>
+      </logic><outputs name="Atacá-los com um golpe preventivo!" ownerID="30" targetID="31" fromX="1213" fromY="-1575" /><outputs name="Fugir." ownerID="30" targetID="77" fromX="1213" fromY="-1655" /><outputs name="Negociar com eles, bandido com bandido." ownerID="30" targetID="64" fromX="1213" fromY="-1735" /><outputs name="Tentar intimidá-los." ownerID="30" targetID="33" fromX="1213" fromY="-1815" />Vocês reconhecem à frente e descobrem que é um grupo de bandidos fingindo saquear as ruínas, mas na verdade esperando armar tocaia para você!</nodes>
     <nodes xsi:type="NodeChallenge" ID="31" positionX="1274.97424" positionY="-1143.84973" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-BANDITS_3P_3M_1S" challengeScale="100" challengedList="ppl">
       <outputs name="Win" ownerID="31" targetID="38" fromX="1716" fromY="-1639" />
       <outputs name="Lose" ownerID="31" targetID="69" fromX="1716" fromY="-1719" />
@@ -1497,7 +1497,7 @@ Ou podemos negociar com o que achamos até agora.' </nodes>
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_P" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Atacar!" ownerID="72" targetID="46" fromX="1881" fromY="963" /><outputs name="Correr." ownerID="72" targetID="82" fromX="1881" fromY="883" />Vocês sentem-se fortalecidos pelo deus de você.
+      </logic><outputs name="Atacar!" ownerID="72" targetID="46" fromX="1881" fromY="963" /><outputs name="Fugir." ownerID="72" targetID="82" fromX="1881" fromY="883" />Vocês sentem-se fortalecidos pelo deus de você.
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="73" positionX="2285" positionY="373" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
@@ -1566,7 +1566,7 @@ Ou podemos negociar com o que achamos até agora.' </nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Como sábio, você conhece muitas criaturas. Tenta descobrir o que é isso." ownerID="4" targetID="5" fromX="1599" fromY="795" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="4" targetID="29" group="G1" fromX="1599" fromY="715" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="4" targetID="40" group="G1" fromX="1599" fromY="634" /><outputs name="Como sábio, você conhece muitas criaturas. Tenta descobrir o que é isso." ownerID="4" targetID="35" fromX="1599" fromY="554" />No canto mais escuro da câmara espreita uma criatura, com os olhos grandes e redondos cintilando no escuro. Você avista uma das pernas dela, de pelo lanudo e garras compridas e retorcidas. Você também ouve um ronronar baixo.
+      </logic><outputs name="Como sábio, você conhece muitas criaturas. Tenta descobrir o que é isso." ownerID="4" targetID="5" fromX="1599" fromY="795" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="4" targetID="29" group="G1" fromX="1599" fromY="715" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="4" targetID="40" group="G1" fromX="1599" fromY="634" /><outputs name="Só sair da história. " ownerID="4" targetID="35" fromX="1599" fromY="554" />No canto mais escuro da câmara espreita uma criatura, com os olhos grandes e redondos cintilando no escuro. Você avista uma das pernas dela, de pelo lanudo e garras compridas e retorcidas. Você também ouve um ronronar baixo.
 
 Ela está claramente te observando. </nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1779.33325" positionY="1278.04956" width="350" height="1046"><logic>
@@ -1584,7 +1584,7 @@ Ela está claramente te observando. </nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="[Demônio comum]Tenta conversar com ela para mostrar que você não quer feri-la e que agora é seguro partir." ownerID="5" targetID="6" fromX="2105" fromY="786" /><outputs name="Realizar um ritual para apaziguar a alma perturbada deste demônio. " ownerID="5" targetID="14" fromX="2105" fromY="706" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="5" targetID="15" group="G1" fromX="2105" fromY="626" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="5" targetID="40" group="G1" fromX="2105" fromY="546" /><outputs name="Como sábio, você conhece muitas criaturas. Tenta descobrir o que é isso." ownerID="5" targetID="35" fromX="2105" fromY="466" />Quanto mais você olha a criatura, mais acha que é um simples mrucek, um demônio doméstico inofensivo que ficou selvagem depois de ficar preso aqui com os donos mortos dele.</nodes>
+      </logic><outputs name="[Demônio comum]Tenta conversar com ela para mostrar que você não quer feri-la e que agora é seguro partir." ownerID="5" targetID="6" fromX="2105" fromY="786" /><outputs name="Realizar um ritual para apaziguar a alma perturbada deste demônio. " ownerID="5" targetID="14" fromX="2105" fromY="706" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="5" targetID="15" group="G1" fromX="2105" fromY="626" /><outputs name="Tenta ficar fora do caminho dela enquanto saqueia. Você não quer ter de matá-la, mas também precisa de recursos." ownerID="5" targetID="40" group="G1" fromX="2105" fromY="546" /><outputs name="Só sair da história. " ownerID="5" targetID="35" fromX="2105" fromY="466" />Quanto mais você olha a criatura, mais acha que é um simples mrucek, um demônio doméstico inofensivo que ficou selvagem depois de ficar preso aqui com os donos mortos dele.</nodes>
     <nodes xsi:type="NodeChallenge" ID="6" positionX="2100" positionY="2189" width="500" height="807" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_2M_0S" challengeScale="101" challengedList="demons">
       <logic>
         <FilterBlock>
@@ -1759,7 +1759,7 @@ Você a sacode e ela foge, deixando alguns cortes fundos e uma maldição em voc
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="[Strigas] Vocês sentem uma presença de striga. Tentar dominar o que quer que espreite nas sombras." ownerID="19" targetID="13" fromX="1645" fromY="-938" /><outputs name="Vocês sentem uma criatura da noite. Em nome de Horz, senhor da lua, chamar a criatura ao calcanhar." ownerID="19" targetID="27" fromX="1645" fromY="-1018" /><outputs name="Atacar com um golpe preventivo. " ownerID="19" targetID="30" fromX="1645" fromY="-1098" /><outputs name="Continuar observando a criatura e saquear o lugar, esperando que ela não ataque." ownerID="19" targetID="32" group="G1" fromX="1645" fromY="-1179" /><outputs name="Continuar observando a criatura e saquear o lugar, esperando que ela não ataque." ownerID="19" targetID="37" group="G1" fromX="1645" fromY="-1259" /><outputs name="Correr." ownerID="19" targetID="35" fromX="1645" fromY="-1339" />No canto mais escuro da câmara espreita uma criatura, com os olhinhos de botão dela cintilando na escuridão. 
+      </logic><outputs name="[Strigas] Vocês sentem uma presença de striga. Tentar dominar o que quer que espreite nas sombras." ownerID="19" targetID="13" fromX="1645" fromY="-938" /><outputs name="Vocês sentem uma criatura da noite. Em nome de Horz, senhor da lua, chamar a criatura ao calcanhar." ownerID="19" targetID="27" fromX="1645" fromY="-1018" /><outputs name="Atacar com um golpe preventivo. " ownerID="19" targetID="30" fromX="1645" fromY="-1098" /><outputs name="Continuar observando a criatura e saquear o lugar, esperando que ela não ataque." ownerID="19" targetID="32" group="G1" fromX="1645" fromY="-1179" /><outputs name="Continuar observando a criatura e saquear o lugar, esperando que ela não ataque." ownerID="19" targetID="37" group="G1" fromX="1645" fromY="-1259" /><outputs name="Fugir." ownerID="19" targetID="35" fromX="1645" fromY="-1339" />No canto mais escuro da câmara espreita uma criatura, com os olhinhos de botão dela cintilando na escuridão. 
 
 Ela está claramente observando você. </nodes>
     <nodes xsi:type="NodeAdventure" ID="20" positionX="2513.42114" positionY="-321.01062" width="350" height="805" image="Event176"><logic>
@@ -1941,7 +1941,7 @@ As feridas que ela deixou se provam infectadas.
             <scriptCallWithTag scriptName="FLP_AorB" />
           </LogicProcessing>
         </FilterBlock>
-      </logic><outputs name="Invocar a luz ou a harmonia para proteger você deste poder sombrio. " ownerID="2" targetID="13" group="G1" fromX="436" fromY="774" /><outputs name="Invocar a luz ou a harmonia para proteger você deste poder sombrio. " ownerID="2" targetID="14" group="G1" fromX="436" fromY="694" /><outputs name="Invocar a agitação ou a magia para escudar você da escuridão." ownerID="2" targetID="35" group="G1" fromX="436" fromY="614" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="2" targetID="15" group="G2" fromX="436" fromY="534" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="2" targetID="18" group="G2" fromX="436" fromY="454" /><outputs name="Correr." ownerID="2" targetID="43" fromX="436" fromY="373" /><outputs name="Tentar passar rápido de fininho pela névoa para chegar ao possível espólio destas ruínas." ownerID="2" targetID="11" group="G1" fromX="436" fromY="293" /><outputs name="[Elfo das Sombras]A névoa negra não é perigo para você. Atravessá-la e terminar a vistoria das ruínas." ownerID="2" targetID="37" group="G3" fromX="436" fromY="213" /><outputs name="[Elfo das Sombras]A névoa negra não é perigo para você. Atravessá-la e terminar a vistoria das ruínas." ownerID="2" targetID="42" group="G3" fromX="436" fromY="133" />Você procura as velhas ruínas até perceber que uma névoa escura e ameaçadora desce sobre este lugar. 
+      </logic><outputs name="Invocar a luz ou a harmonia para proteger você deste poder sombrio. " ownerID="2" targetID="13" group="G1" fromX="436" fromY="774" /><outputs name="Invocar a luz ou a harmonia para proteger você deste poder sombrio. " ownerID="2" targetID="14" group="G1" fromX="436" fromY="694" /><outputs name="Invocar a agitação ou a magia para escudar você da escuridão." ownerID="2" targetID="35" group="G1" fromX="436" fromY="614" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="2" targetID="15" group="G2" fromX="436" fromY="534" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="2" targetID="18" group="G2" fromX="436" fromY="454" /><outputs name="Fugir." ownerID="2" targetID="43" fromX="436" fromY="373" /><outputs name="Tentar passar rápido de fininho pela névoa para chegar ao possível espólio destas ruínas." ownerID="2" targetID="11" group="G1" fromX="436" fromY="293" /><outputs name="[Elfo das Sombras]A névoa negra não é perigo para você. Atravessá-la e terminar a vistoria das ruínas." ownerID="2" targetID="37" group="G3" fromX="436" fromY="213" /><outputs name="[Elfo das Sombras]A névoa negra não é perigo para você. Atravessá-la e terminar a vistoria das ruínas." ownerID="2" targetID="42" group="G3" fromX="436" fromY="133" />Você procura as velhas ruínas até perceber que uma névoa escura e ameaçadora desce sobre este lugar. 
 
 A névoa negra é um remanescente temido dos dias de escuridão.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="551.707336" positionY="-556.510742" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0" />
@@ -1967,7 +1967,7 @@ A névoa negra é um remanescente temido dos dias de escuridão.</nodes>
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-CURSE_M" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Não deixar esta escuridão vencer. Reunir o espírito e enfrentá-la!" ownerID="13" targetID="15" group="G1" fromX="1150" fromY="570" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="13" targetID="18" group="G1" fromX="1150" fromY="490" /><outputs name="Correr." ownerID="13" targetID="43" fromX="1150" fromY="410" />Ah, o seu domínio divino serve só de farol para que a névoa negra golpeie.
+      </logic><outputs name="Não deixar esta escuridão vencer. Reunir o espírito e enfrentá-la!" ownerID="13" targetID="15" group="G1" fromX="1150" fromY="570" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="13" targetID="18" group="G1" fromX="1150" fromY="490" /><outputs name="Fugir." ownerID="13" targetID="43" fromX="1150" fromY="410" />Ah, o seu domínio divino serve só de farol para que a névoa negra golpeie.
 
 Você é engolido pelas garras escuras dela, que rasgam fundo na sua alma com pavor e loucura!</nodes>
     <nodes xsi:type="NodeAdventure" ID="14" positionX="1997.22266" positionY="2029.74634" width="350" height="966"><logic>
@@ -1982,7 +1982,7 @@ Você é engolido pelas garras escuras dela, que rasgam fundo na sua alma com pa
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_LIGHT" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Levar o que achar e partir. " ownerID="14" targetID="47" fromX="2322" fromY="1538" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="14" targetID="15" group="G1" fromX="2322" fromY="1458" /><outputs name="Correr." ownerID="14" targetID="43" fromX="2322" fromY="1378" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="14" targetID="18" group="G1" fromX="2322" fromY="1297" />O seu domínio te escuda enquanto a névoa temida tenta cravar as garras na alma de vocês. 
+      </logic><outputs name="Levar o que achar e partir. " ownerID="14" targetID="47" fromX="2322" fromY="1538" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="14" targetID="15" group="G1" fromX="2322" fromY="1458" /><outputs name="Fugir." ownerID="14" targetID="43" fromX="2322" fromY="1378" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="14" targetID="18" group="G1" fromX="2322" fromY="1297" />O seu domínio te escuda enquanto a névoa temida tenta cravar as garras na alma de vocês. 
 
 Ainda inquieto com a experiência, você pode tentar procurar espólio aqui e esperar que a névoa não venha atrás de você de novo.
 </nodes>
@@ -2143,7 +2143,7 @@ Uma doença espiritual te atinge.
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_MAGIC" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Levar o que achar e partir. " ownerID="35" targetID="47" fromX="1822" fromY="1531" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="35" targetID="15" group="G1" fromX="1822" fromY="1450" /><outputs name="Correr." ownerID="35" targetID="43" fromX="1822" fromY="1370" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="35" targetID="18" group="G1" fromX="1822" fromY="1290" />O seu domínio te escuda enquanto a névoa temida tenta cravar as garras na alma de vocês. 
+      </logic><outputs name="Levar o que achar e partir. " ownerID="35" targetID="47" fromX="1822" fromY="1531" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="35" targetID="15" group="G1" fromX="1822" fromY="1450" /><outputs name="Fugir." ownerID="35" targetID="43" fromX="1822" fromY="1370" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="35" targetID="18" group="G1" fromX="1822" fromY="1290" />O seu domínio te escuda enquanto a névoa temida tenta cravar as garras na alma de vocês. 
 
 Ainda inquieto com a experiência, você pode tentar procurar espólio aqui e esperar que a névoa não venha atrás de você de novo.
 </nodes>
@@ -2750,7 +2750,7 @@ O elfo é claramente ancestral: talvez dos dias da escuridão: a julgar pelas ci
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
           </LogicFilter>
         </FilterBlock>
-      </logic><outputs name="[Leshy]Invocar a floresta a atender a vontade de você!" ownerID="2" targetID="6" group="G2" fromX="549" fromY="198" /><outputs name="[Povo da mata]Falar com a floresta; e proclamar o direito élfico de você de estar aqui." ownerID="2" targetID="36" group="G1" fromX="549" fromY="118" /><outputs name="[Natureza]Afirmar a lealdade de você à mata; e pedir à floresta que se acalme." ownerID="2" targetID="4" group="G1" fromX="549" fromY="38" /><outputs name="Tentar negociar com a floresta claramente furiosa." ownerID="2" targetID="8" fromX="549" fromY="-41" /><outputs name="Lutar!" ownerID="2" targetID="9" fromX="549" fromY="-122" /><outputs name="[Demônios da Floresta]O parentesco seu parece muito furioso. Oferecer a eles a saúde de espírito de você como tributo, em troca de passagem livre." ownerID="2" targetID="29" fromX="549" fromY="-202" /><outputs name="Correr." ownerID="2" targetID="41" fromX="549" fromY="-282" />Vocês sobem para explorar as ruínas élficas, mas ouvem uma agitação inquietante na floresta. Umas das árvores parecem estar descendo sobre você!</nodes>
+      </logic><outputs name="[Leshy]Invocar a floresta a atender a vontade de você!" ownerID="2" targetID="6" group="G2" fromX="549" fromY="198" /><outputs name="[Povo da mata]Falar com a floresta; e proclamar o direito élfico de você de estar aqui." ownerID="2" targetID="36" group="G1" fromX="549" fromY="118" /><outputs name="[Natureza]Afirmar a lealdade de você à mata; e pedir à floresta que se acalme." ownerID="2" targetID="4" group="G1" fromX="549" fromY="38" /><outputs name="Tentar negociar com a floresta claramente furiosa." ownerID="2" targetID="8" fromX="549" fromY="-41" /><outputs name="Lutar!" ownerID="2" targetID="9" fromX="549" fromY="-122" /><outputs name="[Demônios da Floresta]O parentesco seu parece muito furioso. Oferecer a eles a saúde de espírito de você como tributo, em troca de passagem livre." ownerID="2" targetID="29" fromX="549" fromY="-202" /><outputs name="Fugir." ownerID="2" targetID="41" fromX="549" fromY="-282" />Vocês sobem para explorar as ruínas élficas, mas ouvem uma agitação inquietante na floresta. Umas das árvores parecem estar descendo sobre você!</nodes>
     <nodes xsi:type="NodeChallenge" ID="4" positionX="839.0931" positionY="316.504456" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-LESHY_MIX_7P_6M_7S" challengeScale="101" challengedList="ppl">
       <logic>
         <FilterBlock>
@@ -2836,7 +2836,7 @@ Vocês estão livres para buscar as ruínas agora.</nodes>
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-CURSE_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Atacar!" ownerID="15" targetID="9" fromX="2362" fromY="-1051" /><outputs name="Correr." ownerID="15" targetID="37" fromX="2362" fromY="-1132" />A floresta não escuta nem responde. A raiva dela é velha e crua!
+      </logic><outputs name="Atacar!" ownerID="15" targetID="9" fromX="2362" fromY="-1051" /><outputs name="Fugir." ownerID="15" targetID="37" fromX="2362" fromY="-1132" />A floresta não escuta nem responde. A raiva dela é velha e crua!
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="16" positionX="555.8843" positionY="-1313.44751" width="350" height="725"><logic>
         <FilterBlock>
@@ -3683,7 +3683,7 @@ A gente não está tão a fim de chutar as traseiras de você; então pode esper
             <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-1" tag="TAG-LOYALTY_EARTHBOUND" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr." ownerID="14" targetID="56" fromX="3150" fromY="1893" />Os anões vencem você; mas deixam você correr, claramente mais interessados em garimpar que em chutar as traseiras de você.</nodes>
+      </logic><outputs name="Fugir." ownerID="14" targetID="56" fromX="3150" fromY="1893" />Os anões vencem você; mas deixam você correr, claramente mais interessados em garimpar que em chutar as traseiras de você.</nodes>
     <nodes xsi:type="NodeAdventure" ID="16" positionX="1824.79138" positionY="1722.65076" width="350" height="725"><logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -5689,7 +5689,7 @@ Umas abelhas viram a chegada de você, mas, até agora, não atacam.</nodes>
       </logic><outputs name="[Caçadores]Tentar passar de furtivo pelas abelhas para saquear o lugar." ownerID="5" targetID="20" group="G1" fromX="1479" fromY="-1054" /><outputs name="Tentar passar de furtivo pelas abelhas para saquear o lugar." ownerID="5" targetID="8" group="G1" fromX="1479" fromY="-1135" /><outputs name="Sair da história." ownerID="5" targetID="56" fromX="1479" fromY="-1215" /><outputs name="Usar o elemento da surpresa e atacar!" ownerID="5" targetID="43" fromX="1479" fromY="-1295" />As abelhas aninharam num pedaço grande de uma construção élfica caída. A presença delas provavelmente assustou outros saqueadores. 
 
 Vocês também notam que estão agora muito focadas num ponto em particular.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="6" positionX="739.1174" positionY="-653.8741" width="350" height="805" image="Event220"><outputs name="Lutar!" ownerID="6" targetID="16" fromX="1064" fromY="-1145" /><outputs name="Correr!" ownerID="6" targetID="44" fromX="1064" fromY="-1225" />As abelhas aninharam num pedaço grande de uma construção élfica caída. A presença delas provavelmente assustou outros saqueadores. 
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="739.1174" positionY="-653.8741" width="350" height="805" image="Event220"><outputs name="Lutar!" ownerID="6" targetID="16" fromX="1064" fromY="-1145" /><outputs name="Fugir!" ownerID="6" targetID="44" fromX="1064" fromY="-1225" />As abelhas aninharam num pedaço grande de uma construção élfica caída. A presença delas provavelmente assustou outros saqueadores. 
 
 Ah, vocês não notaram rápido o bastante que um enxame voa na direção de você!</nodes>
     <nodes xsi:type="NodeAdventure" ID="7" positionX="1102.577" positionY="1706.96021" width="350" height="725"><logic>
@@ -5950,7 +5950,7 @@ Ainda assim, estão livres para buscar a construção caída; e, melhor ainda, a
       </logic><outputs name="Buscar as ruínas e partir." ownerID="8" targetID="51" group="G1" fromX="2924" fromY="50" />Os mortos-vivos jazem, é, mais mortos, e vocês estão livres para saquear as ruínas em paz. </nodes>
     <nodes xsi:type="NodeAdventure" ID="9" positionX="3297.64233" positionY="-165.450531" width="350" height="725"><outputs name="Correr." ownerID="9" targetID="53" fromX="3623" fromY="-656" />Os mortos-vivos sobrepujam você. Vocês são forçados a fugir.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="10" positionX="3494.048" positionY="-2359.06177" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventure" ID="12" positionX="-286.9795" positionY="-775.1253" width="350" height="966" image="Event012"><outputs name="Lutar!" ownerID="12" targetID="49" fromX="38" fromY="-1266" /><outputs name="Correr!" ownerID="12" targetID="52" fromX="38" fromY="-1346" /><outputs name="[Morto-vivo]Tentar raciocinar com o parentesco seu." ownerID="12" targetID="29" group="G1" fromX="38" fromY="-1426" /><outputs name="[Morto-vivo]Tentar raciocinar com o parentesco seu." ownerID="12" targetID="44" group="G1" fromX="38" fromY="-1506" />Entre a névoa e os lares caídos, vocês sofrem tocaia dos mortos-vivos!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="-286.9795" positionY="-775.1253" width="350" height="966" image="Event012"><outputs name="Lutar!" ownerID="12" targetID="49" fromX="38" fromY="-1266" /><outputs name="Fugir!" ownerID="12" targetID="52" fromX="38" fromY="-1346" /><outputs name="[Morto-vivo]Tentar raciocinar com o parentesco seu." ownerID="12" targetID="29" group="G1" fromX="38" fromY="-1426" /><outputs name="[Morto-vivo]Tentar raciocinar com o parentesco seu." ownerID="12" targetID="44" group="G1" fromX="38" fromY="-1506" />Entre a névoa e os lares caídos, vocês sofrem tocaia dos mortos-vivos!</nodes>
     <nodes xsi:type="NodeChallenge" ID="13" positionX="2139.94287" positionY="-555.6441" width="500" height="807" challengeType="TypePhysical" versusConcept="true" versusGroup="GROUP-CON_P_2P_0M_0S" challengeScale="101" challengedList="ppl">
       <logic>
         <ModifierBlock>
@@ -6170,7 +6170,7 @@ Ainda assim, estão livres para buscar a construção caída; e, melhor ainda, a
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-BLESS_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr!" ownerID="6" targetID="75" group="G1" fromX="3947" fromY="-2042" /><outputs name="Correr!" ownerID="6" targetID="76" group="G1" fromX="3947" fromY="-2122" />Enquanto abrem caminho para fora das ruínas, vocês ouvem um zumbido ameaçador, vibrante, atrás de você.
+      </logic><outputs name="Fugir!" ownerID="6" targetID="75" group="G1" fromX="3947" fromY="-2042" /><outputs name="Fugir!" ownerID="6" targetID="76" group="G1" fromX="3947" fromY="-2122" />Enquanto abrem caminho para fora das ruínas, vocês ouvem um zumbido ameaçador, vibrante, atrás de você.
 
 Vocês não param para ver o destino que evitaram. </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="7" positionX="4672.57373" positionY="-2380.01514" width="350" height="530" allPlayersXP="3" allPlayersRP="1" linkedEventUniqueID="0">
@@ -6235,7 +6235,7 @@ Depois de muitas horas de trabalho sem sentido assim, vocês desistem. </nodes>
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="15;25" tag="ITEM_CARGO-FEW_ADV_STONE" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr!" ownerID="18" targetID="21" fromX="3963" fromY="-1278" />Enquanto buscam pelo entulho das construções caídas, vocês avistam as criaturinhas aladas de novo. Elas sorriem de esguelha e mostram as línguas para você.
+      </logic><outputs name="Fugir!" ownerID="18" targetID="21" fromX="3963" fromY="-1278" />Enquanto buscam pelo entulho das construções caídas, vocês avistam as criaturinhas aladas de novo. Elas sorriem de esguelha e mostram as línguas para você.
 
 Vocês estão prestes a expulsá-las quando percebem que trouxeram amigos. 
 
@@ -6740,7 +6740,7 @@ O ritual é drenante, mas os antepassados dançam com você bem.
         </ModifierBlock>
       </logic><outputs name="Agradecer e partir." ownerID="36" targetID="55" fromX="-642" fromY="-2734" />A dança de xamã começa devagar e em silêncio. Ervas esquisitas são fumadas, cogumelos engolidos, e logo, os dois xamãs ficam arrebatados num êxtase espiritual selvagem. 
 
-Embora os antepassados tenham ficado em silêncio, vocês aprenderam muito. O xamã agradece a você pela ajuda; e deixa um presente.</nodes>
+Embora os antepassados tenham ficado em silêncio, vocês aprenderam muito. O xamã agradece a você pela ajuda; e deixa um presente. </nodes>
     <nodes xsi:type="NodeAdventure" ID="37" positionX="-391.9346" positionY="-2249.59131" width="350" height="725"><logic>
         <ModifierBlock>
           <LogicProcessing name="1" list1="gobshaman">
@@ -7491,7 +7491,7 @@ Ele marulha algo sobre indigestão.
         </ModifierBlock>
       </logic><outputs name="Agradecer a ele e partir." ownerID="35" targetID="49" fromX="4094" fromY="-2554" />'Ooh, ahh, legal. Não posso deixar você entrar nos túneis, mas aqui, tomem uns mimos pela encrenca de você.'
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="37" positionX="2889.63574" positionY="-2679.12524" width="350" height="885"><outputs name="Correr!" ownerID="37" targetID="3" group="G1" fromX="3215" fromY="-3170" /><outputs name="Correr!" ownerID="37" targetID="45" group="G1" fromX="3215" fromY="-3250" /><outputs name="Atacá-lo!" ownerID="37" targetID="13" fromX="3215" fromY="-3330" />'Argh! Vocês pioram. Eu como você!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="37" positionX="2889.63574" positionY="-2679.12524" width="350" height="885"><outputs name="Fugir!" ownerID="37" targetID="3" group="G1" fromX="3215" fromY="-3170" /><outputs name="Fugir!" ownerID="37" targetID="45" group="G1" fromX="3215" fromY="-3250" /><outputs name="Atacá-lo!" ownerID="37" targetID="13" fromX="3215" fromY="-3330" />'Argh! Vocês pioram. Eu como você!'</nodes>
     <nodes xsi:type="NodeAdventure" ID="39" positionX="854.936768" positionY="745.351563" width="350" height="805"><logic>
         <FilterBlock>
           <LogicResultAction list="dwarf">
@@ -7549,7 +7549,7 @@ Ele marulha algo sobre indigestão.
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="44" positionX="-263.683472" positionY="-2641.02222" width="350" height="885"><outputs name="Correr!" ownerID="44" targetID="3" group="G1" fromX="62" fromY="-3132" /><outputs name="Correr!" ownerID="44" targetID="45" group="G1" fromX="62" fromY="-3212" /><outputs name="Atacá-lo!" ownerID="44" targetID="13" fromX="62" fromY="-3292" />'Argh, você me deixa furioso, e com fome!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="44" positionX="-263.683472" positionY="-2641.02222" width="350" height="885"><outputs name="Fugir!" ownerID="44" targetID="3" group="G1" fromX="62" fromY="-3132" /><outputs name="Fugir!" ownerID="44" targetID="45" group="G1" fromX="62" fromY="-3212" /><outputs name="Atacá-lo!" ownerID="44" targetID="13" fromX="62" fromY="-3292" />'Argh, você me deixa furioso, e com fome!'</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="45" positionX="-216.664978" positionY="-2012.63025" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="45" targetID="4" fromX="231" fromY="-2444" />
     </nodes>
@@ -7592,7 +7592,7 @@ Ele marulha algo sobre indigestão.
       </logic><outputs name="[Demônio da Floresta]Exigir que guardem aqueles arcos, porque você é criatura da mata, e, portanto, melhor que eles!" ownerID="2" targetID="26" fromX="704" fromY="-348" /><outputs name="[Elfa]Falar na língua élfica para tentar apaziguar esta situação." ownerID="2" targetID="4" fromX="704" fromY="-428" /><outputs name="[Orc]Rosnar umas injúrias a eles, e dizer que preferiam não ter que esfolar um elfo hoje." ownerID="2" targetID="29" fromX="704" fromY="-508" /><outputs name="Tentar conversar com eles. Perguntar por que apontam arcos a você." ownerID="2" targetID="3" fromX="704" fromY="-588" /><outputs name="Atacar!" ownerID="2" targetID="17" fromX="704" fromY="-669" /><outputs name="Sair da história." ownerID="2" targetID="45" fromX="704" fromY="-749" />Enquanto revolvem as ruínas élficas, vocês têm a sensação distinta de ser observado. Antes de muito: percebem que há muitos arcos apontados na direção de você; e vocês ouvem:
 
 'O que busca aqui: intruso?'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="3" positionX="1326.33728" positionY="702.893433" width="350" height="966"><outputs name="Atacar!" ownerID="3" targetID="17" fromX="1652" fromY="211" /><outputs name="Afirmar que seguem a senda de Dievanna, e dizer que com certeza até eles a respeitam como uma das delas." ownerID="3" targetID="5" fromX="1652" fromY="131" /><outputs name="Convincer eles de que só iam pegar umas provisões úteis das ruínas. Vocês prometem não chegar perto do lugar sagrado nem destruir nada." ownerID="3" targetID="6" fromX="1652" fromY="51" /><outputs name="Perguntar se podem visitar o lugar sagrado." ownerID="3" targetID="41" fromX="1652" fromY="-28" />'Guardamos um lugar sagrado, e não vamos permitir que a presença de você estrague a serenidade dele. Não testem a resolução nossa.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="1326.33728" positionY="702.893433" width="350" height="966"><outputs name="Atacar!" ownerID="3" targetID="17" fromX="1652" fromY="211" /><outputs name="Afirmar que seguem a senda de Dzievanna, e dizer que com certeza até eles a respeitam como uma das delas." ownerID="3" targetID="5" fromX="1652" fromY="131" /><outputs name="Convincer eles de que só iam pegar umas provisões úteis das ruínas. Vocês prometem não chegar perto do lugar sagrado nem destruir nada." ownerID="3" targetID="6" fromX="1652" fromY="51" /><outputs name="Perguntar se podem visitar o lugar sagrado." ownerID="3" targetID="41" fromX="1652" fromY="-28" />'Guardamos um lugar sagrado, e não vamos permitir que a presença de você estrague a serenidade dele. Não testem a resolução nossa.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="4" positionX="387.643555" positionY="956.5709" width="350" height="725"><logic>
         <FilterBlock>
           <LogicFilter name="elf" makePublic="true">
@@ -7752,10 +7752,10 @@ Porém, quando chegam ao lugar que eles guardavam, uma fonte corrente pequena, a
             <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-2" tag="TAG-LOYALTY_WOODLAND_KIN" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr." ownerID="22" targetID="42" fromX="224" fromY="-1717" />Apesar da derrota de você, os elfos não te perseguem além do território deles.
+      </logic><outputs name="Fugir." ownerID="22" targetID="42" fromX="224" fromY="-1717" />Apesar da derrota de você, os elfos não te perseguem além do território deles.
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="23" positionX="-770.605164" positionY="-2327.43018" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventure" ID="24" positionX="830.327" positionY="1218.60962" width="350" height="966"><outputs name="Afirmar que seguem a senda de Dievanna, e dizer que com certeza até eles a respeitam como uma das delas." ownerID="24" targetID="5" fromX="1156" fromY="727" /><outputs name="Pedir que concedam a honra de ser testado." ownerID="24" targetID="25" group="G1" fromX="1156" fromY="647" /><outputs name="[Povo da mata]Pedir que concedam a honra de ser testado." ownerID="24" targetID="15" group="G1" fromX="1156" fromY="567" /><outputs name="Insistir que deviam permitir a você ser testado. " ownerID="24" targetID="3" fromX="1156" fromY="486" />'Somos parentes da mata, e isto continua sendo o lar nosso, ao menos enquanto guardamos as águas da vida aqui, um lugar sagrado de cura.
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="830.327" positionY="1218.60962" width="350" height="966"><outputs name="Afirmar que seguem a senda de Dzievanna, e dizer que com certeza até eles a respeitam como uma das delas." ownerID="24" targetID="5" fromX="1156" fromY="727" /><outputs name="Pedir que concedam a honra de ser testado." ownerID="24" targetID="25" group="G1" fromX="1156" fromY="647" /><outputs name="[Povo da mata]Pedir que concedam a honra de ser testado." ownerID="24" targetID="15" group="G1" fromX="1156" fromY="567" /><outputs name="Insistir que deviam permitir a você ser testado. " ownerID="24" targetID="3" fromX="1156" fromY="486" />'Somos parentes da mata, e isto continua sendo o lar nosso, ao menos enquanto guardamos as águas da vida aqui, um lugar sagrado de cura.
 
 Como você bem sabe, só os dignos podem chegar à fonte, porque ela carrega grande perigo, bem como a promessa de vida.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="25" positionX="780.8842" positionY="228.945023" width="350" height="885"><logic>
@@ -7770,7 +7770,7 @@ Como você bem sabe, só os dignos podem chegar à fonte, porque ela carrega gra
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Afirmar que seguem a senda de Dievanna, e dizer que com certeza até eles a respeitam como uma das delas." ownerID="25" targetID="5" fromX="1106" fromY="-262" /><outputs name="Atacar!" ownerID="25" targetID="17" fromX="1106" fromY="-342" /><outputs name="Sair da história." ownerID="25" targetID="47" fromX="1106" fromY="-422" />'Você vem aqui na presença de imundice orc, parentes. Eles não têm respeito nenhum pela natureza. Têm necessidade constante de mudança, movimento, violência. 
+      </logic><outputs name="Afirmar que seguem a senda de Dzievanna, e dizer que com certeza até eles a respeitam como uma das delas." ownerID="25" targetID="5" fromX="1106" fromY="-262" /><outputs name="Atacar!" ownerID="25" targetID="17" fromX="1106" fromY="-342" /><outputs name="Sair da história." ownerID="25" targetID="47" fromX="1106" fromY="-422" />'Você vem aqui na presença de imundice orc, parentes. Eles não têm respeito nenhum pela natureza. Têm necessidade constante de mudança, movimento, violência. 
 
 Não, a você não pode ser concedido o mimo!'</nodes>
     <nodes xsi:type="NodeAdventure" ID="26" positionX="-24.8316345" positionY="995.5807" width="350" height="805"><logic>
@@ -7809,7 +7809,7 @@ Não, a você não pode ser concedido o mimo!'</nodes>
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Atacar aqueles orelhudos pomposos!" ownerID="29" targetID="17" fromX="1254" fromY="-1189" /><outputs name="Afirmar que seguem a senda de Dievanna, e dizer que com certeza até eles a respeitam como uma das delas." ownerID="29" targetID="5" fromX="1254" fromY="-1269" /><outputs name="Convincer eles de que só iam pegar umas provisões úteis das ruínas. Vocês prometem não chegar perto do lugar sagrado nem destruir nada." ownerID="29" targetID="30" fromX="1254" fromY="-1350" />'Vocês mostram muita contenção para filhotes raivosos. Que esquisito. 
+      </logic><outputs name="Atacar aqueles orelhudos pomposos!" ownerID="29" targetID="17" fromX="1254" fromY="-1189" /><outputs name="Afirmar que seguem a senda de Dzievanna, e dizer que com certeza até eles a respeitam como uma das delas." ownerID="29" targetID="5" fromX="1254" fromY="-1269" /><outputs name="Convincer eles de que só iam pegar umas provisões úteis das ruínas. Vocês prometem não chegar perto do lugar sagrado nem destruir nada." ownerID="29" targetID="30" fromX="1254" fromY="-1350" />'Vocês mostram muita contenção para filhotes raivosos. Que esquisito. 
 
 Agora, partam. Este não é lugar para vira-latas. Guardamos um lugar sagrado, e não vamos permitir que a presença de você estrague a serenidade dele. Não testem a resolução nossa.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="30" positionX="1484.39368" positionY="-1093.90723" width="350" height="805"><outputs name="Atacar aqueles orelhudos pomposos!" ownerID="30" targetID="17" fromX="1810" fromY="-1585" /><outputs name="Sair da história." ownerID="30" targetID="47" fromX="1810" fromY="-1665" />'Não.'</nodes>
@@ -7948,7 +7948,7 @@ Porém, quando chegam ao lugar que eles guardavam, uma fonte corrente pequena, a
             <scriptCallWithTag scriptName="FLP_AorB" />
           </LogicProcessing>
         </FilterBlock>
-      </logic><outputs name="Invocar a luz ou a harmonia para proteger você deste poder sombrio. " ownerID="2" targetID="13" group="G1" fromX="425" fromY="692" /><outputs name="Invocar a luz ou a harmonia para proteger você deste poder sombrio. " ownerID="2" targetID="14" group="G1" fromX="425" fromY="612" /><outputs name="Invocar a agitação ou a magia para escudar você da escuridão." ownerID="2" targetID="35" group="G1" fromX="425" fromY="532" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="2" targetID="15" group="G2" fromX="425" fromY="452" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="2" targetID="18" group="G2" fromX="425" fromY="372" /><outputs name="Correr." ownerID="2" targetID="43" fromX="425" fromY="291" /><outputs name="Tentar passar rápido de fininho pela névoa para chegar ao possível espólio destas ruínas." ownerID="2" targetID="11" group="G1" fromX="425" fromY="211" /><outputs name="[Elfo das Sombras]A névoa negra não é perigo para você. Atravessá-la e terminar a vistoria das ruínas." ownerID="2" targetID="37" group="G3" fromX="425" fromY="131" /><outputs name="[Elfo das Sombras]A névoa negra não é perigo para você. Atravessá-la e terminar a vistoria das ruínas." ownerID="2" targetID="42" group="G3" fromX="425" fromY="51" />Você procura as velhas ruínas até perceber que uma névoa escura e ameaçadora desce sobre este lugar. 
+      </logic><outputs name="Invocar a luz ou a harmonia para proteger você deste poder sombrio. " ownerID="2" targetID="13" group="G1" fromX="425" fromY="692" /><outputs name="Invocar a luz ou a harmonia para proteger você deste poder sombrio. " ownerID="2" targetID="14" group="G1" fromX="425" fromY="612" /><outputs name="Invocar a agitação ou a magia para escudar você da escuridão." ownerID="2" targetID="35" group="G1" fromX="425" fromY="532" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="2" targetID="15" group="G2" fromX="425" fromY="452" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="2" targetID="18" group="G2" fromX="425" fromY="372" /><outputs name="Fugir." ownerID="2" targetID="43" fromX="425" fromY="291" /><outputs name="Tentar passar rápido de fininho pela névoa para chegar ao possível espólio destas ruínas." ownerID="2" targetID="11" group="G1" fromX="425" fromY="211" /><outputs name="[Elfo das Sombras]A névoa negra não é perigo para você. Atravessá-la e terminar a vistoria das ruínas." ownerID="2" targetID="37" group="G3" fromX="425" fromY="131" /><outputs name="[Elfo das Sombras]A névoa negra não é perigo para você. Atravessá-la e terminar a vistoria das ruínas." ownerID="2" targetID="42" group="G3" fromX="425" fromY="51" />Você procura as velhas ruínas até perceber que uma névoa escura e ameaçadora desce sobre este lugar. 
 
 A névoa negra é um remanescente temido dos dias de escuridão.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="880" positionY="-455" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0" />
@@ -7974,7 +7974,7 @@ A névoa negra é um remanescente temido dos dias de escuridão.</nodes>
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-CURSE_M" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Não deixar esta escuridão vencer. Reunir o espírito e enfrentá-la!" ownerID="13" targetID="15" group="G1" fromX="1150" fromY="570" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="13" targetID="18" group="G1" fromX="1150" fromY="490" /><outputs name="Correr." ownerID="13" targetID="43" fromX="1150" fromY="410" />Ah, o seu domínio divino serve só de farol para que a névoa negra golpeie.
+      </logic><outputs name="Não deixar esta escuridão vencer. Reunir o espírito e enfrentá-la!" ownerID="13" targetID="15" group="G1" fromX="1150" fromY="570" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="13" targetID="18" group="G1" fromX="1150" fromY="490" /><outputs name="Fugir." ownerID="13" targetID="43" fromX="1150" fromY="410" />Ah, o seu domínio divino serve só de farol para que a névoa negra golpeie.
 
 Você é engolido pelas garras escuras dela, que rasgam fundo na sua alma com pavor e loucura!</nodes>
     <nodes xsi:type="NodeAdventure" ID="14" positionX="1997.22266" positionY="2029.74634" width="350" height="966"><logic>
@@ -7989,7 +7989,7 @@ Você é engolido pelas garras escuras dela, que rasgam fundo na sua alma com pa
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_LIGHT" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Levar o que achar e partir. " ownerID="14" targetID="47" fromX="2322" fromY="1538" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="14" targetID="15" group="G1" fromX="2322" fromY="1458" /><outputs name="Correr." ownerID="14" targetID="43" fromX="2322" fromY="1378" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="14" targetID="18" group="G1" fromX="2322" fromY="1297" />O seu domínio te escuda enquanto a névoa temida tenta cravar as garras na alma de vocês. 
+      </logic><outputs name="Levar o que achar e partir. " ownerID="14" targetID="47" fromX="2322" fromY="1538" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="14" targetID="15" group="G1" fromX="2322" fromY="1458" /><outputs name="Fugir." ownerID="14" targetID="43" fromX="2322" fromY="1378" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="14" targetID="18" group="G1" fromX="2322" fromY="1297" />O seu domínio te escuda enquanto a névoa temida tenta cravar as garras na alma de vocês. 
 
 Ainda inquieto com a experiência, você pode tentar procurar espólio aqui e esperar que a névoa não venha atrás de você de novo.
 </nodes>
@@ -8156,7 +8156,7 @@ Uma doença espiritual te atinge.
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_MAGIC" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Levar o que achar e partir. " ownerID="35" targetID="47" fromX="1822" fromY="1531" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="35" targetID="15" group="G1" fromX="1822" fromY="1450" /><outputs name="Correr." ownerID="35" targetID="43" fromX="1822" fromY="1370" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="35" targetID="18" group="G1" fromX="1822" fromY="1290" />O seu domínio te escuda enquanto a névoa temida tenta cravar as garras na alma de vocês. 
+      </logic><outputs name="Levar o que achar e partir. " ownerID="35" targetID="47" fromX="1822" fromY="1531" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="35" targetID="15" group="G1" fromX="1822" fromY="1450" /><outputs name="Fugir." ownerID="35" targetID="43" fromX="1822" fromY="1370" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="35" targetID="18" group="G1" fromX="1822" fromY="1290" />O seu domínio te escuda enquanto a névoa temida tenta cravar as garras na alma de vocês. 
 
 Ainda inquieto com a experiência, você pode tentar procurar espólio aqui e esperar que a névoa não venha atrás de você de novo.
 </nodes>
@@ -8620,7 +8620,7 @@ Logo percebe que a área está cheia de armadilhas, protegendo certamente algo m
         </ModifierBlock>
       </logic><outputs name="Correr." ownerID="9" targetID="53" fromX="3623" fromY="-656" />Os mortos-vivos sobrepujam você. Vocês são forçados a fugir; e  talvez sintam-se mal do fedor fétido deles.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="10" positionX="3494.048" positionY="-2359.06177" width="350" height="455" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventure" ID="12" positionX="-286.9795" positionY="-775.1253" width="350" height="966" image="Event012"><outputs name="Lutar!" ownerID="12" targetID="49" fromX="38" fromY="-1266" /><outputs name="Correr!" ownerID="12" targetID="52" fromX="38" fromY="-1346" /><outputs name="[Morto-vivo]Tentar raciocinar com o parentesco seu." ownerID="12" targetID="29" group="G1" fromX="38" fromY="-1426" /><outputs name="[Morto-vivo]Tentar raciocinar com o parentesco seu." ownerID="12" targetID="44" group="G1" fromX="38" fromY="-1506" />Entre a névoa e os lares caídos, vocês sofrem tocaia dos mortos-vivos!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="-286.9795" positionY="-775.1253" width="350" height="966" image="Event012"><outputs name="Lutar!" ownerID="12" targetID="49" fromX="38" fromY="-1266" /><outputs name="Fugir!" ownerID="12" targetID="52" fromX="38" fromY="-1346" /><outputs name="[Morto-vivo]Tentar raciocinar com o parentesco seu." ownerID="12" targetID="29" group="G1" fromX="38" fromY="-1426" /><outputs name="[Morto-vivo]Tentar raciocinar com o parentesco seu." ownerID="12" targetID="44" group="G1" fromX="38" fromY="-1506" />Entre a névoa e os lares caídos, vocês sofrem tocaia dos mortos-vivos!</nodes>
     <nodes xsi:type="NodeChallenge" ID="13" positionX="2139" positionY="-470" width="500" height="726" challengeType="TypePhysical" versusConcept="true" versusGroup="GROUP-CON_P_1P_0M_0S" challengeScale="101" challengedList="ppl">
       <logic>
         <ModifierBlock>
@@ -9059,7 +9059,7 @@ E, já que não somos estúpidos o bastante para se meter com os deuses de você
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-CURSE_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Correr!" ownerID="12" targetID="77" fromX="1758" fromY="-734" /><outputs name="Ficar e lutar esta coisa!" ownerID="12" targetID="49" fromX="1758" fromY="-814" />Vocês entram na parte leste das ruínas e acham que um corte fundo e maldoso foi talhado no chão sob você. 
+      </logic><outputs name="Fugir!" ownerID="12" targetID="77" fromX="1758" fromY="-734" /><outputs name="Ficar e lutar esta coisa!" ownerID="12" targetID="49" fromX="1758" fromY="-814" />Vocês entram na parte leste das ruínas e acham que um corte fundo e maldoso foi talhado no chão sob você. 
 
 De dentro dele, você sente uma presença, observando, esperando...
 
@@ -9167,7 +9167,7 @@ Os catadores olham para você e decidem que o espólio não vale as vidas deles.
       <outputs name="Lose" ownerID="26" targetID="28" fromX="-103" fromY="-378" />
       <outputs name="Surrender" ownerID="26" targetID="28" fromX="-103" fromY="-458" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="28" positionX="10" positionY="-276" width="350" height="805"><outputs name="Lutar!" ownerID="28" targetID="6" fromX="335" fromY="-767" /><outputs name="Correr." ownerID="28" targetID="77" fromX="335" fromY="-847" />'Vocês são assustador, mas não são muitos. A gente leva você!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="10" positionY="-276" width="350" height="805"><outputs name="Lutar!" ownerID="28" targetID="6" fromX="335" fromY="-767" /><outputs name="Fugir." ownerID="28" targetID="77" fromX="335" fromY="-847" />'Vocês são assustador, mas não são muitos. A gente leva você!'</nodes>
     <nodes xsi:type="NodeAdventure" ID="29" positionX="-998.110962" positionY="896.1697" width="350" height="725"><outputs name="Bom. Juntar o espólio e partir." ownerID="29" targetID="24" fromX="-672" fromY="405" />'A gente vai agora. Você não mata a gente!'
 
 Os catadores olham para você e decidem que o espólio não vale as vidas deles. Eles fogem.
@@ -9184,7 +9184,7 @@ Os catadores olham para você e decidem que o espólio não vale as vidas deles.
             <scriptCallWithTag scriptName="FRA_Chance" parameter="60" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Atacá-los com um golpe preventivo!" ownerID="30" targetID="31" fromX="1178" fromY="-1612" /><outputs name="Correr." ownerID="30" targetID="77" fromX="1178" fromY="-1692" /><outputs name="Tentar intimidá-los." ownerID="30" targetID="33" fromX="1178" fromY="-1772" />Vocês reconhecem à frente e descobrem que não é um grupo de gente, mas uma striga esperando armar tocaia para você!</nodes>
+      </logic><outputs name="Atacá-los com um golpe preventivo!" ownerID="30" targetID="31" fromX="1178" fromY="-1612" /><outputs name="Fugir." ownerID="30" targetID="77" fromX="1178" fromY="-1692" /><outputs name="Tentar intimidá-los." ownerID="30" targetID="33" fromX="1178" fromY="-1772" />Vocês reconhecem à frente e descobrem que não é um grupo de gente, mas uma striga esperando armar tocaia para você!</nodes>
     <nodes xsi:type="NodeChallenge" ID="31" positionX="1341" positionY="-1206" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-STRIGA_ONE_1P_1M_1S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="31" targetID="38" fromX="1782" fromY="-1701" />
       <outputs name="Lose" ownerID="31" targetID="69" fromX="1782" fromY="-1781" />
@@ -9401,7 +9401,7 @@ Ou podemos negociar com o que achamos até agora.' </nodes>
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_P" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Atacar!" ownerID="72" targetID="46" fromX="1881" fromY="963" /><outputs name="Correr." ownerID="72" targetID="82" fromX="1881" fromY="883" />Vocês sentem-se fortalecidos pelo deus de você.
+      </logic><outputs name="Atacar!" ownerID="72" targetID="46" fromX="1881" fromY="963" /><outputs name="Fugir." ownerID="72" targetID="82" fromX="1881" fromY="883" />Vocês sentem-se fortalecidos pelo deus de você.
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="73" positionX="2368" positionY="268" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
@@ -9500,7 +9500,7 @@ Ou podemos negociar com o que achamos até agora.' </nodes>
             <scriptCallWithTag scriptName="FLP_AorB" />
           </LogicProcessing>
         </FilterBlock>
-      </logic><outputs name="Invocar a luz ou a harmonia para proteger você deste poder sombrio. " ownerID="2" targetID="13" group="G1" fromX="425" fromY="692" /><outputs name="Invocar a luz ou a harmonia para proteger você deste poder sombrio. " ownerID="2" targetID="14" group="G1" fromX="425" fromY="612" /><outputs name="Invocar a agitação ou a magia para escudar você da escuridão." ownerID="2" targetID="35" group="G1" fromX="425" fromY="532" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="2" targetID="15" group="G2" fromX="425" fromY="452" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="2" targetID="18" group="G2" fromX="425" fromY="372" /><outputs name="Correr." ownerID="2" targetID="43" fromX="425" fromY="291" /><outputs name="Tentar passar rápido de fininho pela névoa para chegar ao possível espólio destas ruínas." ownerID="2" targetID="11" group="G1" fromX="425" fromY="211" /><outputs name="[Elfo das Sombras]A névoa negra não é perigo para você. Atravessá-la e terminar a vistoria das ruínas." ownerID="2" targetID="37" group="G3" fromX="425" fromY="131" /><outputs name="[Elfo das Sombras]A névoa negra não é perigo para você. Atravessá-la e terminar a vistoria das ruínas." ownerID="2" targetID="42" group="G3" fromX="425" fromY="51" />Vocês buscam as ruínas velhas até perceber que uma névoa escura e ameaçadora desce sobre este lugar. 
+      </logic><outputs name="Invocar a luz ou a harmonia para proteger você deste poder sombrio. " ownerID="2" targetID="13" group="G1" fromX="425" fromY="692" /><outputs name="Invocar a luz ou a harmonia para proteger você deste poder sombrio. " ownerID="2" targetID="14" group="G1" fromX="425" fromY="612" /><outputs name="Invocar a agitação ou a magia para escudar você da escuridão." ownerID="2" targetID="35" group="G1" fromX="425" fromY="532" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="2" targetID="15" group="G2" fromX="425" fromY="452" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="2" targetID="18" group="G2" fromX="425" fromY="372" /><outputs name="Fugir." ownerID="2" targetID="43" fromX="425" fromY="291" /><outputs name="Tentar passar rápido de fininho pela névoa para chegar ao possível espólio destas ruínas." ownerID="2" targetID="11" group="G1" fromX="425" fromY="211" /><outputs name="[Elfo das Sombras]A névoa negra não é perigo para você. Atravessá-la e terminar a vistoria das ruínas." ownerID="2" targetID="37" group="G3" fromX="425" fromY="131" /><outputs name="[Elfo das Sombras]A névoa negra não é perigo para você. Atravessá-la e terminar a vistoria das ruínas." ownerID="2" targetID="42" group="G3" fromX="425" fromY="51" />Vocês buscam as ruínas velhas até perceber que uma névoa escura e ameaçadora desce sobre este lugar. 
 
 A névoa preta é restante temido dos dias da escuridão, e aqui, nas terras dos elfos, a mancha golpeia com mais potência.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="880" positionY="-455" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0" />
@@ -9526,7 +9526,7 @@ A névoa preta é restante temido dos dias da escuridão, e aqui, nas terras dos
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-CURSE_M" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Não deixar esta escuridão vencer. Reunir o espírito e enfrentá-la!" ownerID="13" targetID="15" group="G1" fromX="1150" fromY="570" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="13" targetID="18" group="G1" fromX="1150" fromY="490" /><outputs name="Correr." ownerID="13" targetID="43" fromX="1150" fromY="410" />Ah, o seu domínio divino serve só de farol para que a névoa negra golpeie.
+      </logic><outputs name="Não deixar esta escuridão vencer. Reunir o espírito e enfrentá-la!" ownerID="13" targetID="15" group="G1" fromX="1150" fromY="570" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="13" targetID="18" group="G1" fromX="1150" fromY="490" /><outputs name="Fugir." ownerID="13" targetID="43" fromX="1150" fromY="410" />Ah, o seu domínio divino serve só de farol para que a névoa negra golpeie.
 
 Você é engolido pelas garras escuras dela, que rasgam fundo na sua alma com pavor e loucura!</nodes>
     <nodes xsi:type="NodeAdventure" ID="14" positionX="1997.22266" positionY="2029.74634" width="350" height="966"><logic>
@@ -9541,7 +9541,7 @@ Você é engolido pelas garras escuras dela, que rasgam fundo na sua alma com pa
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_LIGHT" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Levar o que achar e partir. " ownerID="14" targetID="47" fromX="2322" fromY="1538" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="14" targetID="15" group="G1" fromX="2322" fromY="1458" /><outputs name="Correr." ownerID="14" targetID="43" fromX="2322" fromY="1378" /><outputs name="[Usuário de Magia] Vocês têm sábios hábeis consigo. Lutar esta força do escuro com o espírito de você!" ownerID="14" targetID="18" group="G1" fromX="2322" fromY="1297" />O seu domínio te escuda enquanto a névoa temida tenta cravar as garras na alma de vocês. 
+      </logic><outputs name="Levar o que achar e partir. " ownerID="14" targetID="47" fromX="2322" fromY="1538" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="14" targetID="15" group="G1" fromX="2322" fromY="1458" /><outputs name="Fugir." ownerID="14" targetID="43" fromX="2322" fromY="1378" /><outputs name="[Usuário de Magia] Vocês têm sábios hábeis consigo. Lutar esta força do escuro com o espírito de você!" ownerID="14" targetID="18" group="G1" fromX="2322" fromY="1297" />O seu domínio te escuda enquanto a névoa temida tenta cravar as garras na alma de vocês. 
 
 Ainda inquieto com a experiência, você pode tentar procurar espólio aqui e esperar que a névoa não venha atrás de você de novo.
 </nodes>
@@ -9717,7 +9717,7 @@ Uma doença espiritual te atinge.
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_MAGIC" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Levar o que achar e partir. " ownerID="35" targetID="47" fromX="1822" fromY="1531" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="35" targetID="15" group="G1" fromX="1822" fromY="1450" /><outputs name="Correr." ownerID="35" targetID="43" fromX="1822" fromY="1370" /><outputs name="[Usuário de Magia] Vocês têm sábios hábeis consigo. Lutar esta força do escuro com o espírito de você!" ownerID="35" targetID="18" group="G1" fromX="1822" fromY="1290" />O seu domínio te escuda enquanto a névoa temida tenta cravar as garras na alma de vocês. 
+      </logic><outputs name="Levar o que achar e partir. " ownerID="35" targetID="47" fromX="1822" fromY="1531" /><outputs name="Você tem sábios habilidosos com você. Enfrentar esta força do escuro com o espírito!" ownerID="35" targetID="15" group="G1" fromX="1822" fromY="1450" /><outputs name="Fugir." ownerID="35" targetID="43" fromX="1822" fromY="1370" /><outputs name="[Usuário de Magia] Vocês têm sábios hábeis consigo. Lutar esta força do escuro com o espírito de você!" ownerID="35" targetID="18" group="G1" fromX="1822" fromY="1290" />O seu domínio te escuda enquanto a névoa temida tenta cravar as garras na alma de vocês. 
 
 Ainda inquieto com a experiência, você pode tentar procurar espólio aqui e esperar que a névoa não venha atrás de você de novo.
 </nodes>
@@ -9867,7 +9867,7 @@ Uma doença espiritual te atinge.
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
           </LogicFilter>
         </FilterBlock>
-      </logic><outputs name="[Leshy]Invocar a floresta a atender a vontade de você!" ownerID="2" targetID="6" group="G2" fromX="493" fromY="287" /><outputs name="[Povo da mata]Falar com a floresta; e proclamar o direito de você de estar aqui." ownerID="2" targetID="36" group="G1" fromX="493" fromY="207" /><outputs name="[Agitação ou Magia] Invocar a conexão de você ao escuro; e comandar esta floresta a parar!" ownerID="2" targetID="4" group="G1" fromX="493" fromY="127" /><outputs name="Tentar negociar com a floresta claramente furiosa." ownerID="2" targetID="8" fromX="493" fromY="47" /><outputs name="Lutar!" ownerID="2" targetID="9" fromX="493" fromY="-32" /><outputs name="[Demônios da Floresta]O parentesco seu parece muito furioso. Oferecer a eles a saúde de espírito de você como tributo, em troca de passagem livre." ownerID="2" targetID="29" fromX="493" fromY="-113" /><outputs name="Correr." ownerID="2" targetID="41" fromX="493" fromY="-193" /><outputs name="[Elfa de Sombra] Chamar pelas sombras, e pedir que recuem, porque são parentes." ownerID="2" targetID="43" fromX="493" fromY="-273" />Vocês sobem para explorar as ruínas  velhas, mas ouvem uma agitação inquietante na floresta. A escuridão claramente infectou este lugar, e umas das árvores parecem estar descendo sobre você, acompanhadas de sombras.</nodes>
+      </logic><outputs name="[Leshy]Invocar a floresta a atender a vontade de você!" ownerID="2" targetID="6" group="G2" fromX="493" fromY="287" /><outputs name="[Povo da mata]Falar com a floresta; e proclamar o direito de você de estar aqui." ownerID="2" targetID="36" group="G1" fromX="493" fromY="207" /><outputs name="[Agitação ou Magia] Invocar a conexão de você ao escuro; e comandar esta floresta a parar!" ownerID="2" targetID="4" group="G1" fromX="493" fromY="127" /><outputs name="Tentar negociar com a floresta claramente furiosa." ownerID="2" targetID="8" fromX="493" fromY="47" /><outputs name="Lutar!" ownerID="2" targetID="9" fromX="493" fromY="-32" /><outputs name="[Demônios da Floresta]O parentesco seu parece muito furioso. Oferecer a eles a saúde de espírito de você como tributo, em troca de passagem livre." ownerID="2" targetID="29" fromX="493" fromY="-113" /><outputs name="Fugir." ownerID="2" targetID="41" fromX="493" fromY="-193" /><outputs name="[Elfa de Sombra] Chamar pelas sombras, e pedir que recuem, porque são parentes." ownerID="2" targetID="43" fromX="493" fromY="-273" />Vocês sobem para explorar as ruínas  velhas, mas ouvem uma agitação inquietante na floresta. A escuridão claramente infectou este lugar, e umas das árvores parecem estar descendo sobre você, acompanhadas de sombras.</nodes>
     <nodes xsi:type="NodeChallenge" ID="4" positionX="839.0931" positionY="316.504456" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-Q_LESHY_MROK_8P_6M_8S" challengeScale="101" challengedList="ppl">
       <logic>
         <FilterBlock>
@@ -9958,7 +9958,7 @@ Vocês estão livres para buscar as ruínas agora.</nodes>
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-CURSE_S" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Atacar!" ownerID="15" targetID="9" fromX="2316" fromY="-1046" /><outputs name="Correr." ownerID="15" targetID="37" fromX="2316" fromY="-1126" />A floresta não escuta nem responde. A raiva dela é velha e crua, e as sombras se alimentam dela.
+      </logic><outputs name="Atacar!" ownerID="15" targetID="9" fromX="2316" fromY="-1046" /><outputs name="Fugir." ownerID="15" targetID="37" fromX="2316" fromY="-1126" />A floresta não escuta nem responde. A raiva dela é velha e crua, e as sombras se alimentam dela.
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="16" positionX="555.8843" positionY="-1313.44751" width="350" height="725"><logic>
         <FilterBlock>
@@ -10391,7 +10391,7 @@ Ainda assim, conseguem o baú.</nodes>
         </FilterBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="14" positionX="-114" positionY="-849" width="350" height="966"><outputs name="Atacar!" ownerID="14" targetID="16" fromX="211" fromY="-1340" /><outputs name="[Elfa de sombra] Pedir que recuem, porque são parente de você." ownerID="14" targetID="22" fromX="211" fromY="-1420" /><outputs name="[Usuário de Magia] Encará-los com o espírito de você." ownerID="14" targetID="29" fromX="211" fromY="-1500" /><outputs name="Correr." ownerID="14" targetID="15" fromX="211" fromY="-1580" />Quando você entra, umas mroki te surpreendem!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="14" positionX="-114" positionY="-849" width="350" height="966"><outputs name="Atacar!" ownerID="14" targetID="16" fromX="211" fromY="-1340" /><outputs name="[Elfa de sombra] Pedir que recuem, porque são parente de você." ownerID="14" targetID="22" fromX="211" fromY="-1420" /><outputs name="[Usuário de Magia] Encará-los com o espírito de você." ownerID="14" targetID="29" fromX="211" fromY="-1500" /><outputs name="Fugir." ownerID="14" targetID="15" fromX="211" fromY="-1580" />Quando você entra, umas mroki te surpreendem!</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="15" positionX="-1566" positionY="-3078" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeChallenge" ID="16" positionX="392" positionY="-1671" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-MROKI_8P_6M_8S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="16" targetID="17" fromX="833" fromY="-2166" />

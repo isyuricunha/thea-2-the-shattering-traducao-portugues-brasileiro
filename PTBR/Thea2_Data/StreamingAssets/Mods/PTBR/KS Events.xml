@@ -85,7 +85,7 @@ Se não acreditam em mim, vão, busquem o demônio que veste o rosto meu; e a cr
     <nodes xsi:type="NodeAdventure" ID="18" positionX="4560" positionY="-1548" width="350" height="805"><outputs name="Certo. Então, se houver um jeito de quebrar esta maldição, vocês ficam com as coisas e ele fica livre?" ownerID="18" targetID="19" fromX="4885" fromY="-2039" /><outputs name="Atacar!" ownerID="18" targetID="9" fromX="4885" fromY="-2119" />'HA! Vocês me divertem. Por favor, tentem pegar os pertences meus; e digam como furaram o gelo amaldiçoado. 
 
 Fico cansado da companhia de vocês; e o estado de vida de vocês me irrita. Acho que devo matá-los.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="19" positionX="5531" positionY="-1101" width="350" height="805"><outputs name="Sim; concordar." ownerID="19" targetID="20" fromX="5856" fromY="-1592" /><outputs name="Não; partir." ownerID="19" targetID="24" fromX="5856" fromY="-1672" />'Suponho que sinto em vocês uma essência irritante de poder. Vocês podem ser justamente os lacaios de que preciso para me ver livre desta maldição maldita. Se o fizerem, tudo o que jaz aqui sob o gelo de vidro será de vocês.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="19" positionX="5531" positionY="-1101" width="350" height="805"><outputs name="Sim; concordar." ownerID="19" targetID="20" fromX="5856" fromY="-1592" /><outputs name="Não. Sair da história." ownerID="19" targetID="24" fromX="5856" fromY="-1672" />'Suponho que sinto em vocês uma essência irritante de poder. Vocês podem ser justamente os lacaios de que preciso para me ver livre desta maldição maldita. Se o fizerem, tudo o que jaz aqui sob o gelo de vidro será de vocês.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="20" positionX="5071" positionY="-1122" width="350" height="725"><outputs name="Fazer que sim e dizer que voltam com o rosto." ownerID="20" targetID="21" fromX="5396" fromY="-1613" />'Bom. Como disse, o rosto magnífico meu foi posto sobre o corpo desfigurado de um demônio baixo, para me zombar. Acredito que, quando resgatarem o rosto meu, serei inteiro e me libertarei desta maldição. Marquei o covil da criatura para você.'</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="21" positionX="6051" positionY="-1054" width="480" height="503" radius="3" settlementID="SET-CEMENTARY_DARKNESS" destroyOwner="false" linkedEventUniqueID="2">
       <outputs ownerID="21" targetID="22" fromX="6499" fromY="-1486" />
@@ -1251,7 +1251,7 @@ Vocês sabem que o povo sem treino em magia nem conseguiria ver este lugar. </no
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="4" positionX="792" positionY="538" width="350" height="805"><outputs name="É uma bruxa. Matá-la." ownerID="4" targetID="6" fromX="1117" fromY="46" /><outputs name="[Percepção ou caçador]Chegar de fininho ao elfo e atacar!" ownerID="4" targetID="5" fromX="1117" fromY="-33" />Vocês chegam mais perto e veem a cabana com mais clareza agora. Ela tem janelas extremamente grandes de um lado; então podem ver lá dentro. Há muitos livros, frascos e pergaminhos, além de plantas e flores. Uma figura élfica senta de costas para você, lendo; e uma bola de prata jaz num pedestal por perto.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="4" positionX="792" positionY="538" width="350" height="805"><outputs name="Bater na porta." ownerID="4" targetID="6" fromX="1117" fromY="46" /><outputs name="[Percepção ou caçador]Chegar de fininho ao elfo e atacar!" ownerID="4" targetID="5" fromX="1117" fromY="-33" />Vocês chegam mais perto e veem a cabana com mais clareza agora. Ela tem janelas extremamente grandes de um lado; então podem ver lá dentro. Há muitos livros, frascos e pergaminhos, além de plantas e flores. Uma figura élfica senta de costas para você, lendo; e uma bola de prata jaz num pedestal por perto.</nodes>
     <nodes xsi:type="NodeChallenge" ID="5" positionX="244" positionY="-932" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-MAGES_ONE_2P_5M_5S" challengeScale="101" challengedList="ppl">
       <logic>
         <FilterBlock>
@@ -2239,7 +2239,7 @@ Agora me vou.'</nodes>
             <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-QUEST64" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Atacar!" ownerID="2" targetID="4" fromX="-194" fromY="-299" /><outputs name="Correr!" ownerID="2" targetID="38" fromX="-194" fromY="-379" />O grupo ao qual Suri leva você não é outro senão os negociantes de seda de aranha com que já lidaram. 
+      </logic><outputs name="Atacar!" ownerID="2" targetID="4" fromX="-194" fromY="-299" /><outputs name="Fugir!" ownerID="2" targetID="38" fromX="-194" fromY="-379" />O grupo ao qual Suri leva você não é outro senão os negociantes de seda de aranha com que já lidaram. 
 
 E, depois da tentativa fracassada de você de matá-los, eles não parecem contentes de vê-lo.</nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="900" positionY="330" width="350" height="966"><outputs name="Perguntar a eles o que está acontecendo." ownerID="3" targetID="7" fromX="1225" fromY="-161" /><outputs name="Atacar os homens." ownerID="3" targetID="22" fromX="1225" fromY="-241" /><outputs name="Atacar a aranha." ownerID="3" targetID="9" fromX="1225" fromY="-321" /><outputs name="Dizer que não vão se meter neste assunto; e deixá-los." ownerID="3" targetID="10" fromX="1225" fromY="-401" />'Uma família? Quê? Ah...?ah não.'
@@ -5397,7 +5397,7 @@ A discussão quente deles para quando veem você. Eles desembainham armas e fica
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-BLESS_M" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Perguntar se fazem parte da facção dos ferrões." ownerID="6" targetID="8" fromX="1923" fromY="892" /><outputs name="Concordar em ajudar." ownerID="6" targetID="9" fromX="1923" fromY="812" /><outputs name="Recusar e dizer que não vão contra os Slavyans por um culto de aranha. Partir." ownerID="6" targetID="10" fromX="1923" fromY="732" />'Bom, suponho que podemos compartilhar. Fomos expulsos do ninho nosso por humanos que se ofenderam com as crenças nossas. Cultuamos a senhora Dievanna; mas a vemos melhor refletida como a aranha rainha. 
+      </logic><outputs name="Perguntar se fazem parte da facção dos ferrões." ownerID="6" targetID="8" fromX="1923" fromY="892" /><outputs name="Concordar em ajudar." ownerID="6" targetID="9" fromX="1923" fromY="812" /><outputs name="Recusar e dizer que não vão contra os Slavyans por um culto de aranha. Partir." ownerID="6" targetID="10" fromX="1923" fromY="732" />'Bom, suponho que podemos compartilhar. Fomos expulsos do ninho nosso por humanos que se ofenderam com as crenças nossas. Cultuamos a senhora Dzievanna; mas a vemos melhor refletida como a aranha rainha. 
 
 Os Slavyans acharam que fomos desrespeitosos. Tomaram o lar nosso e queimaram os filhotes como se fossem feras meras. 
 
@@ -5437,7 +5437,7 @@ Se você realmente quer nos ajudar, retome o ninho nosso. Ele é rico em ossos d
             <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="50" tag="TAG-LOYALTY_STINGERS" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Perguntar se fazem parte da facção dos ferrões." ownerID="16" targetID="8" fromX="1545" fromY="-703" /><outputs name="Concordar em ajudar." ownerID="16" targetID="9" fromX="1545" fromY="-783" /><outputs name="Recusar e dizer que não vão contra os Slavyans por um culto de aranha. Partir." ownerID="16" targetID="10" fromX="1545" fromY="-863" />'Bom, suponho que podemos compartilhar. Fomos expulsos do ninho nosso por humanos que se ofenderam com as crenças nossas. Cultuamos a senhora Dievanna; mas a vemos melhor refletida como a aranha rainha. 
+      </logic><outputs name="Perguntar se fazem parte da facção dos ferrões." ownerID="16" targetID="8" fromX="1545" fromY="-703" /><outputs name="Concordar em ajudar." ownerID="16" targetID="9" fromX="1545" fromY="-783" /><outputs name="Recusar e dizer que não vão contra os Slavyans por um culto de aranha. Partir." ownerID="16" targetID="10" fromX="1545" fromY="-863" />'Bom, suponho que podemos compartilhar. Fomos expulsos do ninho nosso por humanos que se ofenderam com as crenças nossas. Cultuamos a senhora Dzievanna; mas a vemos melhor refletida como a aranha rainha. 
 
 Os Slavyans acharam que fomos desrespeitosos. Tomaram o lar nosso e queimaram os filhotes como se fossem feras meras. 
 
@@ -5451,7 +5451,7 @@ Se você realmente quer nos ajudar, retome o ninho nosso. Ele é rico em ossos d
             <scriptCallWithTag scriptName="FRA_Chance" parameter="50" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Perguntar se fazem parte da facção dos ferrões." ownerID="17" targetID="8" fromX="1094" fromY="-1339" /><outputs name="Concordar em ajudar." ownerID="17" targetID="9" fromX="1094" fromY="-1419" /><outputs name="Recusar e dizer que não vão contra os Slavyans por um culto de aranha. Partir." ownerID="17" targetID="10" fromX="1094" fromY="-1499" />'Bom, suponho que podemos compartilhar. Fomos expulsos do ninho nosso por humanos que se ofenderam com as crenças nossas. Cultuamos a senhora Dievanna; mas a vemos melhor refletida como a aranha rainha. 
+      </logic><outputs name="Perguntar se fazem parte da facção dos ferrões." ownerID="17" targetID="8" fromX="1094" fromY="-1339" /><outputs name="Concordar em ajudar." ownerID="17" targetID="9" fromX="1094" fromY="-1419" /><outputs name="Recusar e dizer que não vão contra os Slavyans por um culto de aranha. Partir." ownerID="17" targetID="10" fromX="1094" fromY="-1499" />'Bom, suponho que podemos compartilhar. Fomos expulsos do ninho nosso por humanos que se ofenderam com as crenças nossas. Cultuamos a senhora Dzievanna; mas a vemos melhor refletida como a aranha rainha. 
 
 Os Slavyans acharam que fomos desrespeitosos. Tomaram o lar nosso e queimaram os filhotes como se fossem feras meras. 
 
@@ -5465,7 +5465,7 @@ Se você realmente quer nos ajudar, retome o ninho nosso. Ele é rico em ossos d
             <scriptCallWithTag scriptName="FRA_Chance" parameter="30" />
           </LogicResultAction>
         </FilterBlock>
-      </logic><outputs name="Perguntar se fazem parte da facção dos ferrões." ownerID="18" targetID="8" fromX="1567" fromY="-1676" /><outputs name="Concordar em ajudar." ownerID="18" targetID="9" fromX="1567" fromY="-1756" /><outputs name="Recusar e dizer que não vão contra os Slavyans por um culto de aranha. Partir." ownerID="18" targetID="10" fromX="1567" fromY="-1836" />'Bom, suponho que podemos compartilhar. Fomos expulsos do ninho nosso por humanos que se ofenderam com as crenças nossas. Cultuamos a senhora Dievanna; mas a vemos melhor refletida como a aranha rainha. 
+      </logic><outputs name="Perguntar se fazem parte da facção dos ferrões." ownerID="18" targetID="8" fromX="1567" fromY="-1676" /><outputs name="Concordar em ajudar." ownerID="18" targetID="9" fromX="1567" fromY="-1756" /><outputs name="Recusar e dizer que não vão contra os Slavyans por um culto de aranha. Partir." ownerID="18" targetID="10" fromX="1567" fromY="-1836" />'Bom, suponho que podemos compartilhar. Fomos expulsos do ninho nosso por humanos que se ofenderam com as crenças nossas. Cultuamos a senhora Dzievanna; mas a vemos melhor refletida como a aranha rainha. 
 
 Os Slavyans acharam que fomos desrespeitosos. Tomaram o lar nosso e queimaram os filhotes como se fossem feras meras. 
 
@@ -5533,7 +5533,7 @@ Se você realmente quer nos ajudar, retome o ninho nosso. Ele é rico em ossos d
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
           </LogicFilter>
         </FilterBlock>
-      </logic><outputs name="Perguntar a eles se considerariam deixar este lugar." ownerID="2" targetID="5" fromX="747" fromY="-564" /><outputs name="Intimidá-los a partir." ownerID="2" targetID="15" fromX="747" fromY="-644" /><outputs name="[Zerca]Dizer a eles que os deuses não estão contentes com o tratamento deles à zerca do culto da aranha. Eles reverenciam a senhora Dievanna, afinal!" ownerID="2" targetID="17" fromX="747" fromY="-724" /><outputs name="Atacar!" ownerID="2" targetID="8" fromX="747" fromY="-804" /><outputs name="Abandonar esta missão, e partir." ownerID="2" targetID="22" fromX="747" fromY="-884" />Vocês acham a caverna do ninho do culto da aranha. Há mesmo guardas Slavyan postos. </nodes>
+      </logic><outputs name="Perguntar a eles se considerariam deixar este lugar." ownerID="2" targetID="5" fromX="747" fromY="-564" /><outputs name="Intimidá-los a partir." ownerID="2" targetID="15" fromX="747" fromY="-644" /><outputs name="[Zerca]Dizer a eles que os deuses não estão contentes com o tratamento deles à zerca do culto da aranha. Eles reverenciam a senhora Dzievanna, afinal!" ownerID="2" targetID="17" fromX="747" fromY="-724" /><outputs name="Atacar!" ownerID="2" targetID="8" fromX="747" fromY="-804" /><outputs name="Abandonar esta missão, e partir." ownerID="2" targetID="22" fromX="747" fromY="-884" />Vocês acham a caverna do ninho do culto da aranha. Há mesmo guardas Slavyan postos. </nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="1316" positionY="987" width="350" height="885"><logic>
         <ModifierBlock>
           <LogicModifiers list="ppl">
@@ -8126,7 +8126,7 @@ Ela também acerta você e te fere feio. Sobra agora só silêncio e escuridão.
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="2" tag="SKILL_PACK-BLESS_M" />
           </LogicModifiers>
         </ModifierBlock>
-      </logic><outputs name="Defender-se. " ownerID="13" targetID="16" fromX="2626" fromY="-1921" /><outputs name="Correr." ownerID="13" targetID="15" fromX="2626" fromY="-2001" />Os dois espíritos continuam trancados em batalha. O bosque é lentamente consumido por este conflito, enquanto umas árvores jazem escaldadas e outras se retorcem em cascas escuras. 
+      </logic><outputs name="Defender-se. " ownerID="13" targetID="16" fromX="2626" fromY="-1921" /><outputs name="Fugir." ownerID="13" targetID="15" fromX="2626" fromY="-2001" />Os dois espíritos continuam trancados em batalha. O bosque é lentamente consumido por este conflito, enquanto umas árvores jazem escaldadas e outras se retorcem em cascas escuras. 
 
 A luz, com o tempo, prevalece; e, à medida que consome a escuridão, fica visivelmente mais forte. Os tentáculos dela agora alcançam você e tentam atacar!</nodes>
     <nodes xsi:type="NodeAdventure" ID="14" positionX="2772" positionY="-1494" width="350" height="725" image="Event235"><logic>
@@ -9415,7 +9415,7 @@ Quando você chega, ele crava a arma dele no peito de mais uma vítima:
       </logic><outputs name="Exigir que ele se explique, agora!" ownerID="6" targetID="7" fromX="1806" fromY="-410" /><outputs name="Perguntar a ele por que matou todos aqueles anões. O mestre dele manda fazer isto?" ownerID="6" targetID="15" fromX="1806" fromY="-490" />Ele não é homem; é um warrakus, uma criatura semelhante a golem trazida à vida por mestres de runas engenhosos de antigamente. 
 
 Esquisito, porém, que este tenha matado anões; e mais esquisito ainda que ele fale com tanta independência na presença de você.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="7" positionX="2070" positionY="421" width="350" height="805"><outputs name="Defender-se!" ownerID="7" targetID="13" fromX="2395" fromY="-70" /><outputs name="Correr." ownerID="7" targetID="8" fromX="2395" fromY="-150" />'Exigir? Vocês e os iguais de você jamais vão exigir nada de mim! Vocês acharam que podiam tomar a alma minha e forjá-la como escrava de você. Mas eu sou Warrax, um senhor de guerra. Não vou ser amarrado assim. Morra!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="7" positionX="2070" positionY="421" width="350" height="805"><outputs name="Defender-se!" ownerID="7" targetID="13" fromX="2395" fromY="-70" /><outputs name="Fugir." ownerID="7" targetID="8" fromX="2395" fromY="-150" />'Exigir? Vocês e os iguais de você jamais vão exigir nada de mim! Vocês acharam que podiam tomar a alma minha e forjá-la como escrava de você. Mas eu sou Warrax, um senhor de guerra. Não vou ser amarrado assim. Morra!'</nodes>
     <nodes xsi:type="NodeDealDamage" ID="8" positionX="2564" positionY="-249" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="40" maxDamage="60" useCountInPercent="true" targetGroup="ppl">
       <outputs ownerID="8" targetID="9" fromX="2993" fromY="-637" />
     </nodes>
@@ -11921,7 +11921,7 @@ Logo avistam um goblin ferido deitado sob uma árvore, com vários bichos com el
 'Foi boa a corrida, Zosh. Até a próxima...?'
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="7" positionX="626" positionY="-1121" width="350" height="530" allPlayersXP="5" allPlayersRP="2" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventure" ID="8" positionX="72" positionY="-1919" width="350" height="725"><outputs name="Correr." ownerID="8" targetID="9" fromX="397" fromY="-2410" />As Pinhas Anciãs voltam às formas de bicho delas e pegam o goblin para carregá-lo embora. Ele se vira para você:
+    <nodes xsi:type="NodeAdventure" ID="8" positionX="72" positionY="-1919" width="350" height="725"><outputs name="Fugir." ownerID="8" targetID="9" fromX="397" fromY="-2410" />As Pinhas Anciãs voltam às formas de bicho delas e pegam o goblin para carregá-lo embora. Ele se vira para você:
 
 'Vocês não ganhariam nem tentando 127 vezes!'
 
@@ -12183,7 +12183,7 @@ Fechado. O seu amigo vai viver por um bom tempo ainda; então voltem com uma ofe
     <nodes xsi:type="NodeAdventure" ID="20" positionX="2413" positionY="-2180" width="350" height="805"><outputs name="Oferecer achar outro jeito de alimentar o poder dele, vocês são escolhidos, afinal." ownerID="20" targetID="11" fromX="2738" fromY="-2671" /><outputs name="Deixar este lugar e procurar pistas de como matar este desgraçado." ownerID="20" targetID="13" fromX="2738" fromY="-2751" />'Por poder e vida eterna, claro. 
 
 O seu amigo alimenta este objetivo; então, vê, não há nada que possam fazer aqui.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="21" positionX="1895" positionY="-2110" width="350" height="885"><outputs name="[Zerca]Isto soa como um homem dos livros do Despertar. Ele é um Kostej, ou o Homem dos Ossos que guarda um oráculo?" ownerID="21" targetID="10" fromX="2221" fromY="-2601" /><outputs name="Por que ele sequestrou a sua sábia? E o que ele faz com ela?" ownerID="21" targetID="20" fromX="2221" fromY="-2681" /><outputs name="'E ainda assim ele é homem?'" ownerID="21" targetID="22" fromX="2221" fromY="-2761" />'Não me interessa te ensinar estas coisas; mas o conto diz que o deus velho Veles presenteou a magia a uma menina que o enganou. Ela era Viedma, mãe de todas as bruxas. Logo se viu que o povo de vida curta, como humanos e orcs, não conseguia lidar muito bem com a magia; e a corrupção e a escuridão seguiram. 
+    <nodes xsi:type="NodeAdventure" ID="21" positionX="1895" positionY="-2110" width="350" height="885"><outputs name="[Zerca]Isto soa como um homem dos livros do Despertar. Ele é um Kostej, ou o Homem dos Ossos que guarda um oráculo?" ownerID="21" targetID="10" fromX="2221" fromY="-2601" /><outputs name="Por que ele sequestrou a sua sábia? E o que ele faz com ela?" ownerID="21" targetID="20" fromX="2221" fromY="-2681" /><outputs name="E ainda assim ele é homem?" ownerID="21" targetID="22" fromX="2221" fromY="-2761" />'Não me interessa te ensinar estas coisas; mas o conto diz que o deus velho Veles presenteou a magia a uma menina que o enganou. Ela era Viedma, mãe de todas as bruxas. Logo se viu que o povo de vida curta, como humanos e orcs, não conseguia lidar muito bem com a magia; e a corrupção e a escuridão seguiram. 
 
 Os outros deuses juraram nunca mais presentear magia ao povo de vida curta.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="2347" positionY="-3125" width="350" height="805"><outputs name="[Zerca]Isto soa como um homem dos livros do Despertar. Ele é um Kostej, ou o Homem dos Ossos que guarda um oráculo?" ownerID="22" targetID="10" fromX="2672" fromY="-3616" /><outputs name="Por que ele sequestrou a sua sábia? E o que ele faz com ela?" ownerID="22" targetID="20" fromX="2672" fromY="-3696" />'Sou, sim. Nós seis recebemos as artes; mas não deveríamos ser os pais delas. Assim, os dons nossos não podiam ser repassados.
@@ -13789,7 +13789,7 @@ Ele estala um graveto para Yukislava; e ela é transformada numa Pinha Anciã.
 
 Ele estala um graveto para Yukislava; e ela é transformada numa Pinha Anciã e tomada pela árvore. O leshy estala para você:
 
-'E você: some da minha vista. Eu não tennho paaaciência para você!'</nodes>
+'E você: some da minha vista. Eu não tenho paciência para você!'</nodes>
     <nodes xsi:type="NodeChallenge" ID="24" positionX="-2490" positionY="-1331" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-Q_DORMANT_LESHY_6P_5M_6S" challengeScale="101" challengedList="noyuk">
       <outputs name="Win" ownerID="24" targetID="25" fromX="-2048" fromY="-1826" />
       <outputs name="Lose" ownerID="24" targetID="36" fromX="-2048" fromY="-1906" />
@@ -14452,7 +14452,7 @@ Ele foge distrída.
     <nodes xsi:type="NodeAdventure" ID="3" positionX="892" positionY="-96" width="350" height="805"><outputs name="Um coelho?" ownerID="3" targetID="4" fromX="1217" fromY="-587" /><outputs name="Mandar eles se afastar e mandar uma pessoa resgatar o bicho." ownerID="3" targetID="9" fromX="1217" fromY="-667" />Os lutadores armados se voltam a você, com as armas prontas mas não desembainhadas:
 
 'O coelho? Vocês devem estar brincando, certo? Estamos tentando matar o infeliz há dias. Ele guarda a entrada de um tesouro que buscamos.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="4" positionX="1309" positionY="11" width="350" height="885" image="Event301"><outputs name="Mandar eles se afastar e mandar uma pessoa resgatar o bicho." ownerID="4" targetID="9" fromX="1634" fromY="-480" /><outputs name="[Usuário de Magia]Olhar mais de perto o bicho." ownerID="4" targetID="15" fromX="1634" fromY="-560" /><outputs name="Concordar em ajudar. Eles têm um plano?" ownerID="4" targetID="5" fromX="1634" fromY="-640" />'Não vamos fazer a encenação toda de "um coelho? estão brincando" : a coisa está obviamente encantada ou algo assim. Infelizmente, uma das primeiras vítimas dela foi a nossa sábia; então estamos travados. Sabe o quê, se ajudarem a gente a se ver dela, dividimos o tesouro, éh?'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="4" positionX="1309" positionY="11" width="350" height="885" image="Event301"><outputs name="Mandar eles se afastar e mandar uma pessoa resgatar o bicho." ownerID="4" targetID="9" fromX="1634" fromY="-480" /><outputs name="[Usuário de Magia]Olhar mais de perto o bicho." ownerID="4" targetID="15" fromX="1634" fromY="-560" /><outputs name="Concordar em ajudar. Eles têm um plano?" ownerID="4" targetID="5" fromX="1634" fromY="-640" />'Não vamos fazer a encenação toda de "um coelho? estão brincando", a coisa está obviamente encantada ou algo assim. Infelizmente, uma das primeiras vítimas dela foi a nossa sábia; então estamos travados. Sabe o quê, se ajudarem a gente a se ver dela, dividimos o tesouro, éh?'</nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1719" positionY="-517" width="350" height="805"><outputs name="E a segunda opção?" ownerID="5" targetID="6" fromX="2044" fromY="-1008" /><outputs name="[Usuário de Magia]Olhar mais de perto o bicho." ownerID="5" targetID="15" fromX="2044" fromY="-1088" />'Do jeito que vemos, temos duas opções. A nossa zerca era seguidora de Svarog; e ela fez este artefato de sol que dizem limpar qualquer escuridão de qualquer criatura. Mas ele precisa de uma ativação bem específica; e, bem, não sabemos o que é, por conta do homem ter morrido antes de contar. Se fizerem errado, o sol vai queimar todos nós.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="6" positionX="2120" positionY="-532" width="350" height="805"><outputs name="Tentar o caminho direto e distrair o coelho." ownerID="6" targetID="7" fromX="2445" fromY="-1023" /><outputs name="Tentar usar o artefato de sol." ownerID="6" targetID="30" fromX="2445" fromY="-1103" />'A segunda seria a gente todo trabalhando junto. Vocês vão distrair o desgraçadinho, talvez até pegá-lo para o dono dele, se quiserem; e a gente entra de furtivo para pegar o tesouro. 
 
